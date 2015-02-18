@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+   <vertices>
+      <vertex id="scenario" x="57" y="298"/>
+      <vertex id="PiMM2SDF" x="219" y="186"/>
+      <vertex id="SDF Exporter" x="394" y="88"/>
+      <vertex id="Hierarchy Flattening" x="394" y="207"/>
+      <vertex id="Single-rate transformation" x="609" y="207"/>
+      <vertex id="srSDF Exporter" x="868" y="87"/>
+      <vertex id="Scheduling" x="868" y="206"/>
+      <vertex id="Display Gantt" x="1070" y="456"/>
+      <vertex id="DAG Exporter" x="1072" y="70"/>
+      <vertex id="MEG Builder" x="1072" y="189"/>
+      <vertex id="Memory Allocation" x="1641" y="381"/>
+      <vertex id="Code Generation" x="1825" y="424"/>
+      <vertex id="Memory Bounds Estimator" x="1380" y="86"/>
+      <vertex id="MEG Updater" x="1288" y="252"/>
+      <vertex id="MemoryScripts" x="1464" y="312"/>
+   </vertices>
+</layout>

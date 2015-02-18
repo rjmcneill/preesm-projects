@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="arguments" for="node" id="arguments"/>
+    <key attr.name="parameters" for="graph" id="parameters"/>
+    <key attr.name="variables" for="graph" id="variables"/>
+    <key attr.name="name" attr.type="string" for="graph"/>
+    <key attr.name="kind" attr.type="string" for="graph"/>
+    <key attr.name="graph_desc" attr.type="string" for="node"/>
+    <key attr.name="name" attr.type="string" for="node"/>
+    <key attr.name="kind" attr.type="string" for="node"/>
+    <key attr.name="nbRepeat" attr.type="int" for="node"/>
+    <key attr.name="edge_cons" attr.type="string" for="edge"/>
+    <key attr.name="edge_delay" attr.type="string" for="edge"/>
+    <key attr.name="edge_prod" attr.type="string" for="edge"/>
+    <key attr.name="data_type" attr.type="string" for="edge"/>
+    <key attr.name="source_port_modifier" attr.type="string" for="edge"/>
+    <key attr.name="target_port_modifier" attr.type="string" for="edge"/>
+    <key attr.name="Weight" attr.type="string" for="edge"/>
+    <graph edgedefault="directed" kind="sdf">
+        <data key="name">multiply</data>
+        <data key="kind">sdf</data>
+        <data key="variables">
+            <variable name="squaredSize" value="1024"/>
+            <variable name="columnsB" value="8"/>
+            <variable name="columnsA" value="8"/>
+            <variable name="rowsA" value="8"/>
+            <variable name="rowsB" value="8"/>
+        </data>
+        <node id="generateMatricies">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@da87ae</data>
+            <data key="name">generateMatricies</data>
+            <data key="kind">vertex</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments">
+                <argument name="columnsB" value="1024"/>
+                <argument name="columnsA" value="1024"/>
+                <argument name="rowsA" value="1024"/>
+                <argument name="rowsB" value="1024"/>
+            </data>
+        </node>
+        <node id="multiplyMatricies_0">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@101bc3a</data>
+            <data key="name">multiplyMatricies_0</data>
+            <data key="kind">vertex</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments">
+                <argument name="columnsB" value="1024"/>
+                <argument name="columnsA" value="1024"/>
+                <argument name="rowsA" value="1024"/>
+                <argument name="rowsB" value="1024"/>
+            </data>
+        </node>
+        <node id="multiplyMatricies_1">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@101bc3a</data>
+            <data key="name">multiplyMatricies_1</data>
+            <data key="kind">vertex</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments">
+                <argument name="columnsB" value="1024"/>
+                <argument name="columnsA" value="1024"/>
+                <argument name="rowsA" value="1024"/>
+                <argument name="rowsB" value="1024"/>
+            </data>
+        </node>
+        <node id="multiplyMatricies_2">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@101bc3a</data>
+            <data key="name">multiplyMatricies_2</data>
+            <data key="kind">vertex</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments">
+                <argument name="columnsB" value="1024"/>
+                <argument name="columnsA" value="1024"/>
+                <argument name="rowsA" value="1024"/>
+                <argument name="rowsB" value="1024"/>
+            </data>
+        </node>
+        <node id="multiplyMatricies_3">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@101bc3a</data>
+            <data key="name">multiplyMatricies_3</data>
+            <data key="kind">vertex</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments">
+                <argument name="columnsB" value="1024"/>
+                <argument name="columnsA" value="1024"/>
+                <argument name="rowsA" value="1024"/>
+                <argument name="rowsB" value="1024"/>
+            </data>
+        </node>
+        <node id="multiplyMatricies_4">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@101bc3a</data>
+            <data key="name">multiplyMatricies_4</data>
+            <data key="kind">vertex</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments">
+                <argument name="columnsB" value="1024"/>
+                <argument name="columnsA" value="1024"/>
+                <argument name="rowsA" value="1024"/>
+                <argument name="rowsB" value="1024"/>
+            </data>
+        </node>
+        <node id="multiplyMatricies_5">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@101bc3a</data>
+            <data key="name">multiplyMatricies_5</data>
+            <data key="kind">vertex</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments">
+                <argument name="columnsB" value="1024"/>
+                <argument name="columnsA" value="1024"/>
+                <argument name="rowsA" value="1024"/>
+                <argument name="rowsB" value="1024"/>
+            </data>
+        </node>
+        <node id="multiplyMatricies_6">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@101bc3a</data>
+            <data key="name">multiplyMatricies_6</data>
+            <data key="kind">vertex</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments">
+                <argument name="columnsB" value="1024"/>
+                <argument name="columnsA" value="1024"/>
+                <argument name="rowsA" value="1024"/>
+                <argument name="rowsB" value="1024"/>
+            </data>
+        </node>
+        <node id="multiplyMatricies_7">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@101bc3a</data>
+            <data key="name">multiplyMatricies_7</data>
+            <data key="kind">vertex</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments">
+                <argument name="columnsB" value="1024"/>
+                <argument name="columnsA" value="1024"/>
+                <argument name="rowsA" value="1024"/>
+                <argument name="rowsB" value="1024"/>
+            </data>
+        </node>
+        <node id="displayMatrix">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@ecb7a4</data>
+            <data key="name">displayMatrix</data>
+            <data key="kind">vertex</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments">
+                <argument name="columnsB" value="1024"/>
+                <argument name="rowsA" value="1024"/>
+            </data>
+        </node>
+        <node id="transposeMatrix">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@10c9b8b</data>
+            <data key="name">transposeMatrix</data>
+            <data key="kind">vertex</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments">
+                <argument name="columnsA" value="1024"/>
+                <argument name="rowsA" value="1024"/>
+            </data>
+        </node>
+        <node id="sumResults">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@b7c336</data>
+            <data key="name">sumResults</data>
+            <data key="kind">vertex</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments">
+                <argument name="columnsB" value="1024"/>
+                <argument name="rowsA" value="1024"/>
+            </data>
+        </node>
+        <node id="explode_generateMatricies_arrayB">
+            <data key="name">explode_generateMatricies_arrayB</data>
+            <data key="kind">fork</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments"/>
+        </node>
+        <node id="explode_transposeMatrix_output">
+            <data key="name">explode_transposeMatrix_output</data>
+            <data key="kind">fork</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments"/>
+        </node>
+        <node id="implode_sumResults_input">
+            <data key="name">implode_sumResults_input</data>
+            <data key="kind">join</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments"/>
+        </node>
+        <edge source="generateMatricies" sourceport="startTime"
+            target="displayMatrix" targetport="startTime">
+            <data key="edge_cons">1</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">1</data>
+            <data key="data_type">double</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="generateMatricies" sourceport="arrayA"
+            target="transposeMatrix" targetport="input">
+            <data key="edge_cons">1048576</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">1048576</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="generateMatricies" sourceport="arrayB"
+            target="explode_generateMatricies_arrayB" targetport="arrayB">
+            <data key="edge_cons">1048576</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">1048576</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="explode_generateMatricies_arrayB"
+            sourceport="arrayB_0" target="multiplyMatricies_0" targetport="arrayB">
+            <data key="edge_cons">131072</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">131072</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="explode_generateMatricies_arrayB"
+            sourceport="arrayB_131072" target="multiplyMatricies_1" targetport="arrayB">
+            <data key="edge_cons">131072</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">131072</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="explode_generateMatricies_arrayB"
+            sourceport="arrayB_262144" target="multiplyMatricies_2" targetport="arrayB">
+            <data key="edge_cons">131072</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">131072</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="explode_generateMatricies_arrayB"
+            sourceport="arrayB_393216" target="multiplyMatricies_3" targetport="arrayB">
+            <data key="edge_cons">131072</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">131072</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="explode_generateMatricies_arrayB"
+            sourceport="arrayB_524288" target="multiplyMatricies_4" targetport="arrayB">
+            <data key="edge_cons">131072</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">131072</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="explode_generateMatricies_arrayB"
+            sourceport="arrayB_655360" target="multiplyMatricies_5" targetport="arrayB">
+            <data key="edge_cons">131072</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">131072</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="explode_generateMatricies_arrayB"
+            sourceport="arrayB_786432" target="multiplyMatricies_6" targetport="arrayB">
+            <data key="edge_cons">131072</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">131072</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="explode_generateMatricies_arrayB"
+            sourceport="arrayB_917504" target="multiplyMatricies_7" targetport="arrayB">
+            <data key="edge_cons">131072</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">131072</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="transposeMatrix" sourceport="output"
+            target="explode_transposeMatrix_output" targetport="arrayA">
+            <data key="edge_cons">1048576</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">1048576</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="explode_transposeMatrix_output"
+            sourceport="output_0" target="multiplyMatricies_0" targetport="arrayA">
+            <data key="edge_cons">131072</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">131072</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="explode_transposeMatrix_output"
+            sourceport="output_131072" target="multiplyMatricies_1" targetport="arrayA">
+            <data key="edge_cons">131072</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">131072</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="explode_transposeMatrix_output"
+            sourceport="output_262144" target="multiplyMatricies_2" targetport="arrayA">
+            <data key="edge_cons">131072</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">131072</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="explode_transposeMatrix_output"
+            sourceport="output_393216" target="multiplyMatricies_3" targetport="arrayA">
+            <data key="edge_cons">131072</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">131072</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="explode_transposeMatrix_output"
+            sourceport="output_524288" target="multiplyMatricies_4" targetport="arrayA">
+            <data key="edge_cons">131072</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">131072</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="explode_transposeMatrix_output"
+            sourceport="output_655360" target="multiplyMatricies_5" targetport="arrayA">
+            <data key="edge_cons">131072</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">131072</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="explode_transposeMatrix_output"
+            sourceport="output_786432" target="multiplyMatricies_6" targetport="arrayA">
+            <data key="edge_cons">131072</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">131072</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="explode_transposeMatrix_output"
+            sourceport="output_917504" target="multiplyMatricies_7" targetport="arrayA">
+            <data key="edge_cons">131072</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">131072</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="implode_sumResults_input" sourceport="output"
+            target="sumResults" targetport="input">
+            <data key="edge_cons">8388608</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">8388608</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="multiplyMatricies_0" sourceport="output"
+            target="implode_sumResults_input" targetport="input_0">
+            <data key="edge_cons">1048576</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">1048576</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="multiplyMatricies_1" sourceport="output"
+            target="implode_sumResults_input" targetport="input_1048576">
+            <data key="edge_cons">1048576</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">1048576</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="multiplyMatricies_2" sourceport="output"
+            target="implode_sumResults_input" targetport="input_2097152">
+            <data key="edge_cons">1048576</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">1048576</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="multiplyMatricies_3" sourceport="output"
+            target="implode_sumResults_input" targetport="input_3145728">
+            <data key="edge_cons">1048576</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">1048576</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="multiplyMatricies_4" sourceport="output"
+            target="implode_sumResults_input" targetport="input_4194304">
+            <data key="edge_cons">1048576</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">1048576</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="multiplyMatricies_5" sourceport="output"
+            target="implode_sumResults_input" targetport="input_5242880">
+            <data key="edge_cons">1048576</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">1048576</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="multiplyMatricies_6" sourceport="output"
+            target="implode_sumResults_input" targetport="input_6291456">
+            <data key="edge_cons">1048576</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">1048576</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="multiplyMatricies_7" sourceport="output"
+            target="implode_sumResults_input" targetport="input_7340032">
+            <data key="edge_cons">1048576</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">1048576</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="sumResults" sourceport="output"
+            target="displayMatrix" targetport="arrayC">
+            <data key="edge_cons">1048576</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">1048576</data>
+            <data key="data_type">long</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+    </graph>
+</graphml>

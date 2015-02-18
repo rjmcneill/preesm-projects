@@ -1,0 +1,54 @@
+# Memory scripts summary
+- Independent match trees : *3*
+- Total number of buffers in these trees: From 27 to 7 buffers.
+- Total size of these buffers: From 1610614016 to 939524928 (41.66666136848023%).
+
+# Match tree optimization log
+## Tree of 9 buffers
+### Original buffer list:
+> [explode_generateMatrices_arrayB.arrayB[268435456], explode_generateMatrices_arrayB.arrayB_0[33554432], explode_generateMatrices_arrayB.arrayB_8388608[33554432], explode_generateMatrices_arrayB.arrayB_16777216[33554432], explode_generateMatrices_arrayB.arrayB_25165824[33554432], explode_generateMatrices_arrayB.arrayB_33554432[33554432], explode_generateMatrices_arrayB.arrayB_41943040[33554432], explode_generateMatrices_arrayB.arrayB_50331648[33554432], explode_generateMatrices_arrayB.arrayB_58720256[33554432]]
+
+### Match application log: 
+- __Step 0 - 8 matches__
+>explode_generateMatrices_arrayB.arrayB_0[0..33554432[=>explode_generateMatrices_arrayB.arrayB[0..33554432[  explode_generateMatrices_arrayB.arrayB_16777216[0..33554432[=>explode_generateMatrices_arrayB.arrayB[67108864..100663296[  explode_generateMatrices_arrayB.arrayB_25165824[0..33554432[=>explode_generateMatrices_arrayB.arrayB[100663296..134217728[  explode_generateMatrices_arrayB.arrayB_33554432[0..33554432[=>explode_generateMatrices_arrayB.arrayB[134217728..167772160[  explode_generateMatrices_arrayB.arrayB_41943040[0..33554432[=>explode_generateMatrices_arrayB.arrayB[167772160..201326592[  explode_generateMatrices_arrayB.arrayB_50331648[0..33554432[=>explode_generateMatrices_arrayB.arrayB[201326592..234881024[  explode_generateMatrices_arrayB.arrayB_58720256[0..33554432[=>explode_generateMatrices_arrayB.arrayB[234881024..268435456[  explode_generateMatrices_arrayB.arrayB_8388608[0..33554432[=>explode_generateMatrices_arrayB.arrayB[33554432..67108864[  
+
+### Tree summary:
+- From 9 buffers to 1 buffers.
+- From 536871040 bytes to 268435584 bytes (49.99998807907389%)
+
+### Unapplied matches:
+>
+## Tree of 9 buffers
+### Original buffer list:
+> [implode_displayMatrices_arrayC.arrayC_0[33554432], implode_displayMatrices_arrayC.arrayC_8388608[33554432], implode_displayMatrices_arrayC.arrayC_16777216[33554432], implode_displayMatrices_arrayC.arrayC_25165824[33554432], implode_displayMatrices_arrayC.arrayC_33554432[33554432], implode_displayMatrices_arrayC.arrayC_41943040[33554432], implode_displayMatrices_arrayC.arrayC_50331648[33554432], implode_displayMatrices_arrayC.arrayC_58720256[33554432], implode_displayMatrices_arrayC.arrayC[268435456]]
+
+### Match application log: 
+- __Step 6 - 1 matches__
+>implode_displayMatrices_arrayC.arrayC_0[-64..33554496[=>implode_displayMatrices_arrayC.arrayC[-64..33554496[  
+- __Step 6 - 1 matches__
+>implode_displayMatrices_arrayC.arrayC_16777216[-64..33554496[=>implode_displayMatrices_arrayC.arrayC[67108800..100663360[  
+- __Step 6 - 1 matches__
+>implode_displayMatrices_arrayC.arrayC_33554432[-64..33554496[=>implode_displayMatrices_arrayC.arrayC[134217664..167772224[  
+- __Step 6 - 1 matches__
+>implode_displayMatrices_arrayC.arrayC_50331648[-64..33554496[=>implode_displayMatrices_arrayC.arrayC[201326528..234881088[  
+
+### Tree summary:
+- From 9 buffers to 5 buffers.
+- From 536871936 bytes to 402653760 bytes (25.000035762718653%)
+
+### Unapplied matches:
+>implode_displayMatrices_arrayC.arrayC_8388608[0..33554432[=>implode_displayMatrices_arrayC.arrayC[33554432..67108864[, implode_displayMatrices_arrayC.arrayC_25165824[0..33554432[=>implode_displayMatrices_arrayC.arrayC[100663296..134217728[, implode_displayMatrices_arrayC.arrayC_41943040[0..33554432[=>implode_displayMatrices_arrayC.arrayC[167772160..201326592[, implode_displayMatrices_arrayC.arrayC_58720256[0..33554432[=>implode_displayMatrices_arrayC.arrayC[234881024..268435456[, 
+## Tree of 9 buffers
+### Original buffer list:
+> [explode_generateMatrices_arrayA.arrayA[268435456], explode_generateMatrices_arrayA.arrayA_0[33554432], explode_generateMatrices_arrayA.arrayA_8388608[33554432], explode_generateMatrices_arrayA.arrayA_16777216[33554432], explode_generateMatrices_arrayA.arrayA_25165824[33554432], explode_generateMatrices_arrayA.arrayA_33554432[33554432], explode_generateMatrices_arrayA.arrayA_41943040[33554432], explode_generateMatrices_arrayA.arrayA_50331648[33554432], explode_generateMatrices_arrayA.arrayA_58720256[33554432]]
+
+### Match application log: 
+- __Step 0 - 8 matches__
+>explode_generateMatrices_arrayA.arrayA_0[0..33554432[=>explode_generateMatrices_arrayA.arrayA[0..33554432[  explode_generateMatrices_arrayA.arrayA_16777216[0..33554432[=>explode_generateMatrices_arrayA.arrayA[67108864..100663296[  explode_generateMatrices_arrayA.arrayA_25165824[0..33554432[=>explode_generateMatrices_arrayA.arrayA[100663296..134217728[  explode_generateMatrices_arrayA.arrayA_33554432[0..33554432[=>explode_generateMatrices_arrayA.arrayA[134217728..167772160[  explode_generateMatrices_arrayA.arrayA_41943040[0..33554432[=>explode_generateMatrices_arrayA.arrayA[167772160..201326592[  explode_generateMatrices_arrayA.arrayA_50331648[0..33554432[=>explode_generateMatrices_arrayA.arrayA[201326592..234881024[  explode_generateMatrices_arrayA.arrayA_58720256[0..33554432[=>explode_generateMatrices_arrayA.arrayA[234881024..268435456[  explode_generateMatrices_arrayA.arrayA_8388608[0..33554432[=>explode_generateMatrices_arrayA.arrayA[33554432..67108864[  
+
+### Tree summary:
+- From 9 buffers to 1 buffers.
+- From 536871040 bytes to 268435584 bytes (49.99998807907389%)
+
+### Unapplied matches:
+>

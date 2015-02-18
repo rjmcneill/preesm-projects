@@ -1,0 +1,8 @@
+- crossCoreMultiplication project in CCS
+- 1/8 of arrayA
+- All of arrayB
+    - memcpy
+- rowsA * columnsB
+- Working
+- Time measured
+- Pre optimisations
