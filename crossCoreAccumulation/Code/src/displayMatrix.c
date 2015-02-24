@@ -12,9 +12,9 @@ Description : Display resulting matrix from the multiplication
 #include <xdc/std.h>
 #include <stdio.h>
 
-void display (int rows, int columns, long *outputArray, double *startTime)
+void display (int rows, int columns, int loops, long *outputArray, double *startTime)
 {
-	int 				i, j = 0;
+	int 				i, j, k = 0;
 	Types_Timestamp64	endTime64;
 	Types_FreqHz		freq;
 	unsigned long long	endClockCycles;
@@ -27,17 +27,19 @@ void display (int rows, int columns, long *outputArray, double *startTime)
 	timeTaken = endTime - *startTime;
 
 
-	printf ("\nResulting Array: \n");
+	printf ("\nResulting Arrays: \n");
 
-	for (i = 0; i < rows; i++)
+	for (k = 0; k < loops; k++)
 	{
-		for (j = 0; j < columns; j++)
+		for (i = 0; i < rows; i++)
 		{
-			printf("%ld\t", *((outputArray+i*columns) + j));
+			for (j = 0; j < columns; j++)
+			{
+				printf("%ld\t", *((outputArray+i*columns+k(rows*columns)) + j));
+			}
+			printf("\n");
 		}
-		printf("\n");
 	}
-
 
 	printf("\nMultiplication of %d square matrices took %fs and %llu clock cycles\n", rows , timeTaken, endClockCycles);
 
