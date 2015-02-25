@@ -12,13 +12,15 @@ Description : Generate matrices to be multiplied by the TI device
 #include <xdc/runtime/Timestamp.h>
 #include <xdc/runtime/Types.h>
 
-void generate (int rows, int columns, long *startArray, double *startTime)
+void generate (int rows, int columns, long *startArray, double *startTime, long *countIn, long *countOut)
 {
 	// !!! TODO: add checking around the matrices size
 
-	printf("\n\nCross Core Accumulation Beginning\n");
+	if (*countIn == 0)
+	{
+		printf("\n\nCross Core Accumulation Beginning\n");
+	}
 
-	int generationCount = 1;
 	int i, j, k = 0;
 	Types_Timestamp64	startTime64;
 	Types_FreqHz		freq;
@@ -27,23 +29,16 @@ void generate (int rows, int columns, long *startArray, double *startTime)
 	{
 		for (j = 0; j < columns; j++)
 		{
-			*((startArray+i*columns) + j) = (generationCount);
+			*((startArray+i*columns) + j) = 1;
 		}
-		generationCount++;
 	}
 
-	printf ("\Input Array: \n");
-
-	for (i = 0; i < rows; i++)
+	if (*countIn == 0)
 	{
-		for (j = 0; j < columns; j++)
-		{
-				printf("%ld\t", *((startArray+i*columns) + j));
-		}
-		printf("\n");
+		Timestamp_getFreq(&freq);
+		Timestamp_get64(&startTime64);
+		*startTime = ((startTime64.lo/(double)freq.lo));
 	}
 
-	Timestamp_getFreq(&freq);
-	Timestamp_get64(&startTime64);
-	*startTime = ((startTime64.lo/(double)freq.lo));
+	*countOut = *countIn + 1;
 }

@@ -8,7 +8,7 @@
     <key attr.name="delay" attr.type="string" for="edge"/>
     <graph edgedefault="directed">
         <data key="name">addition</data>
-        <node expr="8" id="squaredSize" kind="param"/>
+        <node expr="64" id="squaredSize" kind="param"/>
         <node id="generateMatrices" kind="actor">
             <data key="graph_desc">Code/src/generateMatrices.h</data>
             <loop name="generate">
@@ -17,11 +17,15 @@
                 <param direction="OUT" isConfig="false"
                     name="startArray" type=" long *"/>
                 <param direction="OUT" isConfig="false" name="startTime" type=" double *"/>
+                <param direction="IN" isConfig="false" name="countIn" type=" long *"/>
+                <param direction="OUT" isConfig="false" name="countOut" type=" long *"/>
             </loop>
             <port kind="cfg_input" name="rows"/>
             <port kind="cfg_input" name="columns"/>
+            <port annotation="NONE" expr="1" kind="input" name="countIn"/>
             <port annotation="NONE" expr="rows*columns" kind="output" name="startArray"/>
             <port annotation="NONE" expr="1" kind="output" name="startTime"/>
+            <port annotation="NONE" expr="1" kind="output" name="countOut"/>
         </node>
         <node id="accumulateMatrices" kind="actor">
             <data key="graph_desc">Code/src/accumulateMatrices.h</data>
@@ -48,11 +52,15 @@
                 <param direction="IN" isConfig="false"
                     name="outputArray" type=" long *"/>
                 <param direction="IN" isConfig="false" name="startTime" type=" double *"/>
+                <param direction="IN" isConfig="false" name="countIn" type=" long *"/>
+                <param direction="OUT" isConfig="false" name="countOut" type=" long *"/>
             </loop>
             <port kind="cfg_input" name="rows"/>
             <port kind="cfg_input" name="columns"/>
             <port annotation="NONE" expr="rows*columns" kind="input" name="outputArray"/>
             <port annotation="NONE" expr="1" kind="input" name="startTime"/>
+            <port annotation="NONE" expr="1" kind="input" name="countIn"/>
+            <port annotation="NONE" expr="1" kind="output" name="countOut"/>
         </node>
         <node id="broadcastOutput" kind="broadcast">
             <port kind="cfg_input" name="rows"/>
@@ -77,6 +85,16 @@
             targetport="inputArray" type="long"/>
         <edge kind="fifo" source="broadcastOutput" sourceport="output2"
             target="displayMatrices" targetport="outputArray" type="long"/>
+        <edge expr="1" kind="fifo" source="displayMatrices"
+            sourceport="countOut" target="displayMatrices"
+            targetport="countIn" type="long">
+            <data key="delay"/>
+        </edge>
+        <edge expr="1" kind="fifo" source="generateMatrices"
+            sourceport="countOut" target="generateMatrices"
+            targetport="countIn" type="long">
+            <data key="delay"/>
+        </edge>
         <edge kind="dependency" source="squaredSize"
             target="generateMatrices" targetport="rows"/>
         <edge kind="dependency" source="squaredSize"

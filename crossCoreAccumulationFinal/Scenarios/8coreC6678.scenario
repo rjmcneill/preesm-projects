@@ -7,6 +7,18 @@
     </files>
     <constraints excelUrl="">
         <constraintGroup>
+            <operator name="Core2"/>
+            <task name="addition/accumulateMatrices"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core7"/>
+            <task name="addition/accumulateMatrices"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core3"/>
+            <task name="addition/accumulateMatrices"/>
+        </constraintGroup>
+        <constraintGroup>
             <operator name="Core0"/>
             <task name="addition/accumulateMatrices"/>
             <task name="addition/displayMatrices"/>
@@ -19,7 +31,7 @@
             <task name="addition/accumulateMatrices"/>
         </constraintGroup>
         <constraintGroup>
-            <operator name="Core2"/>
+            <operator name="Core6"/>
             <task name="addition/accumulateMatrices"/>
         </constraintGroup>
         <constraintGroup>
@@ -28,18 +40,6 @@
         </constraintGroup>
         <constraintGroup>
             <operator name="Core5"/>
-            <task name="addition/accumulateMatrices"/>
-        </constraintGroup>
-        <constraintGroup>
-            <operator name="Core6"/>
-            <task name="addition/accumulateMatrices"/>
-        </constraintGroup>
-        <constraintGroup>
-            <operator name="Core7"/>
-            <task name="addition/accumulateMatrices"/>
-        </constraintGroup>
-        <constraintGroup>
-            <operator name="Core3"/>
             <task name="addition/accumulateMatrices"/>
         </constraintGroup>
     </constraints>
@@ -52,6 +52,7 @@
         <mainComNode>shared_mem</mainComNode>
         <averageDataSize>1000</averageDataSize>
         <dataTypes>
+            <dataType name="int" size="4"/>
             <dataType name="double" size="8"/>
             <dataType name="long" size="4"/>
         </dataTypes>
@@ -65,7 +66,7 @@
             <specialVertexOperator path="Core2"/>
             <specialVertexOperator path="Core1"/>
         </specialVertexOperators>
-        <numberOfTopExecutions>8</numberOfTopExecutions>
+        <numberOfTopExecutions>1</numberOfTopExecutions>
     </simuParams>
     <variables excelUrl=""/>
     <parameterValues/>

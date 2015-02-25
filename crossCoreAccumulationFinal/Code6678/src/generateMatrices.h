@@ -18,5 +18,5 @@ Description : Generate matrices to be multiplied by the TI device
 *        The number of columns in startArray
 */
 
-void generate (int rows, int columns, long *startArray, double *startTime);
+void generate (int rows, int columns, long *startArray, double *startTime, long *countIn, long *countOut);
 #endif /* GENERATEMATRICES_H_ */
