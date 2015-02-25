@@ -9,7 +9,7 @@
 #define C6678_H_
 
 #include "generateMatrices.h"
-#include "addMatrices.h"
+#include "accumulateMatrices.h"
 #include "displayMatrix.h"
 
 #endif /* C6678_H_ */

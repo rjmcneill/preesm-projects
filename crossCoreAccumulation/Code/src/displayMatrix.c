@@ -26,7 +26,7 @@ void display (int rows, int columns, int loops, long *outputArray, double *start
 	endTime = ((endClockCycles/(double)freq.lo));
 	timeTaken = endTime - *startTime;
 
-
+/*
 	printf ("\nResulting Arrays: \n");
 
 	for (k = 0; k < loops; k++)
@@ -35,13 +35,24 @@ void display (int rows, int columns, int loops, long *outputArray, double *start
 		{
 			for (j = 0; j < columns; j++)
 			{
-				printf("%ld\t", *((outputArray+i*columns+k(rows*columns)) + j));
+				printf("%ld\t", *((outputArray+((i*columns)+(k*rows*columns))) + j));
 			}
 			printf("\n");
 		}
+		printf("\n");
+	}
+*/
+	printf ("\nResulting Arrays: \n");
+	for (i = 0; i < rows; i++)
+	{
+		for (j = 0; j < columns; j++)
+		{
+			printf("%ld\t", *((outputArray+((i*columns)+((loops-1)*rows*columns))) + j));
+		}
+		printf("\n");
 	}
 
-	printf("\nMultiplication of %d square matrices took %fs and %llu clock cycles\n", rows , timeTaken, endClockCycles);
+	printf("\n%d loops accumulating square matrices of size %d took %fs and %llu clock cycles\n", loops, rows , timeTaken, endClockCycles);
 
 	exit(0);
 }

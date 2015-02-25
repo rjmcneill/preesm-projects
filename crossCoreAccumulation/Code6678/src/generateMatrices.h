@@ -12,15 +12,11 @@ Description : Generate matrices to be multiplied by the TI device
 /**
 * Generate the matrices to be multiplied by the 8 cores.
 *
-* @param rowsA
-*        The number of rows in arrayA
-* @param columnsA
-*        The number of columns in arrayA
-* @param rowsB
-*        The number of rows in arrayB
-* @param columnsB
-*        The number of columns in arrayB
+* @param rows
+*        The number of rows in startArray
+* @param columns
+*        The number of columns in startArray
 */
 
-void generate (int rowsA, int columnsA, int rowsB, int columnsB, long *arrayA, long *arrayB, double *startTime);
+void generate (int rows, int columns, int loops, long *startArray, double *startTime);
 #endif /* GENERATEMATRICES_H_ */

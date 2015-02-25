@@ -162,25 +162,25 @@ src/utils.obj: C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/package/System_Sup
 src/utils.obj: C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/package/System_Module_GateProxy.h
 src/utils.obj: C:/ti/ipc_1_24_03_32/packages/ti/ipc/MultiProc.h
 src/utils.obj: C:/ti/xdctools_3_23_04_60/packages/xdc/cfg/global.h
-src/utils.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAddition/Code6678/Debug/configPkg/package/cfg/modelPreesm_pe66.h
-src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_xmcAux.h
-src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_xmc.h
-src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/soc.h
-src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr.h
-src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr_device.h
-src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/tistdtypes.h
-src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl.h
-src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_types.h
-src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_error.h
-src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr_xmc.h
-src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cacheAux.h
-src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cache.h
-src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr_cgem.h
-src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_semAux.h
-src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_sem.h
-src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr_sem.h
-src/utils.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAddition/Code6678/include/utils.h
-src/utils.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAddition/Code6678/include/communication.h
+src/utils.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulation/Code6678/Debug/configPkg/package/cfg/modelPreesm_pe66.h
+src/utils.obj: C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/csl_xmcAux.h
+src/utils.obj: C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/csl_xmc.h
+src/utils.obj: C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/soc.h
+src/utils.obj: C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/cslr.h
+src/utils.obj: C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/cslr_device.h
+src/utils.obj: C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/tistdtypes.h
+src/utils.obj: C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/csl.h
+src/utils.obj: C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/csl_types.h
+src/utils.obj: C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/csl_error.h
+src/utils.obj: C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/cslr_xmc.h
+src/utils.obj: C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/csl_cacheAux.h
+src/utils.obj: C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/csl_cache.h
+src/utils.obj: C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/cslr_cgem.h
+src/utils.obj: C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/csl_semAux.h
+src/utils.obj: C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/csl_sem.h
+src/utils.obj: C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/cslr_sem.h
+src/utils.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulation/Code6678/include/utils.h
+src/utils.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulation/Code6678/include/communication.h
 
 ../src/utils.c: 
 C:/ti/bios_6_33_06_50/packages/ti/sysbios/knl/Task.h: 
@@ -344,22 +344,22 @@ C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/package/System_SupportProxy.h:
 C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/package/System_Module_GateProxy.h: 
 C:/ti/ipc_1_24_03_32/packages/ti/ipc/MultiProc.h: 
 C:/ti/xdctools_3_23_04_60/packages/xdc/cfg/global.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAddition/Code6678/Debug/configPkg/package/cfg/modelPreesm_pe66.h: 
-C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_xmcAux.h: 
-C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_xmc.h: 
-C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/soc.h: 
-C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr.h: 
-C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr_device.h: 
-C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/tistdtypes.h: 
-C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl.h: 
-C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_types.h: 
-C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_error.h: 
-C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr_xmc.h: 
-C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cacheAux.h: 
-C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cache.h: 
-C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr_cgem.h: 
-C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_semAux.h: 
-C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_sem.h: 
-C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr_sem.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAddition/Code6678/include/utils.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAddition/Code6678/include/communication.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulation/Code6678/Debug/configPkg/package/cfg/modelPreesm_pe66.h: 
+C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/csl_xmcAux.h: 
+C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/csl_xmc.h: 
+C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/soc.h: 
+C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/cslr.h: 
+C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/cslr_device.h: 
+C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/tistdtypes.h: 
+C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/csl.h: 
+C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/csl_types.h: 
+C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/csl_error.h: 
+C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/cslr_xmc.h: 
+C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/csl_cacheAux.h: 
+C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/csl_cache.h: 
+C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/cslr_cgem.h: 
+C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/csl_semAux.h: 
+C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/csl_sem.h: 
+C:/ti/pdk_C6657_1_1_2_5/packages/ti/csl/cslr_sem.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulation/Code6678/include/utils.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulation/Code6678/include/communication.h: 

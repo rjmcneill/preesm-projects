@@ -26,7 +26,7 @@ $(GEN_CMDS__FLAG) \
 "./src/displayMatrix.obj" \
 "./src/communication.obj" \
 "./src/cache.obj" \
-"./src/addMatrices.obj" \
+"./src/accumulateMatrices.obj" \
 -l"libc.a" \
 
 -include ../makefile.init
@@ -130,22 +130,22 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: crossCoreAddition.out
+all: crossCoreAccumulation.out
 
 # Tool invocations
-crossCoreAddition.out: $(OBJS) $(GEN_CMDS)
+crossCoreAccumulation.out: $(OBJS) $(GEN_CMDS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: C6000 Linker'
-	"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/bin/cl6x" -mv6600 -g --display_error_number --diag_warning=225 --abi=eabi -z -m"crossCoreAddition.map" --warn_sections --display_error_number -i"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/lib" -i"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include" --reread_libs --rom_model -o "crossCoreAddition.out" $(ORDERED_OBJS)
+	"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/bin/cl6x" -mv6600 -g --display_error_number --diag_warning=225 --abi=eabi -z -m"crossCoreAccumulation.map" --warn_sections --display_error_number -i"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/lib" -i"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include" --reread_libs --rom_model -o "crossCoreAccumulation.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(GEN_SRCS__QUOTED)$(GEN_MISC_FILES__QUOTED)$(C6000_EXECUTABLE_OUTPUTS__QUOTED)$(GEN_OPTS__QUOTED)$(GEN_CMDS__QUOTED) "crossCoreAddition.out"
+	-$(RM) $(GEN_SRCS__QUOTED)$(GEN_MISC_FILES__QUOTED)$(C6000_EXECUTABLE_OUTPUTS__QUOTED)$(GEN_OPTS__QUOTED)$(GEN_CMDS__QUOTED) "crossCoreAccumulation.out"
 	-$(RMDIR) $(GEN_MISC_DIRS__QUOTED)
-	-$(RM) "src\addMatrices.pp" "src\cache.pp" "src\communication.pp" "src\displayMatrix.pp" "src\dump.pp" "src\fifo.pp" "src\generateMatrices.pp" "src\main.pp" "src\memory.pp" "src\semaphore6678.pp" "src\utils.pp" "generated\Core0.pp" "generated\Core1.pp" "generated\Core2.pp" "generated\Core3.pp" "generated\Core4.pp" "generated\Core5.pp" "generated\Core6.pp" "generated\Core7.pp" 
-	-$(RM) "src\addMatrices.obj" "src\cache.obj" "src\communication.obj" "src\displayMatrix.obj" "src\dump.obj" "src\fifo.obj" "src\generateMatrices.obj" "src\main.obj" "src\memory.obj" "src\semaphore6678.obj" "src\utils.obj" "generated\Core0.obj" "generated\Core1.obj" "generated\Core2.obj" "generated\Core3.obj" "generated\Core4.obj" "generated\Core5.obj" "generated\Core6.obj" "generated\Core7.obj" 
+	-$(RM) "src\accumulateMatrices.pp" "src\cache.pp" "src\communication.pp" "src\displayMatrix.pp" "src\dump.pp" "src\fifo.pp" "src\generateMatrices.pp" "src\main.pp" "src\memory.pp" "src\semaphore6678.pp" "src\utils.pp" "generated\Core0.pp" "generated\Core1.pp" "generated\Core2.pp" "generated\Core3.pp" "generated\Core4.pp" "generated\Core5.pp" "generated\Core6.pp" "generated\Core7.pp" 
+	-$(RM) "src\accumulateMatrices.obj" "src\cache.obj" "src\communication.obj" "src\displayMatrix.obj" "src\dump.obj" "src\fifo.obj" "src\generateMatrices.obj" "src\main.obj" "src\memory.obj" "src\semaphore6678.obj" "src\utils.obj" "generated\Core0.obj" "generated\Core1.obj" "generated\Core2.obj" "generated\Core3.obj" "generated\Core4.obj" "generated\Core5.obj" "generated\Core6.obj" "generated\Core7.obj" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

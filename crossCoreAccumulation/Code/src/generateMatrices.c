@@ -16,7 +16,7 @@ void generate (int rows, int columns, int loops, long *startArray, double *start
 {
 	// !!! TODO: add checking around the matrices size
 
-	printf("\n\nCross Core Multiplication Beginning\n");
+	printf("\n\nCross Core Accumulation Beginning\n");
 
 	int generationCount = 1;
 	int i, j, k = 0;
@@ -34,7 +34,7 @@ void generate (int rows, int columns, int loops, long *startArray, double *start
 		}
 		generationCount++;
 	}
-
+/*
 	printf ("\Input Array: \n");
 
 	for (k = 0; k < loops; k++)
@@ -48,7 +48,7 @@ void generate (int rows, int columns, int loops, long *startArray, double *start
 			printf("\n");
 		}
 	}
-
+*/
 	Timestamp_getFreq(&freq);
 	Timestamp_get64(&startTime64);
 	*startTime = ((startTime64.lo/(double)freq.lo));

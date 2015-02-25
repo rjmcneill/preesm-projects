@@ -9,7 +9,7 @@
  */
 
 
--l"C:\Users\Robert\Development\Ubuntu Dev\workspace\crossCoreAddition\Code6678\Debug\configPkg\package\cfg\modelPreesm_pe66.oe66"
+-l"C:\Users\Robert\Development\Ubuntu Dev\workspace\crossCoreAccumulation\Code6678\Debug\configPkg\package\cfg\modelPreesm_pe66.oe66"
 -l"C:\ti\ipc_1_24_03_32\packages\ti\sdo\ipc\lib\instrumented_e66\ipc\ipc.lib"
 -l"C:\ti\bios_6_33_06_50\packages\ti\sysbios\lib\instrumented_e66\sysbios\sysbios.lib"
 -l"C:\ti\xdctools_3_23_04_60\packages\ti\targets\rts6000\lib\ti.targets.rts6000.ae66"

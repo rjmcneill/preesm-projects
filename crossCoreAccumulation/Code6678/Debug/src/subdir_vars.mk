@@ -4,7 +4,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../src/addMatrices.c \
+../src/accumulateMatrices.c \
 ../src/cache.c \
 ../src/communication.c \
 ../src/displayMatrix.c \
@@ -17,7 +17,7 @@ C_SRCS += \
 ../src/utils.c 
 
 OBJS += \
-./src/addMatrices.obj \
+./src/accumulateMatrices.obj \
 ./src/cache.obj \
 ./src/communication.obj \
 ./src/displayMatrix.obj \
@@ -30,7 +30,7 @@ OBJS += \
 ./src/utils.obj 
 
 C_DEPS += \
-./src/addMatrices.pp \
+./src/accumulateMatrices.pp \
 ./src/cache.pp \
 ./src/communication.pp \
 ./src/displayMatrix.pp \
@@ -43,7 +43,7 @@ C_DEPS += \
 ./src/utils.pp 
 
 C_DEPS__QUOTED += \
-"src\addMatrices.pp" \
+"src\accumulateMatrices.pp" \
 "src\cache.pp" \
 "src\communication.pp" \
 "src\displayMatrix.pp" \
@@ -56,7 +56,7 @@ C_DEPS__QUOTED += \
 "src\utils.pp" 
 
 OBJS__QUOTED += \
-"src\addMatrices.obj" \
+"src\accumulateMatrices.obj" \
 "src\cache.obj" \
 "src\communication.obj" \
 "src\displayMatrix.obj" \
@@ -69,7 +69,7 @@ OBJS__QUOTED += \
 "src\utils.obj" 
 
 C_SRCS__QUOTED += \
-"../src/addMatrices.c" \
+"../src/accumulateMatrices.c" \
 "../src/cache.c" \
 "../src/communication.c" \
 "../src/displayMatrix.c" \
