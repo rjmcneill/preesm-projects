@@ -31,7 +31,7 @@
         <data key="kind">sdf</data>
         <data key="SCHEDULE_COST">0</data>
         <data key="variables">
-            <variable name="squaredSize" value="64"/>
+            <variable name="squaredSize" value="128"/>
         </data>
         <node id="generateMatrices" kind="vertex">
             <data key="name">generateMatrices</data>
@@ -40,9 +40,9 @@
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[Core0]</data>
-            <data key="originalId">6db63aee-14e8-4b3e-b9fe-c5118745b59b</data>
+            <data key="originalId">6d605775-46b7-4156-b19a-297b818d6545</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">28</data>
+            <data key="schedulingOrder">30</data>
             <data key="Operator">Core0</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
@@ -55,10 +55,10 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core2, Core6, Core1, Core7, Core0, Core4, Core3, Core5]</data>
-            <data key="originalId">2f61cd29-66eb-4dac-a724-65ae1742b617</data>
+            <data key="availableOperators">[Core0, Core1, Core6, Core2, Core3, Core4, Core7, Core5]</data>
+            <data key="originalId">517902a9-4a1a-4eff-acd7-6aaa1dc4318f</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">47</data>
+            <data key="schedulingOrder">49</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
@@ -71,11 +71,11 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core2, Core6, Core1, Core7, Core0, Core4, Core3, Core5]</data>
-            <data key="originalId">9fae6e80-ab2b-4719-bebb-ca9dfe06957e</data>
+            <data key="availableOperators">[Core0, Core1, Core6, Core2, Core3, Core4, Core7, Core5]</data>
+            <data key="originalId">cc10f4cf-7f04-44a9-98c2-01de87280c28</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">48</data>
-            <data key="Operator">Core2</data>
+            <data key="schedulingOrder">50</data>
+            <data key="Operator">Core0</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
@@ -87,11 +87,11 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core2, Core6, Core1, Core7, Core0, Core4, Core3, Core5]</data>
-            <data key="originalId">7e0fcfd6-3a77-4a24-b134-61fb6fa82c93</data>
+            <data key="availableOperators">[Core0, Core1, Core6, Core2, Core3, Core4, Core7, Core5]</data>
+            <data key="originalId">dda19eb7-72cf-4d20-90bf-1dd35426cdd5</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">51</data>
-            <data key="Operator">Core6</data>
+            <data key="schedulingOrder">53</data>
+            <data key="Operator">Core1</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
@@ -103,11 +103,11 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core2, Core6, Core1, Core7, Core0, Core4, Core3, Core5]</data>
-            <data key="originalId">76c1b88c-4620-4e21-bac0-93138819bc27</data>
+            <data key="availableOperators">[Core0, Core1, Core6, Core2, Core3, Core4, Core7, Core5]</data>
+            <data key="originalId">4ce5acc4-1304-41ee-9f97-642ae054d7db</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">54</data>
-            <data key="Operator">Core1</data>
+            <data key="schedulingOrder">56</data>
+            <data key="Operator">Core6</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
@@ -119,11 +119,11 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core2, Core6, Core1, Core7, Core0, Core4, Core3, Core5]</data>
-            <data key="originalId">bb3a4a98-4b58-46e5-af17-e94d383bd525</data>
+            <data key="availableOperators">[Core0, Core1, Core6, Core2, Core3, Core4, Core7, Core5]</data>
+            <data key="originalId">b690baa2-7eb8-4cc0-a59f-196b0ae14e1a</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">57</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">59</data>
+            <data key="Operator">Core2</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
@@ -135,11 +135,11 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core2, Core6, Core1, Core7, Core0, Core4, Core3, Core5]</data>
-            <data key="originalId">c8c742ca-569e-4e26-af55-7672b3873019</data>
+            <data key="availableOperators">[Core0, Core1, Core6, Core2, Core3, Core4, Core7, Core5]</data>
+            <data key="originalId">551b199e-3a35-49ec-a75e-ffd1b46ea2b7</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">60</data>
-            <data key="Operator">Core4</data>
+            <data key="schedulingOrder">62</data>
+            <data key="Operator">Core3</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
@@ -151,11 +151,11 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core2, Core6, Core1, Core7, Core0, Core4, Core3, Core5]</data>
-            <data key="originalId">4e8be78b-c66e-4226-b90f-4177068e3cb3</data>
+            <data key="availableOperators">[Core0, Core1, Core6, Core2, Core3, Core4, Core7, Core5]</data>
+            <data key="originalId">9c6e79e4-d8d7-435b-a01a-c448c7403158</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">63</data>
-            <data key="Operator">Core3</data>
+            <data key="schedulingOrder">65</data>
+            <data key="Operator">Core4</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
@@ -167,10 +167,10 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core2, Core6, Core1, Core7, Core0, Core4, Core3, Core5]</data>
-            <data key="originalId">bb681f9d-3858-4030-905e-2e6c23c78c16</data>
+            <data key="availableOperators">[Core0, Core1, Core6, Core2, Core3, Core4, Core7, Core5]</data>
+            <data key="originalId">ac7d957c-5f36-431d-8f4a-ec866ce0ccb1</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">66</data>
+            <data key="schedulingOrder">68</data>
             <data key="Operator">Core5</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
@@ -184,9 +184,9 @@
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[Core0]</data>
-            <data key="originalId">6806eca0-9231-49d3-8f27-b6f9ef5ac25d</data>
+            <data key="originalId">00091dfc-e559-4381-8254-d780d46d6600</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">95</data>
+            <data key="schedulingOrder">97</data>
             <data key="Operator">Core0</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
@@ -200,9 +200,9 @@
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">cbada2e9-5f63-4df9-9a4d-3c2c89b9078f</data>
+            <data key="originalId">0caed546-0357-4441-a48e-1bc1260ac0f7</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">70</data>
+            <data key="schedulingOrder">72</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
@@ -216,9 +216,9 @@
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">f1173219-5200-4fcd-86dd-d1ff73b43568</data>
+            <data key="originalId">196c24b8-0fa5-4e31-9055-8fad01970873</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">69</data>
+            <data key="schedulingOrder">71</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
@@ -232,9 +232,9 @@
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">252129ba-bf68-413a-bf62-ca4efb4f4907</data>
+            <data key="originalId">43337cad-1787-46d5-bcad-eae690698f72</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">31</data>
+            <data key="schedulingOrder">33</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
@@ -248,9 +248,9 @@
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">18e0a728-b9e5-43a5-943d-502087bb76d4</data>
+            <data key="originalId">172f6ce2-195e-4c42-ac4c-2b8ec1bfeac7</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">25</data>
+            <data key="schedulingOrder">27</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
@@ -264,106 +264,10 @@
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">89ecd19b-a56f-4ba3-8356-70f7c763f743</data>
+            <data key="originalId">5a07e62b-f042-4f89-8b70-da05f7590426</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">46</data>
+            <data key="schedulingOrder">48</data>
             <data key="Operator">Core0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="accumulateMatrices_7_init_runningTotal" kind="init">
-            <data key="name">accumulateMatrices_7_init_runningTotal</data>
-            <data key="kind">dag_init_vertex</data>
-            <data key="time">0</data>
-            <data key="nb_repeat">1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">56ebc453-ec89-4c17-ac25-907440ad09d4</data>
-            <data key="duration">-1</data>
-            <data key="schedulingOrder">19</data>
-            <data key="Operator">Core4</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="broadcastOutput_end_output1_3584" kind="END">
-            <data key="name">broadcastOutput_end_output1_3584</data>
-            <data key="kind">dag_end_vertex</data>
-            <data key="time">0</data>
-            <data key="nb_repeat">1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">f2a39e63-8576-4692-aff1-35f888fd9bd6</data>
-            <data key="duration">-1</data>
-            <data key="schedulingOrder">93</data>
-            <data key="Operator">Core7</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="accumulateMatrices_5_init_runningTotal" kind="init">
-            <data key="name">accumulateMatrices_5_init_runningTotal</data>
-            <data key="kind">dag_init_vertex</data>
-            <data key="time">0</data>
-            <data key="nb_repeat">1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">759a03b7-603d-46f6-991d-d600b2d3b182</data>
-            <data key="duration">-1</data>
-            <data key="schedulingOrder">13</data>
-            <data key="Operator">Core3</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="broadcastOutput_end_output1_2560" kind="END">
-            <data key="name">broadcastOutput_end_output1_2560</data>
-            <data key="kind">dag_end_vertex</data>
-            <data key="time">0</data>
-            <data key="nb_repeat">1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">7b4bb0f9-a426-46f8-9e1c-8d31c205d099</data>
-            <data key="duration">-1</data>
-            <data key="schedulingOrder">91</data>
-            <data key="Operator">Core4</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="accumulateMatrices_0_init_runningTotal" kind="init">
-            <data key="name">accumulateMatrices_0_init_runningTotal</data>
-            <data key="kind">dag_init_vertex</data>
-            <data key="time">0</data>
-            <data key="nb_repeat">1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">b4545cd2-e839-4da9-8f28-321f19ef0acc</data>
-            <data key="duration">-1</data>
-            <data key="schedulingOrder">0</data>
-            <data key="Operator">Core6</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="broadcastOutput_end_output1_0" kind="END">
-            <data key="name">broadcastOutput_end_output1_0</data>
-            <data key="kind">dag_end_vertex</data>
-            <data key="time">0</data>
-            <data key="nb_repeat">1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">2cc8d1dd-7ffe-4adb-9c7e-bf67bc741530</data>
-            <data key="duration">-1</data>
-            <data key="schedulingOrder">87</data>
-            <data key="Operator">Core3</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
@@ -376,122 +280,26 @@
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">dd1328da-0517-4dcb-9205-ebea16c4a384</data>
+            <data key="originalId">5d91fedb-e1f4-40ca-a59d-f7d1e54420c2</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">10</data>
-            <data key="Operator">Core5</data>
+            <data key="schedulingOrder">12</data>
+            <data key="Operator">Core4</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="broadcastOutput_end_output1_2048" kind="END">
-            <data key="name">broadcastOutput_end_output1_2048</data>
+        <node id="broadcastOutput_end_output1_8192" kind="END">
+            <data key="name">broadcastOutput_end_output1_8192</data>
             <data key="kind">dag_end_vertex</data>
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">fa7e2413-309a-46b4-9500-529b8573a5b5</data>
+            <data key="originalId">ba2f5f82-566d-4afb-b6a3-16e7f2e19e2c</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">90</data>
-            <data key="Operator">Core6</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="accumulateMatrices_2_init_runningTotal" kind="init">
-            <data key="name">accumulateMatrices_2_init_runningTotal</data>
-            <data key="kind">dag_init_vertex</data>
-            <data key="time">0</data>
-            <data key="nb_repeat">1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">0e472ec3-4da6-4d99-90a1-e5d72eb315bf</data>
-            <data key="duration">-1</data>
-            <data key="schedulingOrder">6</data>
-            <data key="Operator">Core2</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="broadcastOutput_end_output1_1024" kind="END">
-            <data key="name">broadcastOutput_end_output1_1024</data>
-            <data key="kind">dag_end_vertex</data>
-            <data key="time">0</data>
-            <data key="nb_repeat">1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">707436af-78ce-4b2e-8e27-a144745287c9</data>
-            <data key="duration">-1</data>
-            <data key="schedulingOrder">88</data>
-            <data key="Operator">Core5</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="accumulateMatrices_3_init_runningTotal" kind="init">
-            <data key="name">accumulateMatrices_3_init_runningTotal</data>
-            <data key="kind">dag_init_vertex</data>
-            <data key="time">0</data>
-            <data key="nb_repeat">1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">bedce209-57e3-4492-802a-e4ff6fe95e44</data>
-            <data key="duration">-1</data>
-            <data key="schedulingOrder">9</data>
-            <data key="Operator">Core1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="broadcastOutput_end_output1_1536" kind="END">
-            <data key="name">broadcastOutput_end_output1_1536</data>
-            <data key="kind">dag_end_vertex</data>
-            <data key="time">0</data>
-            <data key="nb_repeat">1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">acdf6e80-457a-42a8-bfbb-853b8f80632b</data>
-            <data key="duration">-1</data>
-            <data key="schedulingOrder">89</data>
-            <data key="Operator">Core0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="accumulateMatrices_6_init_runningTotal" kind="init">
-            <data key="name">accumulateMatrices_6_init_runningTotal</data>
-            <data key="kind">dag_init_vertex</data>
-            <data key="time">0</data>
-            <data key="nb_repeat">1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">9b32e363-5f77-4075-ad43-e8bda9f75192</data>
-            <data key="duration">-1</data>
-            <data key="schedulingOrder">16</data>
-            <data key="Operator">Core0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="broadcastOutput_end_output1_3072" kind="END">
-            <data key="name">broadcastOutput_end_output1_3072</data>
-            <data key="kind">dag_end_vertex</data>
-            <data key="time">0</data>
-            <data key="nb_repeat">1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">4d4cdc0e-0f0c-4e27-b71e-fe3c33fe3895</data>
-            <data key="duration">-1</data>
-            <data key="schedulingOrder">92</data>
-            <data key="Operator">Core2</data>
+            <data key="schedulingOrder">96</data>
+            <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
@@ -504,25 +312,217 @@
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">eeebfa58-7b83-4274-b2a5-7448514848c7</data>
+            <data key="originalId">e31bb896-c419-4b59-a466-1e9af66bfe11</data>
             <data key="duration">-1</data>
             <data key="schedulingOrder">3</data>
+            <data key="Operator">Core3</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="broadcastOutput_end_output1_2048" kind="END">
+            <data key="name">broadcastOutput_end_output1_2048</data>
+            <data key="kind">dag_end_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
+            <data key="originalId">a16653c7-d0cb-4f8a-bc14-8fe6b0c5998e</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">93</data>
             <data key="Operator">Core4</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="broadcastOutput_end_output1_512" kind="END">
-            <data key="name">broadcastOutput_end_output1_512</data>
+        <node id="accumulateMatrices_7_init_runningTotal" kind="init">
+            <data key="name">accumulateMatrices_7_init_runningTotal</data>
+            <data key="kind">dag_init_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
+            <data key="originalId">77dfac58-fe78-4a08-b1cf-b68413e22adc</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">21</data>
+            <data key="Operator">Core6</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="broadcastOutput_end_output1_14336" kind="END">
+            <data key="name">broadcastOutput_end_output1_14336</data>
             <data key="kind">dag_end_vertex</data>
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">ce1dd6d0-2f7f-4e2e-922d-c93a405eca3b</data>
+            <data key="originalId">4e812191-00e2-4718-b26a-9991b7c06e12</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">92</data>
+            <data key="Operator">Core3</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="accumulateMatrices_3_init_runningTotal" kind="init">
+            <data key="name">accumulateMatrices_3_init_runningTotal</data>
+            <data key="kind">dag_init_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
+            <data key="originalId">5d0c6923-2106-4b9e-88e3-0c505ae965a4</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">9</data>
+            <data key="Operator">Core5</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="broadcastOutput_end_output1_6144" kind="END">
+            <data key="name">broadcastOutput_end_output1_6144</data>
+            <data key="kind">dag_end_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
+            <data key="originalId">c786bf31-57cb-475a-8d27-b544c49bed5b</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">95</data>
+            <data key="Operator">Core6</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="accumulateMatrices_6_init_runningTotal" kind="init">
+            <data key="name">accumulateMatrices_6_init_runningTotal</data>
+            <data key="kind">dag_init_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
+            <data key="originalId">fed8dcab-4d11-4ada-a400-7e10acb00270</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">18</data>
+            <data key="Operator">Core2</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="broadcastOutput_end_output1_12288" kind="END">
+            <data key="name">broadcastOutput_end_output1_12288</data>
+            <data key="kind">dag_end_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
+            <data key="originalId">5d7e3f50-0f4a-4a7f-99dd-8f5bf130bb45</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">91</data>
+            <data key="Operator">Core5</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="accumulateMatrices_0_init_runningTotal" kind="init">
+            <data key="name">accumulateMatrices_0_init_runningTotal</data>
+            <data key="kind">dag_init_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
+            <data key="originalId">d7eb2168-16db-488b-bf87-5a75db717ffc</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">0</data>
+            <data key="Operator">Core1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="broadcastOutput_end_output1_0" kind="END">
+            <data key="name">broadcastOutput_end_output1_0</data>
+            <data key="kind">dag_end_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
+            <data key="originalId">ebccfc36-4efa-4208-9941-792757f8473b</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">89</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="accumulateMatrices_2_init_runningTotal" kind="init">
+            <data key="name">accumulateMatrices_2_init_runningTotal</data>
+            <data key="kind">dag_init_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
+            <data key="originalId">989a4526-a854-46e3-b7dc-4d8309a13962</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">6</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="broadcastOutput_end_output1_4096" kind="END">
+            <data key="name">broadcastOutput_end_output1_4096</data>
+            <data key="kind">dag_end_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
+            <data key="originalId">4887a74b-4558-4fb6-8aa4-a80c6ff49e0b</data>
             <data key="duration">-1</data>
             <data key="schedulingOrder">94</data>
+            <data key="Operator">Core2</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="accumulateMatrices_5_init_runningTotal" kind="init">
+            <data key="name">accumulateMatrices_5_init_runningTotal</data>
+            <data key="kind">dag_init_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
+            <data key="originalId">d213da7f-7ba8-44a2-9452-c17743503841</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">15</data>
+            <data key="Operator">Core4</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="broadcastOutput_end_output1_10240" kind="END">
+            <data key="name">broadcastOutput_end_output1_10240</data>
+            <data key="kind">dag_end_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
+            <data key="originalId">20724fc0-15ab-441a-b784-2f5234ba8949</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">90</data>
             <data key="Operator">Core1</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
@@ -536,9 +536,9 @@
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">6316e80f-3cf3-4d71-a371-dbb605a3a886</data>
+            <data key="originalId">3b139f43-7a64-4a1f-b37a-7e91c8a410b7</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">22</data>
+            <data key="schedulingOrder">24</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
@@ -552,9 +552,9 @@
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">11eb482a-8455-4f2b-bfc5-fea02e0a027c</data>
+            <data key="originalId">b58f5d97-0b6e-40a0-8cf8-3726fc5ba53f</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">96</data>
+            <data key="schedulingOrder">98</data>
             <data key="Operator">Core0</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
@@ -565,12 +565,12 @@
             <data key="name">s_accumulateMatrices_1implode_broadcastOutput_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">3af1a2ca-3a7d-4c52-bd2b-a4ef8693f83c</data>
+            <data key="originalId">62e7ad65-7b75-45c1-a459-fea6745b332a</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">49</data>
-            <data key="Operator">Core2</data>
+            <data key="schedulingOrder">51</data>
+            <data key="Operator">Core0</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -579,12 +579,12 @@
             <data key="name">r_accumulateMatrices_1implode_broadcastOutput_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">d539145d-8bd6-4f96-a2ac-afb8727e3423</data>
+            <data key="originalId">82e2766d-750f-4c79-ad75-42a1460baed2</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">50</data>
+            <data key="schedulingOrder">52</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">implode_broadcastOutput_input</data>
             <data key="graph_desc"/>
@@ -594,12 +594,12 @@
             <data key="name">s_accumulateMatrices_2implode_broadcastOutput_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">bbe23db5-d899-40e0-8ea4-75da72d6aaa4</data>
+            <data key="originalId">75ff8b99-7438-4ad6-96ad-08f1363c2a0f</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">52</data>
-            <data key="Operator">Core6</data>
+            <data key="schedulingOrder">54</data>
+            <data key="Operator">Core1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -608,12 +608,12 @@
             <data key="name">r_accumulateMatrices_2implode_broadcastOutput_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">06a513eb-0bec-4e18-a09a-445bda0992df</data>
+            <data key="originalId">580d312c-b3e3-4c1c-a203-02468e75815b</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">53</data>
+            <data key="schedulingOrder">55</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">implode_broadcastOutput_input</data>
             <data key="graph_desc"/>
@@ -623,12 +623,12 @@
             <data key="name">s_accumulateMatrices_3implode_broadcastOutput_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">7d83df86-7867-4436-8949-0528a55963cf</data>
+            <data key="originalId">bd506e7e-4ffa-47bc-b728-9027823a62a8</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">55</data>
-            <data key="Operator">Core1</data>
+            <data key="schedulingOrder">57</data>
+            <data key="Operator">Core6</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -637,12 +637,12 @@
             <data key="name">r_accumulateMatrices_3implode_broadcastOutput_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">5b0e0bfe-9711-4651-b758-07e59d80a78c</data>
+            <data key="originalId">6ccaaead-733d-420a-b114-c4dd7f26e5f7</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">56</data>
+            <data key="schedulingOrder">58</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">implode_broadcastOutput_input</data>
             <data key="graph_desc"/>
@@ -652,12 +652,12 @@
             <data key="name">s_accumulateMatrices_4implode_broadcastOutput_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">94743351-d211-4dbd-8a7a-62c386a44250</data>
+            <data key="originalId">e9020857-6fd4-4162-86cf-11072492dd6e</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">58</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">60</data>
+            <data key="Operator">Core2</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -666,12 +666,12 @@
             <data key="name">r_accumulateMatrices_4implode_broadcastOutput_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">2e285b08-9609-4ee4-9c77-ca225fc12487</data>
+            <data key="originalId">413ab784-a5ce-44a9-99ff-7c268ca48db9</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">59</data>
+            <data key="schedulingOrder">61</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">implode_broadcastOutput_input</data>
             <data key="graph_desc"/>
@@ -681,12 +681,12 @@
             <data key="name">s_accumulateMatrices_5implode_broadcastOutput_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">63aa2665-95a6-4d62-9af6-efe5bcef6e9c</data>
+            <data key="originalId">178f956d-d202-448b-aabc-419415747601</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">61</data>
-            <data key="Operator">Core4</data>
+            <data key="schedulingOrder">63</data>
+            <data key="Operator">Core3</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -695,12 +695,12 @@
             <data key="name">r_accumulateMatrices_5implode_broadcastOutput_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">a7aff8e4-c671-4a7e-ad65-d26fea29dd5e</data>
+            <data key="originalId">37bd5c02-b032-4c3d-b20a-a47e419f0ba6</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">62</data>
+            <data key="schedulingOrder">64</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">implode_broadcastOutput_input</data>
             <data key="graph_desc"/>
@@ -710,12 +710,12 @@
             <data key="name">s_accumulateMatrices_6implode_broadcastOutput_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">1cf3886b-5d55-4cf6-b93c-c2c886c273ce</data>
+            <data key="originalId">3bd3aba2-a8b6-46f3-8360-fa14e885e39b</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">64</data>
-            <data key="Operator">Core3</data>
+            <data key="schedulingOrder">66</data>
+            <data key="Operator">Core4</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -724,12 +724,12 @@
             <data key="name">r_accumulateMatrices_6implode_broadcastOutput_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">63ad009e-e129-4959-bb67-af06b0b0d951</data>
+            <data key="originalId">ffcfdc5f-9672-459b-a058-3892515a4b62</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">65</data>
+            <data key="schedulingOrder">67</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">implode_broadcastOutput_input</data>
             <data key="graph_desc"/>
@@ -739,12 +739,12 @@
             <data key="name">s_accumulateMatrices_7implode_broadcastOutput_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">d2287b1f-a2a0-488b-ad93-f7e4a058de44</data>
+            <data key="originalId">03468439-06f6-4f4c-b10c-40a7d6d5ef72</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">67</data>
+            <data key="schedulingOrder">69</data>
             <data key="Operator">Core5</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -753,12 +753,12 @@
             <data key="name">r_accumulateMatrices_7implode_broadcastOutput_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">2d359fcc-ce8a-442b-80e5-eaa71d85da9e</data>
+            <data key="originalId">c3df5076-acd5-4824-bede-473e366fbabb</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">68</data>
+            <data key="schedulingOrder">70</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">implode_broadcastOutput_input</data>
             <data key="graph_desc"/>
@@ -769,12 +769,12 @@
             <data key="name">s_generateMatricesexplode_generateMatrices_startArray_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">e19cce88-ea7b-46ad-8505-643ccf6ef57e</data>
+            <data key="originalId">5f5f36da-9d71-4ec0-9bed-aa689dab61ac</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">29</data>
+            <data key="schedulingOrder">31</data>
             <data key="Operator">Core0</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">16384</data>
+            <data key="dataSize">65536</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -784,12 +784,12 @@
             <data key="name">r_generateMatricesexplode_generateMatrices_startArray_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">5b305e99-e2f7-48aa-bb60-70e34abd5736</data>
+            <data key="originalId">66441289-bff1-4894-b68f-219b69b3ab05</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">30</data>
+            <data key="schedulingOrder">32</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">16384</data>
+            <data key="dataSize">65536</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">explode_generateMatrices_startArray</data>
             <data key="graph_desc"/>
@@ -800,12 +800,12 @@
             <data key="name">s_explode_generateMatrices_startArrayaccumulateMatrices_1_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">f08f0f6c-f86a-403e-9c26-17f8e70300ec</data>
+            <data key="originalId">c8261bef-4152-4e8c-acf5-2c99c1364bf9</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">44</data>
+            <data key="schedulingOrder">46</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -815,12 +815,12 @@
             <data key="name">r_explode_generateMatrices_startArrayaccumulateMatrices_1_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">9d4f84e3-2615-4d6f-9fd6-1b7a152cf0ed</data>
+            <data key="originalId">fdf22084-ae80-443b-9033-c05973327e77</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">45</data>
-            <data key="Operator">Core2</data>
+            <data key="schedulingOrder">47</data>
+            <data key="Operator">Core0</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">accumulateMatrices_1</data>
             <data key="graph_desc"/>
@@ -831,12 +831,12 @@
             <data key="name">s_explode_generateMatrices_startArrayaccumulateMatrices_2_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">8f6bf626-fbc3-4508-8445-d90a48350bb8</data>
+            <data key="originalId">5010b0c0-7c3a-4c3d-b3a2-65ae385235bd</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">42</data>
+            <data key="schedulingOrder">44</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -846,12 +846,12 @@
             <data key="name">r_explode_generateMatrices_startArrayaccumulateMatrices_2_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">7498793d-c984-4001-ae0b-c2841c673059</data>
+            <data key="originalId">8f6b184a-588d-4938-8916-cd84daec3f8c</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">43</data>
-            <data key="Operator">Core6</data>
+            <data key="schedulingOrder">45</data>
+            <data key="Operator">Core1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">accumulateMatrices_2</data>
             <data key="graph_desc"/>
@@ -862,12 +862,12 @@
             <data key="name">s_explode_generateMatrices_startArrayaccumulateMatrices_3_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">e92d8a9f-a550-4dd9-bd66-0659b2334898</data>
+            <data key="originalId">17d60a9b-7177-4e1d-af0f-2dc999f654f4</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">40</data>
+            <data key="schedulingOrder">42</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -877,12 +877,12 @@
             <data key="name">r_explode_generateMatrices_startArrayaccumulateMatrices_3_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">2640682c-f257-4982-af5f-1c8e8080291e</data>
+            <data key="originalId">2d488891-b5dd-42ee-87cb-878413567a82</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">41</data>
-            <data key="Operator">Core1</data>
+            <data key="schedulingOrder">43</data>
+            <data key="Operator">Core6</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">accumulateMatrices_3</data>
             <data key="graph_desc"/>
@@ -893,12 +893,12 @@
             <data key="name">s_explode_generateMatrices_startArrayaccumulateMatrices_4_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">6c3fabaa-ccf6-49ef-aa1c-c900ed728ada</data>
+            <data key="originalId">3ff49b6d-876f-45ed-9a97-bc85846b8c43</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">38</data>
+            <data key="schedulingOrder">40</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -908,12 +908,12 @@
             <data key="name">r_explode_generateMatrices_startArrayaccumulateMatrices_4_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">8d740886-1453-459e-a5dc-1f8955c47d15</data>
+            <data key="originalId">915e544c-c732-42b7-ba2b-4bb532f614ce</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">39</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">41</data>
+            <data key="Operator">Core2</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">accumulateMatrices_4</data>
             <data key="graph_desc"/>
@@ -924,12 +924,12 @@
             <data key="name">s_explode_generateMatrices_startArrayaccumulateMatrices_5_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">5a0ce036-03b2-4da5-a6b7-2b7348fb1f7f</data>
+            <data key="originalId">d1123387-376e-421d-bcb2-4bbd42dcc583</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">36</data>
+            <data key="schedulingOrder">38</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -939,12 +939,12 @@
             <data key="name">r_explode_generateMatrices_startArrayaccumulateMatrices_5_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">bcaadcfa-7f60-4705-a252-344897f413eb</data>
+            <data key="originalId">8412673f-5151-45b5-8ffe-82fafd0ea17e</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">37</data>
-            <data key="Operator">Core4</data>
+            <data key="schedulingOrder">39</data>
+            <data key="Operator">Core3</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">accumulateMatrices_5</data>
             <data key="graph_desc"/>
@@ -955,12 +955,12 @@
             <data key="name">s_explode_generateMatrices_startArrayaccumulateMatrices_6_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">df176223-c5d2-475a-bac9-dbeed6686604</data>
+            <data key="originalId">b5e3e8a8-5406-41c6-8c1a-b552afaaf55b</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">34</data>
+            <data key="schedulingOrder">36</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -970,12 +970,12 @@
             <data key="name">r_explode_generateMatrices_startArrayaccumulateMatrices_6_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">694f85a3-32b9-453b-b8f1-a88cf70b2d98</data>
+            <data key="originalId">1f4445b6-708b-4812-ad74-6aa17bc36c00</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">35</data>
-            <data key="Operator">Core3</data>
+            <data key="schedulingOrder">37</data>
+            <data key="Operator">Core4</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">accumulateMatrices_6</data>
             <data key="graph_desc"/>
@@ -986,12 +986,12 @@
             <data key="name">s_explode_generateMatrices_startArrayaccumulateMatrices_7_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">660b2cd3-c4de-4bc1-b71d-033d1d97e246</data>
+            <data key="originalId">d49332fa-e37a-40dd-8913-039e4b2048b8</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">32</data>
+            <data key="schedulingOrder">34</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -1001,12 +1001,12 @@
             <data key="name">r_explode_generateMatrices_startArrayaccumulateMatrices_7_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">108e3f69-aa71-45da-b000-8b8945fb5506</data>
+            <data key="originalId">af84eba4-6a63-49c9-af2c-19eb52be6a22</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">33</data>
+            <data key="schedulingOrder">35</data>
             <data key="Operator">Core5</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">accumulateMatrices_7</data>
             <data key="graph_desc"/>
@@ -1016,12 +1016,12 @@
             <data key="name">s_broadcastOutputdisplayMatrices_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">a02361dc-8dd0-4b88-b514-308a9c8cca0c</data>
+            <data key="originalId">5e3aed7c-bbc0-4475-adbf-0afd24a45bbd</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">85</data>
+            <data key="schedulingOrder">87</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">16384</data>
+            <data key="dataSize">65536</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -1030,12 +1030,12 @@
             <data key="name">r_broadcastOutputdisplayMatrices_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">a6873848-ea8a-4d90-b9da-9b1d9e8441c7</data>
+            <data key="originalId">d32f15f8-eef7-4ed7-9b51-70443eb552be</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">86</data>
+            <data key="schedulingOrder">88</data>
             <data key="Operator">Core0</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">16384</data>
+            <data key="dataSize">65536</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">displayMatrices</data>
             <data key="graph_desc"/>
@@ -1045,9 +1045,9 @@
             <data key="name">s_generateMatrices_init_countIngenerateMatrices_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">584558e6-0c28-470a-8967-dcded83115d7</data>
+            <data key="originalId">7cf742d5-2d2a-492d-baa1-dcd4e1703528</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">26</data>
+            <data key="schedulingOrder">28</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">4</data>
@@ -1059,9 +1059,9 @@
             <data key="name">r_generateMatrices_init_countIngenerateMatrices_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">6fd51997-6d75-4d16-8ece-500088ca0bae</data>
+            <data key="originalId">817c2852-4162-488e-abd4-d2b4f28b7017</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">27</data>
+            <data key="schedulingOrder">29</data>
             <data key="Operator">Core0</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">4</data>
@@ -1071,167 +1071,16 @@
             <data key="arguments"/>
         </node>
         <node
-            id="s_accumulateMatrices_7_init_runningTotalaccumulateMatrices_7_0" kind="vertex">
-            <data key="name">s_accumulateMatrices_7_init_runningTotalaccumulateMatrices_7_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">06c380ec-ca5f-4a1f-84da-04ce3401c7c9</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">20</data>
-            <data key="Operator">Core4</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node
-            id="r_accumulateMatrices_7_init_runningTotalaccumulateMatrices_7_0" kind="vertex">
-            <data key="name">r_accumulateMatrices_7_init_runningTotalaccumulateMatrices_7_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">bbe6b077-4ab2-46b4-a7bb-3e086fef0328</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">21</data>
-            <data key="Operator">Core5</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">accumulateMatrices_7</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node
-            id="s_accumulateMatrices_5_init_runningTotalaccumulateMatrices_5_0" kind="vertex">
-            <data key="name">s_accumulateMatrices_5_init_runningTotalaccumulateMatrices_5_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">f94a206f-1ac1-44c8-9c79-f7acaad67294</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">14</data>
-            <data key="Operator">Core3</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node
-            id="r_accumulateMatrices_5_init_runningTotalaccumulateMatrices_5_0" kind="vertex">
-            <data key="name">r_accumulateMatrices_5_init_runningTotalaccumulateMatrices_5_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">a35d0c69-c5f1-48e8-8856-b2152bef33b6</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">15</data>
-            <data key="Operator">Core4</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">accumulateMatrices_5</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="s_broadcastOutputbroadcastOutput_end_output1_2560_0" kind="vertex">
-            <data key="name">s_broadcastOutputbroadcastOutput_end_output1_2560_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">1ec91397-9be9-4e84-8f35-338d1cf83ee3</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">83</data>
-            <data key="Operator">Core7</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="r_broadcastOutputbroadcastOutput_end_output1_2560_0" kind="vertex">
-            <data key="name">r_broadcastOutputbroadcastOutput_end_output1_2560_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">790b07aa-9783-4c88-b7dd-638fb9ac21c0</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">84</data>
-            <data key="Operator">Core4</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">broadcastOutput_end_output1_2560</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node
-            id="s_accumulateMatrices_0_init_runningTotalaccumulateMatrices_0_0" kind="vertex">
-            <data key="name">s_accumulateMatrices_0_init_runningTotalaccumulateMatrices_0_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">537be912-73cd-4e7c-9a8e-50c6055d90f1</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">1</data>
-            <data key="Operator">Core6</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node
-            id="r_accumulateMatrices_0_init_runningTotalaccumulateMatrices_0_0" kind="vertex">
-            <data key="name">r_accumulateMatrices_0_init_runningTotalaccumulateMatrices_0_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">c5f337c9-ec66-46a5-87f9-96e67b0a3956</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">2</data>
-            <data key="Operator">Core7</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">accumulateMatrices_0</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="s_broadcastOutputbroadcastOutput_end_output1_0_0" kind="vertex">
-            <data key="name">s_broadcastOutputbroadcastOutput_end_output1_0_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">348f94c6-fc60-48b9-806b-1b61b7c995da</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">81</data>
-            <data key="Operator">Core7</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="r_broadcastOutputbroadcastOutput_end_output1_0_0" kind="vertex">
-            <data key="name">r_broadcastOutputbroadcastOutput_end_output1_0_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">6c8b8bd8-5927-41db-bb30-2597ae8cd6aa</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">82</data>
-            <data key="Operator">Core3</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">broadcastOutput_end_output1_0</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node
             id="s_accumulateMatrices_4_init_runningTotalaccumulateMatrices_4_0" kind="vertex">
             <data key="name">s_accumulateMatrices_4_init_runningTotalaccumulateMatrices_4_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">511c5e2b-6ffa-48c2-b302-7760ce0a9586</data>
+            <data key="originalId">958dc43b-a9f8-44c5-8357-83f04d31294e</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">11</data>
-            <data key="Operator">Core5</data>
+            <data key="schedulingOrder">13</data>
+            <data key="Operator">Core4</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -1241,192 +1090,14 @@
             <data key="name">r_accumulateMatrices_4_init_runningTotalaccumulateMatrices_4_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">cf99c6fb-9382-41cc-8af3-006814fd5c28</data>
+            <data key="originalId">950e3d61-0c68-4f7a-b671-3cd0ffd8bb0b</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">12</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">14</data>
+            <data key="Operator">Core2</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">accumulateMatrices_4</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="s_broadcastOutputbroadcastOutput_end_output1_2048_0" kind="vertex">
-            <data key="name">s_broadcastOutputbroadcastOutput_end_output1_2048_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">3aaad223-7bf1-4df5-a93c-48f760f1ccd5</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">79</data>
-            <data key="Operator">Core7</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="r_broadcastOutputbroadcastOutput_end_output1_2048_0" kind="vertex">
-            <data key="name">r_broadcastOutputbroadcastOutput_end_output1_2048_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">b341db02-b1ba-4487-ac58-d58926dbbbd6</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">80</data>
-            <data key="Operator">Core6</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">broadcastOutput_end_output1_2048</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node
-            id="s_accumulateMatrices_2_init_runningTotalaccumulateMatrices_2_0" kind="vertex">
-            <data key="name">s_accumulateMatrices_2_init_runningTotalaccumulateMatrices_2_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">1bb2d374-0727-4be0-91b1-cf565f042f49</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">7</data>
-            <data key="Operator">Core2</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node
-            id="r_accumulateMatrices_2_init_runningTotalaccumulateMatrices_2_0" kind="vertex">
-            <data key="name">r_accumulateMatrices_2_init_runningTotalaccumulateMatrices_2_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">7289ca49-2c6c-4f21-8143-4b634492890e</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">8</data>
-            <data key="Operator">Core6</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">accumulateMatrices_2</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="s_broadcastOutputbroadcastOutput_end_output1_1024_0" kind="vertex">
-            <data key="name">s_broadcastOutputbroadcastOutput_end_output1_1024_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">9568bf71-b89d-4f6f-a6df-a3154276a43a</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">77</data>
-            <data key="Operator">Core7</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="r_broadcastOutputbroadcastOutput_end_output1_1024_0" kind="vertex">
-            <data key="name">r_broadcastOutputbroadcastOutput_end_output1_1024_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">7ebb1dae-bfd6-4e1a-8c46-145f157a39f2</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">78</data>
-            <data key="Operator">Core5</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">broadcastOutput_end_output1_1024</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="s_broadcastOutputbroadcastOutput_end_output1_1536_0" kind="vertex">
-            <data key="name">s_broadcastOutputbroadcastOutput_end_output1_1536_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">bbf0eb79-497f-42f4-a7c9-692e4d4422aa</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">75</data>
-            <data key="Operator">Core7</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="r_broadcastOutputbroadcastOutput_end_output1_1536_0" kind="vertex">
-            <data key="name">r_broadcastOutputbroadcastOutput_end_output1_1536_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">2431a41f-6bfc-4932-a5da-18a82f4422eb</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">76</data>
-            <data key="Operator">Core0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">broadcastOutput_end_output1_1536</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node
-            id="s_accumulateMatrices_6_init_runningTotalaccumulateMatrices_6_0" kind="vertex">
-            <data key="name">s_accumulateMatrices_6_init_runningTotalaccumulateMatrices_6_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">1f5b00be-1306-488b-8ee5-3eb2c8e5ba3a</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">17</data>
-            <data key="Operator">Core0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node
-            id="r_accumulateMatrices_6_init_runningTotalaccumulateMatrices_6_0" kind="vertex">
-            <data key="name">r_accumulateMatrices_6_init_runningTotalaccumulateMatrices_6_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">268bd91c-f9b2-4d1e-bbed-b9a42e873aa6</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">18</data>
-            <data key="Operator">Core3</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">accumulateMatrices_6</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="s_broadcastOutputbroadcastOutput_end_output1_3072_0" kind="vertex">
-            <data key="name">s_broadcastOutputbroadcastOutput_end_output1_3072_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">c811bab6-6a23-40fc-9e2a-48fa7d72d4d6</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">73</data>
-            <data key="Operator">Core7</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="r_broadcastOutputbroadcastOutput_end_output1_3072_0" kind="vertex">
-            <data key="name">r_broadcastOutputbroadcastOutput_end_output1_3072_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">23ce323e-b705-485d-8ecd-bb2ad25e4b85</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">74</data>
-            <data key="Operator">Core2</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">broadcastOutput_end_output1_3072</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
@@ -1435,12 +1106,12 @@
             <data key="name">s_accumulateMatrices_1_init_runningTotalaccumulateMatrices_1_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">54e0da9c-6e49-4c8c-865a-0bad999a2d59</data>
+            <data key="originalId">f106cfcc-cbba-47c2-b22a-5b335e6ff0ac</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">4</data>
-            <data key="Operator">Core4</data>
+            <data key="Operator">Core3</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -1450,43 +1121,403 @@
             <data key="name">r_accumulateMatrices_1_init_runningTotalaccumulateMatrices_1_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">ee14e861-f6f4-4acb-b315-e6145a047e03</data>
+            <data key="originalId">dc34e80c-d866-434f-bd63-888b8d659666</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">5</data>
-            <data key="Operator">Core2</data>
+            <data key="Operator">Core0</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">accumulateMatrices_1</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="s_broadcastOutputbroadcastOutput_end_output1_512_0" kind="vertex">
-            <data key="name">s_broadcastOutputbroadcastOutput_end_output1_512_0</data>
+        <node id="s_broadcastOutputbroadcastOutput_end_output1_2048_0" kind="vertex">
+            <data key="name">s_broadcastOutputbroadcastOutput_end_output1_2048_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">54394fec-7d83-4030-9e9f-ed608103a9da</data>
+            <data key="originalId">c806dfa3-6ae2-4521-8c53-045b86048143</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">71</data>
+            <data key="schedulingOrder">85</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="r_broadcastOutputbroadcastOutput_end_output1_512_0" kind="vertex">
-            <data key="name">r_broadcastOutputbroadcastOutput_end_output1_512_0</data>
+        <node id="r_broadcastOutputbroadcastOutput_end_output1_2048_0" kind="vertex">
+            <data key="name">r_broadcastOutputbroadcastOutput_end_output1_2048_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">358e95ab-c70f-44f8-ac6a-4a63b8bd6f1e</data>
+            <data key="originalId">cea49764-03a7-48c4-88b1-17a9b3832d3c</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">72</data>
+            <data key="schedulingOrder">86</data>
+            <data key="Operator">Core4</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">broadcastOutput_end_output1_2048</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node
+            id="s_accumulateMatrices_7_init_runningTotalaccumulateMatrices_7_0" kind="vertex">
+            <data key="name">s_accumulateMatrices_7_init_runningTotalaccumulateMatrices_7_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">2fdb8be1-a068-4aed-9561-1f0905918289</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">22</data>
+            <data key="Operator">Core6</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node
+            id="r_accumulateMatrices_7_init_runningTotalaccumulateMatrices_7_0" kind="vertex">
+            <data key="name">r_accumulateMatrices_7_init_runningTotalaccumulateMatrices_7_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">0534ef16-14d6-4cc1-93e3-b209cd990848</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">23</data>
+            <data key="Operator">Core5</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">accumulateMatrices_7</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_broadcastOutputbroadcastOutput_end_output1_14336_0" kind="vertex">
+            <data key="name">s_broadcastOutputbroadcastOutput_end_output1_14336_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">4c7723e3-b46e-4ad7-a08d-cead706fbeb4</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">83</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_broadcastOutputbroadcastOutput_end_output1_14336_0" kind="vertex">
+            <data key="name">r_broadcastOutputbroadcastOutput_end_output1_14336_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">d086357c-f0cd-4182-88b6-94820a6ce346</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">84</data>
+            <data key="Operator">Core3</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">broadcastOutput_end_output1_14336</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node
+            id="s_accumulateMatrices_3_init_runningTotalaccumulateMatrices_3_0" kind="vertex">
+            <data key="name">s_accumulateMatrices_3_init_runningTotalaccumulateMatrices_3_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">e73b04e3-6daa-4be0-9bf2-e6f0f35f8b2e</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">10</data>
+            <data key="Operator">Core5</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node
+            id="r_accumulateMatrices_3_init_runningTotalaccumulateMatrices_3_0" kind="vertex">
+            <data key="name">r_accumulateMatrices_3_init_runningTotalaccumulateMatrices_3_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">d813dbce-f2e2-48ec-9449-f79cd98fe9fd</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">11</data>
+            <data key="Operator">Core6</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">accumulateMatrices_3</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_broadcastOutputbroadcastOutput_end_output1_6144_0" kind="vertex">
+            <data key="name">s_broadcastOutputbroadcastOutput_end_output1_6144_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">8f3c19b2-7d32-45c1-92d3-1c0cafd9a92e</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">81</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_broadcastOutputbroadcastOutput_end_output1_6144_0" kind="vertex">
+            <data key="name">r_broadcastOutputbroadcastOutput_end_output1_6144_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">6242f1c2-7f6d-450a-a205-7f4796cdab73</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">82</data>
+            <data key="Operator">Core6</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">broadcastOutput_end_output1_6144</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node
+            id="s_accumulateMatrices_6_init_runningTotalaccumulateMatrices_6_0" kind="vertex">
+            <data key="name">s_accumulateMatrices_6_init_runningTotalaccumulateMatrices_6_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">5dda984a-1e37-4100-bb6f-5821528b49fb</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">19</data>
+            <data key="Operator">Core2</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node
+            id="r_accumulateMatrices_6_init_runningTotalaccumulateMatrices_6_0" kind="vertex">
+            <data key="name">r_accumulateMatrices_6_init_runningTotalaccumulateMatrices_6_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">ad28ea08-d6e1-4e9c-8a6e-092af8680735</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">20</data>
+            <data key="Operator">Core4</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">accumulateMatrices_6</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_broadcastOutputbroadcastOutput_end_output1_12288_0" kind="vertex">
+            <data key="name">s_broadcastOutputbroadcastOutput_end_output1_12288_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">50ffd92e-8321-4275-a85e-31d37d915d72</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">79</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_broadcastOutputbroadcastOutput_end_output1_12288_0" kind="vertex">
+            <data key="name">r_broadcastOutputbroadcastOutput_end_output1_12288_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">7aa6130d-0963-4e35-9f56-7e0564494ce0</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">80</data>
+            <data key="Operator">Core5</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">broadcastOutput_end_output1_12288</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node
+            id="s_accumulateMatrices_0_init_runningTotalaccumulateMatrices_0_0" kind="vertex">
+            <data key="name">s_accumulateMatrices_0_init_runningTotalaccumulateMatrices_0_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">b0df4fc3-d26e-4048-98d6-a4d9c716b105</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">1</data>
             <data key="Operator">Core1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">2048</data>
+            <data key="dataSize">8192</data>
             <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">broadcastOutput_end_output1_512</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node
+            id="r_accumulateMatrices_0_init_runningTotalaccumulateMatrices_0_0" kind="vertex">
+            <data key="name">r_accumulateMatrices_0_init_runningTotalaccumulateMatrices_0_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">f3d63e4f-38a0-4ff6-9a1c-60b32b6c76c4</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">2</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">accumulateMatrices_0</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_broadcastOutputbroadcastOutput_end_output1_0_0" kind="vertex">
+            <data key="name">s_broadcastOutputbroadcastOutput_end_output1_0_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">fee12c2d-f0e9-4ad0-ab27-9e3c6b4c91cd</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">77</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_broadcastOutputbroadcastOutput_end_output1_0_0" kind="vertex">
+            <data key="name">r_broadcastOutputbroadcastOutput_end_output1_0_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">590feb71-497c-4b85-9d6d-3a944adb1d91</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">78</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">broadcastOutput_end_output1_0</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node
+            id="s_accumulateMatrices_2_init_runningTotalaccumulateMatrices_2_0" kind="vertex">
+            <data key="name">s_accumulateMatrices_2_init_runningTotalaccumulateMatrices_2_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">5ca4355f-58b0-449d-881d-8273336452fa</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">7</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node
+            id="r_accumulateMatrices_2_init_runningTotalaccumulateMatrices_2_0" kind="vertex">
+            <data key="name">r_accumulateMatrices_2_init_runningTotalaccumulateMatrices_2_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">0ab6a8c7-4e6f-4109-af86-723004fe2bf9</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">8</data>
+            <data key="Operator">Core1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">accumulateMatrices_2</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_broadcastOutputbroadcastOutput_end_output1_4096_0" kind="vertex">
+            <data key="name">s_broadcastOutputbroadcastOutput_end_output1_4096_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">79d4b7a5-eb75-4b97-ba87-73d033846363</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">75</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_broadcastOutputbroadcastOutput_end_output1_4096_0" kind="vertex">
+            <data key="name">r_broadcastOutputbroadcastOutput_end_output1_4096_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">06864889-cc23-471d-9901-e5cd128258df</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">76</data>
+            <data key="Operator">Core2</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">broadcastOutput_end_output1_4096</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node
+            id="s_accumulateMatrices_5_init_runningTotalaccumulateMatrices_5_0" kind="vertex">
+            <data key="name">s_accumulateMatrices_5_init_runningTotalaccumulateMatrices_5_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">b1af587c-1a8c-4d00-941f-e6e873c50b3e</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">16</data>
+            <data key="Operator">Core4</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node
+            id="r_accumulateMatrices_5_init_runningTotalaccumulateMatrices_5_0" kind="vertex">
+            <data key="name">r_accumulateMatrices_5_init_runningTotalaccumulateMatrices_5_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">389090a9-47ad-41ee-9dba-1985a017a6d8</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">17</data>
+            <data key="Operator">Core3</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">accumulateMatrices_5</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_broadcastOutputbroadcastOutput_end_output1_10240_0" kind="vertex">
+            <data key="name">s_broadcastOutputbroadcastOutput_end_output1_10240_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">87cde6c5-5ca3-4dba-a779-5fe72d661d07</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">73</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_broadcastOutputbroadcastOutput_end_output1_10240_0" kind="vertex">
+            <data key="name">r_broadcastOutputbroadcastOutput_end_output1_10240_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">dae66995-de87-41be-be1d-aec2ff7e782f</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">74</data>
+            <data key="Operator">Core1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8192</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">broadcastOutput_end_output1_10240</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
@@ -1494,9 +1525,9 @@
             <data key="name">s_displayMatrices_init_countIndisplayMatrices_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">4c910e75-6cde-40a6-9c17-ff85f80e1aba</data>
+            <data key="originalId">dfaea2cc-4ca2-46b3-ae78-3baf03df8726</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">23</data>
+            <data key="schedulingOrder">25</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">4</data>
@@ -1508,9 +1539,9 @@
             <data key="name">r_displayMatrices_init_countIndisplayMatrices_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">18020b65-6bd0-4380-a9f3-54c816444a4a</data>
+            <data key="originalId">7606cc0b-6096-48b2-91f6-6cfecdbf83e7</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">24</data>
+            <data key="schedulingOrder">26</data>
             <data key="Operator">Core0</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">4</data>
@@ -1541,10 +1572,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">4096</data>
-            <data key="edge_prod">4096</data>
+            <data key="Weight">16384</data>
+            <data key="edge_prod">16384</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">4096</data>
+            <data key="edge_cons">16384</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="accumulateMatrices_0" sourceport="out0"
@@ -1555,10 +1586,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="accumulateMatrices_1" sourceport="out0"
@@ -1569,10 +1600,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="accumulateMatrices_2" sourceport="out0"
@@ -1583,10 +1614,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="accumulateMatrices_3" sourceport="out0"
@@ -1597,10 +1628,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="accumulateMatrices_4" sourceport="out0"
@@ -1611,10 +1642,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="accumulateMatrices_5" sourceport="out0"
@@ -1625,10 +1656,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="accumulateMatrices_6" sourceport="out0"
@@ -1639,10 +1670,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="accumulateMatrices_7" sourceport="out0"
@@ -1653,10 +1684,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="generateMatrices" sourceport="out1"
@@ -1667,10 +1698,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">4096</data>
-            <data key="edge_prod">4096</data>
+            <data key="Weight">16384</data>
+            <data key="edge_prod">16384</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">4096</data>
+            <data key="edge_cons">16384</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_generateMatrices_startArray"
@@ -1681,10 +1712,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_generateMatrices_startArray"
@@ -1695,10 +1726,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_generateMatrices_startArray"
@@ -1709,10 +1740,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_generateMatrices_startArray"
@@ -1723,10 +1754,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_generateMatrices_startArray"
@@ -1737,10 +1768,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_generateMatrices_startArray"
@@ -1751,10 +1782,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_generateMatrices_startArray"
@@ -1765,10 +1796,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_generateMatrices_startArray"
@@ -1779,10 +1810,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="broadcastOutput" sourceport="out0"
@@ -1793,10 +1824,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">4096</data>
-            <data key="edge_prod">4096</data>
+            <data key="Weight">16384</data>
+            <data key="edge_prod">16384</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">4096</data>
+            <data key="edge_cons">16384</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="generateMatrices_init_countIn" sourceport="out0"
@@ -1827,90 +1858,6 @@
             <data key="edge_cons">1</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="accumulateMatrices_7_init_runningTotal"
-            sourceport="out0" target="accumulateMatrices_7" targetport="in1">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="broadcastOutput" sourceport="out1"
-            target="broadcastOutput_end_output1_3584" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="accumulateMatrices_5_init_runningTotal"
-            sourceport="out0" target="accumulateMatrices_5" targetport="in1">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="broadcastOutput" sourceport="out2"
-            target="broadcastOutput_end_output1_2560" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="accumulateMatrices_0_init_runningTotal"
-            sourceport="out0" target="accumulateMatrices_0" targetport="in1">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="broadcastOutput" sourceport="out3"
-            target="broadcastOutput_end_output1_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
-            <data key="data_type">memUnit</data>
-        </edge>
         <edge source="accumulateMatrices_4_init_runningTotal"
             sourceport="out0" target="accumulateMatrices_4" targetport="in1">
             <data key="edge_cons"/>
@@ -1919,108 +1866,24 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="broadcastOutput" sourceport="out4"
-            target="broadcastOutput_end_output1_2048" targetport="in0">
+        <edge source="broadcastOutput" sourceport="out1"
+            target="broadcastOutput_end_output1_8192" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="accumulateMatrices_2_init_runningTotal"
-            sourceport="out0" target="accumulateMatrices_2" targetport="in1">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="broadcastOutput" sourceport="out5"
-            target="broadcastOutput_end_output1_1024" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="accumulateMatrices_3_init_runningTotal"
-            sourceport="out0" target="accumulateMatrices_3" targetport="in1">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="broadcastOutput" sourceport="out6"
-            target="broadcastOutput_end_output1_1536" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="accumulateMatrices_6_init_runningTotal"
-            sourceport="out0" target="accumulateMatrices_6" targetport="in1">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="broadcastOutput" sourceport="out7"
-            target="broadcastOutput_end_output1_3072" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="accumulateMatrices_1_init_runningTotal"
@@ -2031,24 +1894,192 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="broadcastOutput" sourceport="out8"
-            target="broadcastOutput_end_output1_512" targetport="in0">
+        <edge source="broadcastOutput" sourceport="out2"
+            target="broadcastOutput_end_output1_2048" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">512</data>
-            <data key="edge_prod">512</data>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">512</data>
+            <data key="edge_cons">2048</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="accumulateMatrices_7_init_runningTotal"
+            sourceport="out0" target="accumulateMatrices_7" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">2048</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastOutput" sourceport="out3"
+            target="broadcastOutput_end_output1_14336" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">2048</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="accumulateMatrices_3_init_runningTotal"
+            sourceport="out0" target="accumulateMatrices_3" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">2048</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastOutput" sourceport="out4"
+            target="broadcastOutput_end_output1_6144" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">2048</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="accumulateMatrices_6_init_runningTotal"
+            sourceport="out0" target="accumulateMatrices_6" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">2048</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastOutput" sourceport="out5"
+            target="broadcastOutput_end_output1_12288" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">2048</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="accumulateMatrices_0_init_runningTotal"
+            sourceport="out0" target="accumulateMatrices_0" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">2048</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastOutput" sourceport="out6"
+            target="broadcastOutput_end_output1_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">2048</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="accumulateMatrices_2_init_runningTotal"
+            sourceport="out0" target="accumulateMatrices_2" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">2048</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastOutput" sourceport="out7"
+            target="broadcastOutput_end_output1_4096" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">2048</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="accumulateMatrices_5_init_runningTotal"
+            sourceport="out0" target="accumulateMatrices_5" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">2048</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastOutput" sourceport="out8"
+            target="broadcastOutput_end_output1_10240" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">2048</data>
+            <data key="edge_prod">2048</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">2048</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="displayMatrices_init_countIn" sourceport="out0"
@@ -2848,232 +2879,6 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="accumulateMatrices_7_init_runningTotal"
-            sourceport="out1"
-            target="s_accumulateMatrices_7_init_runningTotalaccumulateMatrices_7_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="s_accumulateMatrices_7_init_runningTotalaccumulateMatrices_7_0"
-            sourceport="out0"
-            target="r_accumulateMatrices_7_init_runningTotalaccumulateMatrices_7_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="r_accumulateMatrices_7_init_runningTotalaccumulateMatrices_7_0"
-            sourceport="out0" target="accumulateMatrices_7" targetport="in3">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="accumulateMatrices_5_init_runningTotal"
-            sourceport="out1"
-            target="s_accumulateMatrices_5_init_runningTotalaccumulateMatrices_5_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="s_accumulateMatrices_5_init_runningTotalaccumulateMatrices_5_0"
-            sourceport="out0"
-            target="r_accumulateMatrices_5_init_runningTotalaccumulateMatrices_5_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="r_accumulateMatrices_5_init_runningTotalaccumulateMatrices_5_0"
-            sourceport="out0" target="accumulateMatrices_5" targetport="in3">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="broadcastOutput" sourceport="out10"
-            target="s_broadcastOutputbroadcastOutput_end_output1_2560_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="s_broadcastOutputbroadcastOutput_end_output1_2560_0"
-            sourceport="out0"
-            target="r_broadcastOutputbroadcastOutput_end_output1_2560_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="r_broadcastOutputbroadcastOutput_end_output1_2560_0"
-            sourceport="out0" target="broadcastOutput_end_output1_2560" targetport="in1">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="accumulateMatrices_0_init_runningTotal"
-            sourceport="out1"
-            target="s_accumulateMatrices_0_init_runningTotalaccumulateMatrices_0_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="s_accumulateMatrices_0_init_runningTotalaccumulateMatrices_0_0"
-            sourceport="out0"
-            target="r_accumulateMatrices_0_init_runningTotalaccumulateMatrices_0_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="r_accumulateMatrices_0_init_runningTotalaccumulateMatrices_0_0"
-            sourceport="out0" target="accumulateMatrices_0" targetport="in2">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="broadcastOutput" sourceport="out11"
-            target="s_broadcastOutputbroadcastOutput_end_output1_0_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="s_broadcastOutputbroadcastOutput_end_output1_0_0"
-            sourceport="out0"
-            target="r_broadcastOutputbroadcastOutput_end_output1_0_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="r_broadcastOutputbroadcastOutput_end_output1_0_0"
-            sourceport="out0" target="broadcastOutput_end_output1_0" targetport="in1">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
         <edge source="accumulateMatrices_4_init_runningTotal"
             sourceport="out1"
             target="s_accumulateMatrices_4_init_runningTotalaccumulateMatrices_4_0" targetport="in0">
@@ -3108,278 +2913,6 @@
         <edge
             source="r_accumulateMatrices_4_init_runningTotalaccumulateMatrices_4_0"
             sourceport="out0" target="accumulateMatrices_4" targetport="in3">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="broadcastOutput" sourceport="out12"
-            target="s_broadcastOutputbroadcastOutput_end_output1_2048_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="s_broadcastOutputbroadcastOutput_end_output1_2048_0"
-            sourceport="out0"
-            target="r_broadcastOutputbroadcastOutput_end_output1_2048_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="r_broadcastOutputbroadcastOutput_end_output1_2048_0"
-            sourceport="out0" target="broadcastOutput_end_output1_2048" targetport="in1">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="accumulateMatrices_2_init_runningTotal"
-            sourceport="out1"
-            target="s_accumulateMatrices_2_init_runningTotalaccumulateMatrices_2_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="s_accumulateMatrices_2_init_runningTotalaccumulateMatrices_2_0"
-            sourceport="out0"
-            target="r_accumulateMatrices_2_init_runningTotalaccumulateMatrices_2_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="r_accumulateMatrices_2_init_runningTotalaccumulateMatrices_2_0"
-            sourceport="out0" target="accumulateMatrices_2" targetport="in3">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="broadcastOutput" sourceport="out13"
-            target="s_broadcastOutputbroadcastOutput_end_output1_1024_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="s_broadcastOutputbroadcastOutput_end_output1_1024_0"
-            sourceport="out0"
-            target="r_broadcastOutputbroadcastOutput_end_output1_1024_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="r_broadcastOutputbroadcastOutput_end_output1_1024_0"
-            sourceport="out0" target="broadcastOutput_end_output1_1024" targetport="in1">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="broadcastOutput" sourceport="out14"
-            target="s_broadcastOutputbroadcastOutput_end_output1_1536_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="s_broadcastOutputbroadcastOutput_end_output1_1536_0"
-            sourceport="out0"
-            target="r_broadcastOutputbroadcastOutput_end_output1_1536_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="r_broadcastOutputbroadcastOutput_end_output1_1536_0"
-            sourceport="out0" target="broadcastOutput_end_output1_1536" targetport="in1">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="accumulateMatrices_6_init_runningTotal"
-            sourceport="out1"
-            target="s_accumulateMatrices_6_init_runningTotalaccumulateMatrices_6_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="s_accumulateMatrices_6_init_runningTotalaccumulateMatrices_6_0"
-            sourceport="out0"
-            target="r_accumulateMatrices_6_init_runningTotalaccumulateMatrices_6_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="r_accumulateMatrices_6_init_runningTotalaccumulateMatrices_6_0"
-            sourceport="out0" target="accumulateMatrices_6" targetport="in3">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="broadcastOutput" sourceport="out15"
-            target="s_broadcastOutputbroadcastOutput_end_output1_3072_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="s_broadcastOutputbroadcastOutput_end_output1_3072_0"
-            sourceport="out0"
-            target="r_broadcastOutputbroadcastOutput_end_output1_3072_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="r_broadcastOutputbroadcastOutput_end_output1_3072_0"
-            sourceport="out0" target="broadcastOutput_end_output1_3072" targetport="in1">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -3438,8 +2971,8 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="broadcastOutput" sourceport="out16"
-            target="s_broadcastOutputbroadcastOutput_end_output1_512_0" targetport="in0">
+        <edge source="broadcastOutput" sourceport="out10"
+            target="s_broadcastOutputbroadcastOutput_end_output1_2048_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -3453,9 +2986,9 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="s_broadcastOutputbroadcastOutput_end_output1_512_0"
+            source="s_broadcastOutputbroadcastOutput_end_output1_2048_0"
             sourceport="out0"
-            target="r_broadcastOutputbroadcastOutput_end_output1_512_0" targetport="in0">
+            target="r_broadcastOutputbroadcastOutput_end_output1_2048_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -3469,8 +3002,552 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="r_broadcastOutputbroadcastOutput_end_output1_512_0"
-            sourceport="out0" target="broadcastOutput_end_output1_512" targetport="in1">
+            source="r_broadcastOutputbroadcastOutput_end_output1_2048_0"
+            sourceport="out0" target="broadcastOutput_end_output1_2048" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="accumulateMatrices_7_init_runningTotal"
+            sourceport="out1"
+            target="s_accumulateMatrices_7_init_runningTotalaccumulateMatrices_7_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_accumulateMatrices_7_init_runningTotalaccumulateMatrices_7_0"
+            sourceport="out0"
+            target="r_accumulateMatrices_7_init_runningTotalaccumulateMatrices_7_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_accumulateMatrices_7_init_runningTotalaccumulateMatrices_7_0"
+            sourceport="out0" target="accumulateMatrices_7" targetport="in3">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastOutput" sourceport="out11"
+            target="s_broadcastOutputbroadcastOutput_end_output1_14336_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_broadcastOutputbroadcastOutput_end_output1_14336_0"
+            sourceport="out0"
+            target="r_broadcastOutputbroadcastOutput_end_output1_14336_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_broadcastOutputbroadcastOutput_end_output1_14336_0"
+            sourceport="out0" target="broadcastOutput_end_output1_14336" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="accumulateMatrices_3_init_runningTotal"
+            sourceport="out1"
+            target="s_accumulateMatrices_3_init_runningTotalaccumulateMatrices_3_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_accumulateMatrices_3_init_runningTotalaccumulateMatrices_3_0"
+            sourceport="out0"
+            target="r_accumulateMatrices_3_init_runningTotalaccumulateMatrices_3_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_accumulateMatrices_3_init_runningTotalaccumulateMatrices_3_0"
+            sourceport="out0" target="accumulateMatrices_3" targetport="in3">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastOutput" sourceport="out12"
+            target="s_broadcastOutputbroadcastOutput_end_output1_6144_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_broadcastOutputbroadcastOutput_end_output1_6144_0"
+            sourceport="out0"
+            target="r_broadcastOutputbroadcastOutput_end_output1_6144_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_broadcastOutputbroadcastOutput_end_output1_6144_0"
+            sourceport="out0" target="broadcastOutput_end_output1_6144" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="accumulateMatrices_6_init_runningTotal"
+            sourceport="out1"
+            target="s_accumulateMatrices_6_init_runningTotalaccumulateMatrices_6_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_accumulateMatrices_6_init_runningTotalaccumulateMatrices_6_0"
+            sourceport="out0"
+            target="r_accumulateMatrices_6_init_runningTotalaccumulateMatrices_6_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_accumulateMatrices_6_init_runningTotalaccumulateMatrices_6_0"
+            sourceport="out0" target="accumulateMatrices_6" targetport="in3">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastOutput" sourceport="out13"
+            target="s_broadcastOutputbroadcastOutput_end_output1_12288_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_broadcastOutputbroadcastOutput_end_output1_12288_0"
+            sourceport="out0"
+            target="r_broadcastOutputbroadcastOutput_end_output1_12288_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_broadcastOutputbroadcastOutput_end_output1_12288_0"
+            sourceport="out0" target="broadcastOutput_end_output1_12288" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="accumulateMatrices_0_init_runningTotal"
+            sourceport="out1"
+            target="s_accumulateMatrices_0_init_runningTotalaccumulateMatrices_0_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_accumulateMatrices_0_init_runningTotalaccumulateMatrices_0_0"
+            sourceport="out0"
+            target="r_accumulateMatrices_0_init_runningTotalaccumulateMatrices_0_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_accumulateMatrices_0_init_runningTotalaccumulateMatrices_0_0"
+            sourceport="out0" target="accumulateMatrices_0" targetport="in2">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastOutput" sourceport="out14"
+            target="s_broadcastOutputbroadcastOutput_end_output1_0_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_broadcastOutputbroadcastOutput_end_output1_0_0"
+            sourceport="out0"
+            target="r_broadcastOutputbroadcastOutput_end_output1_0_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_broadcastOutputbroadcastOutput_end_output1_0_0"
+            sourceport="out0" target="broadcastOutput_end_output1_0" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="accumulateMatrices_2_init_runningTotal"
+            sourceport="out1"
+            target="s_accumulateMatrices_2_init_runningTotalaccumulateMatrices_2_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_accumulateMatrices_2_init_runningTotalaccumulateMatrices_2_0"
+            sourceport="out0"
+            target="r_accumulateMatrices_2_init_runningTotalaccumulateMatrices_2_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_accumulateMatrices_2_init_runningTotalaccumulateMatrices_2_0"
+            sourceport="out0" target="accumulateMatrices_2" targetport="in3">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastOutput" sourceport="out15"
+            target="s_broadcastOutputbroadcastOutput_end_output1_4096_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_broadcastOutputbroadcastOutput_end_output1_4096_0"
+            sourceport="out0"
+            target="r_broadcastOutputbroadcastOutput_end_output1_4096_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_broadcastOutputbroadcastOutput_end_output1_4096_0"
+            sourceport="out0" target="broadcastOutput_end_output1_4096" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="accumulateMatrices_5_init_runningTotal"
+            sourceport="out1"
+            target="s_accumulateMatrices_5_init_runningTotalaccumulateMatrices_5_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_accumulateMatrices_5_init_runningTotalaccumulateMatrices_5_0"
+            sourceport="out0"
+            target="r_accumulateMatrices_5_init_runningTotalaccumulateMatrices_5_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_accumulateMatrices_5_init_runningTotalaccumulateMatrices_5_0"
+            sourceport="out0" target="accumulateMatrices_5" targetport="in3">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastOutput" sourceport="out16"
+            target="s_broadcastOutputbroadcastOutput_end_output1_10240_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_broadcastOutputbroadcastOutput_end_output1_10240_0"
+            sourceport="out0"
+            target="r_broadcastOutputbroadcastOutput_end_output1_10240_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_broadcastOutputbroadcastOutput_end_output1_10240_0"
+            sourceport="out0" target="broadcastOutput_end_output1_10240" targetport="in1">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
