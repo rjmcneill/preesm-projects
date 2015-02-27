@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scenario>
     <files>
-        <algorithm url="/crossCoreAccumulationFinal/Algo/addition.pi"/>
-        <architecture url="/crossCoreAccumulationFinal/Archi/8CoreC6678.slam"/>
-        <codegenDirectory url="/crossCoreAccumulationFinal/Code6678/generated"/>
+        <algorithm url="/crossCoreAccumulationFinalMemOpt/Algo/addition.pi"/>
+        <architecture url="/crossCoreAccumulationFinalMemOpt/Archi/8CoreC6678.slam"/>
+        <codegenDirectory url="/crossCoreAccumulationFinalMemOpt/Code6678/generated"/>
     </files>
     <constraints excelUrl="">
         <constraintGroup>
-            <operator name="Core2"/>
-            <task name="addition/accumulateMatrices"/>
-        </constraintGroup>
-        <constraintGroup>
-            <operator name="Core7"/>
-            <task name="addition/accumulateMatrices"/>
-        </constraintGroup>
-        <constraintGroup>
             <operator name="Core3"/>
+            <task name="addition/accumulateMatrices"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core1"/>
             <task name="addition/accumulateMatrices"/>
         </constraintGroup>
         <constraintGroup>
@@ -27,19 +23,23 @@
             <task name="addition"/>
         </constraintGroup>
         <constraintGroup>
-            <operator name="Core1"/>
-            <task name="addition/accumulateMatrices"/>
-        </constraintGroup>
-        <constraintGroup>
             <operator name="Core6"/>
             <task name="addition/accumulateMatrices"/>
         </constraintGroup>
         <constraintGroup>
-            <operator name="Core4"/>
+            <operator name="Core7"/>
             <task name="addition/accumulateMatrices"/>
         </constraintGroup>
         <constraintGroup>
             <operator name="Core5"/>
+            <task name="addition/accumulateMatrices"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core2"/>
+            <task name="addition/accumulateMatrices"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core4"/>
             <task name="addition/accumulateMatrices"/>
         </constraintGroup>
     </constraints>
@@ -52,7 +52,6 @@
         <mainComNode>shared_mem</mainComNode>
         <averageDataSize>1000</averageDataSize>
         <dataTypes>
-            <dataType name="int" size="4"/>
             <dataType name="double" size="8"/>
             <dataType name="long" size="4"/>
         </dataTypes>

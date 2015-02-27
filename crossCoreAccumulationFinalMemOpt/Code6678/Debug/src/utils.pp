@@ -162,7 +162,7 @@ src/utils.obj: C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/package/System_Sup
 src/utils.obj: C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/package/System_Module_GateProxy.h
 src/utils.obj: C:/ti/ipc_1_24_03_32/packages/ti/ipc/MultiProc.h
 src/utils.obj: C:/ti/xdctools_3_23_04_60/packages/xdc/cfg/global.h
-src/utils.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/Debug/configPkg/package/cfg/modelPreesm_pe66.h
+src/utils.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/Debug/configPkg/package/cfg/modelPreesm_pe66.h
 src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_xmcAux.h
 src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_xmc.h
 src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/soc.h
@@ -179,8 +179,8 @@ src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr_cgem.h
 src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_semAux.h
 src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_sem.h
 src/utils.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr_sem.h
-src/utils.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/utils.h
-src/utils.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/communication.h
+src/utils.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/utils.h
+src/utils.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/communication.h
 
 ../src/utils.c: 
 C:/ti/bios_6_33_06_50/packages/ti/sysbios/knl/Task.h: 
@@ -344,7 +344,7 @@ C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/package/System_SupportProxy.h:
 C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/package/System_Module_GateProxy.h: 
 C:/ti/ipc_1_24_03_32/packages/ti/ipc/MultiProc.h: 
 C:/ti/xdctools_3_23_04_60/packages/xdc/cfg/global.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/Debug/configPkg/package/cfg/modelPreesm_pe66.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/Debug/configPkg/package/cfg/modelPreesm_pe66.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_xmcAux.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_xmc.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/soc.h: 
@@ -361,5 +361,5 @@ C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr_cgem.h:
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_semAux.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_sem.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr_sem.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/utils.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/communication.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/utils.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/communication.h: 

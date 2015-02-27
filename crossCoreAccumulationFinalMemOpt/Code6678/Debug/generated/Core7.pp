@@ -1,12 +1,12 @@
 # FIXED
 
 generated/Core7.obj: ../generated/Core7.c
-generated/Core7.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/cores.h
-generated/Core7.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/../src/c6678.h
-generated/Core7.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/../src/generateMatrices.h
-generated/Core7.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/../src/accumulateMatrices.h
-generated/Core7.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/../src/displayMatrix.h
-generated/Core7.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/utils.h
+generated/Core7.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/cores.h
+generated/Core7.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/../src/c6678.h
+generated/Core7.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/../src/generateMatrices.h
+generated/Core7.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/../src/accumulateMatrices.h
+generated/Core7.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/../src/displayMatrix.h
+generated/Core7.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/utils.h
 generated/Core7.obj: C:/ti/xdctools_3_23_04_60/packages/xdc/std.h
 generated/Core7.obj: C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stdarg.h
 generated/Core7.obj: C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stddef.h
@@ -14,9 +14,9 @@ generated/Core7.obj: C:/ti/xdctools_3_23_04_60/packages/ti/targets/elf/std.h
 generated/Core7.obj: C:/ti/xdctools_3_23_04_60/packages/ti/targets/elf/C66.h
 generated/Core7.obj: C:/ti/xdctools_3_23_04_60/packages/ti/targets/std.h
 generated/Core7.obj: C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stdint.h
-generated/Core7.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/communication.h
-generated/Core7.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/fifo.h
-generated/Core7.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/cache.h
+generated/Core7.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/communication.h
+generated/Core7.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/fifo.h
+generated/Core7.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/cache.h
 generated/Core7.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cacheAux.h
 generated/Core7.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cache.h
 generated/Core7.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl.h
@@ -99,12 +99,12 @@ generated/Core7.obj: C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/package/Syst
 generated/Core7.obj: C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/package/System_Module_GateProxy.h
 
 ../generated/Core7.c: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/cores.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/../src/c6678.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/../src/generateMatrices.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/../src/accumulateMatrices.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/../src/displayMatrix.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/utils.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/cores.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/../src/c6678.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/../src/generateMatrices.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/../src/accumulateMatrices.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/../src/displayMatrix.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/utils.h: 
 C:/ti/xdctools_3_23_04_60/packages/xdc/std.h: 
 C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stdarg.h: 
 C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stddef.h: 
@@ -112,9 +112,9 @@ C:/ti/xdctools_3_23_04_60/packages/ti/targets/elf/std.h:
 C:/ti/xdctools_3_23_04_60/packages/ti/targets/elf/C66.h: 
 C:/ti/xdctools_3_23_04_60/packages/ti/targets/std.h: 
 C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stdint.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/communication.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/fifo.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/cache.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/communication.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/fifo.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/cache.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cacheAux.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cache.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl.h: 

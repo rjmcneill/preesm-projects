@@ -1,7 +1,7 @@
 # FIXED
 
 src/semaphore6678.obj: ../src/semaphore6678.c
-src/semaphore6678.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/semaphore6678.h
+src/semaphore6678.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/semaphore6678.h
 src/semaphore6678.obj: C:/ti/xdctools_3_23_04_60/packages/xdc/std.h
 src/semaphore6678.obj: C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stdarg.h
 src/semaphore6678.obj: C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stddef.h
@@ -10,7 +10,7 @@ src/semaphore6678.obj: C:/ti/xdctools_3_23_04_60/packages/ti/targets/elf/C66.h
 src/semaphore6678.obj: C:/ti/xdctools_3_23_04_60/packages/ti/targets/std.h
 src/semaphore6678.obj: C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stdint.h
 src/semaphore6678.obj: C:/ti/ipc_1_24_03_32/packages/ti/ipc/GateMP.h
-src/semaphore6678.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/cache.h
+src/semaphore6678.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/cache.h
 src/semaphore6678.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cacheAux.h
 src/semaphore6678.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cache.h
 src/semaphore6678.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl.h
@@ -114,7 +114,7 @@ src/semaphore6678.obj: C:/ti/bios_6_33_06_50/packages/ti/sysbios/hal/package/Hwi
 src/semaphore6678.obj: C:/ti/ipc_1_24_03_32/packages/ti/ipc/MultiProc.h
 
 ../src/semaphore6678.c: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/semaphore6678.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/semaphore6678.h: 
 C:/ti/xdctools_3_23_04_60/packages/xdc/std.h: 
 C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stdarg.h: 
 C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stddef.h: 
@@ -123,7 +123,7 @@ C:/ti/xdctools_3_23_04_60/packages/ti/targets/elf/C66.h:
 C:/ti/xdctools_3_23_04_60/packages/ti/targets/std.h: 
 C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stdint.h: 
 C:/ti/ipc_1_24_03_32/packages/ti/ipc/GateMP.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/cache.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/include/cache.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cacheAux.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cache.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl.h: 

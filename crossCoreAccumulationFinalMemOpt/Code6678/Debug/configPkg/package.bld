@@ -11,7 +11,7 @@ var makeAssembly = false;
 var Executable = xdc.module('xdc.bld.Executable');
 
 var exeOpts = new Executable.Attrs({
-        cfgScript: 'C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreAccumulationFinal/Code6678/modelPreesm.cfg',
+        cfgScript: 'C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/modelPreesm.cfg',
         profile: 'release',
         cfgHome: 'configPkg',
 });
@@ -48,7 +48,7 @@ else {
 
 var thisObj = {
     cfg:        '../modelPreesm.cfg',
-    outputPath: 'C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreAccumulationFinal/Code6678/Debug/configPkg',
+    outputPath: 'C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreAccumulationFinalMemOpt/Code6678/Debug/configPkg',
     exeName:    'modelPreesm' + suffix,
     exeIntName: 'modelPreesm' + suffix.replace('.', '_'),
     targ:       targ,

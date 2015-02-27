@@ -23,7 +23,7 @@
             <variable name="squaredSize" value="128"/>
         </data>
         <node id="generateMatrices">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@12fa64e</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@61e522</data>
             <data key="name">generateMatrices</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
@@ -33,7 +33,7 @@
             </data>
         </node>
         <node id="accumulateMatrices_0">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@14f5ae0</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@10a58ec</data>
             <data key="name">accumulateMatrices_0</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
@@ -43,7 +43,7 @@
             </data>
         </node>
         <node id="accumulateMatrices_1">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@14f5ae0</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@10a58ec</data>
             <data key="name">accumulateMatrices_1</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
@@ -53,7 +53,7 @@
             </data>
         </node>
         <node id="accumulateMatrices_2">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@14f5ae0</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@10a58ec</data>
             <data key="name">accumulateMatrices_2</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
@@ -63,7 +63,7 @@
             </data>
         </node>
         <node id="accumulateMatrices_3">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@14f5ae0</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@10a58ec</data>
             <data key="name">accumulateMatrices_3</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
@@ -73,7 +73,7 @@
             </data>
         </node>
         <node id="accumulateMatrices_4">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@14f5ae0</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@10a58ec</data>
             <data key="name">accumulateMatrices_4</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
@@ -83,7 +83,7 @@
             </data>
         </node>
         <node id="accumulateMatrices_5">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@14f5ae0</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@10a58ec</data>
             <data key="name">accumulateMatrices_5</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
@@ -93,7 +93,7 @@
             </data>
         </node>
         <node id="accumulateMatrices_6">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@14f5ae0</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@10a58ec</data>
             <data key="name">accumulateMatrices_6</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
@@ -103,7 +103,7 @@
             </data>
         </node>
         <node id="accumulateMatrices_7">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@14f5ae0</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@10a58ec</data>
             <data key="name">accumulateMatrices_7</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
@@ -113,7 +113,7 @@
             </data>
         </node>
         <node id="displayMatrices">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@d7623e</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@5420c0</data>
             <data key="name">displayMatrices</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
