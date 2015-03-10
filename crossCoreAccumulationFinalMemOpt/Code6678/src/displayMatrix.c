@@ -20,7 +20,7 @@ void display (int rows, int columns, long *outputArray, double *startTime, long 
 	unsigned long long	endClockCycles;
 	double				endTime, timeTaken;
 
-	unsigned long		required = 1;
+	unsigned long		required = 1000;
 
 	Timestamp_get64(&endTime64);
 	Timestamp_getFreq(&freq);

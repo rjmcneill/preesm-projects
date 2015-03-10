@@ -8,7 +8,7 @@
     <key attr.name="delay" attr.type="string" for="edge"/>
     <graph edgedefault="directed">
         <data key="name">addition</data>
-        <node expr="128" id="squaredSize" kind="param"/>
+        <node expr="4096" id="squaredSize" kind="param"/>
         <node id="generateMatrices" kind="actor">
             <data key="graph_desc">Code/src/generateMatrices.h</data>
             <loop name="generate">
