@@ -10,21 +10,24 @@ Description :
 #include <stdio.h>
 
 
-void multiply (int rowsA, int columnsA, int depthA, int rowsB, int columnsB, int depthB, int *arrayA, int *arrayB, int *arrayC)
+void multiply (int rowsA, int columnsA, int depthA, int rowsB, int columnsB, int depthB, int *arrayA, int *arrayB, long *arrayC)
 {
 	int i, j , k, l;
 
-	for (i = 0; i < depthA; i++)
+	for (i = 0; i < (rowsA/8); i++)
 	{
-		for (j = 0; j < rowsA; j++)
+		for (j = 0; j < columnsB; j++)
 		{
-			for (k = 0; k < columnsB; k++)
+			for (k = 0; k < columnsA; k++)
 			{
-				for (l = 0; l < columnsA; l++)
+				if (k == 0)			// Takes away the need to initialise the memory
 				{
-					*((arrayC+i*rowsA*columnsB+j*rowsA) + k) = (*((arrayC+i*rowsA*columnsB+j*rowsA) + k) + ((*((arrayA+i*rowsA*columnsB+j*columnsB) + l)) * (*((arrayB+i*rowsA*columnsB+l*columnsB) + k))));
+					*((arrayC+i*columnsB) + j) = ((*((arrayA+i*columnsA) + k)) * (*((arrayB+k*columnsB) + j)));
 				}
-				//*((arrayC+i*columnsB) + j) = ((*((arrayC+i*columnsB) + j)) + ((*((arrayA+i*columnsB) + k)) * (*((arrayB+k*columnsB) + j))));
+				else
+				{
+					*((arrayC+i*columnsB) + j) = ((*((arrayC+i*columnsB) + j)) + ((*((arrayA+i*columnsA) + k)) * (*((arrayB+k*columnsB) + j))));
+				}
 			}
 		}
 	}

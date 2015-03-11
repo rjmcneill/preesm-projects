@@ -8,8 +8,8 @@
 #ifndef C6678_H_
 #define C6678_H_
 
-#include "generateMatrices.h"
-#include "accumulateMatrices.h"
-#include "displayMatrix.h"
+#include "generateTensors.h"
+#include "multiplyTensors.h"
+#include "displayTensor.h"
 
 #endif /* C6678_H_ */

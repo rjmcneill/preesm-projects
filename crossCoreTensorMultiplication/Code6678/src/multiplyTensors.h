@@ -26,5 +26,5 @@ Description :
 *        Input arrayB
 */
 
-void multiply (int rowsA, int columnsA, int depthA, int rowsB, int columnsB, int depthB, int *arrayA, int *arrayB, int *arrayC);
+void multiply (int rowsA, int columnsA, int depthA, int rowsB, int columnsB, int depthB, int *arrayA, int *arrayB, long *arrayC);
 #endif /* MULTIPLYMATRICES_H_ */

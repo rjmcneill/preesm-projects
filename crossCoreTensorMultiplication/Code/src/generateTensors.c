@@ -32,9 +32,8 @@ void generate (int rowsA, int columnsA, int depthA, int rowsB, int columnsB, int
 			}
 			generationCount++;
 		}
+		generationCount = 1;
 	}
-
-	generationCount = 1;
 
 	for (i = 0; i < depthB; i++)			// Generate array B
 	{
@@ -46,6 +45,7 @@ void generate (int rowsA, int columnsA, int depthA, int rowsB, int columnsB, int
 			}
 			generationCount++;
 		}
+		generationCount = 1;
 	}
 
 	Timestamp_getFreq(&freq);

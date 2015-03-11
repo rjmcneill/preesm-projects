@@ -7,27 +7,27 @@
     </files>
     <constraints excelUrl="">
         <constraintGroup>
+            <operator name="Core0"/>
+            <task name="multiply/displayTensor"/>
+            <task name="multiply/broadcastTensorB"/>
+            <task name="multiply/multiplyTensors"/>
+            <task name="multiply/generateTensors"/>
+            <task name="multiply"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core2"/>
+            <task name="multiply/multiplyTensors"/>
+        </constraintGroup>
+        <constraintGroup>
             <operator name="Core3"/>
             <task name="multiply/multiplyTensors"/>
         </constraintGroup>
         <constraintGroup>
-            <operator name="Core5"/>
-            <task name="multiply/multiplyTensors"/>
-        </constraintGroup>
-        <constraintGroup>
-            <operator name="Core0"/>
-            <task name="multiply/displayTensor"/>
-            <task name="multiply/multiplyTensors"/>
-            <task name="multiply/generateTensors"/>
-            <task name="multiply"/>
-            <task name="multiply/broadcastArrayB"/>
-        </constraintGroup>
-        <constraintGroup>
-            <operator name="Core4"/>
-            <task name="multiply/multiplyTensors"/>
-        </constraintGroup>
-        <constraintGroup>
             <operator name="Core1"/>
+            <task name="multiply/multiplyTensors"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core5"/>
             <task name="multiply/multiplyTensors"/>
         </constraintGroup>
         <constraintGroup>
@@ -39,7 +39,7 @@
             <task name="multiply/multiplyTensors"/>
         </constraintGroup>
         <constraintGroup>
-            <operator name="Core2"/>
+            <operator name="Core4"/>
             <task name="multiply/multiplyTensors"/>
         </constraintGroup>
     </constraints>
@@ -53,8 +53,8 @@
         <averageDataSize>1000</averageDataSize>
         <dataTypes>
             <dataType name="int" size="4"/>
-            <dataType name="double" size="8"/>
             <dataType name="long" size="4"/>
+            <dataType name="double" size="8"/>
         </dataTypes>
         <specialVertexOperators>
             <specialVertexOperator path="Core7"/>

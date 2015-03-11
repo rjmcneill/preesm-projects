@@ -41,7 +41,7 @@
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[Core0]</data>
-            <data key="originalId">1eeb3105-2747-4dcb-b967-abf8c0d9f105</data>
+            <data key="originalId">1f3070c6-8f01-40f8-92ea-516dd27f593e</data>
             <data key="duration">-1</data>
             <data key="schedulingOrder">0</data>
             <data key="Operator">Core0</data>
@@ -56,11 +56,11 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core4, Core7, Core3, Core2, Core5, Core6, Core0, Core1]</data>
-            <data key="originalId">5f4d9d91-0a71-42c2-914e-a801613268cd</data>
+            <data key="availableOperators">[Core7, Core2, Core0, Core6, Core3, Core4, Core1, Core5]</data>
+            <data key="originalId">5f5e67c4-44ea-45b5-8f24-c0e110db7674</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">33</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">63</data>
+            <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
@@ -72,10 +72,10 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core4, Core7, Core3, Core2, Core5, Core6, Core0, Core1]</data>
-            <data key="originalId">274c9986-5040-43ce-9507-cf75b55cc50c</data>
+            <data key="availableOperators">[Core7, Core2, Core0, Core6, Core3, Core4, Core1, Core5]</data>
+            <data key="originalId">eec92d2d-1874-45c5-a917-c0f56c87cf72</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">36</data>
+            <data key="schedulingOrder">64</data>
             <data key="Operator">Core2</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
@@ -88,11 +88,11 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core4, Core7, Core3, Core2, Core5, Core6, Core0, Core1]</data>
-            <data key="originalId">4c7545dc-54a0-48a8-8ad2-79640e961028</data>
+            <data key="availableOperators">[Core7, Core2, Core0, Core6, Core3, Core4, Core1, Core5]</data>
+            <data key="originalId">c872f56b-a21f-4042-8473-36e6fad00961</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">39</data>
-            <data key="Operator">Core5</data>
+            <data key="schedulingOrder">83</data>
+            <data key="Operator">Core1</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
@@ -104,11 +104,11 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core4, Core7, Core3, Core2, Core5, Core6, Core0, Core1]</data>
-            <data key="originalId">a3a5f24f-9f55-41cd-a634-112917aba565</data>
+            <data key="availableOperators">[Core7, Core2, Core0, Core6, Core3, Core4, Core1, Core5]</data>
+            <data key="originalId">0d460731-efb9-40be-86f3-180f74920028</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">42</data>
-            <data key="Operator">Core4</data>
+            <data key="schedulingOrder">86</data>
+            <data key="Operator">Core5</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
@@ -120,11 +120,11 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core4, Core7, Core3, Core2, Core5, Core6, Core0, Core1]</data>
-            <data key="originalId">6e83141a-f8f1-44c5-ab1e-b9200afb7d15</data>
+            <data key="availableOperators">[Core7, Core2, Core0, Core6, Core3, Core4, Core1, Core5]</data>
+            <data key="originalId">33e1a3be-53a2-461a-b8dc-05ac21a18b47</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">45</data>
-            <data key="Operator">Core3</data>
+            <data key="schedulingOrder">89</data>
+            <data key="Operator">Core6</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
@@ -136,11 +136,11 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core4, Core7, Core3, Core2, Core5, Core6, Core0, Core1]</data>
-            <data key="originalId">811424bc-bdd2-4e00-be13-78765ae1e347</data>
+            <data key="availableOperators">[Core7, Core2, Core0, Core6, Core3, Core4, Core1, Core5]</data>
+            <data key="originalId">247523b3-b9b3-407e-8190-fe75b0471a8b</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">48</data>
-            <data key="Operator">Core6</data>
+            <data key="schedulingOrder">92</data>
+            <data key="Operator">Core2</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
@@ -152,10 +152,10 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core4, Core7, Core3, Core2, Core5, Core6, Core0, Core1]</data>
-            <data key="originalId">77f59b5d-c7d3-4f13-a1fb-01688ee1659d</data>
+            <data key="availableOperators">[Core7, Core2, Core0, Core6, Core3, Core4, Core1, Core5]</data>
+            <data key="originalId">c60f62bd-5bfd-4abe-9f30-e8ae84600cf7</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">51</data>
+            <data key="schedulingOrder">95</data>
             <data key="Operator">Core1</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
@@ -168,27 +168,171 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core4, Core7, Core3, Core2, Core5, Core6, Core0, Core1]</data>
-            <data key="originalId">86d41c76-b5bc-43d7-8073-88e1f47b4db3</data>
+            <data key="availableOperators">[Core7, Core2, Core0, Core6, Core3, Core4, Core1, Core5]</data>
+            <data key="originalId">133f1f6f-2943-43f9-bf72-07435e55e3fc</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">54</data>
+            <data key="schedulingOrder">98</data>
+            <data key="Operator">Core3</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="multiplyTensors_8" kind="vertex">
+            <data key="name">multiplyTensors_8</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core2, Core0, Core6, Core3, Core4, Core1, Core5]</data>
+            <data key="originalId">153beb31-44a1-4e18-b397-561bcce88e53</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">101</data>
+            <data key="Operator">Core4</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="multiplyTensors_9" kind="vertex">
+            <data key="name">multiplyTensors_9</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core2, Core0, Core6, Core3, Core4, Core1, Core5]</data>
+            <data key="originalId">72af18af-b9fd-4c0d-a620-22834336585c</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">104</data>
+            <data key="Operator">Core4</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="multiplyTensors_10" kind="vertex">
+            <data key="name">multiplyTensors_10</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core2, Core0, Core6, Core3, Core4, Core1, Core5]</data>
+            <data key="originalId">82b82a42-a1e2-41ba-8829-a926046b6d93</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">67</data>
+            <data key="Operator">Core3</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="multiplyTensors_11" kind="vertex">
+            <data key="name">multiplyTensors_11</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core2, Core0, Core6, Core3, Core4, Core1, Core5]</data>
+            <data key="originalId">2b19e9b0-4df3-4ab4-893c-4998909db87b</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">70</data>
+            <data key="Operator">Core6</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="multiplyTensors_12" kind="vertex">
+            <data key="name">multiplyTensors_12</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core2, Core0, Core6, Core3, Core4, Core1, Core5]</data>
+            <data key="originalId">1dd16bcb-c70d-499c-a6e9-befa6449baa4</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">73</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="broadcastTensorB" kind="Broadcast">
-            <data key="name">broadcastTensorB</data>
+        <node id="multiplyTensors_13" kind="vertex">
+            <data key="name">multiplyTensors_13</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core2, Core0, Core6, Core3, Core4, Core1, Core5]</data>
+            <data key="originalId">bd01f394-840d-4969-b36a-8ad7139d0725</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">74</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="multiplyTensors_14" kind="vertex">
+            <data key="name">multiplyTensors_14</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core2, Core0, Core6, Core3, Core4, Core1, Core5]</data>
+            <data key="originalId">6624da28-b77d-4728-b04e-96f6892fd99b</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">77</data>
+            <data key="Operator">Core5</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="multiplyTensors_15" kind="vertex">
+            <data key="name">multiplyTensors_15</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core2, Core0, Core6, Core3, Core4, Core1, Core5]</data>
+            <data key="originalId">a4d4df67-d4c9-4b89-a66a-f206d5ec70ac</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">80</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="broadcastTensorB_0" kind="Broadcast">
+            <data key="name">broadcastTensorB_0</data>
             <data key="kind">dag_broadcast_vertex</data>
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">a3d4aa77-3ce8-4e57-90f9-183484ffb6bf</data>
+            <data key="originalId">258f49c6-4e7b-4b1d-aee0-2457c5cfccbe</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">3</data>
+            <data key="schedulingOrder">35</data>
             <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="broadcastTensorB_1" kind="Broadcast">
+            <data key="name">broadcastTensorB_1</data>
+            <data key="kind">dag_broadcast_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
+            <data key="originalId">0cbd3e82-0d2d-4d79-b982-f12dd7c6dff5</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">50</data>
+            <data key="Operator">Core0</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
@@ -201,9 +345,25 @@
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[Core0]</data>
-            <data key="originalId">d2d84a22-06b7-4ce5-87f6-a639dd780883</data>
+            <data key="originalId">4c8cae77-64e7-4081-8245-e1f747cc4afc</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">58</data>
+            <data key="schedulingOrder">110</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="explode_generateTensors_arrayB" kind="fork">
+            <data key="name">explode_generateTensors_arrayB</data>
+            <data key="kind">dag_fork_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
+            <data key="originalId">067e9905-a4d2-49b9-8fdf-5fdeb183318a</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">32</data>
             <data key="Operator">Core0</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
@@ -217,10 +377,10 @@
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">8b936b25-4684-4fa5-b72f-fc96202a4145</data>
+            <data key="originalId">9d16ca5c-915f-40f4-ac7a-a5531995826c</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">18</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">3</data>
+            <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
@@ -233,20 +393,426 @@
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
-            <data key="originalId">1a72a227-c8d6-47b1-b1c4-1a08d1f6d3f7</data>
+            <data key="originalId">33eaa856-faf2-4a74-b016-7a33b090ad20</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">55</data>
+            <data key="schedulingOrder">107</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="s_generateTensorsbroadcastTensorB_0" kind="vertex">
-            <data key="name">s_generateTensorsbroadcastTensorB_0</data>
+        <node id="s_explode_generateTensors_arrayBbroadcastTensorB_0_0" kind="vertex">
+            <data key="name">s_explode_generateTensors_arrayBbroadcastTensorB_0_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">d8e9b4f4-bbee-4d97-845b-c8a8a73c03c3</data>
+            <data key="originalId">729068ac-3e36-499a-830b-464c989ef740</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">33</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_explode_generateTensors_arrayBbroadcastTensorB_0_0" kind="vertex">
+            <data key="name">r_explode_generateTensors_arrayBbroadcastTensorB_0_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">f2232f90-31cc-49ca-9983-5bceb23b89d5</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">34</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">broadcastTensorB_0</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_broadcastTensorB_0multiplyTensors_1_0" kind="vertex">
+            <data key="name">s_broadcastTensorB_0multiplyTensors_1_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">dcc3a31d-4f9b-4cdb-8ddf-c09e5c9e87b4</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">48</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_broadcastTensorB_0multiplyTensors_1_0" kind="vertex">
+            <data key="name">r_broadcastTensorB_0multiplyTensors_1_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">859adfaf-6a60-4c82-9654-00d5ec59ca2f</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">49</data>
+            <data key="Operator">Core2</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_1</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_broadcastTensorB_0multiplyTensors_2_0" kind="vertex">
+            <data key="name">s_broadcastTensorB_0multiplyTensors_2_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">00f34b3b-cc5c-4110-be6f-8603720b7c55</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">46</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_broadcastTensorB_0multiplyTensors_2_0" kind="vertex">
+            <data key="name">r_broadcastTensorB_0multiplyTensors_2_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">1fbba179-0f6d-45f2-9dca-0c4a2c02c1ab</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">47</data>
+            <data key="Operator">Core1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_2</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_broadcastTensorB_0multiplyTensors_3_0" kind="vertex">
+            <data key="name">s_broadcastTensorB_0multiplyTensors_3_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">173cd1a6-b84d-410b-9903-976a698384ff</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">44</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_broadcastTensorB_0multiplyTensors_3_0" kind="vertex">
+            <data key="name">r_broadcastTensorB_0multiplyTensors_3_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">0747875f-f950-441c-b739-dc3a888e686c</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">45</data>
+            <data key="Operator">Core5</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_3</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_broadcastTensorB_0multiplyTensors_4_0" kind="vertex">
+            <data key="name">s_broadcastTensorB_0multiplyTensors_4_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">d349930a-7578-41ba-a54b-25143a265710</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">42</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_broadcastTensorB_0multiplyTensors_4_0" kind="vertex">
+            <data key="name">r_broadcastTensorB_0multiplyTensors_4_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">bb1041ea-85ef-4324-adcd-0225ec2e895d</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">43</data>
+            <data key="Operator">Core6</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_4</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_broadcastTensorB_0multiplyTensors_5_0" kind="vertex">
+            <data key="name">s_broadcastTensorB_0multiplyTensors_5_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">e72ae049-8d87-4755-9473-f4ddc37c2572</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">40</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_broadcastTensorB_0multiplyTensors_5_0" kind="vertex">
+            <data key="name">r_broadcastTensorB_0multiplyTensors_5_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">0feac348-953e-4753-9379-5072fc3821cc</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">41</data>
+            <data key="Operator">Core2</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_5</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_broadcastTensorB_0multiplyTensors_6_0" kind="vertex">
+            <data key="name">s_broadcastTensorB_0multiplyTensors_6_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">e4ed965e-eb83-40e0-a701-dec795226b9c</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">38</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_broadcastTensorB_0multiplyTensors_6_0" kind="vertex">
+            <data key="name">r_broadcastTensorB_0multiplyTensors_6_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">54854b58-bf4f-4bcb-99ac-dfa13da24a60</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">39</data>
+            <data key="Operator">Core1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_6</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_broadcastTensorB_0multiplyTensors_7_0" kind="vertex">
+            <data key="name">s_broadcastTensorB_0multiplyTensors_7_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">93faf2e8-77c3-4262-921e-79f15e036cbf</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">36</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_broadcastTensorB_0multiplyTensors_7_0" kind="vertex">
+            <data key="name">r_broadcastTensorB_0multiplyTensors_7_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">4a163bbe-b757-4749-8da4-f1298fe3e68d</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">37</data>
+            <data key="Operator">Core3</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_7</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_broadcastTensorB_1multiplyTensors_8_0" kind="vertex">
+            <data key="name">s_broadcastTensorB_1multiplyTensors_8_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">de9cbb3e-0f4f-44d0-8038-332e4e32dec7</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">61</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_broadcastTensorB_1multiplyTensors_8_0" kind="vertex">
+            <data key="name">r_broadcastTensorB_1multiplyTensors_8_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">42215ef3-a4d2-4f87-b875-53442f064a8b</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">62</data>
+            <data key="Operator">Core4</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_8</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_broadcastTensorB_1multiplyTensors_9_0" kind="vertex">
+            <data key="name">s_broadcastTensorB_1multiplyTensors_9_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">b14c9d12-b768-45c8-a3dd-8d41590e7fe1</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">59</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_broadcastTensorB_1multiplyTensors_9_0" kind="vertex">
+            <data key="name">r_broadcastTensorB_1multiplyTensors_9_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">2cc478a2-fbe6-45ad-ae83-a11eb66796a1</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">60</data>
+            <data key="Operator">Core4</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_9</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_broadcastTensorB_1multiplyTensors_10_0" kind="vertex">
+            <data key="name">s_broadcastTensorB_1multiplyTensors_10_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">e5eabe17-c913-4800-8411-d163d5030ed6</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">57</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_broadcastTensorB_1multiplyTensors_10_0" kind="vertex">
+            <data key="name">r_broadcastTensorB_1multiplyTensors_10_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">33955ef2-cce5-47c5-87ea-0d317771fe0c</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">58</data>
+            <data key="Operator">Core3</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_10</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_broadcastTensorB_1multiplyTensors_11_0" kind="vertex">
+            <data key="name">s_broadcastTensorB_1multiplyTensors_11_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">4be97b5a-a64f-40ca-981f-e2d8d86a5c18</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">55</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_broadcastTensorB_1multiplyTensors_11_0" kind="vertex">
+            <data key="name">r_broadcastTensorB_1multiplyTensors_11_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">3b7dec12-014d-4d3b-9417-7c71d12ef7ff</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">56</data>
+            <data key="Operator">Core6</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_11</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_broadcastTensorB_1multiplyTensors_12_0" kind="vertex">
+            <data key="name">s_broadcastTensorB_1multiplyTensors_12_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">718cd163-5858-420e-9d5e-541fc09a9b38</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">53</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_broadcastTensorB_1multiplyTensors_12_0" kind="vertex">
+            <data key="name">r_broadcastTensorB_1multiplyTensors_12_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">fbe749ca-c102-4933-8544-9dcd0cf24ba5</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">54</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_12</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_broadcastTensorB_1multiplyTensors_14_0" kind="vertex">
+            <data key="name">s_broadcastTensorB_1multiplyTensors_14_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">63b3bd0b-d79b-4e2e-b0e5-66e9e63428d4</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">51</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_broadcastTensorB_1multiplyTensors_14_0" kind="vertex">
+            <data key="name">r_broadcastTensorB_1multiplyTensors_14_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">1222f4f5-86e8-48b8-9fe9-88ae3c0ffb77</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">52</data>
+            <data key="Operator">Core5</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">256</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_14</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_generateTensorsexplode_generateTensors_arrayA_0" kind="vertex">
+            <data key="name">s_generateTensorsexplode_generateTensors_arrayA_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">4f8b4bde-d1a2-444f-810d-357535e4e4a4</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">1</data>
             <data key="Operator">Core0</data>
@@ -256,221 +822,18 @@
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="r_generateTensorsbroadcastTensorB_0" kind="vertex">
-            <data key="name">r_generateTensorsbroadcastTensorB_0</data>
+        <node id="r_generateTensorsexplode_generateTensors_arrayA_0" kind="vertex">
+            <data key="name">r_generateTensorsexplode_generateTensors_arrayA_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">775f2500-7693-4e0a-97fe-59cafe9c2be3</data>
+            <data key="originalId">c7587027-f4f2-417b-89c9-949d75024b77</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">2</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">512</data>
             <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">broadcastTensorB</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="s_broadcastTensorBmultiplyTensors_0_0" kind="vertex">
-            <data key="name">s_broadcastTensorBmultiplyTensors_0_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">870e32ee-0ac3-4e19-b557-b1b96bbd5195</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">16</data>
-            <data key="Operator">Core7</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">512</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="r_broadcastTensorBmultiplyTensors_0_0" kind="vertex">
-            <data key="name">r_broadcastTensorBmultiplyTensors_0_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">20c64aaa-4137-4e09-82d8-6e1118f6c82c</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">17</data>
-            <data key="Operator">Core0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">512</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyTensors_0</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="s_broadcastTensorBmultiplyTensors_1_0" kind="vertex">
-            <data key="name">s_broadcastTensorBmultiplyTensors_1_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">c4992213-19f8-4fbc-b9df-fde9cd22f1e5</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">14</data>
-            <data key="Operator">Core7</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">512</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="r_broadcastTensorBmultiplyTensors_1_0" kind="vertex">
-            <data key="name">r_broadcastTensorBmultiplyTensors_1_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">6539ea8f-99cb-4da1-98c1-e75a89cfbf01</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">15</data>
-            <data key="Operator">Core2</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">512</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyTensors_1</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="s_broadcastTensorBmultiplyTensors_2_0" kind="vertex">
-            <data key="name">s_broadcastTensorBmultiplyTensors_2_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">a0c8c06e-c7a2-48ac-b78b-51b205b54e4e</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">12</data>
-            <data key="Operator">Core7</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">512</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="r_broadcastTensorBmultiplyTensors_2_0" kind="vertex">
-            <data key="name">r_broadcastTensorBmultiplyTensors_2_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">bef99255-5392-47e1-a0a1-4fced2fa6aae</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">13</data>
-            <data key="Operator">Core5</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">512</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyTensors_2</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="s_broadcastTensorBmultiplyTensors_3_0" kind="vertex">
-            <data key="name">s_broadcastTensorBmultiplyTensors_3_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">fbb49663-d7cc-414d-a438-d936e55988e6</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">10</data>
-            <data key="Operator">Core7</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">512</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="r_broadcastTensorBmultiplyTensors_3_0" kind="vertex">
-            <data key="name">r_broadcastTensorBmultiplyTensors_3_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">b1aec407-2595-4d67-b375-5c720ac36494</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">11</data>
-            <data key="Operator">Core4</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">512</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyTensors_3</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="s_broadcastTensorBmultiplyTensors_4_0" kind="vertex">
-            <data key="name">s_broadcastTensorBmultiplyTensors_4_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">dca15e6c-1738-4494-856d-84c9b222da7e</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">8</data>
-            <data key="Operator">Core7</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">512</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="r_broadcastTensorBmultiplyTensors_4_0" kind="vertex">
-            <data key="name">r_broadcastTensorBmultiplyTensors_4_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">9092d676-c544-405d-b7a9-77544cce343e</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">9</data>
-            <data key="Operator">Core3</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">512</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyTensors_4</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="s_broadcastTensorBmultiplyTensors_5_0" kind="vertex">
-            <data key="name">s_broadcastTensorBmultiplyTensors_5_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">a45747ed-0f90-4e68-a73d-15e50fb8cdaa</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">6</data>
-            <data key="Operator">Core7</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">512</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="r_broadcastTensorBmultiplyTensors_5_0" kind="vertex">
-            <data key="name">r_broadcastTensorBmultiplyTensors_5_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">9febe2e9-95bb-407d-a497-d588ea7e62cc</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">7</data>
-            <data key="Operator">Core6</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">512</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyTensors_5</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="s_broadcastTensorBmultiplyTensors_6_0" kind="vertex">
-            <data key="name">s_broadcastTensorBmultiplyTensors_6_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">f54599b6-0ff7-4f61-b88f-ba70ba0ad894</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">4</data>
-            <data key="Operator">Core7</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">512</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="r_broadcastTensorBmultiplyTensors_6_0" kind="vertex">
-            <data key="name">r_broadcastTensorBmultiplyTensors_6_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">ef1dc108-c339-4279-ba45-f16017f0b6e0</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">5</data>
-            <data key="Operator">Core1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">512</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyTensors_6</data>
+            <data key="receiverGraphName">explode_generateTensors_arrayA</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
@@ -478,12 +841,12 @@
             <data key="name">s_explode_generateTensors_arrayAmultiplyTensors_1_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">fb2fd5d8-8f1e-445b-8b22-54af4b3345da</data>
+            <data key="originalId">249968ba-01ac-48eb-bf94-0af370b7ee00</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">31</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">30</data>
+            <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -492,12 +855,12 @@
             <data key="name">r_explode_generateTensors_arrayAmultiplyTensors_1_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">2f0e1fd7-ceb2-414a-8c8a-86f822c0ed61</data>
+            <data key="originalId">59cb3739-5e08-4c20-a8fc-685527b8cb42</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">32</data>
+            <data key="schedulingOrder">31</data>
             <data key="Operator">Core2</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">multiplyTensors_1</data>
             <data key="graph_desc"/>
@@ -507,12 +870,12 @@
             <data key="name">s_explode_generateTensors_arrayAmultiplyTensors_2_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">ae31def4-2778-4722-b3fe-df45b41994b5</data>
+            <data key="originalId">db295b1e-b0d9-47b5-9ae2-d34654e2ea41</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">29</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">28</data>
+            <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -521,12 +884,12 @@
             <data key="name">r_explode_generateTensors_arrayAmultiplyTensors_2_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">0e0a40e1-0c93-4a63-b9ee-44f67593c57d</data>
+            <data key="originalId">f2069dcc-2edd-425f-99e9-d67d25049b04</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">30</data>
-            <data key="Operator">Core5</data>
+            <data key="schedulingOrder">29</data>
+            <data key="Operator">Core1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">multiplyTensors_2</data>
             <data key="graph_desc"/>
@@ -536,12 +899,12 @@
             <data key="name">s_explode_generateTensors_arrayAmultiplyTensors_3_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">19c7f568-767f-49ae-a2f1-dad59736803f</data>
+            <data key="originalId">6d7257c0-e554-4dcd-a320-21b5cf285eb8</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">27</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">26</data>
+            <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -550,12 +913,12 @@
             <data key="name">r_explode_generateTensors_arrayAmultiplyTensors_3_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">321f70b6-f0ab-4c66-b489-351f83a6d758</data>
+            <data key="originalId">c41cb410-cdcd-4253-a86a-50b6f1525f54</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">28</data>
-            <data key="Operator">Core4</data>
+            <data key="schedulingOrder">27</data>
+            <data key="Operator">Core5</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">multiplyTensors_3</data>
             <data key="graph_desc"/>
@@ -565,12 +928,12 @@
             <data key="name">s_explode_generateTensors_arrayAmultiplyTensors_4_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">4e17d0ba-e0e2-4188-bb43-5d489ca74a85</data>
+            <data key="originalId">86bb6fa0-45bd-4454-9e4b-53c722c0517f</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">25</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">24</data>
+            <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -579,12 +942,12 @@
             <data key="name">r_explode_generateTensors_arrayAmultiplyTensors_4_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">9b3da5f9-8ba1-4547-81b7-620722eb5044</data>
+            <data key="originalId">8176a103-8c74-4051-a96a-52a9e82a65a2</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">26</data>
-            <data key="Operator">Core3</data>
+            <data key="schedulingOrder">25</data>
+            <data key="Operator">Core6</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">multiplyTensors_4</data>
             <data key="graph_desc"/>
@@ -594,12 +957,12 @@
             <data key="name">s_explode_generateTensors_arrayAmultiplyTensors_5_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">b1a59bd7-2dc1-42f2-94d1-3a476e82f311</data>
+            <data key="originalId">3046759f-3ab3-4b85-b25c-c903a48b7472</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">23</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">22</data>
+            <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -608,12 +971,12 @@
             <data key="name">r_explode_generateTensors_arrayAmultiplyTensors_5_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">f27c9d4f-ee34-4790-afbf-99ce791fb5d7</data>
+            <data key="originalId">62ca5797-0367-46ac-af5a-995a5e8245e9</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">24</data>
-            <data key="Operator">Core6</data>
+            <data key="schedulingOrder">23</data>
+            <data key="Operator">Core2</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">multiplyTensors_5</data>
             <data key="graph_desc"/>
@@ -623,12 +986,12 @@
             <data key="name">s_explode_generateTensors_arrayAmultiplyTensors_6_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">1ddeeb1a-a354-4103-a0a8-d1042a13e642</data>
+            <data key="originalId">39e81aa7-7254-4109-81cf-bc31042e0f70</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">21</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">20</data>
+            <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -637,12 +1000,12 @@
             <data key="name">r_explode_generateTensors_arrayAmultiplyTensors_6_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">d35114ee-5246-4473-aaf7-715185fd3cc2</data>
+            <data key="originalId">f9c134d5-c81c-4c3d-841c-f73d696e8cb7</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">22</data>
+            <data key="schedulingOrder">21</data>
             <data key="Operator">Core1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">multiplyTensors_6</data>
             <data key="graph_desc"/>
@@ -652,12 +1015,12 @@
             <data key="name">s_explode_generateTensors_arrayAmultiplyTensors_7_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">0e9c19c1-8a02-401c-9f82-f81a1c6afb3e</data>
+            <data key="originalId">ab04c243-9d98-4928-b2e4-0471edf946cf</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">19</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">18</data>
+            <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -666,14 +1029,217 @@
             <data key="name">r_explode_generateTensors_arrayAmultiplyTensors_7_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">81fa4289-b6f4-4174-ba70-3eff5b8a73e8</data>
+            <data key="originalId">4e79e6c6-1836-4a0a-a8ce-aa64696dee09</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">20</data>
-            <data key="Operator">Core7</data>
+            <data key="schedulingOrder">19</data>
+            <data key="Operator">Core3</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">multiplyTensors_7</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_explode_generateTensors_arrayAmultiplyTensors_8_0" kind="vertex">
+            <data key="name">s_explode_generateTensors_arrayAmultiplyTensors_8_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">a37aa798-772b-4ddc-906b-e26cde00002a</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">16</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_explode_generateTensors_arrayAmultiplyTensors_8_0" kind="vertex">
+            <data key="name">r_explode_generateTensors_arrayAmultiplyTensors_8_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">a4cbbd3f-c328-4427-9190-cf3c4b820c57</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">17</data>
+            <data key="Operator">Core4</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_8</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_explode_generateTensors_arrayAmultiplyTensors_9_0" kind="vertex">
+            <data key="name">s_explode_generateTensors_arrayAmultiplyTensors_9_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">a8b59b77-fdb5-436a-a95b-a614e448b1d7</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">14</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_explode_generateTensors_arrayAmultiplyTensors_9_0" kind="vertex">
+            <data key="name">r_explode_generateTensors_arrayAmultiplyTensors_9_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">c017c097-d339-45d1-9006-02af1a6bcaa8</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">15</data>
+            <data key="Operator">Core4</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_9</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_explode_generateTensors_arrayAmultiplyTensors_10_0" kind="vertex">
+            <data key="name">s_explode_generateTensors_arrayAmultiplyTensors_10_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">ee9d8e68-d3b9-47e0-b565-ea5918641e66</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">12</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_explode_generateTensors_arrayAmultiplyTensors_10_0" kind="vertex">
+            <data key="name">r_explode_generateTensors_arrayAmultiplyTensors_10_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">c5e48acc-1c5e-402f-9af9-a9d073bde3b3</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">13</data>
+            <data key="Operator">Core3</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_10</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_explode_generateTensors_arrayAmultiplyTensors_11_0" kind="vertex">
+            <data key="name">s_explode_generateTensors_arrayAmultiplyTensors_11_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">2c4a7335-ca59-498f-a7bf-ebc8b8f3610e</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">10</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_explode_generateTensors_arrayAmultiplyTensors_11_0" kind="vertex">
+            <data key="name">r_explode_generateTensors_arrayAmultiplyTensors_11_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">75d68b94-ebf3-471a-a18e-987d5fc2d2b3</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">11</data>
+            <data key="Operator">Core6</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_11</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_explode_generateTensors_arrayAmultiplyTensors_13_0" kind="vertex">
+            <data key="name">s_explode_generateTensors_arrayAmultiplyTensors_13_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">1953889a-9027-44ef-937a-d86702bac391</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">8</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_explode_generateTensors_arrayAmultiplyTensors_13_0" kind="vertex">
+            <data key="name">r_explode_generateTensors_arrayAmultiplyTensors_13_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">41db060b-5aac-4677-a8a1-cb67e46a66f3</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">9</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_13</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_explode_generateTensors_arrayAmultiplyTensors_14_0" kind="vertex">
+            <data key="name">s_explode_generateTensors_arrayAmultiplyTensors_14_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">d4de81dc-8c41-452c-9b71-af142d4d1b35</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">6</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_explode_generateTensors_arrayAmultiplyTensors_14_0" kind="vertex">
+            <data key="name">r_explode_generateTensors_arrayAmultiplyTensors_14_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">e354cacf-86aa-4328-90c5-3315372e8579</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">7</data>
+            <data key="Operator">Core5</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_14</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_explode_generateTensors_arrayAmultiplyTensors_15_0" kind="vertex">
+            <data key="name">s_explode_generateTensors_arrayAmultiplyTensors_15_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">96d68a97-67f1-4b4b-98c6-374296f9315b</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">4</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_explode_generateTensors_arrayAmultiplyTensors_15_0" kind="vertex">
+            <data key="name">r_explode_generateTensors_arrayAmultiplyTensors_15_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">5d864d75-c117-43ff-b5f9-8ad14d0f62d7</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">5</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyTensors_15</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
@@ -681,9 +1247,9 @@
             <data key="name">s_implode_displayTensor_arrayCdisplayTensor_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">fd0f8951-5e27-4311-b712-45c7e45b65cc</data>
+            <data key="originalId">ea37e19e-b405-4fc0-98c5-42d217c18b7a</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">56</data>
+            <data key="schedulingOrder">108</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">512</data>
@@ -695,9 +1261,9 @@
             <data key="name">r_implode_displayTensor_arrayCdisplayTensor_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">f0eeba3f-6b36-4115-b252-f05cb52f1fef</data>
+            <data key="originalId">94f5a884-4967-48fd-ab69-833593ec6786</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">57</data>
+            <data key="schedulingOrder">109</data>
             <data key="Operator">Core0</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">512</data>
@@ -706,45 +1272,16 @@
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="s_multiplyTensors_0implode_displayTensor_arrayC_0" kind="vertex">
-            <data key="name">s_multiplyTensors_0implode_displayTensor_arrayC_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">e6675de1-059d-4fb1-b6ed-31010cb1e938</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">34</data>
-            <data key="Operator">Core0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="r_multiplyTensors_0implode_displayTensor_arrayC_0" kind="vertex">
-            <data key="name">r_multiplyTensors_0implode_displayTensor_arrayC_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">013bfd76-6060-47b6-b6f3-531d7f1c5dd3</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">35</data>
-            <data key="Operator">Core7</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">implode_displayTensor_arrayC</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
         <node id="s_multiplyTensors_1implode_displayTensor_arrayC_0" kind="vertex">
             <data key="name">s_multiplyTensors_1implode_displayTensor_arrayC_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">af560e44-573d-44f6-bd44-51f3b99290d7</data>
+            <data key="originalId">df60ba4b-1165-4242-9ddf-fe83ff20c2af</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">37</data>
+            <data key="schedulingOrder">65</data>
             <data key="Operator">Core2</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -753,12 +1290,12 @@
             <data key="name">r_multiplyTensors_1implode_displayTensor_arrayC_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">dbb89ece-b7ff-4ee6-b2a0-008eee20fc30</data>
+            <data key="originalId">e7101385-e636-4330-a734-d99e46153480</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">38</data>
+            <data key="schedulingOrder">66</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">implode_displayTensor_arrayC</data>
             <data key="graph_desc"/>
@@ -768,12 +1305,12 @@
             <data key="name">s_multiplyTensors_2implode_displayTensor_arrayC_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">cacd0d64-65a8-4f85-be37-3b2993fd81ec</data>
+            <data key="originalId">8cf41716-4e16-408f-9b03-7163509c8282</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">40</data>
-            <data key="Operator">Core5</data>
+            <data key="schedulingOrder">84</data>
+            <data key="Operator">Core1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -782,12 +1319,12 @@
             <data key="name">r_multiplyTensors_2implode_displayTensor_arrayC_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">3090b383-08b6-4675-a7dc-e48f2f3370a8</data>
+            <data key="originalId">f11399f3-6a9c-48aa-81b8-731112dd316e</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">41</data>
+            <data key="schedulingOrder">85</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">implode_displayTensor_arrayC</data>
             <data key="graph_desc"/>
@@ -797,12 +1334,12 @@
             <data key="name">s_multiplyTensors_3implode_displayTensor_arrayC_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">9c70430e-144d-4471-8903-e2b33b0d0a2a</data>
+            <data key="originalId">098c189d-20b0-46a2-8459-31a40733cefd</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">43</data>
-            <data key="Operator">Core4</data>
+            <data key="schedulingOrder">87</data>
+            <data key="Operator">Core5</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -811,12 +1348,12 @@
             <data key="name">r_multiplyTensors_3implode_displayTensor_arrayC_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">416c260e-7316-4a5e-a1b3-8fb99b322c9b</data>
+            <data key="originalId">1f3b6d7e-ecfb-4cc1-aef9-e03f686e6f03</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">44</data>
+            <data key="schedulingOrder">88</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">implode_displayTensor_arrayC</data>
             <data key="graph_desc"/>
@@ -826,12 +1363,12 @@
             <data key="name">s_multiplyTensors_4implode_displayTensor_arrayC_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">c8a82c7c-1f9d-456c-b43b-1d9a60825be6</data>
+            <data key="originalId">10a64709-53d6-4ca9-af35-aeef6e803b3a</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">46</data>
-            <data key="Operator">Core3</data>
+            <data key="schedulingOrder">90</data>
+            <data key="Operator">Core6</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -840,12 +1377,12 @@
             <data key="name">r_multiplyTensors_4implode_displayTensor_arrayC_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">db0dfa94-58b7-4fe1-ac13-d7c9dfaa7763</data>
+            <data key="originalId">98524441-ba3a-4e3c-af89-e6aaccd0f45d</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">47</data>
+            <data key="schedulingOrder">91</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">implode_displayTensor_arrayC</data>
             <data key="graph_desc"/>
@@ -855,12 +1392,12 @@
             <data key="name">s_multiplyTensors_5implode_displayTensor_arrayC_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">7926b1f6-a9b0-43f4-9b74-dfee8f500df9</data>
+            <data key="originalId">d7871591-396c-410f-af64-7c019f45d38e</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">49</data>
-            <data key="Operator">Core6</data>
+            <data key="schedulingOrder">93</data>
+            <data key="Operator">Core2</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -869,12 +1406,12 @@
             <data key="name">r_multiplyTensors_5implode_displayTensor_arrayC_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">ec8aa9e3-1f19-4439-9776-94be4f32406d</data>
+            <data key="originalId">a873070d-3438-40bd-9293-b1c9bcdcc162</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">50</data>
+            <data key="schedulingOrder">94</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">implode_displayTensor_arrayC</data>
             <data key="graph_desc"/>
@@ -884,12 +1421,12 @@
             <data key="name">s_multiplyTensors_6implode_displayTensor_arrayC_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">1a6ab7e3-d454-462f-82f5-4b19e4a9c800</data>
+            <data key="originalId">93a8f386-039e-49da-885d-77abb43143bf</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">52</data>
+            <data key="schedulingOrder">96</data>
             <data key="Operator">Core1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
@@ -898,19 +1435,251 @@
             <data key="name">r_multiplyTensors_6implode_displayTensor_arrayC_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">1cd4b3bf-cd3f-4a77-88ba-9759ca69da23</data>
+            <data key="originalId">2e60f86a-dd02-4fe2-b191-4b047a5f5999</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">53</data>
+            <data key="schedulingOrder">97</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">64</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">implode_displayTensor_arrayC</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_multiplyTensors_7implode_displayTensor_arrayC_0" kind="vertex">
+            <data key="name">s_multiplyTensors_7implode_displayTensor_arrayC_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">15004388-9d89-42c5-9e46-c42d796a799e</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">99</data>
+            <data key="Operator">Core3</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_multiplyTensors_7implode_displayTensor_arrayC_0" kind="vertex">
+            <data key="name">r_multiplyTensors_7implode_displayTensor_arrayC_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">2aa7f090-e6d9-4a2c-b904-17e5c63b3a4f</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">100</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">implode_displayTensor_arrayC</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_multiplyTensors_8implode_displayTensor_arrayC_0" kind="vertex">
+            <data key="name">s_multiplyTensors_8implode_displayTensor_arrayC_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">018053fe-b821-4349-8cf1-642bf6653121</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">102</data>
+            <data key="Operator">Core4</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_multiplyTensors_8implode_displayTensor_arrayC_0" kind="vertex">
+            <data key="name">r_multiplyTensors_8implode_displayTensor_arrayC_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">a0061c0a-7437-4c86-9edc-df05a3b8f47d</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">103</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">implode_displayTensor_arrayC</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_multiplyTensors_9implode_displayTensor_arrayC_0" kind="vertex">
+            <data key="name">s_multiplyTensors_9implode_displayTensor_arrayC_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">69f44550-a1fb-497e-8710-cdb746504081</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">105</data>
+            <data key="Operator">Core4</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_multiplyTensors_9implode_displayTensor_arrayC_0" kind="vertex">
+            <data key="name">r_multiplyTensors_9implode_displayTensor_arrayC_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">28adc36d-81c0-497e-ad3b-bf976799ba60</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">106</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">implode_displayTensor_arrayC</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_multiplyTensors_10implode_displayTensor_arrayC_0" kind="vertex">
+            <data key="name">s_multiplyTensors_10implode_displayTensor_arrayC_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">0c7f6b68-baf9-474c-b7da-b077cca8cf14</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">68</data>
+            <data key="Operator">Core3</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_multiplyTensors_10implode_displayTensor_arrayC_0" kind="vertex">
+            <data key="name">r_multiplyTensors_10implode_displayTensor_arrayC_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">55947733-d827-4f45-890c-d0978d3da526</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">69</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">implode_displayTensor_arrayC</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_multiplyTensors_11implode_displayTensor_arrayC_0" kind="vertex">
+            <data key="name">s_multiplyTensors_11implode_displayTensor_arrayC_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">279a2988-5014-45ab-8208-ff2f836a6cff</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">71</data>
+            <data key="Operator">Core6</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_multiplyTensors_11implode_displayTensor_arrayC_0" kind="vertex">
+            <data key="name">r_multiplyTensors_11implode_displayTensor_arrayC_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">7f23a96a-7116-4650-accf-8a08f892d5d8</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">72</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">implode_displayTensor_arrayC</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_multiplyTensors_13implode_displayTensor_arrayC_0" kind="vertex">
+            <data key="name">s_multiplyTensors_13implode_displayTensor_arrayC_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">92ab2fef-a4e9-49c4-ae0b-4aaaea7ee3e6</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">75</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_multiplyTensors_13implode_displayTensor_arrayC_0" kind="vertex">
+            <data key="name">r_multiplyTensors_13implode_displayTensor_arrayC_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">3e9c2ae7-bab8-46f8-9662-9b72f1f15a29</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">76</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">implode_displayTensor_arrayC</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_multiplyTensors_14implode_displayTensor_arrayC_0" kind="vertex">
+            <data key="name">s_multiplyTensors_14implode_displayTensor_arrayC_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">c1f358ea-632f-43f1-a3be-51e5522d03a7</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">78</data>
+            <data key="Operator">Core5</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_multiplyTensors_14implode_displayTensor_arrayC_0" kind="vertex">
+            <data key="name">r_multiplyTensors_14implode_displayTensor_arrayC_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">f8d712e3-5e6c-41c1-a0e5-6a24e95c05ad</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">79</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">implode_displayTensor_arrayC</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_multiplyTensors_15implode_displayTensor_arrayC_0" kind="vertex">
+            <data key="name">s_multiplyTensors_15implode_displayTensor_arrayC_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">6abdb047-51b8-43d6-a515-4c394e032bdb</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">81</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_multiplyTensors_15implode_displayTensor_arrayC_0" kind="vertex">
+            <data key="name">r_multiplyTensors_15implode_displayTensor_arrayC_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">16ced27c-edb9-409f-8d79-1efb386dd76d</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">82</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">32</data>
             <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">implode_displayTensor_arrayC</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
         <edge source="generateTensors" sourceport="out0"
-            target="broadcastTensorB" targetport="in0">
+            target="explode_generateTensors_arrayB" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -923,7 +1692,35 @@
             <data key="edge_cons">128</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="broadcastTensorB" sourceport="out0"
+        <edge source="explode_generateTensors_arrayB" sourceport="out0"
+            target="broadcastTensorB_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">64</data>
+            <data key="edge_prod">64</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">64</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_generateTensors_arrayB" sourceport="out1"
+            target="broadcastTensorB_1" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">64</data>
+            <data key="edge_prod">64</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">64</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastTensorB_0" sourceport="out0"
             target="multiplyTensors_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -931,13 +1728,13 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">128</data>
-            <data key="edge_prod">128</data>
+            <data key="Weight">64</data>
+            <data key="edge_prod">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">128</data>
+            <data key="edge_cons">64</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="broadcastTensorB" sourceport="out1"
+        <edge source="broadcastTensorB_0" sourceport="out1"
             target="multiplyTensors_1" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -945,13 +1742,13 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">128</data>
-            <data key="edge_prod">128</data>
+            <data key="Weight">64</data>
+            <data key="edge_prod">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">128</data>
+            <data key="edge_cons">64</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="broadcastTensorB" sourceport="out2"
+        <edge source="broadcastTensorB_0" sourceport="out2"
             target="multiplyTensors_2" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -959,13 +1756,13 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">128</data>
-            <data key="edge_prod">128</data>
+            <data key="Weight">64</data>
+            <data key="edge_prod">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">128</data>
+            <data key="edge_cons">64</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="broadcastTensorB" sourceport="out3"
+        <edge source="broadcastTensorB_0" sourceport="out3"
             target="multiplyTensors_3" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -973,13 +1770,13 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">128</data>
-            <data key="edge_prod">128</data>
+            <data key="Weight">64</data>
+            <data key="edge_prod">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">128</data>
+            <data key="edge_cons">64</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="broadcastTensorB" sourceport="out4"
+        <edge source="broadcastTensorB_0" sourceport="out4"
             target="multiplyTensors_4" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -987,13 +1784,13 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">128</data>
-            <data key="edge_prod">128</data>
+            <data key="Weight">64</data>
+            <data key="edge_prod">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">128</data>
+            <data key="edge_cons">64</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="broadcastTensorB" sourceport="out5"
+        <edge source="broadcastTensorB_0" sourceport="out5"
             target="multiplyTensors_5" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1001,13 +1798,13 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">128</data>
-            <data key="edge_prod">128</data>
+            <data key="Weight">64</data>
+            <data key="edge_prod">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">128</data>
+            <data key="edge_cons">64</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="broadcastTensorB" sourceport="out6"
+        <edge source="broadcastTensorB_0" sourceport="out6"
             target="multiplyTensors_6" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1015,13 +1812,13 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">128</data>
-            <data key="edge_prod">128</data>
+            <data key="Weight">64</data>
+            <data key="edge_prod">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">128</data>
+            <data key="edge_cons">64</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="broadcastTensorB" sourceport="out7"
+        <edge source="broadcastTensorB_0" sourceport="out7"
             target="multiplyTensors_7" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1029,10 +1826,122 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">128</data>
-            <data key="edge_prod">128</data>
+            <data key="Weight">64</data>
+            <data key="edge_prod">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">128</data>
+            <data key="edge_cons">64</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastTensorB_1" sourceport="out0"
+            target="multiplyTensors_8" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">64</data>
+            <data key="edge_prod">64</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">64</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastTensorB_1" sourceport="out1"
+            target="multiplyTensors_9" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">64</data>
+            <data key="edge_prod">64</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">64</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastTensorB_1" sourceport="out2"
+            target="multiplyTensors_10" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">64</data>
+            <data key="edge_prod">64</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">64</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastTensorB_1" sourceport="out3"
+            target="multiplyTensors_11" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">64</data>
+            <data key="edge_prod">64</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">64</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastTensorB_1" sourceport="out4"
+            target="multiplyTensors_12" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">64</data>
+            <data key="edge_prod">64</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">64</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastTensorB_1" sourceport="out5"
+            target="multiplyTensors_13" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">64</data>
+            <data key="edge_prod">64</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">64</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastTensorB_1" sourceport="out6"
+            target="multiplyTensors_14" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">64</data>
+            <data key="edge_prod">64</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">64</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastTensorB_1" sourceport="out7"
+            target="multiplyTensors_15" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">64</data>
+            <data key="edge_prod">64</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">64</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="generateTensors" sourceport="out1"
@@ -1057,10 +1966,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">16</data>
-            <data key="edge_prod">16</data>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">16</data>
+            <data key="edge_cons">8</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_generateTensors_arrayA" sourceport="out1"
@@ -1071,10 +1980,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">16</data>
-            <data key="edge_prod">16</data>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">16</data>
+            <data key="edge_cons">8</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_generateTensors_arrayA" sourceport="out2"
@@ -1085,10 +1994,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">16</data>
-            <data key="edge_prod">16</data>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">16</data>
+            <data key="edge_cons">8</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_generateTensors_arrayA" sourceport="out3"
@@ -1099,10 +2008,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">16</data>
-            <data key="edge_prod">16</data>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">16</data>
+            <data key="edge_cons">8</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_generateTensors_arrayA" sourceport="out4"
@@ -1113,10 +2022,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">16</data>
-            <data key="edge_prod">16</data>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">16</data>
+            <data key="edge_cons">8</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_generateTensors_arrayA" sourceport="out5"
@@ -1127,10 +2036,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">16</data>
-            <data key="edge_prod">16</data>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">16</data>
+            <data key="edge_cons">8</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_generateTensors_arrayA" sourceport="out6"
@@ -1141,10 +2050,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">16</data>
-            <data key="edge_prod">16</data>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">16</data>
+            <data key="edge_cons">8</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_generateTensors_arrayA" sourceport="out7"
@@ -1155,10 +2064,122 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">16</data>
-            <data key="edge_prod">16</data>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">16</data>
+            <data key="edge_cons">8</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_generateTensors_arrayA" sourceport="out8"
+            target="multiplyTensors_8" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">8</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_generateTensors_arrayA" sourceport="out9"
+            target="multiplyTensors_9" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">8</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_generateTensors_arrayA" sourceport="out10"
+            target="multiplyTensors_10" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">8</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_generateTensors_arrayA" sourceport="out11"
+            target="multiplyTensors_11" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">8</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_generateTensors_arrayA" sourceport="out12"
+            target="multiplyTensors_12" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">8</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_generateTensors_arrayA" sourceport="out13"
+            target="multiplyTensors_13" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">8</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_generateTensors_arrayA" sourceport="out14"
+            target="multiplyTensors_14" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">8</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_generateTensors_arrayA" sourceport="out15"
+            target="multiplyTensors_15" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">8</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="implode_displayTensor_arrayC" sourceport="out0"
@@ -1183,10 +2204,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">16</data>
-            <data key="edge_prod">16</data>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">16</data>
+            <data key="edge_cons">8</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="multiplyTensors_1" sourceport="out0"
@@ -1197,10 +2218,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">16</data>
-            <data key="edge_prod">16</data>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">16</data>
+            <data key="edge_cons">8</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="multiplyTensors_2" sourceport="out0"
@@ -1211,10 +2232,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">16</data>
-            <data key="edge_prod">16</data>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">16</data>
+            <data key="edge_cons">8</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="multiplyTensors_3" sourceport="out0"
@@ -1225,10 +2246,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">16</data>
-            <data key="edge_prod">16</data>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">16</data>
+            <data key="edge_cons">8</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="multiplyTensors_4" sourceport="out0"
@@ -1239,10 +2260,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">16</data>
-            <data key="edge_prod">16</data>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">16</data>
+            <data key="edge_cons">8</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="multiplyTensors_5" sourceport="out0"
@@ -1253,10 +2274,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">16</data>
-            <data key="edge_prod">16</data>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">16</data>
+            <data key="edge_cons">8</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="multiplyTensors_6" sourceport="out0"
@@ -1267,10 +2288,10 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">16</data>
-            <data key="edge_prod">16</data>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">16</data>
+            <data key="edge_cons">8</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="multiplyTensors_7" sourceport="out0"
@@ -1281,10 +2302,122 @@
             <data key="data_type"/>
             <data key="source_port_modifier"/>
             <data key="target_port_modifier"/>
-            <data key="Weight">16</data>
-            <data key="edge_prod">16</data>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_cons">16</data>
+            <data key="edge_cons">8</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="multiplyTensors_8" sourceport="out0"
+            target="implode_displayTensor_arrayC" targetport="in8">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">8</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="multiplyTensors_9" sourceport="out0"
+            target="implode_displayTensor_arrayC" targetport="in9">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">8</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="multiplyTensors_10" sourceport="out0"
+            target="implode_displayTensor_arrayC" targetport="in10">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">8</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="multiplyTensors_11" sourceport="out0"
+            target="implode_displayTensor_arrayC" targetport="in11">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">8</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="multiplyTensors_12" sourceport="out0"
+            target="implode_displayTensor_arrayC" targetport="in12">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">8</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="multiplyTensors_13" sourceport="out0"
+            target="implode_displayTensor_arrayC" targetport="in13">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">8</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="multiplyTensors_14" sourceport="out0"
+            target="implode_displayTensor_arrayC" targetport="in14">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">8</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="multiplyTensors_15" sourceport="out0"
+            target="implode_displayTensor_arrayC" targetport="in15">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight">8</data>
+            <data key="edge_prod">8</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">8</data>
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="generateTensors" sourceport="out2"
@@ -1301,8 +2434,8 @@
             <data key="edge_cons">1</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="generateTensors" sourceport="out3"
-            target="s_generateTensorsbroadcastTensorB_0" targetport="in0">
+        <edge source="explode_generateTensors_arrayB" sourceport="out2"
+            target="s_explode_generateTensors_arrayBbroadcastTensorB_0_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1315,9 +2448,10 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="s_generateTensorsbroadcastTensorB_0"
+        <edge
+            source="s_explode_generateTensors_arrayBbroadcastTensorB_0_0"
             sourceport="out0"
-            target="r_generateTensorsbroadcastTensorB_0" targetport="in0">
+            target="r_explode_generateTensors_arrayBbroadcastTensorB_0_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1330,8 +2464,9 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="r_generateTensorsbroadcastTensorB_0"
-            sourceport="out0" target="broadcastTensorB" targetport="in1">
+        <edge
+            source="r_explode_generateTensors_arrayBbroadcastTensorB_0_0"
+            sourceport="out0" target="broadcastTensorB_0" targetport="in1">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1344,8 +2479,8 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="broadcastTensorB" sourceport="out8"
-            target="s_broadcastTensorBmultiplyTensors_0_0" targetport="in0">
+        <edge source="broadcastTensorB_0" sourceport="out8"
+            target="s_broadcastTensorB_0multiplyTensors_1_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1358,9 +2493,9 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="s_broadcastTensorBmultiplyTensors_0_0"
+        <edge source="s_broadcastTensorB_0multiplyTensors_1_0"
             sourceport="out0"
-            target="r_broadcastTensorBmultiplyTensors_0_0" targetport="in0">
+            target="r_broadcastTensorB_0multiplyTensors_1_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1373,50 +2508,7 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="r_broadcastTensorBmultiplyTensors_0_0"
-            sourceport="out0" target="multiplyTensors_0" targetport="in2">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="broadcastTensorB" sourceport="out9"
-            target="s_broadcastTensorBmultiplyTensors_1_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="s_broadcastTensorBmultiplyTensors_1_0"
-            sourceport="out0"
-            target="r_broadcastTensorBmultiplyTensors_1_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="r_broadcastTensorBmultiplyTensors_1_0"
+        <edge source="r_broadcastTensorB_0multiplyTensors_1_0"
             sourceport="out0" target="multiplyTensors_1" targetport="in2">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1430,8 +2522,8 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="broadcastTensorB" sourceport="out10"
-            target="s_broadcastTensorBmultiplyTensors_2_0" targetport="in0">
+        <edge source="broadcastTensorB_0" sourceport="out9"
+            target="s_broadcastTensorB_0multiplyTensors_2_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1444,9 +2536,9 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="s_broadcastTensorBmultiplyTensors_2_0"
+        <edge source="s_broadcastTensorB_0multiplyTensors_2_0"
             sourceport="out0"
-            target="r_broadcastTensorBmultiplyTensors_2_0" targetport="in0">
+            target="r_broadcastTensorB_0multiplyTensors_2_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1459,7 +2551,7 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="r_broadcastTensorBmultiplyTensors_2_0"
+        <edge source="r_broadcastTensorB_0multiplyTensors_2_0"
             sourceport="out0" target="multiplyTensors_2" targetport="in2">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1473,8 +2565,8 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="broadcastTensorB" sourceport="out11"
-            target="s_broadcastTensorBmultiplyTensors_3_0" targetport="in0">
+        <edge source="broadcastTensorB_0" sourceport="out10"
+            target="s_broadcastTensorB_0multiplyTensors_3_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1487,9 +2579,9 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="s_broadcastTensorBmultiplyTensors_3_0"
+        <edge source="s_broadcastTensorB_0multiplyTensors_3_0"
             sourceport="out0"
-            target="r_broadcastTensorBmultiplyTensors_3_0" targetport="in0">
+            target="r_broadcastTensorB_0multiplyTensors_3_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1502,7 +2594,7 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="r_broadcastTensorBmultiplyTensors_3_0"
+        <edge source="r_broadcastTensorB_0multiplyTensors_3_0"
             sourceport="out0" target="multiplyTensors_3" targetport="in2">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1516,8 +2608,8 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="broadcastTensorB" sourceport="out12"
-            target="s_broadcastTensorBmultiplyTensors_4_0" targetport="in0">
+        <edge source="broadcastTensorB_0" sourceport="out11"
+            target="s_broadcastTensorB_0multiplyTensors_4_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1530,9 +2622,9 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="s_broadcastTensorBmultiplyTensors_4_0"
+        <edge source="s_broadcastTensorB_0multiplyTensors_4_0"
             sourceport="out0"
-            target="r_broadcastTensorBmultiplyTensors_4_0" targetport="in0">
+            target="r_broadcastTensorB_0multiplyTensors_4_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1545,7 +2637,7 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="r_broadcastTensorBmultiplyTensors_4_0"
+        <edge source="r_broadcastTensorB_0multiplyTensors_4_0"
             sourceport="out0" target="multiplyTensors_4" targetport="in2">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1559,8 +2651,8 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="broadcastTensorB" sourceport="out13"
-            target="s_broadcastTensorBmultiplyTensors_5_0" targetport="in0">
+        <edge source="broadcastTensorB_0" sourceport="out12"
+            target="s_broadcastTensorB_0multiplyTensors_5_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1573,9 +2665,9 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="s_broadcastTensorBmultiplyTensors_5_0"
+        <edge source="s_broadcastTensorB_0multiplyTensors_5_0"
             sourceport="out0"
-            target="r_broadcastTensorBmultiplyTensors_5_0" targetport="in0">
+            target="r_broadcastTensorB_0multiplyTensors_5_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1588,7 +2680,7 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="r_broadcastTensorBmultiplyTensors_5_0"
+        <edge source="r_broadcastTensorB_0multiplyTensors_5_0"
             sourceport="out0" target="multiplyTensors_5" targetport="in2">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1602,8 +2694,8 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="broadcastTensorB" sourceport="out14"
-            target="s_broadcastTensorBmultiplyTensors_6_0" targetport="in0">
+        <edge source="broadcastTensorB_0" sourceport="out13"
+            target="s_broadcastTensorB_0multiplyTensors_6_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1616,9 +2708,9 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="s_broadcastTensorBmultiplyTensors_6_0"
+        <edge source="s_broadcastTensorB_0multiplyTensors_6_0"
             sourceport="out0"
-            target="r_broadcastTensorBmultiplyTensors_6_0" targetport="in0">
+            target="r_broadcastTensorB_0multiplyTensors_6_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1631,7 +2723,7 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="r_broadcastTensorBmultiplyTensors_6_0"
+        <edge source="r_broadcastTensorB_0multiplyTensors_6_0"
             sourceport="out0" target="multiplyTensors_6" targetport="in2">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1645,7 +2737,351 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateTensors_arrayA" sourceport="out8"
+        <edge source="broadcastTensorB_0" sourceport="out14"
+            target="s_broadcastTensorB_0multiplyTensors_7_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_broadcastTensorB_0multiplyTensors_7_0"
+            sourceport="out0"
+            target="r_broadcastTensorB_0multiplyTensors_7_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_broadcastTensorB_0multiplyTensors_7_0"
+            sourceport="out0" target="multiplyTensors_7" targetport="in2">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastTensorB_1" sourceport="out8"
+            target="s_broadcastTensorB_1multiplyTensors_8_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_broadcastTensorB_1multiplyTensors_8_0"
+            sourceport="out0"
+            target="r_broadcastTensorB_1multiplyTensors_8_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_broadcastTensorB_1multiplyTensors_8_0"
+            sourceport="out0" target="multiplyTensors_8" targetport="in2">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastTensorB_1" sourceport="out9"
+            target="s_broadcastTensorB_1multiplyTensors_9_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_broadcastTensorB_1multiplyTensors_9_0"
+            sourceport="out0"
+            target="r_broadcastTensorB_1multiplyTensors_9_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_broadcastTensorB_1multiplyTensors_9_0"
+            sourceport="out0" target="multiplyTensors_9" targetport="in2">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastTensorB_1" sourceport="out10"
+            target="s_broadcastTensorB_1multiplyTensors_10_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_broadcastTensorB_1multiplyTensors_10_0"
+            sourceport="out0"
+            target="r_broadcastTensorB_1multiplyTensors_10_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_broadcastTensorB_1multiplyTensors_10_0"
+            sourceport="out0" target="multiplyTensors_10" targetport="in2">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastTensorB_1" sourceport="out11"
+            target="s_broadcastTensorB_1multiplyTensors_11_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_broadcastTensorB_1multiplyTensors_11_0"
+            sourceport="out0"
+            target="r_broadcastTensorB_1multiplyTensors_11_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_broadcastTensorB_1multiplyTensors_11_0"
+            sourceport="out0" target="multiplyTensors_11" targetport="in2">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastTensorB_1" sourceport="out12"
+            target="s_broadcastTensorB_1multiplyTensors_12_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_broadcastTensorB_1multiplyTensors_12_0"
+            sourceport="out0"
+            target="r_broadcastTensorB_1multiplyTensors_12_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_broadcastTensorB_1multiplyTensors_12_0"
+            sourceport="out0" target="multiplyTensors_12" targetport="in2">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="broadcastTensorB_1" sourceport="out13"
+            target="s_broadcastTensorB_1multiplyTensors_14_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_broadcastTensorB_1multiplyTensors_14_0"
+            sourceport="out0"
+            target="r_broadcastTensorB_1multiplyTensors_14_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_broadcastTensorB_1multiplyTensors_14_0"
+            sourceport="out0" target="multiplyTensors_14" targetport="in2">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="generateTensors" sourceport="out3"
+            target="s_generateTensorsexplode_generateTensors_arrayA_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_generateTensorsexplode_generateTensors_arrayA_0"
+            sourceport="out0"
+            target="r_generateTensorsexplode_generateTensors_arrayA_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_generateTensorsexplode_generateTensors_arrayA_0"
+            sourceport="out0" target="explode_generateTensors_arrayA" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_generateTensors_arrayA" sourceport="out16"
             target="s_explode_generateTensors_arrayAmultiplyTensors_1_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1690,7 +3126,7 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateTensors_arrayA" sourceport="out9"
+        <edge source="explode_generateTensors_arrayA" sourceport="out17"
             target="s_explode_generateTensors_arrayAmultiplyTensors_2_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1735,7 +3171,7 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateTensors_arrayA" sourceport="out10"
+        <edge source="explode_generateTensors_arrayA" sourceport="out18"
             target="s_explode_generateTensors_arrayAmultiplyTensors_3_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1780,7 +3216,7 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateTensors_arrayA" sourceport="out11"
+        <edge source="explode_generateTensors_arrayA" sourceport="out19"
             target="s_explode_generateTensors_arrayAmultiplyTensors_4_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1825,7 +3261,7 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateTensors_arrayA" sourceport="out12"
+        <edge source="explode_generateTensors_arrayA" sourceport="out20"
             target="s_explode_generateTensors_arrayAmultiplyTensors_5_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1870,7 +3306,7 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateTensors_arrayA" sourceport="out13"
+        <edge source="explode_generateTensors_arrayA" sourceport="out21"
             target="s_explode_generateTensors_arrayAmultiplyTensors_6_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1915,7 +3351,7 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateTensors_arrayA" sourceport="out14"
+        <edge source="explode_generateTensors_arrayA" sourceport="out22"
             target="s_explode_generateTensors_arrayAmultiplyTensors_7_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1947,7 +3383,322 @@
         </edge>
         <edge
             source="r_explode_generateTensors_arrayAmultiplyTensors_7_0"
-            sourceport="out0" target="multiplyTensors_7" targetport="in2">
+            sourceport="out0" target="multiplyTensors_7" targetport="in3">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_generateTensors_arrayA" sourceport="out23"
+            target="s_explode_generateTensors_arrayAmultiplyTensors_8_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_explode_generateTensors_arrayAmultiplyTensors_8_0"
+            sourceport="out0"
+            target="r_explode_generateTensors_arrayAmultiplyTensors_8_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_explode_generateTensors_arrayAmultiplyTensors_8_0"
+            sourceport="out0" target="multiplyTensors_8" targetport="in3">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_generateTensors_arrayA" sourceport="out24"
+            target="s_explode_generateTensors_arrayAmultiplyTensors_9_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_explode_generateTensors_arrayAmultiplyTensors_9_0"
+            sourceport="out0"
+            target="r_explode_generateTensors_arrayAmultiplyTensors_9_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_explode_generateTensors_arrayAmultiplyTensors_9_0"
+            sourceport="out0" target="multiplyTensors_9" targetport="in3">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_generateTensors_arrayA" sourceport="out25"
+            target="s_explode_generateTensors_arrayAmultiplyTensors_10_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_explode_generateTensors_arrayAmultiplyTensors_10_0"
+            sourceport="out0"
+            target="r_explode_generateTensors_arrayAmultiplyTensors_10_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_explode_generateTensors_arrayAmultiplyTensors_10_0"
+            sourceport="out0" target="multiplyTensors_10" targetport="in3">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_generateTensors_arrayA" sourceport="out26"
+            target="s_explode_generateTensors_arrayAmultiplyTensors_11_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_explode_generateTensors_arrayAmultiplyTensors_11_0"
+            sourceport="out0"
+            target="r_explode_generateTensors_arrayAmultiplyTensors_11_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_explode_generateTensors_arrayAmultiplyTensors_11_0"
+            sourceport="out0" target="multiplyTensors_11" targetport="in3">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_generateTensors_arrayA" sourceport="out27"
+            target="s_explode_generateTensors_arrayAmultiplyTensors_13_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_explode_generateTensors_arrayAmultiplyTensors_13_0"
+            sourceport="out0"
+            target="r_explode_generateTensors_arrayAmultiplyTensors_13_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_explode_generateTensors_arrayAmultiplyTensors_13_0"
+            sourceport="out0" target="multiplyTensors_13" targetport="in2">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_generateTensors_arrayA" sourceport="out28"
+            target="s_explode_generateTensors_arrayAmultiplyTensors_14_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_explode_generateTensors_arrayAmultiplyTensors_14_0"
+            sourceport="out0"
+            target="r_explode_generateTensors_arrayAmultiplyTensors_14_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_explode_generateTensors_arrayAmultiplyTensors_14_0"
+            sourceport="out0" target="multiplyTensors_14" targetport="in3">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_generateTensors_arrayA" sourceport="out29"
+            target="s_explode_generateTensors_arrayAmultiplyTensors_15_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_explode_generateTensors_arrayAmultiplyTensors_15_0"
+            sourceport="out0"
+            target="r_explode_generateTensors_arrayAmultiplyTensors_15_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_explode_generateTensors_arrayAmultiplyTensors_15_0"
+            sourceport="out0" target="multiplyTensors_15" targetport="in2">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -2003,49 +3754,6 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="multiplyTensors_0" sourceport="out1"
-            target="s_multiplyTensors_0implode_displayTensor_arrayC_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="s_multiplyTensors_0implode_displayTensor_arrayC_0"
-            sourceport="out0"
-            target="r_multiplyTensors_0implode_displayTensor_arrayC_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="r_multiplyTensors_0implode_displayTensor_arrayC_0"
-            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in8">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
         <edge source="multiplyTensors_1" sourceport="out1"
             target="s_multiplyTensors_1implode_displayTensor_arrayC_0" targetport="in0">
             <data key="edge_cons"/>
@@ -2076,7 +3784,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="r_multiplyTensors_1implode_displayTensor_arrayC_0"
-            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in9">
+            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in16">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -2119,7 +3827,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="r_multiplyTensors_2implode_displayTensor_arrayC_0"
-            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in10">
+            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in17">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -2162,7 +3870,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="r_multiplyTensors_3implode_displayTensor_arrayC_0"
-            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in11">
+            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in18">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -2205,7 +3913,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="r_multiplyTensors_4implode_displayTensor_arrayC_0"
-            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in12">
+            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in19">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -2248,7 +3956,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="r_multiplyTensors_5implode_displayTensor_arrayC_0"
-            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in13">
+            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in20">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -2291,7 +3999,361 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="r_multiplyTensors_6implode_displayTensor_arrayC_0"
-            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in14">
+            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in21">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="multiplyTensors_7" sourceport="out1"
+            target="s_multiplyTensors_7implode_displayTensor_arrayC_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_multiplyTensors_7implode_displayTensor_arrayC_0"
+            sourceport="out0"
+            target="r_multiplyTensors_7implode_displayTensor_arrayC_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_multiplyTensors_7implode_displayTensor_arrayC_0"
+            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in22">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="multiplyTensors_8" sourceport="out1"
+            target="s_multiplyTensors_8implode_displayTensor_arrayC_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_multiplyTensors_8implode_displayTensor_arrayC_0"
+            sourceport="out0"
+            target="r_multiplyTensors_8implode_displayTensor_arrayC_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_multiplyTensors_8implode_displayTensor_arrayC_0"
+            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in23">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="multiplyTensors_9" sourceport="out1"
+            target="s_multiplyTensors_9implode_displayTensor_arrayC_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_multiplyTensors_9implode_displayTensor_arrayC_0"
+            sourceport="out0"
+            target="r_multiplyTensors_9implode_displayTensor_arrayC_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_multiplyTensors_9implode_displayTensor_arrayC_0"
+            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in24">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="multiplyTensors_10" sourceport="out1"
+            target="s_multiplyTensors_10implode_displayTensor_arrayC_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_multiplyTensors_10implode_displayTensor_arrayC_0"
+            sourceport="out0"
+            target="r_multiplyTensors_10implode_displayTensor_arrayC_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_multiplyTensors_10implode_displayTensor_arrayC_0"
+            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in25">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="multiplyTensors_11" sourceport="out1"
+            target="s_multiplyTensors_11implode_displayTensor_arrayC_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_multiplyTensors_11implode_displayTensor_arrayC_0"
+            sourceport="out0"
+            target="r_multiplyTensors_11implode_displayTensor_arrayC_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_multiplyTensors_11implode_displayTensor_arrayC_0"
+            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in26">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="multiplyTensors_13" sourceport="out1"
+            target="s_multiplyTensors_13implode_displayTensor_arrayC_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_multiplyTensors_13implode_displayTensor_arrayC_0"
+            sourceport="out0"
+            target="r_multiplyTensors_13implode_displayTensor_arrayC_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_multiplyTensors_13implode_displayTensor_arrayC_0"
+            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in27">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="multiplyTensors_14" sourceport="out1"
+            target="s_multiplyTensors_14implode_displayTensor_arrayC_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_multiplyTensors_14implode_displayTensor_arrayC_0"
+            sourceport="out0"
+            target="r_multiplyTensors_14implode_displayTensor_arrayC_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_multiplyTensors_14implode_displayTensor_arrayC_0"
+            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in28">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="multiplyTensors_15" sourceport="out1"
+            target="s_multiplyTensors_15implode_displayTensor_arrayC_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_multiplyTensors_15implode_displayTensor_arrayC_0"
+            sourceport="out0"
+            target="r_multiplyTensors_15implode_displayTensor_arrayC_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_multiplyTensors_15implode_displayTensor_arrayC_0"
+            sourceport="out0" target="implode_displayTensor_arrayC" targetport="in29">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>

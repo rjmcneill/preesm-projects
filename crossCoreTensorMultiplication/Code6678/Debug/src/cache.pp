@@ -1,7 +1,7 @@
 # FIXED
 
 src/cache.obj: ../src/cache.c
-src/cache.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/cache.h
+src/cache.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/cache.h
 src/cache.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cacheAux.h
 src/cache.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cache.h
 src/cache.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl.h
@@ -112,7 +112,7 @@ src/cache.obj: C:/ti/bios_6_33_06_50/packages/ti/sysbios/hal/Hwi__epilogue.h
 src/cache.obj: C:/ti/bios_6_33_06_50/packages/ti/sysbios/hal/package/Hwi_HwiProxy.h
 
 ../src/cache.c: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreAccumulationFinal/Code6678/include/cache.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/cache.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cacheAux.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cache.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl.h: 

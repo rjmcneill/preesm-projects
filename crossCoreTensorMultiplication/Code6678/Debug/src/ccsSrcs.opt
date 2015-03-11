@@ -1,1 +1,1 @@
-"../src/accumulateMatrices.c" "../src/cache.c" "../src/communication.c" "../src/displayMatrix.c" "../src/dump.c" "../src/fifo.c" "../src/generateMatrices.c" "../src/main.c" "../src/memory.c" "../src/semaphore6678.c" "../src/utils.c" 
+"../src/cache.c" "../src/communication.c" "../src/displayTensor.c" "../src/dump.c" "../src/fifo.c" "../src/generateTensors.c" "../src/main.c" "../src/memory.c" "../src/multiplyTensors.c" "../src/semaphore6678.c" "../src/utils.c" 

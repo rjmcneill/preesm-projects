@@ -20,6 +20,6 @@ Description : Display resulting matrix from the multiplication
 *        The resulting array from arrayA * arrayB
 */
 
-void display (int rowsA, int columnsB, int depthA, int *arrayC, double *startTime);
+void display (int rowsA, int columnsB, int depthA, long *arrayC, double *startTime);
 
 #endif /* DISPLAYMATRIX_H_ */

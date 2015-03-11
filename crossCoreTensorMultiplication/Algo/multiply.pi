@@ -53,20 +53,18 @@
             <port kind="cfg_input" name="rowsB"/>
             <port kind="cfg_input" name="columnsB"/>
             <port kind="cfg_input" name="depthB"/>
-            <port annotation="NONE" expr="(rowsA*columnsA*depthA)/8"
+            <port annotation="NONE" expr="(rowsA*columnsA)/8"
                 kind="input" name="arrayA"/>
-            <port annotation="NONE" expr="(rowsB*columnsB*depthB)"
-                kind="input" name="arrayB"/>
-            <port annotation="NONE" expr="(rowsA*columnsB*depthA)/8"
+            <port annotation="NONE" expr="(rowsB*columnsB)" kind="input" name="arrayB"/>
+            <port annotation="NONE" expr="(rowsA*columnsB)/8"
                 kind="output" name="arrayC"/>
         </node>
         <node id="broadcastTensorB" kind="broadcast">
             <port kind="cfg_input" name="rowsB"/>
             <port kind="cfg_input" name="columnsB"/>
             <port kind="cfg_input" name="depthB"/>
-            <port annotation="NONE" expr="rowsB*columnsB*depthB"
-                kind="input" name="input"/>
-            <port annotation="NONE" expr="rowsB*columnsB*depthB*8"
+            <port annotation="NONE" expr="rowsB*columnsB" kind="input" name="input"/>
+            <port annotation="NONE" expr="rowsB*columnsB*8"
                 kind="output" name="output"/>
         </node>
         <node id="displayTensor" kind="actor">

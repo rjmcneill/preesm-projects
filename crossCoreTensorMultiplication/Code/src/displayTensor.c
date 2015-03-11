@@ -11,9 +11,9 @@ Description : Display resulting matrix from the multiplication
 
 #include <xdc/runtime/System.h>
 #include <xdc/runtime/Timestamp.h>
+#include <xdc/runtime/Types.h>
 
-
-void display (int rowsA, int columnsB, int depthA, int *arrayC, double *startTime)
+void display (int rowsA, int columnsB, int depthA, long *arrayC, double *startTime)
 {
 	long i, j, k = 0;
 	Types_Timestamp64	endTime64;
@@ -27,13 +27,15 @@ void display (int rowsA, int columnsB, int depthA, int *arrayC, double *startTim
 	endTime = ((endClockCycles/(double)freq.lo));
 	timeTaken = endTime - *startTime;
 
-	for (i = 0; i < depthA; i++)
+	printf("Resulting array:\n");
+	for (i = 0; i < depthA; i++)			// Print result of multiplication
 	{
-		for (j = 0; j < rowsA; j++)			// Generate array A
+		printf("Depth: %i\n", i);
+		for (j = 0; j < rowsA; j++)
 		{
 			for (k = 0; k < columnsB; k++)
 			{
-				printf("\t%d", *((arrayC+i*rowsA*columnsB+j*rowsA) + k));
+				printf("%d\t", *((arrayC+i*rowsA*columnsB+j*rowsA) + k));
 			}
 			printf("\n");
 		}
@@ -41,4 +43,6 @@ void display (int rowsA, int columnsB, int depthA, int *arrayC, double *startTim
 	}
 
 	printf("\nMultiplication of %d square matrices took %fs\n", rowsA , timeTaken);
+
+	exit(0);
 }
