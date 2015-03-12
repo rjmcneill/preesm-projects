@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <files>
+        <algorithm url="/crossCoreTensorMultiplicationMemOpt/Algo/multiply.pi"/>
+        <architecture url="/crossCoreTensorMultiplicationMemOpt/Archi/8CoreC6678.slam"/>
+        <codegenDirectory url="/crossCoreTensorMultiplicationMemOpt/Code6678/generated"/>
+    </files>
+    <constraints excelUrl="">
+        <constraintGroup>
+            <operator name="Core2"/>
+            <task name="multiply/multiplyTensors"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core0"/>
+            <task name="multiply/displayTensor"/>
+            <task name="multiply/broadcastTensorB"/>
+            <task name="multiply/multiplyTensors"/>
+            <task name="multiply/generateTensors"/>
+            <task name="multiply"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core5"/>
+            <task name="multiply/multiplyTensors"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core6"/>
+            <task name="multiply/multiplyTensors"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core3"/>
+            <task name="multiply/multiplyTensors"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core1"/>
+            <task name="multiply/multiplyTensors"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core4"/>
+            <task name="multiply/multiplyTensors"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core7"/>
+            <task name="multiply/multiplyTensors"/>
+        </constraintGroup>
+    </constraints>
+    <relativeconstraints excelUrl=""/>
+    <timings excelUrl="">
+        <memcpyspeed opname="c6678" setuptime="1" timeperunit="1.0"/>
+    </timings>
+    <simuParams>
+        <mainCore>Core0</mainCore>
+        <mainComNode>shared_mem</mainComNode>
+        <averageDataSize>1000</averageDataSize>
+        <dataTypes>
+            <dataType name="int" size="4"/>
+            <dataType name="double" size="8"/>
+            <dataType name="long" size="4"/>
+        </dataTypes>
+        <specialVertexOperators/>
+        <numberOfTopExecutions>1</numberOfTopExecutions>
+    </simuParams>
+    <variables excelUrl=""/>
+    <parameterValues/>
+</scenario>
