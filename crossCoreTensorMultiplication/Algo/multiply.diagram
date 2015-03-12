@@ -779,9 +779,9 @@
       </graphicsAlgorithm>
     </connectionDecorators>
     <bendpoints x="289" y="298"/>
-    <bendpoints x="383" y="298"/>
-    <bendpoints x="383" y="317"/>
-    <bendpoints x="718" y="317"/>
+    <bendpoints x="381" y="298"/>
+    <bendpoints x="381" y="313"/>
+    <bendpoints x="718" y="313"/>
     <bendpoints x="718" y="273"/>
   </connections>
   <colors red="227" green="238" blue="249"/>
