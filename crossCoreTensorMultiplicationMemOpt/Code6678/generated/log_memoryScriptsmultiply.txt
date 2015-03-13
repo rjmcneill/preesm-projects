@@ -1,96 +1,88 @@
 # Memory scripts summary
 - Independent match trees : *3*
-- Total number of buffers in these trees: From 53 to 11 buffers.
-- Total size of these buffers: From 116992 to 30016 (74.34354485776805%).
+- Total number of buffers in these trees: From 53 to 15 buffers.
+- Total size of these buffers: From 8960 to 3392 (62.142857142857146%).
 
 # Match tree optimization log
 ## Tree of 19 buffers
 ### Original buffer list:
-> [explode_generateTensors_arrayB.input[8192], broadcastTensorB_0.input[4096], broadcastTensorB_0.output_0[4096], broadcastTensorB_0.output_1024[4096], broadcastTensorB_0.output_2048[4096], broadcastTensorB_0.output_3072[4096], broadcastTensorB_0.output_4096[4096], broadcastTensorB_0.output_5120[4096], broadcastTensorB_0.output_6144[4096], broadcastTensorB_0.output_7168[4096], broadcastTensorB_1.input[4096], broadcastTensorB_1.output_0[4096], broadcastTensorB_1.output_1024[4096], broadcastTensorB_1.output_2048[4096], broadcastTensorB_1.output_3072[4096], broadcastTensorB_1.output_4096[4096], broadcastTensorB_1.output_5120[4096], broadcastTensorB_1.output_6144[4096], broadcastTensorB_1.output_7168[4096]]
+> [explode_generateTensors_arrayB.input[512], broadcastTensorB_0.input[256], broadcastTensorB_0.output_0[256], broadcastTensorB_0.output_64[256], broadcastTensorB_0.output_128[256], broadcastTensorB_0.output_192[256], broadcastTensorB_0.output_256[256], broadcastTensorB_0.output_320[256], broadcastTensorB_0.output_384[256], broadcastTensorB_0.output_448[256], broadcastTensorB_1.input[256], broadcastTensorB_1.output_0[256], broadcastTensorB_1.output_64[256], broadcastTensorB_1.output_128[256], broadcastTensorB_1.output_192[256], broadcastTensorB_1.output_256[256], broadcastTensorB_1.output_320[256], broadcastTensorB_1.output_384[256], broadcastTensorB_1.output_448[256]]
 
 ### Match application log: 
 - __Step 2 - 1 matches__
->broadcastTensorB_0.input[0..4096[=>explode_generateTensors_arrayB.input[0..4096[  
+>broadcastTensorB_0.input[0..256[=>explode_generateTensors_arrayB.input[0..256[  
 - __Step 2 - 1 matches__
->broadcastTensorB_1.input[0..4096[=>explode_generateTensors_arrayB.input[4096..8192[  
+>broadcastTensorB_1.input[0..256[=>explode_generateTensors_arrayB.input[256..512[  
 - __Step 4 - 1 matches__
->broadcastTensorB_0.output_0[0..4096[=>explode_generateTensors_arrayB.input[0..4096[  
+>broadcastTensorB_0.output_0[0..256[=>explode_generateTensors_arrayB.input[0..256[  
 - __Step 4 - 1 matches__
->broadcastTensorB_0.output_1024[0..4096[=>explode_generateTensors_arrayB.input[0..4096[  
+>broadcastTensorB_0.output_128[0..256[=>explode_generateTensors_arrayB.input[0..256[  
 - __Step 4 - 1 matches__
->broadcastTensorB_0.output_2048[0..4096[=>explode_generateTensors_arrayB.input[0..4096[  
+>broadcastTensorB_0.output_192[0..256[=>explode_generateTensors_arrayB.input[0..256[  
 - __Step 4 - 1 matches__
->broadcastTensorB_0.output_3072[0..4096[=>explode_generateTensors_arrayB.input[0..4096[  
+>broadcastTensorB_0.output_256[0..256[=>explode_generateTensors_arrayB.input[0..256[  
 - __Step 4 - 1 matches__
->broadcastTensorB_0.output_4096[0..4096[=>explode_generateTensors_arrayB.input[0..4096[  
+>broadcastTensorB_0.output_320[0..256[=>explode_generateTensors_arrayB.input[0..256[  
 - __Step 4 - 1 matches__
->broadcastTensorB_0.output_5120[0..4096[=>explode_generateTensors_arrayB.input[0..4096[  
+>broadcastTensorB_0.output_384[0..256[=>explode_generateTensors_arrayB.input[0..256[  
 - __Step 4 - 1 matches__
->broadcastTensorB_0.output_6144[0..4096[=>explode_generateTensors_arrayB.input[0..4096[  
+>broadcastTensorB_0.output_448[0..256[=>explode_generateTensors_arrayB.input[0..256[  
 - __Step 0 - 1 matches__
->broadcastTensorB_0.output_7168[0..4096[=>explode_generateTensors_arrayB.input[0..4096[  
+>broadcastTensorB_0.output_64[0..256[=>explode_generateTensors_arrayB.input[0..256[  
 - __Step 4 - 1 matches__
->broadcastTensorB_1.output_0[0..4096[=>explode_generateTensors_arrayB.input[4096..8192[  
+>broadcastTensorB_1.output_0[0..256[=>explode_generateTensors_arrayB.input[256..512[  
 - __Step 4 - 1 matches__
->broadcastTensorB_1.output_1024[0..4096[=>explode_generateTensors_arrayB.input[4096..8192[  
+>broadcastTensorB_1.output_128[0..256[=>explode_generateTensors_arrayB.input[256..512[  
 - __Step 4 - 1 matches__
->broadcastTensorB_1.output_2048[0..4096[=>explode_generateTensors_arrayB.input[4096..8192[  
+>broadcastTensorB_1.output_192[0..256[=>explode_generateTensors_arrayB.input[256..512[  
 - __Step 4 - 1 matches__
->broadcastTensorB_1.output_3072[0..4096[=>explode_generateTensors_arrayB.input[4096..8192[  
+>broadcastTensorB_1.output_256[0..256[=>explode_generateTensors_arrayB.input[256..512[  
 - __Step 4 - 1 matches__
->broadcastTensorB_1.output_4096[0..4096[=>explode_generateTensors_arrayB.input[4096..8192[  
+>broadcastTensorB_1.output_320[0..256[=>explode_generateTensors_arrayB.input[256..512[  
 - __Step 4 - 1 matches__
->broadcastTensorB_1.output_5120[0..4096[=>explode_generateTensors_arrayB.input[4096..8192[  
+>broadcastTensorB_1.output_384[0..256[=>explode_generateTensors_arrayB.input[256..512[  
 - __Step 4 - 1 matches__
->broadcastTensorB_1.output_6144[0..4096[=>explode_generateTensors_arrayB.input[4096..8192[  
+>broadcastTensorB_1.output_448[0..256[=>explode_generateTensors_arrayB.input[256..512[  
 - __Step 0 - 1 matches__
->broadcastTensorB_1.output_7168[0..4096[=>explode_generateTensors_arrayB.input[4096..8192[  
+>broadcastTensorB_1.output_64[0..256[=>explode_generateTensors_arrayB.input[256..512[  
 
 ### Tree summary:
 - From 19 buffers to 1 buffers.
-- From 82048 bytes to 8320 bytes (89.85959438377535%)
+- From 5248 bytes to 640 bytes (87.8048780487805%)
 
 ### Unapplied matches:
 >
 ## Tree of 17 buffers
 ### Original buffer list:
-> [explode_generateTensors_arrayA.arrayA[8192], explode_generateTensors_arrayA.arrayA_0[512], explode_generateTensors_arrayA.arrayA_128[512], explode_generateTensors_arrayA.arrayA_256[512], explode_generateTensors_arrayA.arrayA_384[512], explode_generateTensors_arrayA.arrayA_512[512], explode_generateTensors_arrayA.arrayA_640[512], explode_generateTensors_arrayA.arrayA_768[512], explode_generateTensors_arrayA.arrayA_896[512], explode_generateTensors_arrayA.arrayA_1024[512], explode_generateTensors_arrayA.arrayA_1152[512], explode_generateTensors_arrayA.arrayA_1280[512], explode_generateTensors_arrayA.arrayA_1408[512], explode_generateTensors_arrayA.arrayA_1536[512], explode_generateTensors_arrayA.arrayA_1664[512], explode_generateTensors_arrayA.arrayA_1792[512], explode_generateTensors_arrayA.arrayA_1920[512]]
+> [implode_displayTensor_arrayC.arrayC_0[32], implode_displayTensor_arrayC.arrayC_8[32], implode_displayTensor_arrayC.arrayC_16[32], implode_displayTensor_arrayC.arrayC_24[32], implode_displayTensor_arrayC.arrayC_32[32], implode_displayTensor_arrayC.arrayC_40[32], implode_displayTensor_arrayC.arrayC_48[32], implode_displayTensor_arrayC.arrayC_56[32], implode_displayTensor_arrayC.arrayC_64[32], implode_displayTensor_arrayC.arrayC_72[32], implode_displayTensor_arrayC.arrayC_80[32], implode_displayTensor_arrayC.arrayC_88[32], implode_displayTensor_arrayC.arrayC_96[32], implode_displayTensor_arrayC.arrayC_104[32], implode_displayTensor_arrayC.arrayC_112[32], implode_displayTensor_arrayC.arrayC_120[32], implode_displayTensor_arrayC.arrayC[512]]
+
+### Match application log: 
+- __Step 6 - 1 matches__
+>implode_displayTensor_arrayC.arrayC_0[-64..64[=>implode_displayTensor_arrayC.arrayC[-64..64[  
+- __Step 6 - 1 matches__
+>implode_displayTensor_arrayC.arrayC_104[-64..64[=>implode_displayTensor_arrayC.arrayC[352..480[  
+- __Step 6 - 1 matches__
+>implode_displayTensor_arrayC.arrayC_32[-64..64[=>implode_displayTensor_arrayC.arrayC[64..192[  
+- __Step 6 - 1 matches__
+>implode_displayTensor_arrayC.arrayC_64[-64..64[=>implode_displayTensor_arrayC.arrayC[192..320[  
+
+### Tree summary:
+- From 17 buffers to 13 buffers.
+- From 2560 bytes to 2112 bytes (17.5%)
+
+### Unapplied matches:
+>implode_displayTensor_arrayC.arrayC_8[0..32[=>implode_displayTensor_arrayC.arrayC[32..64[, implode_displayTensor_arrayC.arrayC_16[0..32[=>implode_displayTensor_arrayC.arrayC[64..96[, implode_displayTensor_arrayC.arrayC_24[0..32[=>implode_displayTensor_arrayC.arrayC[96..128[, implode_displayTensor_arrayC.arrayC_40[0..32[=>implode_displayTensor_arrayC.arrayC[160..192[, implode_displayTensor_arrayC.arrayC_48[0..32[=>implode_displayTensor_arrayC.arrayC[192..224[, implode_displayTensor_arrayC.arrayC_56[0..32[=>implode_displayTensor_arrayC.arrayC[224..256[, implode_displayTensor_arrayC.arrayC_72[0..32[=>implode_displayTensor_arrayC.arrayC[288..320[, implode_displayTensor_arrayC.arrayC_80[0..32[=>implode_displayTensor_arrayC.arrayC[320..352[, implode_displayTensor_arrayC.arrayC_88[0..32[=>implode_displayTensor_arrayC.arrayC[352..384[, implode_displayTensor_arrayC.arrayC_96[0..32[=>implode_displayTensor_arrayC.arrayC[384..416[, implode_displayTensor_arrayC.arrayC_112[0..32[=>implode_displayTensor_arrayC.arrayC[448..480[, implode_displayTensor_arrayC.arrayC_120[0..32[=>implode_displayTensor_arrayC.arrayC[480..512[, 
+## Tree of 17 buffers
+### Original buffer list:
+> [explode_generateTensors_arrayA.arrayA[512], explode_generateTensors_arrayA.arrayA_0[32], explode_generateTensors_arrayA.arrayA_8[32], explode_generateTensors_arrayA.arrayA_16[32], explode_generateTensors_arrayA.arrayA_24[32], explode_generateTensors_arrayA.arrayA_32[32], explode_generateTensors_arrayA.arrayA_40[32], explode_generateTensors_arrayA.arrayA_48[32], explode_generateTensors_arrayA.arrayA_56[32], explode_generateTensors_arrayA.arrayA_64[32], explode_generateTensors_arrayA.arrayA_72[32], explode_generateTensors_arrayA.arrayA_80[32], explode_generateTensors_arrayA.arrayA_88[32], explode_generateTensors_arrayA.arrayA_96[32], explode_generateTensors_arrayA.arrayA_104[32], explode_generateTensors_arrayA.arrayA_112[32], explode_generateTensors_arrayA.arrayA_120[32]]
 
 ### Match application log: 
 - __Step 0 - 16 matches__
->explode_generateTensors_arrayA.arrayA_0[0..512[=>explode_generateTensors_arrayA.arrayA[0..512[  explode_generateTensors_arrayA.arrayA_1024[0..512[=>explode_generateTensors_arrayA.arrayA[4096..4608[  explode_generateTensors_arrayA.arrayA_1152[0..512[=>explode_generateTensors_arrayA.arrayA[4608..5120[  explode_generateTensors_arrayA.arrayA_128[0..512[=>explode_generateTensors_arrayA.arrayA[512..1024[  explode_generateTensors_arrayA.arrayA_1280[0..512[=>explode_generateTensors_arrayA.arrayA[5120..5632[  explode_generateTensors_arrayA.arrayA_1408[0..512[=>explode_generateTensors_arrayA.arrayA[5632..6144[  explode_generateTensors_arrayA.arrayA_1536[0..512[=>explode_generateTensors_arrayA.arrayA[6144..6656[  explode_generateTensors_arrayA.arrayA_1664[0..512[=>explode_generateTensors_arrayA.arrayA[6656..7168[  explode_generateTensors_arrayA.arrayA_1792[0..512[=>explode_generateTensors_arrayA.arrayA[7168..7680[  explode_generateTensors_arrayA.arrayA_1920[0..512[=>explode_generateTensors_arrayA.arrayA[7680..8192[  explode_generateTensors_arrayA.arrayA_256[0..512[=>explode_generateTensors_arrayA.arrayA[1024..1536[  explode_generateTensors_arrayA.arrayA_384[0..512[=>explode_generateTensors_arrayA.arrayA[1536..2048[  explode_generateTensors_arrayA.arrayA_512[0..512[=>explode_generateTensors_arrayA.arrayA[2048..2560[  explode_generateTensors_arrayA.arrayA_640[0..512[=>explode_generateTensors_arrayA.arrayA[2560..3072[  explode_generateTensors_arrayA.arrayA_768[0..512[=>explode_generateTensors_arrayA.arrayA[3072..3584[  explode_generateTensors_arrayA.arrayA_896[0..512[=>explode_generateTensors_arrayA.arrayA[3584..4096[  
+>explode_generateTensors_arrayA.arrayA_0[0..32[=>explode_generateTensors_arrayA.arrayA[0..32[  explode_generateTensors_arrayA.arrayA_104[0..32[=>explode_generateTensors_arrayA.arrayA[416..448[  explode_generateTensors_arrayA.arrayA_112[0..32[=>explode_generateTensors_arrayA.arrayA[448..480[  explode_generateTensors_arrayA.arrayA_120[0..32[=>explode_generateTensors_arrayA.arrayA[480..512[  explode_generateTensors_arrayA.arrayA_16[0..32[=>explode_generateTensors_arrayA.arrayA[64..96[  explode_generateTensors_arrayA.arrayA_24[0..32[=>explode_generateTensors_arrayA.arrayA[96..128[  explode_generateTensors_arrayA.arrayA_32[0..32[=>explode_generateTensors_arrayA.arrayA[128..160[  explode_generateTensors_arrayA.arrayA_40[0..32[=>explode_generateTensors_arrayA.arrayA[160..192[  explode_generateTensors_arrayA.arrayA_48[0..32[=>explode_generateTensors_arrayA.arrayA[192..224[  explode_generateTensors_arrayA.arrayA_56[0..32[=>explode_generateTensors_arrayA.arrayA[224..256[  explode_generateTensors_arrayA.arrayA_64[0..32[=>explode_generateTensors_arrayA.arrayA[256..288[  explode_generateTensors_arrayA.arrayA_72[0..32[=>explode_generateTensors_arrayA.arrayA[288..320[  explode_generateTensors_arrayA.arrayA_8[0..32[=>explode_generateTensors_arrayA.arrayA[32..64[  explode_generateTensors_arrayA.arrayA_80[0..32[=>explode_generateTensors_arrayA.arrayA[320..352[  explode_generateTensors_arrayA.arrayA_88[0..32[=>explode_generateTensors_arrayA.arrayA[352..384[  explode_generateTensors_arrayA.arrayA_96[0..32[=>explode_generateTensors_arrayA.arrayA[384..416[  
 
 ### Tree summary:
 - From 17 buffers to 1 buffers.
-- From 16512 bytes to 8320 bytes (49.6124031007752%)
+- From 1152 bytes to 640 bytes (44.44444444444444%)
 
 ### Unapplied matches:
 >
-## Tree of 17 buffers
-### Original buffer list:
-> [implode_displayTensor_arrayC.arrayC_0[512], implode_displayTensor_arrayC.arrayC_128[512], implode_displayTensor_arrayC.arrayC_256[512], implode_displayTensor_arrayC.arrayC_384[512], implode_displayTensor_arrayC.arrayC_512[512], implode_displayTensor_arrayC.arrayC_640[512], implode_displayTensor_arrayC.arrayC_768[512], implode_displayTensor_arrayC.arrayC_896[512], implode_displayTensor_arrayC.arrayC_1024[512], implode_displayTensor_arrayC.arrayC_1152[512], implode_displayTensor_arrayC.arrayC_1280[512], implode_displayTensor_arrayC.arrayC_1408[512], implode_displayTensor_arrayC.arrayC_1536[512], implode_displayTensor_arrayC.arrayC_1664[512], implode_displayTensor_arrayC.arrayC_1792[512], implode_displayTensor_arrayC.arrayC_1920[512], implode_displayTensor_arrayC.arrayC[8192]]
-
-### Match application log: 
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_0[-64..576[=>implode_displayTensor_arrayC.arrayC[-64..576[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1024[-64..576[=>implode_displayTensor_arrayC.arrayC[4032..4672[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1280[-64..576[=>implode_displayTensor_arrayC.arrayC[5056..5696[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1536[-64..576[=>implode_displayTensor_arrayC.arrayC[6080..6720[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1792[-64..576[=>implode_displayTensor_arrayC.arrayC[7104..7744[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_256[-64..576[=>implode_displayTensor_arrayC.arrayC[960..1600[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_512[-64..576[=>implode_displayTensor_arrayC.arrayC[1984..2624[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_768[-64..576[=>implode_displayTensor_arrayC.arrayC[3008..3648[  
-
-### Tree summary:
-- From 17 buffers to 9 buffers.
-- From 18432 bytes to 13376 bytes (27.430555555555557%)
-
-### Unapplied matches:
->implode_displayTensor_arrayC.arrayC_128[0..512[=>implode_displayTensor_arrayC.arrayC[512..1024[, implode_displayTensor_arrayC.arrayC_384[0..512[=>implode_displayTensor_arrayC.arrayC[1536..2048[, implode_displayTensor_arrayC.arrayC_640[0..512[=>implode_displayTensor_arrayC.arrayC[2560..3072[, implode_displayTensor_arrayC.arrayC_896[0..512[=>implode_displayTensor_arrayC.arrayC[3584..4096[, implode_displayTensor_arrayC.arrayC_1152[0..512[=>implode_displayTensor_arrayC.arrayC[4608..5120[, implode_displayTensor_arrayC.arrayC_1408[0..512[=>implode_displayTensor_arrayC.arrayC[5632..6144[, implode_displayTensor_arrayC.arrayC_1664[0..512[=>implode_displayTensor_arrayC.arrayC[6656..7168[, implode_displayTensor_arrayC.arrayC_1920[0..512[=>implode_displayTensor_arrayC.arrayC[7680..8192[, 

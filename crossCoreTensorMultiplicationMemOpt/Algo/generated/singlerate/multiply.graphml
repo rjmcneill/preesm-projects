@@ -20,245 +20,245 @@
         <data key="name">multiply</data>
         <data key="kind">sdf</data>
         <data key="variables">
-            <variable name="squaredSize" value="32"/>
+            <variable name="squaredSize" value="8"/>
             <variable name="depth" value="2"/>
         </data>
         <node id="generateTensors">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@1512ee2</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@362f49</data>
             <data key="name">generateTensors</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
             <data key="arguments">
                 <argument name="depthB" value="2"/>
                 <argument name="depthA" value="2"/>
-                <argument name="columnsB" value="32"/>
-                <argument name="columnsA" value="32"/>
-                <argument name="rowsA" value="32"/>
-                <argument name="rowsB" value="32"/>
+                <argument name="columnsB" value="8"/>
+                <argument name="columnsA" value="8"/>
+                <argument name="rowsA" value="8"/>
+                <argument name="rowsB" value="8"/>
             </data>
         </node>
         <node id="multiplyTensors_0">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@dd0570</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@15a85a2</data>
             <data key="name">multiplyTensors_0</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
             <data key="arguments">
                 <argument name="depthB" value="2"/>
                 <argument name="depthA" value="2"/>
-                <argument name="columnsB" value="32"/>
-                <argument name="columnsA" value="32"/>
-                <argument name="rowsA" value="32"/>
-                <argument name="rowsB" value="32"/>
+                <argument name="columnsB" value="8"/>
+                <argument name="columnsA" value="8"/>
+                <argument name="rowsA" value="8"/>
+                <argument name="rowsB" value="8"/>
             </data>
         </node>
         <node id="multiplyTensors_1">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@dd0570</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@15a85a2</data>
             <data key="name">multiplyTensors_1</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
             <data key="arguments">
                 <argument name="depthB" value="2"/>
                 <argument name="depthA" value="2"/>
-                <argument name="columnsB" value="32"/>
-                <argument name="columnsA" value="32"/>
-                <argument name="rowsA" value="32"/>
-                <argument name="rowsB" value="32"/>
+                <argument name="columnsB" value="8"/>
+                <argument name="columnsA" value="8"/>
+                <argument name="rowsA" value="8"/>
+                <argument name="rowsB" value="8"/>
             </data>
         </node>
         <node id="multiplyTensors_2">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@dd0570</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@15a85a2</data>
             <data key="name">multiplyTensors_2</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
             <data key="arguments">
                 <argument name="depthB" value="2"/>
                 <argument name="depthA" value="2"/>
-                <argument name="columnsB" value="32"/>
-                <argument name="columnsA" value="32"/>
-                <argument name="rowsA" value="32"/>
-                <argument name="rowsB" value="32"/>
+                <argument name="columnsB" value="8"/>
+                <argument name="columnsA" value="8"/>
+                <argument name="rowsA" value="8"/>
+                <argument name="rowsB" value="8"/>
             </data>
         </node>
         <node id="multiplyTensors_3">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@dd0570</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@15a85a2</data>
             <data key="name">multiplyTensors_3</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
             <data key="arguments">
                 <argument name="depthB" value="2"/>
                 <argument name="depthA" value="2"/>
-                <argument name="columnsB" value="32"/>
-                <argument name="columnsA" value="32"/>
-                <argument name="rowsA" value="32"/>
-                <argument name="rowsB" value="32"/>
+                <argument name="columnsB" value="8"/>
+                <argument name="columnsA" value="8"/>
+                <argument name="rowsA" value="8"/>
+                <argument name="rowsB" value="8"/>
             </data>
         </node>
         <node id="multiplyTensors_4">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@dd0570</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@15a85a2</data>
             <data key="name">multiplyTensors_4</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
             <data key="arguments">
                 <argument name="depthB" value="2"/>
                 <argument name="depthA" value="2"/>
-                <argument name="columnsB" value="32"/>
-                <argument name="columnsA" value="32"/>
-                <argument name="rowsA" value="32"/>
-                <argument name="rowsB" value="32"/>
+                <argument name="columnsB" value="8"/>
+                <argument name="columnsA" value="8"/>
+                <argument name="rowsA" value="8"/>
+                <argument name="rowsB" value="8"/>
             </data>
         </node>
         <node id="multiplyTensors_5">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@dd0570</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@15a85a2</data>
             <data key="name">multiplyTensors_5</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
             <data key="arguments">
                 <argument name="depthB" value="2"/>
                 <argument name="depthA" value="2"/>
-                <argument name="columnsB" value="32"/>
-                <argument name="columnsA" value="32"/>
-                <argument name="rowsA" value="32"/>
-                <argument name="rowsB" value="32"/>
+                <argument name="columnsB" value="8"/>
+                <argument name="columnsA" value="8"/>
+                <argument name="rowsA" value="8"/>
+                <argument name="rowsB" value="8"/>
             </data>
         </node>
         <node id="multiplyTensors_6">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@dd0570</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@15a85a2</data>
             <data key="name">multiplyTensors_6</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
             <data key="arguments">
                 <argument name="depthB" value="2"/>
                 <argument name="depthA" value="2"/>
-                <argument name="columnsB" value="32"/>
-                <argument name="columnsA" value="32"/>
-                <argument name="rowsA" value="32"/>
-                <argument name="rowsB" value="32"/>
+                <argument name="columnsB" value="8"/>
+                <argument name="columnsA" value="8"/>
+                <argument name="rowsA" value="8"/>
+                <argument name="rowsB" value="8"/>
             </data>
         </node>
         <node id="multiplyTensors_7">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@dd0570</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@15a85a2</data>
             <data key="name">multiplyTensors_7</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
             <data key="arguments">
                 <argument name="depthB" value="2"/>
                 <argument name="depthA" value="2"/>
-                <argument name="columnsB" value="32"/>
-                <argument name="columnsA" value="32"/>
-                <argument name="rowsA" value="32"/>
-                <argument name="rowsB" value="32"/>
+                <argument name="columnsB" value="8"/>
+                <argument name="columnsA" value="8"/>
+                <argument name="rowsA" value="8"/>
+                <argument name="rowsB" value="8"/>
             </data>
         </node>
         <node id="multiplyTensors_8">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@dd0570</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@15a85a2</data>
             <data key="name">multiplyTensors_8</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
             <data key="arguments">
                 <argument name="depthB" value="2"/>
                 <argument name="depthA" value="2"/>
-                <argument name="columnsB" value="32"/>
-                <argument name="columnsA" value="32"/>
-                <argument name="rowsA" value="32"/>
-                <argument name="rowsB" value="32"/>
+                <argument name="columnsB" value="8"/>
+                <argument name="columnsA" value="8"/>
+                <argument name="rowsA" value="8"/>
+                <argument name="rowsB" value="8"/>
             </data>
         </node>
         <node id="multiplyTensors_9">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@dd0570</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@15a85a2</data>
             <data key="name">multiplyTensors_9</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
             <data key="arguments">
                 <argument name="depthB" value="2"/>
                 <argument name="depthA" value="2"/>
-                <argument name="columnsB" value="32"/>
-                <argument name="columnsA" value="32"/>
-                <argument name="rowsA" value="32"/>
-                <argument name="rowsB" value="32"/>
+                <argument name="columnsB" value="8"/>
+                <argument name="columnsA" value="8"/>
+                <argument name="rowsA" value="8"/>
+                <argument name="rowsB" value="8"/>
             </data>
         </node>
         <node id="multiplyTensors_10">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@dd0570</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@15a85a2</data>
             <data key="name">multiplyTensors_10</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
             <data key="arguments">
                 <argument name="depthB" value="2"/>
                 <argument name="depthA" value="2"/>
-                <argument name="columnsB" value="32"/>
-                <argument name="columnsA" value="32"/>
-                <argument name="rowsA" value="32"/>
-                <argument name="rowsB" value="32"/>
+                <argument name="columnsB" value="8"/>
+                <argument name="columnsA" value="8"/>
+                <argument name="rowsA" value="8"/>
+                <argument name="rowsB" value="8"/>
             </data>
         </node>
         <node id="multiplyTensors_11">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@dd0570</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@15a85a2</data>
             <data key="name">multiplyTensors_11</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
             <data key="arguments">
                 <argument name="depthB" value="2"/>
                 <argument name="depthA" value="2"/>
-                <argument name="columnsB" value="32"/>
-                <argument name="columnsA" value="32"/>
-                <argument name="rowsA" value="32"/>
-                <argument name="rowsB" value="32"/>
+                <argument name="columnsB" value="8"/>
+                <argument name="columnsA" value="8"/>
+                <argument name="rowsA" value="8"/>
+                <argument name="rowsB" value="8"/>
             </data>
         </node>
         <node id="multiplyTensors_12">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@dd0570</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@15a85a2</data>
             <data key="name">multiplyTensors_12</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
             <data key="arguments">
                 <argument name="depthB" value="2"/>
                 <argument name="depthA" value="2"/>
-                <argument name="columnsB" value="32"/>
-                <argument name="columnsA" value="32"/>
-                <argument name="rowsA" value="32"/>
-                <argument name="rowsB" value="32"/>
+                <argument name="columnsB" value="8"/>
+                <argument name="columnsA" value="8"/>
+                <argument name="rowsA" value="8"/>
+                <argument name="rowsB" value="8"/>
             </data>
         </node>
         <node id="multiplyTensors_13">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@dd0570</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@15a85a2</data>
             <data key="name">multiplyTensors_13</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
             <data key="arguments">
                 <argument name="depthB" value="2"/>
                 <argument name="depthA" value="2"/>
-                <argument name="columnsB" value="32"/>
-                <argument name="columnsA" value="32"/>
-                <argument name="rowsA" value="32"/>
-                <argument name="rowsB" value="32"/>
+                <argument name="columnsB" value="8"/>
+                <argument name="columnsA" value="8"/>
+                <argument name="rowsA" value="8"/>
+                <argument name="rowsB" value="8"/>
             </data>
         </node>
         <node id="multiplyTensors_14">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@dd0570</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@15a85a2</data>
             <data key="name">multiplyTensors_14</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
             <data key="arguments">
                 <argument name="depthB" value="2"/>
                 <argument name="depthA" value="2"/>
-                <argument name="columnsB" value="32"/>
-                <argument name="columnsA" value="32"/>
-                <argument name="rowsA" value="32"/>
-                <argument name="rowsB" value="32"/>
+                <argument name="columnsB" value="8"/>
+                <argument name="columnsA" value="8"/>
+                <argument name="rowsA" value="8"/>
+                <argument name="rowsB" value="8"/>
             </data>
         </node>
         <node id="multiplyTensors_15">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@dd0570</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@15a85a2</data>
             <data key="name">multiplyTensors_15</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
             <data key="arguments">
                 <argument name="depthB" value="2"/>
                 <argument name="depthA" value="2"/>
-                <argument name="columnsB" value="32"/>
-                <argument name="columnsA" value="32"/>
-                <argument name="rowsA" value="32"/>
-                <argument name="rowsB" value="32"/>
+                <argument name="columnsB" value="8"/>
+                <argument name="columnsA" value="8"/>
+                <argument name="rowsA" value="8"/>
+                <argument name="rowsB" value="8"/>
             </data>
         </node>
         <node id="broadcastTensorB_0">
@@ -274,14 +274,14 @@
             <data key="arguments"/>
         </node>
         <node id="displayTensor">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@9034ec</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@1fb568d</data>
             <data key="name">displayTensor</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
             <data key="arguments">
                 <argument name="depthA" value="2"/>
-                <argument name="columnsB" value="32"/>
-                <argument name="rowsA" value="32"/>
+                <argument name="columnsB" value="8"/>
+                <argument name="rowsA" value="8"/>
             </data>
         </node>
         <node id="explode_generateTensors_arrayB">
@@ -304,9 +304,9 @@
         </node>
         <edge source="generateTensors" sourceport="arrayB"
             target="explode_generateTensors_arrayB" targetport="input">
-            <data key="edge_cons">2048</data>
+            <data key="edge_cons">128</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">2048</data>
+            <data key="edge_prod">128</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
@@ -314,19 +314,19 @@
         </edge>
         <edge source="explode_generateTensors_arrayB"
             sourceport="arrayB_0" target="broadcastTensorB_0" targetport="input">
-            <data key="edge_cons">1024</data>
+            <data key="edge_cons">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">1024</data>
+            <data key="edge_prod">64</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="explode_generateTensors_arrayB"
-            sourceport="arrayB_1024" target="broadcastTensorB_1" targetport="input">
-            <data key="edge_cons">1024</data>
+            sourceport="arrayB_64" target="broadcastTensorB_1" targetport="input">
+            <data key="edge_cons">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">1024</data>
+            <data key="edge_prod">64</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
@@ -334,79 +334,79 @@
         </edge>
         <edge source="broadcastTensorB_0" sourceport="output_0"
             target="multiplyTensors_0" targetport="arrayB">
-            <data key="edge_cons">1024</data>
+            <data key="edge_cons">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">1024</data>
+            <data key="edge_prod">64</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
-        <edge source="broadcastTensorB_0" sourceport="output_1024"
+        <edge source="broadcastTensorB_0" sourceport="output_64"
             target="multiplyTensors_1" targetport="arrayB">
-            <data key="edge_cons">1024</data>
+            <data key="edge_cons">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">1024</data>
+            <data key="edge_prod">64</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
-        <edge source="broadcastTensorB_0" sourceport="output_2048"
+        <edge source="broadcastTensorB_0" sourceport="output_128"
             target="multiplyTensors_2" targetport="arrayB">
-            <data key="edge_cons">1024</data>
+            <data key="edge_cons">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">1024</data>
+            <data key="edge_prod">64</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
-        <edge source="broadcastTensorB_0" sourceport="output_3072"
+        <edge source="broadcastTensorB_0" sourceport="output_192"
             target="multiplyTensors_3" targetport="arrayB">
-            <data key="edge_cons">1024</data>
+            <data key="edge_cons">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">1024</data>
+            <data key="edge_prod">64</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
-        <edge source="broadcastTensorB_0" sourceport="output_4096"
+        <edge source="broadcastTensorB_0" sourceport="output_256"
             target="multiplyTensors_4" targetport="arrayB">
-            <data key="edge_cons">1024</data>
+            <data key="edge_cons">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">1024</data>
+            <data key="edge_prod">64</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
-        <edge source="broadcastTensorB_0" sourceport="output_5120"
+        <edge source="broadcastTensorB_0" sourceport="output_320"
             target="multiplyTensors_5" targetport="arrayB">
-            <data key="edge_cons">1024</data>
+            <data key="edge_cons">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">1024</data>
+            <data key="edge_prod">64</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
-        <edge source="broadcastTensorB_0" sourceport="output_6144"
+        <edge source="broadcastTensorB_0" sourceport="output_384"
             target="multiplyTensors_6" targetport="arrayB">
-            <data key="edge_cons">1024</data>
+            <data key="edge_cons">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">1024</data>
+            <data key="edge_prod">64</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
-        <edge source="broadcastTensorB_0" sourceport="output_7168"
+        <edge source="broadcastTensorB_0" sourceport="output_448"
             target="multiplyTensors_7" targetport="arrayB">
-            <data key="edge_cons">1024</data>
+            <data key="edge_cons">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">1024</data>
+            <data key="edge_prod">64</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
@@ -414,79 +414,79 @@
         </edge>
         <edge source="broadcastTensorB_1" sourceport="output_0"
             target="multiplyTensors_8" targetport="arrayB">
-            <data key="edge_cons">1024</data>
+            <data key="edge_cons">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">1024</data>
+            <data key="edge_prod">64</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
-        <edge source="broadcastTensorB_1" sourceport="output_1024"
+        <edge source="broadcastTensorB_1" sourceport="output_64"
             target="multiplyTensors_9" targetport="arrayB">
-            <data key="edge_cons">1024</data>
+            <data key="edge_cons">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">1024</data>
+            <data key="edge_prod">64</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
-        <edge source="broadcastTensorB_1" sourceport="output_2048"
+        <edge source="broadcastTensorB_1" sourceport="output_128"
             target="multiplyTensors_10" targetport="arrayB">
-            <data key="edge_cons">1024</data>
+            <data key="edge_cons">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">1024</data>
+            <data key="edge_prod">64</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
-        <edge source="broadcastTensorB_1" sourceport="output_3072"
+        <edge source="broadcastTensorB_1" sourceport="output_192"
             target="multiplyTensors_11" targetport="arrayB">
-            <data key="edge_cons">1024</data>
+            <data key="edge_cons">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">1024</data>
+            <data key="edge_prod">64</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
-        <edge source="broadcastTensorB_1" sourceport="output_4096"
+        <edge source="broadcastTensorB_1" sourceport="output_256"
             target="multiplyTensors_12" targetport="arrayB">
-            <data key="edge_cons">1024</data>
+            <data key="edge_cons">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">1024</data>
+            <data key="edge_prod">64</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
-        <edge source="broadcastTensorB_1" sourceport="output_5120"
+        <edge source="broadcastTensorB_1" sourceport="output_320"
             target="multiplyTensors_13" targetport="arrayB">
-            <data key="edge_cons">1024</data>
+            <data key="edge_cons">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">1024</data>
+            <data key="edge_prod">64</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
-        <edge source="broadcastTensorB_1" sourceport="output_6144"
+        <edge source="broadcastTensorB_1" sourceport="output_384"
             target="multiplyTensors_14" targetport="arrayB">
-            <data key="edge_cons">1024</data>
+            <data key="edge_cons">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">1024</data>
+            <data key="edge_prod">64</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
-        <edge source="broadcastTensorB_1" sourceport="output_7168"
+        <edge source="broadcastTensorB_1" sourceport="output_448"
             target="multiplyTensors_15" targetport="arrayB">
-            <data key="edge_cons">1024</data>
+            <data key="edge_cons">64</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">1024</data>
+            <data key="edge_prod">64</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
@@ -494,9 +494,9 @@
         </edge>
         <edge source="generateTensors" sourceport="arrayA"
             target="explode_generateTensors_arrayA" targetport="arrayA">
-            <data key="edge_cons">2048</data>
+            <data key="edge_cons">128</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">2048</data>
+            <data key="edge_prod">128</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
@@ -504,159 +504,159 @@
         </edge>
         <edge source="explode_generateTensors_arrayA"
             sourceport="arrayA_0" target="multiplyTensors_0" targetport="arrayA">
-            <data key="edge_cons">128</data>
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="explode_generateTensors_arrayA"
-            sourceport="arrayA_128" target="multiplyTensors_1" targetport="arrayA">
-            <data key="edge_cons">128</data>
+            sourceport="arrayA_8" target="multiplyTensors_1" targetport="arrayA">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="explode_generateTensors_arrayA"
-            sourceport="arrayA_256" target="multiplyTensors_2" targetport="arrayA">
-            <data key="edge_cons">128</data>
+            sourceport="arrayA_16" target="multiplyTensors_2" targetport="arrayA">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="explode_generateTensors_arrayA"
-            sourceport="arrayA_384" target="multiplyTensors_3" targetport="arrayA">
-            <data key="edge_cons">128</data>
+            sourceport="arrayA_24" target="multiplyTensors_3" targetport="arrayA">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="explode_generateTensors_arrayA"
-            sourceport="arrayA_512" target="multiplyTensors_4" targetport="arrayA">
-            <data key="edge_cons">128</data>
+            sourceport="arrayA_32" target="multiplyTensors_4" targetport="arrayA">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="explode_generateTensors_arrayA"
-            sourceport="arrayA_640" target="multiplyTensors_5" targetport="arrayA">
-            <data key="edge_cons">128</data>
+            sourceport="arrayA_40" target="multiplyTensors_5" targetport="arrayA">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="explode_generateTensors_arrayA"
-            sourceport="arrayA_768" target="multiplyTensors_6" targetport="arrayA">
-            <data key="edge_cons">128</data>
+            sourceport="arrayA_48" target="multiplyTensors_6" targetport="arrayA">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="explode_generateTensors_arrayA"
-            sourceport="arrayA_896" target="multiplyTensors_7" targetport="arrayA">
-            <data key="edge_cons">128</data>
+            sourceport="arrayA_56" target="multiplyTensors_7" targetport="arrayA">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="explode_generateTensors_arrayA"
-            sourceport="arrayA_1024" target="multiplyTensors_8" targetport="arrayA">
-            <data key="edge_cons">128</data>
+            sourceport="arrayA_64" target="multiplyTensors_8" targetport="arrayA">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="explode_generateTensors_arrayA"
-            sourceport="arrayA_1152" target="multiplyTensors_9" targetport="arrayA">
-            <data key="edge_cons">128</data>
+            sourceport="arrayA_72" target="multiplyTensors_9" targetport="arrayA">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="explode_generateTensors_arrayA"
-            sourceport="arrayA_1280" target="multiplyTensors_10" targetport="arrayA">
-            <data key="edge_cons">128</data>
+            sourceport="arrayA_80" target="multiplyTensors_10" targetport="arrayA">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="explode_generateTensors_arrayA"
-            sourceport="arrayA_1408" target="multiplyTensors_11" targetport="arrayA">
-            <data key="edge_cons">128</data>
+            sourceport="arrayA_88" target="multiplyTensors_11" targetport="arrayA">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="explode_generateTensors_arrayA"
-            sourceport="arrayA_1536" target="multiplyTensors_12" targetport="arrayA">
-            <data key="edge_cons">128</data>
+            sourceport="arrayA_96" target="multiplyTensors_12" targetport="arrayA">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="explode_generateTensors_arrayA"
-            sourceport="arrayA_1664" target="multiplyTensors_13" targetport="arrayA">
-            <data key="edge_cons">128</data>
+            sourceport="arrayA_104" target="multiplyTensors_13" targetport="arrayA">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="explode_generateTensors_arrayA"
-            sourceport="arrayA_1792" target="multiplyTensors_14" targetport="arrayA">
-            <data key="edge_cons">128</data>
+            sourceport="arrayA_112" target="multiplyTensors_14" targetport="arrayA">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="explode_generateTensors_arrayA"
-            sourceport="arrayA_1920" target="multiplyTensors_15" targetport="arrayA">
-            <data key="edge_cons">128</data>
+            sourceport="arrayA_120" target="multiplyTensors_15" targetport="arrayA">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">int</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
@@ -664,9 +664,9 @@
         </edge>
         <edge source="implode_displayTensor_arrayC" sourceport="arrayC"
             target="displayTensor" targetport="arrayC">
-            <data key="edge_cons">2048</data>
+            <data key="edge_cons">128</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">2048</data>
+            <data key="edge_prod">128</data>
             <data key="data_type">long</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
@@ -674,159 +674,159 @@
         </edge>
         <edge source="multiplyTensors_0" sourceport="arrayC"
             target="implode_displayTensor_arrayC" targetport="arrayC_0">
-            <data key="edge_cons">128</data>
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">long</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="multiplyTensors_1" sourceport="arrayC"
-            target="implode_displayTensor_arrayC" targetport="arrayC_128">
-            <data key="edge_cons">128</data>
+            target="implode_displayTensor_arrayC" targetport="arrayC_8">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">long</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="multiplyTensors_2" sourceport="arrayC"
-            target="implode_displayTensor_arrayC" targetport="arrayC_256">
-            <data key="edge_cons">128</data>
+            target="implode_displayTensor_arrayC" targetport="arrayC_16">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">long</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="multiplyTensors_3" sourceport="arrayC"
-            target="implode_displayTensor_arrayC" targetport="arrayC_384">
-            <data key="edge_cons">128</data>
+            target="implode_displayTensor_arrayC" targetport="arrayC_24">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">long</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="multiplyTensors_4" sourceport="arrayC"
-            target="implode_displayTensor_arrayC" targetport="arrayC_512">
-            <data key="edge_cons">128</data>
+            target="implode_displayTensor_arrayC" targetport="arrayC_32">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">long</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="multiplyTensors_5" sourceport="arrayC"
-            target="implode_displayTensor_arrayC" targetport="arrayC_640">
-            <data key="edge_cons">128</data>
+            target="implode_displayTensor_arrayC" targetport="arrayC_40">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">long</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="multiplyTensors_6" sourceport="arrayC"
-            target="implode_displayTensor_arrayC" targetport="arrayC_768">
-            <data key="edge_cons">128</data>
+            target="implode_displayTensor_arrayC" targetport="arrayC_48">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">long</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="multiplyTensors_7" sourceport="arrayC"
-            target="implode_displayTensor_arrayC" targetport="arrayC_896">
-            <data key="edge_cons">128</data>
+            target="implode_displayTensor_arrayC" targetport="arrayC_56">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">long</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="multiplyTensors_8" sourceport="arrayC"
-            target="implode_displayTensor_arrayC" targetport="arrayC_1024">
-            <data key="edge_cons">128</data>
+            target="implode_displayTensor_arrayC" targetport="arrayC_64">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">long</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="multiplyTensors_9" sourceport="arrayC"
-            target="implode_displayTensor_arrayC" targetport="arrayC_1152">
-            <data key="edge_cons">128</data>
+            target="implode_displayTensor_arrayC" targetport="arrayC_72">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">long</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="multiplyTensors_10" sourceport="arrayC"
-            target="implode_displayTensor_arrayC" targetport="arrayC_1280">
-            <data key="edge_cons">128</data>
+            target="implode_displayTensor_arrayC" targetport="arrayC_80">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">long</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="multiplyTensors_11" sourceport="arrayC"
-            target="implode_displayTensor_arrayC" targetport="arrayC_1408">
-            <data key="edge_cons">128</data>
+            target="implode_displayTensor_arrayC" targetport="arrayC_88">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">long</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="multiplyTensors_12" sourceport="arrayC"
-            target="implode_displayTensor_arrayC" targetport="arrayC_1536">
-            <data key="edge_cons">128</data>
+            target="implode_displayTensor_arrayC" targetport="arrayC_96">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">long</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="multiplyTensors_13" sourceport="arrayC"
-            target="implode_displayTensor_arrayC" targetport="arrayC_1664">
-            <data key="edge_cons">128</data>
+            target="implode_displayTensor_arrayC" targetport="arrayC_104">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">long</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="multiplyTensors_14" sourceport="arrayC"
-            target="implode_displayTensor_arrayC" targetport="arrayC_1792">
-            <data key="edge_cons">128</data>
+            target="implode_displayTensor_arrayC" targetport="arrayC_112">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">long</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
             <data key="Weight"/>
         </edge>
         <edge source="multiplyTensors_15" sourceport="arrayC"
-            target="implode_displayTensor_arrayC" targetport="arrayC_1920">
-            <data key="edge_cons">128</data>
+            target="implode_displayTensor_arrayC" targetport="arrayC_120">
+            <data key="edge_cons">8</data>
             <data key="edge_delay">0</data>
-            <data key="edge_prod">128</data>
+            <data key="edge_prod">8</data>
             <data key="data_type">long</data>
             <data key="source_port_modifier">write_only</data>
             <data key="target_port_modifier">read_only</data>
