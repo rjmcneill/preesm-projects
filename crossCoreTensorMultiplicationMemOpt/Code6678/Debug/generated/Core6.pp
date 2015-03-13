@@ -1,12 +1,12 @@
 # FIXED
 
 generated/Core6.obj: ../generated/Core6.c
-generated/Core6.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/cores.h
-generated/Core6.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/../src/c6678.h
-generated/Core6.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/../src/generateTensors.h
-generated/Core6.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/../src/multiplyTensors.h
-generated/Core6.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/../src/displayTensor.h
-generated/Core6.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/utils.h
+generated/Core6.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/cores.h
+generated/Core6.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/../src/c6678.h
+generated/Core6.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/../src/generateTensors.h
+generated/Core6.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/../src/multiplyTensors.h
+generated/Core6.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/../src/displayTensor.h
+generated/Core6.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/utils.h
 generated/Core6.obj: C:/ti/xdctools_3_23_04_60/packages/xdc/std.h
 generated/Core6.obj: C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stdarg.h
 generated/Core6.obj: C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stddef.h
@@ -14,9 +14,9 @@ generated/Core6.obj: C:/ti/xdctools_3_23_04_60/packages/ti/targets/elf/std.h
 generated/Core6.obj: C:/ti/xdctools_3_23_04_60/packages/ti/targets/elf/C66.h
 generated/Core6.obj: C:/ti/xdctools_3_23_04_60/packages/ti/targets/std.h
 generated/Core6.obj: C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stdint.h
-generated/Core6.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/communication.h
-generated/Core6.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/fifo.h
-generated/Core6.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/cache.h
+generated/Core6.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/communication.h
+generated/Core6.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/fifo.h
+generated/Core6.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/cache.h
 generated/Core6.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cacheAux.h
 generated/Core6.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cache.h
 generated/Core6.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl.h
@@ -99,12 +99,12 @@ generated/Core6.obj: C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/package/Syst
 generated/Core6.obj: C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/package/System_Module_GateProxy.h
 
 ../generated/Core6.c: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/cores.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/../src/c6678.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/../src/generateTensors.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/../src/multiplyTensors.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/../src/displayTensor.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/utils.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/cores.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/../src/c6678.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/../src/generateTensors.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/../src/multiplyTensors.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/../src/displayTensor.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/utils.h: 
 C:/ti/xdctools_3_23_04_60/packages/xdc/std.h: 
 C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stdarg.h: 
 C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stddef.h: 
@@ -112,9 +112,9 @@ C:/ti/xdctools_3_23_04_60/packages/ti/targets/elf/std.h:
 C:/ti/xdctools_3_23_04_60/packages/ti/targets/elf/C66.h: 
 C:/ti/xdctools_3_23_04_60/packages/ti/targets/std.h: 
 C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stdint.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/communication.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/fifo.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/cache.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/communication.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/fifo.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/cache.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cacheAux.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cache.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl.h: 

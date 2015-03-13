@@ -7,7 +7,7 @@
     <key attr.name="graph_desc" attr.type="string" for="node"/>
     <graph edgedefault="directed">
         <data key="name">multiply</data>
-        <node expr="8" id="squaredSize" kind="param"/>
+        <node expr="64" id="squaredSize" kind="param"/>
         <node expr="2" id="depth" kind="param"/>
         <node id="generateTensors" kind="actor">
             <data key="graph_desc">Code/src/generateTensors.h</data>
@@ -28,11 +28,11 @@
             <port kind="cfg_input" name="rowsB"/>
             <port kind="cfg_input" name="columnsB"/>
             <port kind="cfg_input" name="depthB"/>
-            <port annotation="NONE" expr="(rowsA*columnsA*depthA)"
+            <port annotation="WRITE_ONLY" expr="(rowsA*columnsA*depthA)"
                 kind="output" name="arrayA"/>
-            <port annotation="NONE" expr="(rowsB*columnsB*depthB)"
+            <port annotation="WRITE_ONLY" expr="(rowsB*columnsB*depthB)"
                 kind="output" name="arrayB"/>
-            <port annotation="NONE" expr="1" kind="output" name="startTime"/>
+            <port annotation="WRITE_ONLY" expr="1" kind="output" name="startTime"/>
         </node>
         <node id="multiplyTensors" kind="actor">
             <data key="graph_desc">Code/src/multiplyTensors.h</data>
@@ -53,18 +53,20 @@
             <port kind="cfg_input" name="rowsB"/>
             <port kind="cfg_input" name="columnsB"/>
             <port kind="cfg_input" name="depthB"/>
-            <port annotation="NONE" expr="(rowsA*columnsA)/8"
+            <port annotation="READ_ONLY" expr="(rowsA*columnsA)/8"
                 kind="input" name="arrayA"/>
-            <port annotation="NONE" expr="(rowsB*columnsB)" kind="input" name="arrayB"/>
-            <port annotation="NONE" expr="(rowsA*columnsB)/8"
+            <port annotation="READ_ONLY" expr="(rowsB*columnsB)"
+                kind="input" name="arrayB"/>
+            <port annotation="WRITE_ONLY" expr="(rowsA*columnsB)/8"
                 kind="output" name="arrayC"/>
         </node>
         <node id="broadcastTensorB" kind="broadcast">
             <port kind="cfg_input" name="rowsB"/>
             <port kind="cfg_input" name="columnsB"/>
             <port kind="cfg_input" name="depthB"/>
-            <port annotation="NONE" expr="rowsB*columnsB" kind="input" name="input"/>
-            <port annotation="NONE" expr="rowsB*columnsB*8"
+            <port annotation="READ_ONLY" expr="rowsB*columnsB"
+                kind="input" name="input"/>
+            <port annotation="WRITE_ONLY" expr="rowsB*columnsB*8"
                 kind="output" name="output"/>
         </node>
         <node id="displayTensor" kind="actor">
@@ -79,9 +81,9 @@
             <port kind="cfg_input" name="rowsA"/>
             <port kind="cfg_input" name="columnsB"/>
             <port kind="cfg_input" name="depthA"/>
-            <port annotation="NONE" expr="(rowsA*columnsB*depthA)"
+            <port annotation="READ_ONLY" expr="(rowsA*columnsB*depthA)"
                 kind="input" name="arrayC"/>
-            <port annotation="NONE" expr="1" kind="input" name="startTime"/>
+            <port annotation="READ_ONLY" expr="1" kind="input" name="startTime"/>
         </node>
         <edge kind="fifo" source="generateTensors" sourceport="arrayB"
             target="broadcastTensorB" targetport="input" type="int"/>

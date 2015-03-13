@@ -163,12 +163,12 @@ src/main.obj: C:/ti/bios_6_33_06_50/packages/ti/sysbios/interfaces/ITaskSupport.
 src/main.obj: C:/ti/bios_6_33_06_50/packages/ti/sysbios/knl/Task__epilogue.h
 src/main.obj: C:/ti/bios_6_33_06_50/packages/ti/sysbios/knl/package/Task_SupportProxy.h
 src/main.obj: C:/ti/ipc_1_24_03_32/packages/ti/ipc/MultiProc.h
-src/main.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/utils.h
-src/main.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/cores.h
-src/main.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/../src/c6678.h
-src/main.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/../src/generateTensors.h
-src/main.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/../src/multiplyTensors.h
-src/main.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/../src/displayTensor.h
+src/main.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/utils.h
+src/main.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/cores.h
+src/main.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/../src/c6678.h
+src/main.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/../src/generateTensors.h
+src/main.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/../src/multiplyTensors.h
+src/main.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/../src/displayTensor.h
 src/main.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cacheAux.h
 src/main.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cache.h
 src/main.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl.h
@@ -179,8 +179,8 @@ src/main.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr_cgem.h
 src/main.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr.h
 src/main.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/soc.h
 src/main.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr_device.h
-src/main.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/communication.h
-src/main.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/cache.h
+src/main.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/communication.h
+src/main.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/cache.h
 src/main.obj: C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/System.h
 
 ../src/main.c: 
@@ -346,12 +346,12 @@ C:/ti/bios_6_33_06_50/packages/ti/sysbios/interfaces/ITaskSupport.h:
 C:/ti/bios_6_33_06_50/packages/ti/sysbios/knl/Task__epilogue.h: 
 C:/ti/bios_6_33_06_50/packages/ti/sysbios/knl/package/Task_SupportProxy.h: 
 C:/ti/ipc_1_24_03_32/packages/ti/ipc/MultiProc.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/utils.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/cores.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/../src/c6678.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/../src/generateTensors.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/../src/multiplyTensors.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/../src/displayTensor.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/utils.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/cores.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/../src/c6678.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/../src/generateTensors.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/../src/multiplyTensors.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/../src/displayTensor.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cacheAux.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cache.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl.h: 
@@ -362,6 +362,6 @@ C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr_cgem.h:
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/soc.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/cslr_device.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/communication.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/cache.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/communication.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationMemOpt/Code6678/include/cache.h: 
 C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/System.h: 

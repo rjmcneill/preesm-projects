@@ -8,13 +8,6 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include Code6678/src/subdir.mk
--include Code6678/package/preesm6678/package/subdir.mk
--include Code6678/generated/subdir.mk
--include Code6678/Debug/src/subdir.mk
--include Code6678/Debug/generated/subdir.mk
--include Code6678/Debug/configPkg/package/cfg/subdir.mk
--include Code6678/Debug/configPkg/package/subdir.mk
 -include Code/src/subdir.mk
 -include subdir.mk
 -include objects.mk
