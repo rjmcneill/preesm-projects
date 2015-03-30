@@ -9,7 +9,9 @@
 #define C6678_H_
 
 #include "generateTensors.h"
+#include "transposeTensor.h"
 #include "multiplyTensors.h"
+#include "sumResults.h"
 #include "displayTensor.h"
 
 #endif /* C6678_H_ */

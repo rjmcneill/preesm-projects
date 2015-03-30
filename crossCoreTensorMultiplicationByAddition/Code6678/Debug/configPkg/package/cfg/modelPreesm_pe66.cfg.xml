@@ -9029,7 +9029,7 @@ To see more exception detail, use ROV or set 'ti.sysbios.family.c64p.Exception.e
                 uses="">
         </module>
     </package>
-    <package name="preesm6678" version="" repository="C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreTensorMultiplicatio">
+    <package name="preesm6678" version="" repository="C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreTensorMultiplicationByAdditio">
         <module name="preesm6678.Platform"
                 used="true"
                 uses="">
@@ -12232,7 +12232,7 @@ To see more exception detail, use ROV or set 'ti.sysbios.family.c64p.Exception.e
             <feature name="action" type="object" value="ti.sdo.ipc.gates.GateMPSupportNull.Action_ASSERT"/>
         </module>
     </package>
-    <package name="configPkg" version="" repository="C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreTensorMultiplication/Code6678/Debug/">
+    <package name="configPkg" version="" repository="C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreTensorMultiplicationByAddition/Code6678/Debug/">
     </package>
 </imports>
 </configuration>

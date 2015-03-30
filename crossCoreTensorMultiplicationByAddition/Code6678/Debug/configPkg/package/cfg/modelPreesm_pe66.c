@@ -3722,7 +3722,7 @@ __FAR__ const xdc_SizeT ti_sysbios_xdcruntime_GateThreadSupport_Instance_State_g
  *  Define absolute path prefix for this executable's
  *  configuration generated files.
  */
-xdc__META(__ASM__, "@(#)__ASM__ = C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreTensorMultiplication/Code6678/Debug/configPkg/package/cfg/modelPreesm_pe66");
+xdc__META(__ASM__, "@(#)__ASM__ = C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreTensorMultiplicationByAddition/Code6678/Debug/configPkg/package/cfg/modelPreesm_pe66");
 
 /*
  *  ======== __ISA__ ========

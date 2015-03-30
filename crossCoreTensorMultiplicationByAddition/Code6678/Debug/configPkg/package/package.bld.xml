@@ -7,7 +7,7 @@
         <srcFile name="package/cfg/modelPreesm_pe66.c"/>
     </sources>
     <configscripts>
-        <srcFile name="C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreTensorMultiplication/Code6678/modelPreesm.cfg"/>
+        <srcFile name="C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreTensorMultiplicationByAddition/Code6678/modelPreesm.cfg"/>
     </configscripts>
     <makefiles>
         <srcFile name="package.mak" src="package.bld"/>
@@ -43,7 +43,7 @@
         isPartial="false"
         xCfgScript="package/cfg/modelPreesm_pe66.cfg"
         xCfgPrefix="package/cfg/modelPreesm_pe66"
-        cfgScript="C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreTensorMultiplication/Code6678/modelPreesm.cfg"
+        cfgScript="C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreTensorMultiplicationByAddition/Code6678/modelPreesm.cfg"
         cfgArgs="null"
         />
     </configurations>
@@ -55,7 +55,7 @@
         profile="release"
         xCfgScript="package/cfg/modelPreesm_pe66.cfg"
         xCfgPrefix="package/cfg/modelPreesm_pe66"
-        cfgScript="C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreTensorMultiplication/Code6678/modelPreesm.cfg"
+        cfgScript="C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreTensorMultiplicationByAddition/Code6678/modelPreesm.cfg"
         cfgArgs="null"
         />
     </executables>

@@ -26,8 +26,8 @@ void display (int rowsA, int columnsB, int depthA, long *arrayC, double *startTi
 	endClockCycles = ((endTime64.hi*4294967296) + endTime64.lo);
 	endTime = ((endClockCycles/(double)freq.lo));
 	timeTaken = endTime - *startTime;
-/*
-	printf("Resulting array:\n");
+
+	printf("\nResulting array:\n\n");
 	for (i = 0; i < depthA; i++)			// Print result of multiplication
 	{
 		printf("Depth: %i\n", i);
@@ -41,7 +41,7 @@ void display (int rowsA, int columnsB, int depthA, long *arrayC, double *startTi
 		}
 		printf("\n");
 	}
-*/
+
 	printf("\nMultiplication of %d square matrices of depth %d took %fs\n", rowsA, depthA, timeTaken);
 
 	exit(0);

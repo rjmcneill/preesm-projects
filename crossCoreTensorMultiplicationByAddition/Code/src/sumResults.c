@@ -9,7 +9,7 @@ Description :
 #include "sumResults.h"
 #include <stdio.h>
 
-void sum (int rowsA, int columnsB, int depthA, int *input, int *output)
+void sum (int rowsA, int columnsB, int depthA, long *input, long *output)
 {
 	int i, j, k;
 

@@ -7,26 +7,27 @@ Description :
 */
 
 #include "multiplyTensors.h"
+#include <xdc/runtime/Timestamp.h>
 #include <stdio.h>
 
 
 void multiply (int rowsA, int columnsA, int depthA, int rowsB, int columnsB, int depthB, int *arrayA, int *arrayB, long *arrayC)
 {
-	int i, j , k, l;
+	int i, j, k;
 
-	for (i = 0; i < (rowsA/8); i++)
+	for (i = 0; i < columnsB; i++)
 	{
-		for (j = 0; j < columnsB; j++)
+		for (j = 0; j < rowsA; j++)
 		{
-			for (k = 0; k < columnsA; k++)
+			for (k = 0; k < columnsB/8; k++)
 			{
-				if (k == 0)			// Takes away the need to initialise the memory
+				if (k == 0)
 				{
-					*((arrayC+i*columnsB) + j) = ((*((arrayA+i*columnsA) + k)) * (*((arrayB+k*columnsB) + j)));
+					*(arrayC+((j*columnsB) + i)) = ((*(arrayA+((k*rowsA) + j))) * (*(arrayB+((k*columnsB) + i))));
 				}
 				else
 				{
-					*((arrayC+i*columnsB) + j) = ((*((arrayC+i*columnsB) + j)) + ((*((arrayA+i*columnsA) + k)) * (*((arrayB+k*columnsB) + j))));
+					*(arrayC+((j*columnsB) + i)) = *(arrayC+((j*columnsB) + i)) + ((*(arrayA+((k*rowsA) + j))) * (*(arrayB+((k*columnsB) + i))));
 				}
 			}
 		}

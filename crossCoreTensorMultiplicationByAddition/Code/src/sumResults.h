@@ -26,5 +26,5 @@ Description :
 *        Input arrayB
 */
 
-void sum (int rowsA, int columnsB, int depthA, int *input, int *output);
+void sum (int rowsA, int columnsB, int depthA, long *input, long *output);
 #endif /* SUMRESULTS_H_ */

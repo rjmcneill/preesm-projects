@@ -17,6 +17,8 @@ $(GEN_CMDS__FLAG) \
 "./generated/Core1.obj" \
 "./generated/Core0.obj" \
 "./src/utils.obj" \
+"./src/transposeTensor.obj" \
+"./src/sumResults.obj" \
 "./src/semaphore6678.obj" \
 "./src/multiplyTensors.obj" \
 "./src/memory.obj" \
@@ -130,22 +132,22 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: crossCoreTensorMultiplication.out
+all: crossCoreTensorMultiplicationByAddition.out
 
 # Tool invocations
-crossCoreTensorMultiplication.out: $(OBJS) $(GEN_CMDS)
+crossCoreTensorMultiplicationByAddition.out: $(OBJS) $(GEN_CMDS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: C6000 Linker'
-	"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/bin/cl6x" -mv6600 -g --display_error_number --diag_warning=225 --abi=eabi -z -m"crossCoreTensorMultiplication.map" --warn_sections --display_error_number -i"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/lib" -i"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include" --reread_libs --rom_model -o "crossCoreTensorMultiplication.out" $(ORDERED_OBJS)
+	"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/bin/cl6x" -mv6600 -g --display_error_number --diag_warning=225 --abi=eabi -z -m"crossCoreTensorMultiplicationByAddition.map" --warn_sections --display_error_number -i"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/lib" -i"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include" --reread_libs --rom_model -o "crossCoreTensorMultiplicationByAddition.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(GEN_SRCS__QUOTED)$(GEN_MISC_FILES__QUOTED)$(C6000_EXECUTABLE_OUTPUTS__QUOTED)$(GEN_OPTS__QUOTED)$(GEN_CMDS__QUOTED) "crossCoreTensorMultiplication.out"
+	-$(RM) $(GEN_SRCS__QUOTED)$(GEN_MISC_FILES__QUOTED)$(C6000_EXECUTABLE_OUTPUTS__QUOTED)$(GEN_OPTS__QUOTED)$(GEN_CMDS__QUOTED) "crossCoreTensorMultiplicationByAddition.out"
 	-$(RMDIR) $(GEN_MISC_DIRS__QUOTED)
-	-$(RM) "src\cache.pp" "src\communication.pp" "src\displayTensor.pp" "src\dump.pp" "src\fifo.pp" "src\generateTensors.pp" "src\main.pp" "src\memory.pp" "src\multiplyTensors.pp" "src\semaphore6678.pp" "src\utils.pp" "generated\Core0.pp" "generated\Core1.pp" "generated\Core2.pp" "generated\Core3.pp" "generated\Core4.pp" "generated\Core5.pp" "generated\Core6.pp" "generated\Core7.pp" 
-	-$(RM) "src\cache.obj" "src\communication.obj" "src\displayTensor.obj" "src\dump.obj" "src\fifo.obj" "src\generateTensors.obj" "src\main.obj" "src\memory.obj" "src\multiplyTensors.obj" "src\semaphore6678.obj" "src\utils.obj" "generated\Core0.obj" "generated\Core1.obj" "generated\Core2.obj" "generated\Core3.obj" "generated\Core4.obj" "generated\Core5.obj" "generated\Core6.obj" "generated\Core7.obj" 
+	-$(RM) "src\cache.pp" "src\communication.pp" "src\displayTensor.pp" "src\dump.pp" "src\fifo.pp" "src\generateTensors.pp" "src\main.pp" "src\memory.pp" "src\multiplyTensors.pp" "src\semaphore6678.pp" "src\sumResults.pp" "src\transposeTensor.pp" "src\utils.pp" "generated\Core0.pp" "generated\Core1.pp" "generated\Core2.pp" "generated\Core3.pp" "generated\Core4.pp" "generated\Core5.pp" "generated\Core6.pp" "generated\Core7.pp" 
+	-$(RM) "src\cache.obj" "src\communication.obj" "src\displayTensor.obj" "src\dump.obj" "src\fifo.obj" "src\generateTensors.obj" "src\main.obj" "src\memory.obj" "src\multiplyTensors.obj" "src\semaphore6678.obj" "src\sumResults.obj" "src\transposeTensor.obj" "src\utils.obj" "generated\Core0.obj" "generated\Core1.obj" "generated\Core2.obj" "generated\Core3.obj" "generated\Core4.obj" "generated\Core5.obj" "generated\Core6.obj" "generated\Core7.obj" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

@@ -1,7 +1,7 @@
 # FIXED
 
 src/memory.obj: ../src/memory.c
-src/memory.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/cache.h
+src/memory.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationByAddition/Code6678/include/cache.h
 src/memory.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cacheAux.h
 src/memory.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cache.h
 src/memory.obj: C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl.h
@@ -89,13 +89,13 @@ src/memory.obj: C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/IInstance.h
 src/memory.obj: C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/IGateProvider.h
 src/memory.obj: C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/package/System_SupportProxy.h
 src/memory.obj: C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/package/System_Module_GateProxy.h
-src/memory.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/memory.h
+src/memory.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationByAddition/Code6678/include/memory.h
 src/memory.obj: C:/ti/ipc_1_24_03_32/packages/ti/ipc/HeapMemMP.h
 src/memory.obj: C:/ti/ipc_1_24_03_32/packages/ti/ipc/GateMP.h
-src/memory.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/semaphore6678.h
+src/memory.obj: C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationByAddition/Code6678/include/semaphore6678.h
 
 ../src/memory.c: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/cache.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationByAddition/Code6678/include/cache.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cacheAux.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl_cache.h: 
 C:/ti/pdk_C6678_1_1_2_5/packages/ti/csl/csl.h: 
@@ -183,7 +183,7 @@ C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/IInstance.h:
 C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/IGateProvider.h: 
 C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/package/System_SupportProxy.h: 
 C:/ti/xdctools_3_23_04_60/packages/xdc/runtime/package/System_Module_GateProxy.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/memory.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationByAddition/Code6678/include/memory.h: 
 C:/ti/ipc_1_24_03_32/packages/ti/ipc/HeapMemMP.h: 
 C:/ti/ipc_1_24_03_32/packages/ti/ipc/GateMP.h: 
-C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplication/Code6678/include/semaphore6678.h: 
+C:/Users/Robert/Development/Ubuntu\ Dev/workspace/crossCoreTensorMultiplicationByAddition/Code6678/include/semaphore6678.h: 

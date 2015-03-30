@@ -6,7 +6,7 @@ Description :
 ============================================================================
 */
 
-#include "transposeMatrix.h"
+#include "transposeTensor.h"
 #include <stdio.h>
 
 void transpose (int rowsA, int columnsA, int depthA, int *input, int *output)
