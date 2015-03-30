@@ -1,46 +1,18 @@
 # Memory scripts summary
 - Independent match trees : *3*
-- Total number of buffers in these trees: From 403 to 67 buffers.
-- Total size of these buffers: From 234897664 to 58728832 (74.99812003238993%).
+- Total number of buffers in these trees: From 53 to 11 buffers.
+- Total size of these buffers: From 29362432 to 7341376 (74.99738441284428%).
 
 # Match tree optimization log
-## Tree of 145 buffers
+## Tree of 19 buffers
 ### Original buffer list:
-> [broadcastTensorB_3.input[1048576], broadcastTensorB_3.output_0[1048576], broadcastTensorB_3.output_262144[1048576], broadcastTensorB_3.output_524288[1048576], broadcastTensorB_3.output_786432[1048576], broadcastTensorB_3.output_1048576[1048576], broadcastTensorB_3.output_1310720[1048576], broadcastTensorB_3.output_1572864[1048576], broadcastTensorB_3.output_1835008[1048576], explode_generateTensors_arrayB.input[16777216], broadcastTensorB_0.input[1048576], broadcastTensorB_0.output_0[1048576], broadcastTensorB_0.output_262144[1048576], broadcastTensorB_0.output_524288[1048576], broadcastTensorB_0.output_786432[1048576], broadcastTensorB_0.output_1048576[1048576], broadcastTensorB_0.output_1310720[1048576], broadcastTensorB_0.output_1572864[1048576], broadcastTensorB_0.output_1835008[1048576], broadcastTensorB_1.input[1048576], broadcastTensorB_1.output_0[1048576], broadcastTensorB_1.output_262144[1048576], broadcastTensorB_1.output_524288[1048576], broadcastTensorB_1.output_786432[1048576], broadcastTensorB_1.output_1048576[1048576], broadcastTensorB_1.output_1310720[1048576], broadcastTensorB_1.output_1572864[1048576], broadcastTensorB_1.output_1835008[1048576], broadcastTensorB_2.input[1048576], broadcastTensorB_2.output_0[1048576], broadcastTensorB_2.output_262144[1048576], broadcastTensorB_2.output_524288[1048576], broadcastTensorB_2.output_786432[1048576], broadcastTensorB_2.output_1048576[1048576], broadcastTensorB_2.output_1310720[1048576], broadcastTensorB_2.output_1572864[1048576], broadcastTensorB_2.output_1835008[1048576], broadcastTensorB_4.input[1048576], broadcastTensorB_4.output_0[1048576], broadcastTensorB_4.output_262144[1048576], broadcastTensorB_4.output_524288[1048576], broadcastTensorB_4.output_786432[1048576], broadcastTensorB_4.output_1048576[1048576], broadcastTensorB_4.output_1310720[1048576], broadcastTensorB_4.output_1572864[1048576], broadcastTensorB_4.output_1835008[1048576], broadcastTensorB_5.input[1048576], broadcastTensorB_5.output_0[1048576], broadcastTensorB_5.output_262144[1048576], broadcastTensorB_5.output_524288[1048576], broadcastTensorB_5.output_786432[1048576], broadcastTensorB_5.output_1048576[1048576], broadcastTensorB_5.output_1310720[1048576], broadcastTensorB_5.output_1572864[1048576], broadcastTensorB_5.output_1835008[1048576], broadcastTensorB_6.input[1048576], broadcastTensorB_6.output_0[1048576], broadcastTensorB_6.output_262144[1048576], broadcastTensorB_6.output_524288[1048576], broadcastTensorB_6.output_786432[1048576], broadcastTensorB_6.output_1048576[1048576], broadcastTensorB_6.output_1310720[1048576], broadcastTensorB_6.output_1572864[1048576], broadcastTensorB_6.output_1835008[1048576], broadcastTensorB_7.input[1048576], broadcastTensorB_7.output_0[1048576], broadcastTensorB_7.output_262144[1048576], broadcastTensorB_7.output_524288[1048576], broadcastTensorB_7.output_786432[1048576], broadcastTensorB_7.output_1048576[1048576], broadcastTensorB_7.output_1310720[1048576], broadcastTensorB_7.output_1572864[1048576], broadcastTensorB_7.output_1835008[1048576], broadcastTensorB_8.input[1048576], broadcastTensorB_8.output_0[1048576], broadcastTensorB_8.output_262144[1048576], broadcastTensorB_8.output_524288[1048576], broadcastTensorB_8.output_786432[1048576], broadcastTensorB_8.output_1048576[1048576], broadcastTensorB_8.output_1310720[1048576], broadcastTensorB_8.output_1572864[1048576], broadcastTensorB_8.output_1835008[1048576], broadcastTensorB_9.input[1048576], broadcastTensorB_9.output_0[1048576], broadcastTensorB_9.output_262144[1048576], broadcastTensorB_9.output_524288[1048576], broadcastTensorB_9.output_786432[1048576], broadcastTensorB_9.output_1048576[1048576], broadcastTensorB_9.output_1310720[1048576], broadcastTensorB_9.output_1572864[1048576], broadcastTensorB_9.output_1835008[1048576], broadcastTensorB_10.input[1048576], broadcastTensorB_10.output_0[1048576], broadcastTensorB_10.output_262144[1048576], broadcastTensorB_10.output_524288[1048576], broadcastTensorB_10.output_786432[1048576], broadcastTensorB_10.output_1048576[1048576], broadcastTensorB_10.output_1310720[1048576], broadcastTensorB_10.output_1572864[1048576], broadcastTensorB_10.output_1835008[1048576], broadcastTensorB_11.input[1048576], broadcastTensorB_11.output_0[1048576], broadcastTensorB_11.output_262144[1048576], broadcastTensorB_11.output_524288[1048576], broadcastTensorB_11.output_786432[1048576], broadcastTensorB_11.output_1048576[1048576], broadcastTensorB_11.output_1310720[1048576], broadcastTensorB_11.output_1572864[1048576], broadcastTensorB_11.output_1835008[1048576], broadcastTensorB_12.input[1048576], broadcastTensorB_12.output_0[1048576], broadcastTensorB_12.output_262144[1048576], broadcastTensorB_12.output_524288[1048576], broadcastTensorB_12.output_786432[1048576], broadcastTensorB_12.output_1048576[1048576], broadcastTensorB_12.output_1310720[1048576], broadcastTensorB_12.output_1572864[1048576], broadcastTensorB_12.output_1835008[1048576], broadcastTensorB_13.input[1048576], broadcastTensorB_13.output_0[1048576], broadcastTensorB_13.output_262144[1048576], broadcastTensorB_13.output_524288[1048576], broadcastTensorB_13.output_786432[1048576], broadcastTensorB_13.output_1048576[1048576], broadcastTensorB_13.output_1310720[1048576], broadcastTensorB_13.output_1572864[1048576], broadcastTensorB_13.output_1835008[1048576], broadcastTensorB_14.input[1048576], broadcastTensorB_14.output_0[1048576], broadcastTensorB_14.output_262144[1048576], broadcastTensorB_14.output_524288[1048576], broadcastTensorB_14.output_786432[1048576], broadcastTensorB_14.output_1048576[1048576], broadcastTensorB_14.output_1310720[1048576], broadcastTensorB_14.output_1572864[1048576], broadcastTensorB_14.output_1835008[1048576], broadcastTensorB_15.input[1048576], broadcastTensorB_15.output_0[1048576], broadcastTensorB_15.output_262144[1048576], broadcastTensorB_15.output_524288[1048576], broadcastTensorB_15.output_786432[1048576], broadcastTensorB_15.output_1048576[1048576], broadcastTensorB_15.output_1310720[1048576], broadcastTensorB_15.output_1572864[1048576], broadcastTensorB_15.output_1835008[1048576]]
+> [broadcastTensorB_1.input[1048576], broadcastTensorB_1.output_0[1048576], broadcastTensorB_1.output_262144[1048576], broadcastTensorB_1.output_524288[1048576], broadcastTensorB_1.output_786432[1048576], broadcastTensorB_1.output_1048576[1048576], broadcastTensorB_1.output_1310720[1048576], broadcastTensorB_1.output_1572864[1048576], broadcastTensorB_1.output_1835008[1048576], explode_generateTensors_arrayB.input[2097152], broadcastTensorB_0.input[1048576], broadcastTensorB_0.output_0[1048576], broadcastTensorB_0.output_262144[1048576], broadcastTensorB_0.output_524288[1048576], broadcastTensorB_0.output_786432[1048576], broadcastTensorB_0.output_1048576[1048576], broadcastTensorB_0.output_1310720[1048576], broadcastTensorB_0.output_1572864[1048576], broadcastTensorB_0.output_1835008[1048576]]
 
 ### Match application log: 
 - __Step 2 - 1 matches__
 >broadcastTensorB_0.input[0..1048576[=>explode_generateTensors_arrayB.input[0..1048576[  
 - __Step 2 - 1 matches__
 >broadcastTensorB_1.input[0..1048576[=>explode_generateTensors_arrayB.input[1048576..2097152[  
-- __Step 2 - 1 matches__
->broadcastTensorB_10.input[0..1048576[=>explode_generateTensors_arrayB.input[10485760..11534336[  
-- __Step 2 - 1 matches__
->broadcastTensorB_11.input[0..1048576[=>explode_generateTensors_arrayB.input[11534336..12582912[  
-- __Step 2 - 1 matches__
->broadcastTensorB_12.input[0..1048576[=>explode_generateTensors_arrayB.input[12582912..13631488[  
-- __Step 2 - 1 matches__
->broadcastTensorB_13.input[0..1048576[=>explode_generateTensors_arrayB.input[13631488..14680064[  
-- __Step 2 - 1 matches__
->broadcastTensorB_14.input[0..1048576[=>explode_generateTensors_arrayB.input[14680064..15728640[  
-- __Step 2 - 1 matches__
->broadcastTensorB_15.input[0..1048576[=>explode_generateTensors_arrayB.input[15728640..16777216[  
-- __Step 2 - 1 matches__
->broadcastTensorB_2.input[0..1048576[=>explode_generateTensors_arrayB.input[2097152..3145728[  
-- __Step 2 - 1 matches__
->broadcastTensorB_3.input[0..1048576[=>explode_generateTensors_arrayB.input[3145728..4194304[  
-- __Step 2 - 1 matches__
->broadcastTensorB_4.input[0..1048576[=>explode_generateTensors_arrayB.input[4194304..5242880[  
-- __Step 2 - 1 matches__
->broadcastTensorB_5.input[0..1048576[=>explode_generateTensors_arrayB.input[5242880..6291456[  
-- __Step 2 - 1 matches__
->broadcastTensorB_6.input[0..1048576[=>explode_generateTensors_arrayB.input[6291456..7340032[  
-- __Step 2 - 1 matches__
->broadcastTensorB_7.input[0..1048576[=>explode_generateTensors_arrayB.input[7340032..8388608[  
-- __Step 2 - 1 matches__
->broadcastTensorB_8.input[0..1048576[=>explode_generateTensors_arrayB.input[8388608..9437184[  
-- __Step 2 - 1 matches__
->broadcastTensorB_9.input[0..1048576[=>explode_generateTensors_arrayB.input[9437184..10485760[  
 - __Step 4 - 1 matches__
 >broadcastTensorB_0.output_0[0..1048576[=>explode_generateTensors_arrayB.input[0..1048576[  
 - __Step 4 - 1 matches__
@@ -73,388 +45,52 @@
 >broadcastTensorB_1.output_524288[0..1048576[=>explode_generateTensors_arrayB.input[1048576..2097152[  
 - __Step 0 - 1 matches__
 >broadcastTensorB_1.output_786432[0..1048576[=>explode_generateTensors_arrayB.input[1048576..2097152[  
-- __Step 4 - 1 matches__
->broadcastTensorB_10.output_0[0..1048576[=>explode_generateTensors_arrayB.input[10485760..11534336[  
-- __Step 4 - 1 matches__
->broadcastTensorB_10.output_1048576[0..1048576[=>explode_generateTensors_arrayB.input[10485760..11534336[  
-- __Step 4 - 1 matches__
->broadcastTensorB_10.output_1310720[0..1048576[=>explode_generateTensors_arrayB.input[10485760..11534336[  
-- __Step 4 - 1 matches__
->broadcastTensorB_10.output_1572864[0..1048576[=>explode_generateTensors_arrayB.input[10485760..11534336[  
-- __Step 4 - 1 matches__
->broadcastTensorB_10.output_1835008[0..1048576[=>explode_generateTensors_arrayB.input[10485760..11534336[  
-- __Step 4 - 1 matches__
->broadcastTensorB_10.output_262144[0..1048576[=>explode_generateTensors_arrayB.input[10485760..11534336[  
-- __Step 4 - 1 matches__
->broadcastTensorB_10.output_524288[0..1048576[=>explode_generateTensors_arrayB.input[10485760..11534336[  
-- __Step 0 - 1 matches__
->broadcastTensorB_10.output_786432[0..1048576[=>explode_generateTensors_arrayB.input[10485760..11534336[  
-- __Step 4 - 1 matches__
->broadcastTensorB_11.output_0[0..1048576[=>explode_generateTensors_arrayB.input[11534336..12582912[  
-- __Step 4 - 1 matches__
->broadcastTensorB_11.output_1048576[0..1048576[=>explode_generateTensors_arrayB.input[11534336..12582912[  
-- __Step 4 - 1 matches__
->broadcastTensorB_11.output_1310720[0..1048576[=>explode_generateTensors_arrayB.input[11534336..12582912[  
-- __Step 4 - 1 matches__
->broadcastTensorB_11.output_1572864[0..1048576[=>explode_generateTensors_arrayB.input[11534336..12582912[  
-- __Step 4 - 1 matches__
->broadcastTensorB_11.output_1835008[0..1048576[=>explode_generateTensors_arrayB.input[11534336..12582912[  
-- __Step 4 - 1 matches__
->broadcastTensorB_11.output_262144[0..1048576[=>explode_generateTensors_arrayB.input[11534336..12582912[  
-- __Step 4 - 1 matches__
->broadcastTensorB_11.output_524288[0..1048576[=>explode_generateTensors_arrayB.input[11534336..12582912[  
-- __Step 0 - 1 matches__
->broadcastTensorB_11.output_786432[0..1048576[=>explode_generateTensors_arrayB.input[11534336..12582912[  
-- __Step 4 - 1 matches__
->broadcastTensorB_12.output_0[0..1048576[=>explode_generateTensors_arrayB.input[12582912..13631488[  
-- __Step 4 - 1 matches__
->broadcastTensorB_12.output_1048576[0..1048576[=>explode_generateTensors_arrayB.input[12582912..13631488[  
-- __Step 4 - 1 matches__
->broadcastTensorB_12.output_1310720[0..1048576[=>explode_generateTensors_arrayB.input[12582912..13631488[  
-- __Step 4 - 1 matches__
->broadcastTensorB_12.output_1572864[0..1048576[=>explode_generateTensors_arrayB.input[12582912..13631488[  
-- __Step 4 - 1 matches__
->broadcastTensorB_12.output_1835008[0..1048576[=>explode_generateTensors_arrayB.input[12582912..13631488[  
-- __Step 4 - 1 matches__
->broadcastTensorB_12.output_262144[0..1048576[=>explode_generateTensors_arrayB.input[12582912..13631488[  
-- __Step 4 - 1 matches__
->broadcastTensorB_12.output_524288[0..1048576[=>explode_generateTensors_arrayB.input[12582912..13631488[  
-- __Step 0 - 1 matches__
->broadcastTensorB_12.output_786432[0..1048576[=>explode_generateTensors_arrayB.input[12582912..13631488[  
-- __Step 4 - 1 matches__
->broadcastTensorB_13.output_0[0..1048576[=>explode_generateTensors_arrayB.input[13631488..14680064[  
-- __Step 4 - 1 matches__
->broadcastTensorB_13.output_1048576[0..1048576[=>explode_generateTensors_arrayB.input[13631488..14680064[  
-- __Step 4 - 1 matches__
->broadcastTensorB_13.output_1310720[0..1048576[=>explode_generateTensors_arrayB.input[13631488..14680064[  
-- __Step 4 - 1 matches__
->broadcastTensorB_13.output_1572864[0..1048576[=>explode_generateTensors_arrayB.input[13631488..14680064[  
-- __Step 4 - 1 matches__
->broadcastTensorB_13.output_1835008[0..1048576[=>explode_generateTensors_arrayB.input[13631488..14680064[  
-- __Step 4 - 1 matches__
->broadcastTensorB_13.output_262144[0..1048576[=>explode_generateTensors_arrayB.input[13631488..14680064[  
-- __Step 4 - 1 matches__
->broadcastTensorB_13.output_524288[0..1048576[=>explode_generateTensors_arrayB.input[13631488..14680064[  
-- __Step 0 - 1 matches__
->broadcastTensorB_13.output_786432[0..1048576[=>explode_generateTensors_arrayB.input[13631488..14680064[  
-- __Step 4 - 1 matches__
->broadcastTensorB_14.output_0[0..1048576[=>explode_generateTensors_arrayB.input[14680064..15728640[  
-- __Step 4 - 1 matches__
->broadcastTensorB_14.output_1048576[0..1048576[=>explode_generateTensors_arrayB.input[14680064..15728640[  
-- __Step 4 - 1 matches__
->broadcastTensorB_14.output_1310720[0..1048576[=>explode_generateTensors_arrayB.input[14680064..15728640[  
-- __Step 4 - 1 matches__
->broadcastTensorB_14.output_1572864[0..1048576[=>explode_generateTensors_arrayB.input[14680064..15728640[  
-- __Step 4 - 1 matches__
->broadcastTensorB_14.output_1835008[0..1048576[=>explode_generateTensors_arrayB.input[14680064..15728640[  
-- __Step 4 - 1 matches__
->broadcastTensorB_14.output_262144[0..1048576[=>explode_generateTensors_arrayB.input[14680064..15728640[  
-- __Step 4 - 1 matches__
->broadcastTensorB_14.output_524288[0..1048576[=>explode_generateTensors_arrayB.input[14680064..15728640[  
-- __Step 0 - 1 matches__
->broadcastTensorB_14.output_786432[0..1048576[=>explode_generateTensors_arrayB.input[14680064..15728640[  
-- __Step 4 - 1 matches__
->broadcastTensorB_15.output_0[0..1048576[=>explode_generateTensors_arrayB.input[15728640..16777216[  
-- __Step 4 - 1 matches__
->broadcastTensorB_15.output_1048576[0..1048576[=>explode_generateTensors_arrayB.input[15728640..16777216[  
-- __Step 4 - 1 matches__
->broadcastTensorB_15.output_1310720[0..1048576[=>explode_generateTensors_arrayB.input[15728640..16777216[  
-- __Step 4 - 1 matches__
->broadcastTensorB_15.output_1572864[0..1048576[=>explode_generateTensors_arrayB.input[15728640..16777216[  
-- __Step 4 - 1 matches__
->broadcastTensorB_15.output_1835008[0..1048576[=>explode_generateTensors_arrayB.input[15728640..16777216[  
-- __Step 4 - 1 matches__
->broadcastTensorB_15.output_262144[0..1048576[=>explode_generateTensors_arrayB.input[15728640..16777216[  
-- __Step 4 - 1 matches__
->broadcastTensorB_15.output_524288[0..1048576[=>explode_generateTensors_arrayB.input[15728640..16777216[  
-- __Step 0 - 1 matches__
->broadcastTensorB_15.output_786432[0..1048576[=>explode_generateTensors_arrayB.input[15728640..16777216[  
-- __Step 4 - 1 matches__
->broadcastTensorB_2.output_0[0..1048576[=>explode_generateTensors_arrayB.input[2097152..3145728[  
-- __Step 4 - 1 matches__
->broadcastTensorB_2.output_1048576[0..1048576[=>explode_generateTensors_arrayB.input[2097152..3145728[  
-- __Step 4 - 1 matches__
->broadcastTensorB_2.output_1310720[0..1048576[=>explode_generateTensors_arrayB.input[2097152..3145728[  
-- __Step 4 - 1 matches__
->broadcastTensorB_2.output_1572864[0..1048576[=>explode_generateTensors_arrayB.input[2097152..3145728[  
-- __Step 4 - 1 matches__
->broadcastTensorB_2.output_1835008[0..1048576[=>explode_generateTensors_arrayB.input[2097152..3145728[  
-- __Step 4 - 1 matches__
->broadcastTensorB_2.output_262144[0..1048576[=>explode_generateTensors_arrayB.input[2097152..3145728[  
-- __Step 4 - 1 matches__
->broadcastTensorB_2.output_524288[0..1048576[=>explode_generateTensors_arrayB.input[2097152..3145728[  
-- __Step 0 - 1 matches__
->broadcastTensorB_2.output_786432[0..1048576[=>explode_generateTensors_arrayB.input[2097152..3145728[  
-- __Step 4 - 1 matches__
->broadcastTensorB_3.output_0[0..1048576[=>explode_generateTensors_arrayB.input[3145728..4194304[  
-- __Step 4 - 1 matches__
->broadcastTensorB_3.output_1048576[0..1048576[=>explode_generateTensors_arrayB.input[3145728..4194304[  
-- __Step 4 - 1 matches__
->broadcastTensorB_3.output_1310720[0..1048576[=>explode_generateTensors_arrayB.input[3145728..4194304[  
-- __Step 4 - 1 matches__
->broadcastTensorB_3.output_1572864[0..1048576[=>explode_generateTensors_arrayB.input[3145728..4194304[  
-- __Step 4 - 1 matches__
->broadcastTensorB_3.output_1835008[0..1048576[=>explode_generateTensors_arrayB.input[3145728..4194304[  
-- __Step 4 - 1 matches__
->broadcastTensorB_3.output_262144[0..1048576[=>explode_generateTensors_arrayB.input[3145728..4194304[  
-- __Step 4 - 1 matches__
->broadcastTensorB_3.output_524288[0..1048576[=>explode_generateTensors_arrayB.input[3145728..4194304[  
-- __Step 0 - 1 matches__
->broadcastTensorB_3.output_786432[0..1048576[=>explode_generateTensors_arrayB.input[3145728..4194304[  
-- __Step 4 - 1 matches__
->broadcastTensorB_4.output_0[0..1048576[=>explode_generateTensors_arrayB.input[4194304..5242880[  
-- __Step 4 - 1 matches__
->broadcastTensorB_4.output_1048576[0..1048576[=>explode_generateTensors_arrayB.input[4194304..5242880[  
-- __Step 4 - 1 matches__
->broadcastTensorB_4.output_1310720[0..1048576[=>explode_generateTensors_arrayB.input[4194304..5242880[  
-- __Step 4 - 1 matches__
->broadcastTensorB_4.output_1572864[0..1048576[=>explode_generateTensors_arrayB.input[4194304..5242880[  
-- __Step 4 - 1 matches__
->broadcastTensorB_4.output_1835008[0..1048576[=>explode_generateTensors_arrayB.input[4194304..5242880[  
-- __Step 4 - 1 matches__
->broadcastTensorB_4.output_262144[0..1048576[=>explode_generateTensors_arrayB.input[4194304..5242880[  
-- __Step 4 - 1 matches__
->broadcastTensorB_4.output_524288[0..1048576[=>explode_generateTensors_arrayB.input[4194304..5242880[  
-- __Step 0 - 1 matches__
->broadcastTensorB_4.output_786432[0..1048576[=>explode_generateTensors_arrayB.input[4194304..5242880[  
-- __Step 4 - 1 matches__
->broadcastTensorB_5.output_0[0..1048576[=>explode_generateTensors_arrayB.input[5242880..6291456[  
-- __Step 4 - 1 matches__
->broadcastTensorB_5.output_1048576[0..1048576[=>explode_generateTensors_arrayB.input[5242880..6291456[  
-- __Step 4 - 1 matches__
->broadcastTensorB_5.output_1310720[0..1048576[=>explode_generateTensors_arrayB.input[5242880..6291456[  
-- __Step 4 - 1 matches__
->broadcastTensorB_5.output_1572864[0..1048576[=>explode_generateTensors_arrayB.input[5242880..6291456[  
-- __Step 4 - 1 matches__
->broadcastTensorB_5.output_1835008[0..1048576[=>explode_generateTensors_arrayB.input[5242880..6291456[  
-- __Step 4 - 1 matches__
->broadcastTensorB_5.output_262144[0..1048576[=>explode_generateTensors_arrayB.input[5242880..6291456[  
-- __Step 4 - 1 matches__
->broadcastTensorB_5.output_524288[0..1048576[=>explode_generateTensors_arrayB.input[5242880..6291456[  
-- __Step 0 - 1 matches__
->broadcastTensorB_5.output_786432[0..1048576[=>explode_generateTensors_arrayB.input[5242880..6291456[  
-- __Step 4 - 1 matches__
->broadcastTensorB_6.output_0[0..1048576[=>explode_generateTensors_arrayB.input[6291456..7340032[  
-- __Step 4 - 1 matches__
->broadcastTensorB_6.output_1048576[0..1048576[=>explode_generateTensors_arrayB.input[6291456..7340032[  
-- __Step 4 - 1 matches__
->broadcastTensorB_6.output_1310720[0..1048576[=>explode_generateTensors_arrayB.input[6291456..7340032[  
-- __Step 4 - 1 matches__
->broadcastTensorB_6.output_1572864[0..1048576[=>explode_generateTensors_arrayB.input[6291456..7340032[  
-- __Step 4 - 1 matches__
->broadcastTensorB_6.output_1835008[0..1048576[=>explode_generateTensors_arrayB.input[6291456..7340032[  
-- __Step 4 - 1 matches__
->broadcastTensorB_6.output_262144[0..1048576[=>explode_generateTensors_arrayB.input[6291456..7340032[  
-- __Step 4 - 1 matches__
->broadcastTensorB_6.output_524288[0..1048576[=>explode_generateTensors_arrayB.input[6291456..7340032[  
-- __Step 0 - 1 matches__
->broadcastTensorB_6.output_786432[0..1048576[=>explode_generateTensors_arrayB.input[6291456..7340032[  
-- __Step 4 - 1 matches__
->broadcastTensorB_7.output_0[0..1048576[=>explode_generateTensors_arrayB.input[7340032..8388608[  
-- __Step 4 - 1 matches__
->broadcastTensorB_7.output_1048576[0..1048576[=>explode_generateTensors_arrayB.input[7340032..8388608[  
-- __Step 4 - 1 matches__
->broadcastTensorB_7.output_1310720[0..1048576[=>explode_generateTensors_arrayB.input[7340032..8388608[  
-- __Step 4 - 1 matches__
->broadcastTensorB_7.output_1572864[0..1048576[=>explode_generateTensors_arrayB.input[7340032..8388608[  
-- __Step 4 - 1 matches__
->broadcastTensorB_7.output_1835008[0..1048576[=>explode_generateTensors_arrayB.input[7340032..8388608[  
-- __Step 4 - 1 matches__
->broadcastTensorB_7.output_262144[0..1048576[=>explode_generateTensors_arrayB.input[7340032..8388608[  
-- __Step 4 - 1 matches__
->broadcastTensorB_7.output_524288[0..1048576[=>explode_generateTensors_arrayB.input[7340032..8388608[  
-- __Step 0 - 1 matches__
->broadcastTensorB_7.output_786432[0..1048576[=>explode_generateTensors_arrayB.input[7340032..8388608[  
-- __Step 4 - 1 matches__
->broadcastTensorB_8.output_0[0..1048576[=>explode_generateTensors_arrayB.input[8388608..9437184[  
-- __Step 4 - 1 matches__
->broadcastTensorB_8.output_1048576[0..1048576[=>explode_generateTensors_arrayB.input[8388608..9437184[  
-- __Step 4 - 1 matches__
->broadcastTensorB_8.output_1310720[0..1048576[=>explode_generateTensors_arrayB.input[8388608..9437184[  
-- __Step 4 - 1 matches__
->broadcastTensorB_8.output_1572864[0..1048576[=>explode_generateTensors_arrayB.input[8388608..9437184[  
-- __Step 4 - 1 matches__
->broadcastTensorB_8.output_1835008[0..1048576[=>explode_generateTensors_arrayB.input[8388608..9437184[  
-- __Step 4 - 1 matches__
->broadcastTensorB_8.output_262144[0..1048576[=>explode_generateTensors_arrayB.input[8388608..9437184[  
-- __Step 4 - 1 matches__
->broadcastTensorB_8.output_524288[0..1048576[=>explode_generateTensors_arrayB.input[8388608..9437184[  
-- __Step 0 - 1 matches__
->broadcastTensorB_8.output_786432[0..1048576[=>explode_generateTensors_arrayB.input[8388608..9437184[  
-- __Step 4 - 1 matches__
->broadcastTensorB_9.output_0[0..1048576[=>explode_generateTensors_arrayB.input[9437184..10485760[  
-- __Step 4 - 1 matches__
->broadcastTensorB_9.output_1048576[0..1048576[=>explode_generateTensors_arrayB.input[9437184..10485760[  
-- __Step 4 - 1 matches__
->broadcastTensorB_9.output_1310720[0..1048576[=>explode_generateTensors_arrayB.input[9437184..10485760[  
-- __Step 4 - 1 matches__
->broadcastTensorB_9.output_1572864[0..1048576[=>explode_generateTensors_arrayB.input[9437184..10485760[  
-- __Step 4 - 1 matches__
->broadcastTensorB_9.output_1835008[0..1048576[=>explode_generateTensors_arrayB.input[9437184..10485760[  
-- __Step 4 - 1 matches__
->broadcastTensorB_9.output_262144[0..1048576[=>explode_generateTensors_arrayB.input[9437184..10485760[  
-- __Step 4 - 1 matches__
->broadcastTensorB_9.output_524288[0..1048576[=>explode_generateTensors_arrayB.input[9437184..10485760[  
-- __Step 0 - 1 matches__
->broadcastTensorB_9.output_786432[0..1048576[=>explode_generateTensors_arrayB.input[9437184..10485760[  
 
 ### Tree summary:
-- From 145 buffers to 1 buffers.
-- From 167772288 bytes to 16777344 bytes (89.9999313355016%)
+- From 19 buffers to 1 buffers.
+- From 20971648 bytes to 2097280 bytes (89.99945068694649%)
 
 ### Unapplied matches:
 >
-## Tree of 129 buffers
+## Tree of 17 buffers
 ### Original buffer list:
-> [implode_displayTensor_arrayC.arrayC_0[131072], implode_displayTensor_arrayC.arrayC_32768[131072], implode_displayTensor_arrayC.arrayC_65536[131072], implode_displayTensor_arrayC.arrayC_98304[131072], implode_displayTensor_arrayC.arrayC_131072[131072], implode_displayTensor_arrayC.arrayC_163840[131072], implode_displayTensor_arrayC.arrayC_196608[131072], implode_displayTensor_arrayC.arrayC_229376[131072], implode_displayTensor_arrayC.arrayC_262144[131072], implode_displayTensor_arrayC.arrayC_294912[131072], implode_displayTensor_arrayC.arrayC_327680[131072], implode_displayTensor_arrayC.arrayC_360448[131072], implode_displayTensor_arrayC.arrayC_393216[131072], implode_displayTensor_arrayC.arrayC_425984[131072], implode_displayTensor_arrayC.arrayC_458752[131072], implode_displayTensor_arrayC.arrayC_491520[131072], implode_displayTensor_arrayC.arrayC_524288[131072], implode_displayTensor_arrayC.arrayC_557056[131072], implode_displayTensor_arrayC.arrayC_589824[131072], implode_displayTensor_arrayC.arrayC_622592[131072], implode_displayTensor_arrayC.arrayC_655360[131072], implode_displayTensor_arrayC.arrayC_688128[131072], implode_displayTensor_arrayC.arrayC_720896[131072], implode_displayTensor_arrayC.arrayC_753664[131072], implode_displayTensor_arrayC.arrayC_786432[131072], implode_displayTensor_arrayC.arrayC_819200[131072], implode_displayTensor_arrayC.arrayC_851968[131072], implode_displayTensor_arrayC.arrayC_884736[131072], implode_displayTensor_arrayC.arrayC_917504[131072], implode_displayTensor_arrayC.arrayC_950272[131072], implode_displayTensor_arrayC.arrayC_983040[131072], implode_displayTensor_arrayC.arrayC_1015808[131072], implode_displayTensor_arrayC.arrayC_1048576[131072], implode_displayTensor_arrayC.arrayC_1081344[131072], implode_displayTensor_arrayC.arrayC_1114112[131072], implode_displayTensor_arrayC.arrayC_1146880[131072], implode_displayTensor_arrayC.arrayC_1179648[131072], implode_displayTensor_arrayC.arrayC_1212416[131072], implode_displayTensor_arrayC.arrayC_1245184[131072], implode_displayTensor_arrayC.arrayC_1277952[131072], implode_displayTensor_arrayC.arrayC_1310720[131072], implode_displayTensor_arrayC.arrayC_1343488[131072], implode_displayTensor_arrayC.arrayC_1376256[131072], implode_displayTensor_arrayC.arrayC_1409024[131072], implode_displayTensor_arrayC.arrayC_1441792[131072], implode_displayTensor_arrayC.arrayC_1474560[131072], implode_displayTensor_arrayC.arrayC_1507328[131072], implode_displayTensor_arrayC.arrayC_1540096[131072], implode_displayTensor_arrayC.arrayC_1572864[131072], implode_displayTensor_arrayC.arrayC_1605632[131072], implode_displayTensor_arrayC.arrayC_1638400[131072], implode_displayTensor_arrayC.arrayC_1671168[131072], implode_displayTensor_arrayC.arrayC_1703936[131072], implode_displayTensor_arrayC.arrayC_1736704[131072], implode_displayTensor_arrayC.arrayC_1769472[131072], implode_displayTensor_arrayC.arrayC_1802240[131072], implode_displayTensor_arrayC.arrayC_1835008[131072], implode_displayTensor_arrayC.arrayC_1867776[131072], implode_displayTensor_arrayC.arrayC_1900544[131072], implode_displayTensor_arrayC.arrayC_1933312[131072], implode_displayTensor_arrayC.arrayC_1966080[131072], implode_displayTensor_arrayC.arrayC_1998848[131072], implode_displayTensor_arrayC.arrayC_2031616[131072], implode_displayTensor_arrayC.arrayC_2064384[131072], implode_displayTensor_arrayC.arrayC_2097152[131072], implode_displayTensor_arrayC.arrayC_2129920[131072], implode_displayTensor_arrayC.arrayC_2162688[131072], implode_displayTensor_arrayC.arrayC_2195456[131072], implode_displayTensor_arrayC.arrayC_2228224[131072], implode_displayTensor_arrayC.arrayC_2260992[131072], implode_displayTensor_arrayC.arrayC_2293760[131072], implode_displayTensor_arrayC.arrayC_2326528[131072], implode_displayTensor_arrayC.arrayC_2359296[131072], implode_displayTensor_arrayC.arrayC_2392064[131072], implode_displayTensor_arrayC.arrayC_2424832[131072], implode_displayTensor_arrayC.arrayC_2457600[131072], implode_displayTensor_arrayC.arrayC_2490368[131072], implode_displayTensor_arrayC.arrayC_2523136[131072], implode_displayTensor_arrayC.arrayC_2555904[131072], implode_displayTensor_arrayC.arrayC_2588672[131072], implode_displayTensor_arrayC.arrayC_2621440[131072], implode_displayTensor_arrayC.arrayC_2654208[131072], implode_displayTensor_arrayC.arrayC_2686976[131072], implode_displayTensor_arrayC.arrayC_2719744[131072], implode_displayTensor_arrayC.arrayC_2752512[131072], implode_displayTensor_arrayC.arrayC_2785280[131072], implode_displayTensor_arrayC.arrayC_2818048[131072], implode_displayTensor_arrayC.arrayC_2850816[131072], implode_displayTensor_arrayC.arrayC_2883584[131072], implode_displayTensor_arrayC.arrayC_2916352[131072], implode_displayTensor_arrayC.arrayC_2949120[131072], implode_displayTensor_arrayC.arrayC_2981888[131072], implode_displayTensor_arrayC.arrayC_3014656[131072], implode_displayTensor_arrayC.arrayC_3047424[131072], implode_displayTensor_arrayC.arrayC_3080192[131072], implode_displayTensor_arrayC.arrayC_3112960[131072], implode_displayTensor_arrayC.arrayC_3145728[131072], implode_displayTensor_arrayC.arrayC_3178496[131072], implode_displayTensor_arrayC.arrayC_3211264[131072], implode_displayTensor_arrayC.arrayC_3244032[131072], implode_displayTensor_arrayC.arrayC_3276800[131072], implode_displayTensor_arrayC.arrayC_3309568[131072], implode_displayTensor_arrayC.arrayC_3342336[131072], implode_displayTensor_arrayC.arrayC_3375104[131072], implode_displayTensor_arrayC.arrayC_3407872[131072], implode_displayTensor_arrayC.arrayC_3440640[131072], implode_displayTensor_arrayC.arrayC_3473408[131072], implode_displayTensor_arrayC.arrayC_3506176[131072], implode_displayTensor_arrayC.arrayC_3538944[131072], implode_displayTensor_arrayC.arrayC_3571712[131072], implode_displayTensor_arrayC.arrayC_3604480[131072], implode_displayTensor_arrayC.arrayC_3637248[131072], implode_displayTensor_arrayC.arrayC_3670016[131072], implode_displayTensor_arrayC.arrayC_3702784[131072], implode_displayTensor_arrayC.arrayC_3735552[131072], implode_displayTensor_arrayC.arrayC_3768320[131072], implode_displayTensor_arrayC.arrayC_3801088[131072], implode_displayTensor_arrayC.arrayC_3833856[131072], implode_displayTensor_arrayC.arrayC_3866624[131072], implode_displayTensor_arrayC.arrayC_3899392[131072], implode_displayTensor_arrayC.arrayC_3932160[131072], implode_displayTensor_arrayC.arrayC_3964928[131072], implode_displayTensor_arrayC.arrayC_3997696[131072], implode_displayTensor_arrayC.arrayC_4030464[131072], implode_displayTensor_arrayC.arrayC_4063232[131072], implode_displayTensor_arrayC.arrayC_4096000[131072], implode_displayTensor_arrayC.arrayC_4128768[131072], implode_displayTensor_arrayC.arrayC_4161536[131072], implode_displayTensor_arrayC.arrayC[16777216]]
+> [implode_displayTensor_arrayC.arrayC_0[131072], implode_displayTensor_arrayC.arrayC_32768[131072], implode_displayTensor_arrayC.arrayC_65536[131072], implode_displayTensor_arrayC.arrayC_98304[131072], implode_displayTensor_arrayC.arrayC_131072[131072], implode_displayTensor_arrayC.arrayC_163840[131072], implode_displayTensor_arrayC.arrayC_196608[131072], implode_displayTensor_arrayC.arrayC_229376[131072], implode_displayTensor_arrayC.arrayC_262144[131072], implode_displayTensor_arrayC.arrayC_294912[131072], implode_displayTensor_arrayC.arrayC_327680[131072], implode_displayTensor_arrayC.arrayC_360448[131072], implode_displayTensor_arrayC.arrayC_393216[131072], implode_displayTensor_arrayC.arrayC_425984[131072], implode_displayTensor_arrayC.arrayC_458752[131072], implode_displayTensor_arrayC.arrayC_491520[131072], implode_displayTensor_arrayC.arrayC[2097152]]
 
 ### Match application log: 
 - __Step 6 - 1 matches__
 >implode_displayTensor_arrayC.arrayC_0[-64..131136[=>implode_displayTensor_arrayC.arrayC[-64..131136[  
 - __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1015808[-64..131136[=>implode_displayTensor_arrayC.arrayC[4063168..4194368[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1081344[-64..131136[=>implode_displayTensor_arrayC.arrayC[4325312..4456512[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1146880[-64..131136[=>implode_displayTensor_arrayC.arrayC[4587456..4718656[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1212416[-64..131136[=>implode_displayTensor_arrayC.arrayC[4849600..4980800[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1277952[-64..131136[=>implode_displayTensor_arrayC.arrayC[5111744..5242944[  
-- __Step 6 - 1 matches__
 >implode_displayTensor_arrayC.arrayC_131072[-64..131136[=>implode_displayTensor_arrayC.arrayC[524224..655424[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1343488[-64..131136[=>implode_displayTensor_arrayC.arrayC[5373888..5505088[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1409024[-64..131136[=>implode_displayTensor_arrayC.arrayC[5636032..5767232[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1474560[-64..131136[=>implode_displayTensor_arrayC.arrayC[5898176..6029376[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1540096[-64..131136[=>implode_displayTensor_arrayC.arrayC[6160320..6291520[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1605632[-64..131136[=>implode_displayTensor_arrayC.arrayC[6422464..6553664[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1671168[-64..131136[=>implode_displayTensor_arrayC.arrayC[6684608..6815808[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1736704[-64..131136[=>implode_displayTensor_arrayC.arrayC[6946752..7077952[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1802240[-64..131136[=>implode_displayTensor_arrayC.arrayC[7208896..7340096[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1867776[-64..131136[=>implode_displayTensor_arrayC.arrayC[7471040..7602240[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1933312[-64..131136[=>implode_displayTensor_arrayC.arrayC[7733184..7864384[  
 - __Step 6 - 1 matches__
 >implode_displayTensor_arrayC.arrayC_196608[-64..131136[=>implode_displayTensor_arrayC.arrayC[786368..917568[  
 - __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_1998848[-64..131136[=>implode_displayTensor_arrayC.arrayC[7995328..8126528[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_2064384[-64..131136[=>implode_displayTensor_arrayC.arrayC[8257472..8388672[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_2129920[-64..131136[=>implode_displayTensor_arrayC.arrayC[8519616..8650816[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_2195456[-64..131136[=>implode_displayTensor_arrayC.arrayC[8781760..8912960[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_2260992[-64..131136[=>implode_displayTensor_arrayC.arrayC[9043904..9175104[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_2326528[-64..131136[=>implode_displayTensor_arrayC.arrayC[9306048..9437248[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_2392064[-64..131136[=>implode_displayTensor_arrayC.arrayC[9568192..9699392[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_2457600[-64..131136[=>implode_displayTensor_arrayC.arrayC[9830336..9961536[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_2523136[-64..131136[=>implode_displayTensor_arrayC.arrayC[10092480..10223680[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_2588672[-64..131136[=>implode_displayTensor_arrayC.arrayC[10354624..10485824[  
-- __Step 6 - 1 matches__
 >implode_displayTensor_arrayC.arrayC_262144[-64..131136[=>implode_displayTensor_arrayC.arrayC[1048512..1179712[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_2654208[-64..131136[=>implode_displayTensor_arrayC.arrayC[10616768..10747968[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_2719744[-64..131136[=>implode_displayTensor_arrayC.arrayC[10878912..11010112[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_2785280[-64..131136[=>implode_displayTensor_arrayC.arrayC[11141056..11272256[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_2850816[-64..131136[=>implode_displayTensor_arrayC.arrayC[11403200..11534400[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_2916352[-64..131136[=>implode_displayTensor_arrayC.arrayC[11665344..11796544[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_2981888[-64..131136[=>implode_displayTensor_arrayC.arrayC[11927488..12058688[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_3047424[-64..131136[=>implode_displayTensor_arrayC.arrayC[12189632..12320832[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_3112960[-64..131136[=>implode_displayTensor_arrayC.arrayC[12451776..12582976[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_3178496[-64..131136[=>implode_displayTensor_arrayC.arrayC[12713920..12845120[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_3244032[-64..131136[=>implode_displayTensor_arrayC.arrayC[12976064..13107264[  
 - __Step 6 - 1 matches__
 >implode_displayTensor_arrayC.arrayC_327680[-64..131136[=>implode_displayTensor_arrayC.arrayC[1310656..1441856[  
 - __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_3309568[-64..131136[=>implode_displayTensor_arrayC.arrayC[13238208..13369408[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_3375104[-64..131136[=>implode_displayTensor_arrayC.arrayC[13500352..13631552[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_3440640[-64..131136[=>implode_displayTensor_arrayC.arrayC[13762496..13893696[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_3506176[-64..131136[=>implode_displayTensor_arrayC.arrayC[14024640..14155840[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_3571712[-64..131136[=>implode_displayTensor_arrayC.arrayC[14286784..14417984[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_3637248[-64..131136[=>implode_displayTensor_arrayC.arrayC[14548928..14680128[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_3702784[-64..131136[=>implode_displayTensor_arrayC.arrayC[14811072..14942272[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_3768320[-64..131136[=>implode_displayTensor_arrayC.arrayC[15073216..15204416[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_3833856[-64..131136[=>implode_displayTensor_arrayC.arrayC[15335360..15466560[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_3899392[-64..131136[=>implode_displayTensor_arrayC.arrayC[15597504..15728704[  
-- __Step 6 - 1 matches__
 >implode_displayTensor_arrayC.arrayC_393216[-64..131136[=>implode_displayTensor_arrayC.arrayC[1572800..1704000[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_3964928[-64..131136[=>implode_displayTensor_arrayC.arrayC[15859648..15990848[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_4030464[-64..131136[=>implode_displayTensor_arrayC.arrayC[16121792..16252992[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_4096000[-64..131136[=>implode_displayTensor_arrayC.arrayC[16383936..16515136[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_4161536[-64..131136[=>implode_displayTensor_arrayC.arrayC[16646080..16777280[  
 - __Step 6 - 1 matches__
 >implode_displayTensor_arrayC.arrayC_458752[-64..131136[=>implode_displayTensor_arrayC.arrayC[1834944..1966144[  
 - __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_524288[-64..131136[=>implode_displayTensor_arrayC.arrayC[2097088..2228288[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_589824[-64..131136[=>implode_displayTensor_arrayC.arrayC[2359232..2490432[  
-- __Step 6 - 1 matches__
 >implode_displayTensor_arrayC.arrayC_65536[-64..131136[=>implode_displayTensor_arrayC.arrayC[262080..393280[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_655360[-64..131136[=>implode_displayTensor_arrayC.arrayC[2621376..2752576[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_720896[-64..131136[=>implode_displayTensor_arrayC.arrayC[2883520..3014720[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_786432[-64..131136[=>implode_displayTensor_arrayC.arrayC[3145664..3276864[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_851968[-64..131136[=>implode_displayTensor_arrayC.arrayC[3407808..3539008[  
-- __Step 6 - 1 matches__
->implode_displayTensor_arrayC.arrayC_917504[-64..131136[=>implode_displayTensor_arrayC.arrayC[3669952..3801152[  
 
 ### Tree summary:
-- From 129 buffers to 65 buffers.
-- From 33570816 bytes to 25174144 bytes (25.011819790141534%)
+- From 17 buffers to 9 buffers.
+- From 4196352 bytes to 3146816 bytes (25.010675939482674%)
 
 ### Unapplied matches:
->implode_displayTensor_arrayC.arrayC_32768[0..131072[=>implode_displayTensor_arrayC.arrayC[131072..262144[, implode_displayTensor_arrayC.arrayC_98304[0..131072[=>implode_displayTensor_arrayC.arrayC[393216..524288[, implode_displayTensor_arrayC.arrayC_163840[0..131072[=>implode_displayTensor_arrayC.arrayC[655360..786432[, implode_displayTensor_arrayC.arrayC_229376[0..131072[=>implode_displayTensor_arrayC.arrayC[917504..1048576[, implode_displayTensor_arrayC.arrayC_294912[0..131072[=>implode_displayTensor_arrayC.arrayC[1179648..1310720[, implode_displayTensor_arrayC.arrayC_360448[0..131072[=>implode_displayTensor_arrayC.arrayC[1441792..1572864[, implode_displayTensor_arrayC.arrayC_425984[0..131072[=>implode_displayTensor_arrayC.arrayC[1703936..1835008[, implode_displayTensor_arrayC.arrayC_491520[0..131072[=>implode_displayTensor_arrayC.arrayC[1966080..2097152[, implode_displayTensor_arrayC.arrayC_557056[0..131072[=>implode_displayTensor_arrayC.arrayC[2228224..2359296[, implode_displayTensor_arrayC.arrayC_622592[0..131072[=>implode_displayTensor_arrayC.arrayC[2490368..2621440[, implode_displayTensor_arrayC.arrayC_688128[0..131072[=>implode_displayTensor_arrayC.arrayC[2752512..2883584[, implode_displayTensor_arrayC.arrayC_753664[0..131072[=>implode_displayTensor_arrayC.arrayC[3014656..3145728[, implode_displayTensor_arrayC.arrayC_819200[0..131072[=>implode_displayTensor_arrayC.arrayC[3276800..3407872[, implode_displayTensor_arrayC.arrayC_884736[0..131072[=>implode_displayTensor_arrayC.arrayC[3538944..3670016[, implode_displayTensor_arrayC.arrayC_950272[0..131072[=>implode_displayTensor_arrayC.arrayC[3801088..3932160[, implode_displayTensor_arrayC.arrayC_983040[0..131072[=>implode_displayTensor_arrayC.arrayC[3932160..4063232[, implode_displayTensor_arrayC.arrayC_1048576[0..131072[=>implode_displayTensor_arrayC.arrayC[4194304..4325376[, implode_displayTensor_arrayC.arrayC_1114112[0..131072[=>implode_displayTensor_arrayC.arrayC[4456448..4587520[, implode_displayTensor_arrayC.arrayC_1179648[0..131072[=>implode_displayTensor_arrayC.arrayC[4718592..4849664[, implode_displayTensor_arrayC.arrayC_1245184[0..131072[=>implode_displayTensor_arrayC.arrayC[4980736..5111808[, implode_displayTensor_arrayC.arrayC_1310720[0..131072[=>implode_displayTensor_arrayC.arrayC[5242880..5373952[, implode_displayTensor_arrayC.arrayC_1376256[0..131072[=>implode_displayTensor_arrayC.arrayC[5505024..5636096[, implode_displayTensor_arrayC.arrayC_1441792[0..131072[=>implode_displayTensor_arrayC.arrayC[5767168..5898240[, implode_displayTensor_arrayC.arrayC_1507328[0..131072[=>implode_displayTensor_arrayC.arrayC[6029312..6160384[, implode_displayTensor_arrayC.arrayC_1572864[0..131072[=>implode_displayTensor_arrayC.arrayC[6291456..6422528[, implode_displayTensor_arrayC.arrayC_1638400[0..131072[=>implode_displayTensor_arrayC.arrayC[6553600..6684672[, implode_displayTensor_arrayC.arrayC_1703936[0..131072[=>implode_displayTensor_arrayC.arrayC[6815744..6946816[, implode_displayTensor_arrayC.arrayC_1769472[0..131072[=>implode_displayTensor_arrayC.arrayC[7077888..7208960[, implode_displayTensor_arrayC.arrayC_1835008[0..131072[=>implode_displayTensor_arrayC.arrayC[7340032..7471104[, implode_displayTensor_arrayC.arrayC_1900544[0..131072[=>implode_displayTensor_arrayC.arrayC[7602176..7733248[, implode_displayTensor_arrayC.arrayC_1966080[0..131072[=>implode_displayTensor_arrayC.arrayC[7864320..7995392[, implode_displayTensor_arrayC.arrayC_2031616[0..131072[=>implode_displayTensor_arrayC.arrayC[8126464..8257536[, implode_displayTensor_arrayC.arrayC_2097152[0..131072[=>implode_displayTensor_arrayC.arrayC[8388608..8519680[, implode_displayTensor_arrayC.arrayC_2162688[0..131072[=>implode_displayTensor_arrayC.arrayC[8650752..8781824[, implode_displayTensor_arrayC.arrayC_2228224[0..131072[=>implode_displayTensor_arrayC.arrayC[8912896..9043968[, implode_displayTensor_arrayC.arrayC_2293760[0..131072[=>implode_displayTensor_arrayC.arrayC[9175040..9306112[, implode_displayTensor_arrayC.arrayC_2359296[0..131072[=>implode_displayTensor_arrayC.arrayC[9437184..9568256[, implode_displayTensor_arrayC.arrayC_2424832[0..131072[=>implode_displayTensor_arrayC.arrayC[9699328..9830400[, implode_displayTensor_arrayC.arrayC_2490368[0..131072[=>implode_displayTensor_arrayC.arrayC[9961472..10092544[, implode_displayTensor_arrayC.arrayC_2555904[0..131072[=>implode_displayTensor_arrayC.arrayC[10223616..10354688[, implode_displayTensor_arrayC.arrayC_2621440[0..131072[=>implode_displayTensor_arrayC.arrayC[10485760..10616832[, implode_displayTensor_arrayC.arrayC_2686976[0..131072[=>implode_displayTensor_arrayC.arrayC[10747904..10878976[, implode_displayTensor_arrayC.arrayC_2752512[0..131072[=>implode_displayTensor_arrayC.arrayC[11010048..11141120[, implode_displayTensor_arrayC.arrayC_2818048[0..131072[=>implode_displayTensor_arrayC.arrayC[11272192..11403264[, implode_displayTensor_arrayC.arrayC_2883584[0..131072[=>implode_displayTensor_arrayC.arrayC[11534336..11665408[, implode_displayTensor_arrayC.arrayC_2949120[0..131072[=>implode_displayTensor_arrayC.arrayC[11796480..11927552[, implode_displayTensor_arrayC.arrayC_3014656[0..131072[=>implode_displayTensor_arrayC.arrayC[12058624..12189696[, implode_displayTensor_arrayC.arrayC_3080192[0..131072[=>implode_displayTensor_arrayC.arrayC[12320768..12451840[, implode_displayTensor_arrayC.arrayC_3145728[0..131072[=>implode_displayTensor_arrayC.arrayC[12582912..12713984[, implode_displayTensor_arrayC.arrayC_3211264[0..131072[=>implode_displayTensor_arrayC.arrayC[12845056..12976128[, implode_displayTensor_arrayC.arrayC_3276800[0..131072[=>implode_displayTensor_arrayC.arrayC[13107200..13238272[, implode_displayTensor_arrayC.arrayC_3342336[0..131072[=>implode_displayTensor_arrayC.arrayC[13369344..13500416[, implode_displayTensor_arrayC.arrayC_3407872[0..131072[=>implode_displayTensor_arrayC.arrayC[13631488..13762560[, implode_displayTensor_arrayC.arrayC_3473408[0..131072[=>implode_displayTensor_arrayC.arrayC[13893632..14024704[, implode_displayTensor_arrayC.arrayC_3538944[0..131072[=>implode_displayTensor_arrayC.arrayC[14155776..14286848[, implode_displayTensor_arrayC.arrayC_3604480[0..131072[=>implode_displayTensor_arrayC.arrayC[14417920..14548992[, implode_displayTensor_arrayC.arrayC_3670016[0..131072[=>implode_displayTensor_arrayC.arrayC[14680064..14811136[, implode_displayTensor_arrayC.arrayC_3735552[0..131072[=>implode_displayTensor_arrayC.arrayC[14942208..15073280[, implode_displayTensor_arrayC.arrayC_3801088[0..131072[=>implode_displayTensor_arrayC.arrayC[15204352..15335424[, implode_displayTensor_arrayC.arrayC_3866624[0..131072[=>implode_displayTensor_arrayC.arrayC[15466496..15597568[, implode_displayTensor_arrayC.arrayC_3932160[0..131072[=>implode_displayTensor_arrayC.arrayC[15728640..15859712[, implode_displayTensor_arrayC.arrayC_3997696[0..131072[=>implode_displayTensor_arrayC.arrayC[15990784..16121856[, implode_displayTensor_arrayC.arrayC_4063232[0..131072[=>implode_displayTensor_arrayC.arrayC[16252928..16384000[, implode_displayTensor_arrayC.arrayC_4128768[0..131072[=>implode_displayTensor_arrayC.arrayC[16515072..16646144[, 
-## Tree of 129 buffers
+>implode_displayTensor_arrayC.arrayC_32768[0..131072[=>implode_displayTensor_arrayC.arrayC[131072..262144[, implode_displayTensor_arrayC.arrayC_98304[0..131072[=>implode_displayTensor_arrayC.arrayC[393216..524288[, implode_displayTensor_arrayC.arrayC_163840[0..131072[=>implode_displayTensor_arrayC.arrayC[655360..786432[, implode_displayTensor_arrayC.arrayC_229376[0..131072[=>implode_displayTensor_arrayC.arrayC[917504..1048576[, implode_displayTensor_arrayC.arrayC_294912[0..131072[=>implode_displayTensor_arrayC.arrayC[1179648..1310720[, implode_displayTensor_arrayC.arrayC_360448[0..131072[=>implode_displayTensor_arrayC.arrayC[1441792..1572864[, implode_displayTensor_arrayC.arrayC_425984[0..131072[=>implode_displayTensor_arrayC.arrayC[1703936..1835008[, implode_displayTensor_arrayC.arrayC_491520[0..131072[=>implode_displayTensor_arrayC.arrayC[1966080..2097152[, 
+## Tree of 17 buffers
 ### Original buffer list:
-> [explode_generateTensors_arrayA.arrayA[16777216], explode_generateTensors_arrayA.arrayA_0[131072], explode_generateTensors_arrayA.arrayA_32768[131072], explode_generateTensors_arrayA.arrayA_65536[131072], explode_generateTensors_arrayA.arrayA_98304[131072], explode_generateTensors_arrayA.arrayA_131072[131072], explode_generateTensors_arrayA.arrayA_163840[131072], explode_generateTensors_arrayA.arrayA_196608[131072], explode_generateTensors_arrayA.arrayA_229376[131072], explode_generateTensors_arrayA.arrayA_262144[131072], explode_generateTensors_arrayA.arrayA_294912[131072], explode_generateTensors_arrayA.arrayA_327680[131072], explode_generateTensors_arrayA.arrayA_360448[131072], explode_generateTensors_arrayA.arrayA_393216[131072], explode_generateTensors_arrayA.arrayA_425984[131072], explode_generateTensors_arrayA.arrayA_458752[131072], explode_generateTensors_arrayA.arrayA_491520[131072], explode_generateTensors_arrayA.arrayA_524288[131072], explode_generateTensors_arrayA.arrayA_557056[131072], explode_generateTensors_arrayA.arrayA_589824[131072], explode_generateTensors_arrayA.arrayA_622592[131072], explode_generateTensors_arrayA.arrayA_655360[131072], explode_generateTensors_arrayA.arrayA_688128[131072], explode_generateTensors_arrayA.arrayA_720896[131072], explode_generateTensors_arrayA.arrayA_753664[131072], explode_generateTensors_arrayA.arrayA_786432[131072], explode_generateTensors_arrayA.arrayA_819200[131072], explode_generateTensors_arrayA.arrayA_851968[131072], explode_generateTensors_arrayA.arrayA_884736[131072], explode_generateTensors_arrayA.arrayA_917504[131072], explode_generateTensors_arrayA.arrayA_950272[131072], explode_generateTensors_arrayA.arrayA_983040[131072], explode_generateTensors_arrayA.arrayA_1015808[131072], explode_generateTensors_arrayA.arrayA_1048576[131072], explode_generateTensors_arrayA.arrayA_1081344[131072], explode_generateTensors_arrayA.arrayA_1114112[131072], explode_generateTensors_arrayA.arrayA_1146880[131072], explode_generateTensors_arrayA.arrayA_1179648[131072], explode_generateTensors_arrayA.arrayA_1212416[131072], explode_generateTensors_arrayA.arrayA_1245184[131072], explode_generateTensors_arrayA.arrayA_1277952[131072], explode_generateTensors_arrayA.arrayA_1310720[131072], explode_generateTensors_arrayA.arrayA_1343488[131072], explode_generateTensors_arrayA.arrayA_1376256[131072], explode_generateTensors_arrayA.arrayA_1409024[131072], explode_generateTensors_arrayA.arrayA_1441792[131072], explode_generateTensors_arrayA.arrayA_1474560[131072], explode_generateTensors_arrayA.arrayA_1507328[131072], explode_generateTensors_arrayA.arrayA_1540096[131072], explode_generateTensors_arrayA.arrayA_1572864[131072], explode_generateTensors_arrayA.arrayA_1605632[131072], explode_generateTensors_arrayA.arrayA_1638400[131072], explode_generateTensors_arrayA.arrayA_1671168[131072], explode_generateTensors_arrayA.arrayA_1703936[131072], explode_generateTensors_arrayA.arrayA_1736704[131072], explode_generateTensors_arrayA.arrayA_1769472[131072], explode_generateTensors_arrayA.arrayA_1802240[131072], explode_generateTensors_arrayA.arrayA_1835008[131072], explode_generateTensors_arrayA.arrayA_1867776[131072], explode_generateTensors_arrayA.arrayA_1900544[131072], explode_generateTensors_arrayA.arrayA_1933312[131072], explode_generateTensors_arrayA.arrayA_1966080[131072], explode_generateTensors_arrayA.arrayA_1998848[131072], explode_generateTensors_arrayA.arrayA_2031616[131072], explode_generateTensors_arrayA.arrayA_2064384[131072], explode_generateTensors_arrayA.arrayA_2097152[131072], explode_generateTensors_arrayA.arrayA_2129920[131072], explode_generateTensors_arrayA.arrayA_2162688[131072], explode_generateTensors_arrayA.arrayA_2195456[131072], explode_generateTensors_arrayA.arrayA_2228224[131072], explode_generateTensors_arrayA.arrayA_2260992[131072], explode_generateTensors_arrayA.arrayA_2293760[131072], explode_generateTensors_arrayA.arrayA_2326528[131072], explode_generateTensors_arrayA.arrayA_2359296[131072], explode_generateTensors_arrayA.arrayA_2392064[131072], explode_generateTensors_arrayA.arrayA_2424832[131072], explode_generateTensors_arrayA.arrayA_2457600[131072], explode_generateTensors_arrayA.arrayA_2490368[131072], explode_generateTensors_arrayA.arrayA_2523136[131072], explode_generateTensors_arrayA.arrayA_2555904[131072], explode_generateTensors_arrayA.arrayA_2588672[131072], explode_generateTensors_arrayA.arrayA_2621440[131072], explode_generateTensors_arrayA.arrayA_2654208[131072], explode_generateTensors_arrayA.arrayA_2686976[131072], explode_generateTensors_arrayA.arrayA_2719744[131072], explode_generateTensors_arrayA.arrayA_2752512[131072], explode_generateTensors_arrayA.arrayA_2785280[131072], explode_generateTensors_arrayA.arrayA_2818048[131072], explode_generateTensors_arrayA.arrayA_2850816[131072], explode_generateTensors_arrayA.arrayA_2883584[131072], explode_generateTensors_arrayA.arrayA_2916352[131072], explode_generateTensors_arrayA.arrayA_2949120[131072], explode_generateTensors_arrayA.arrayA_2981888[131072], explode_generateTensors_arrayA.arrayA_3014656[131072], explode_generateTensors_arrayA.arrayA_3047424[131072], explode_generateTensors_arrayA.arrayA_3080192[131072], explode_generateTensors_arrayA.arrayA_3112960[131072], explode_generateTensors_arrayA.arrayA_3145728[131072], explode_generateTensors_arrayA.arrayA_3178496[131072], explode_generateTensors_arrayA.arrayA_3211264[131072], explode_generateTensors_arrayA.arrayA_3244032[131072], explode_generateTensors_arrayA.arrayA_3276800[131072], explode_generateTensors_arrayA.arrayA_3309568[131072], explode_generateTensors_arrayA.arrayA_3342336[131072], explode_generateTensors_arrayA.arrayA_3375104[131072], explode_generateTensors_arrayA.arrayA_3407872[131072], explode_generateTensors_arrayA.arrayA_3440640[131072], explode_generateTensors_arrayA.arrayA_3473408[131072], explode_generateTensors_arrayA.arrayA_3506176[131072], explode_generateTensors_arrayA.arrayA_3538944[131072], explode_generateTensors_arrayA.arrayA_3571712[131072], explode_generateTensors_arrayA.arrayA_3604480[131072], explode_generateTensors_arrayA.arrayA_3637248[131072], explode_generateTensors_arrayA.arrayA_3670016[131072], explode_generateTensors_arrayA.arrayA_3702784[131072], explode_generateTensors_arrayA.arrayA_3735552[131072], explode_generateTensors_arrayA.arrayA_3768320[131072], explode_generateTensors_arrayA.arrayA_3801088[131072], explode_generateTensors_arrayA.arrayA_3833856[131072], explode_generateTensors_arrayA.arrayA_3866624[131072], explode_generateTensors_arrayA.arrayA_3899392[131072], explode_generateTensors_arrayA.arrayA_3932160[131072], explode_generateTensors_arrayA.arrayA_3964928[131072], explode_generateTensors_arrayA.arrayA_3997696[131072], explode_generateTensors_arrayA.arrayA_4030464[131072], explode_generateTensors_arrayA.arrayA_4063232[131072], explode_generateTensors_arrayA.arrayA_4096000[131072], explode_generateTensors_arrayA.arrayA_4128768[131072], explode_generateTensors_arrayA.arrayA_4161536[131072]]
+> [explode_generateTensors_arrayA.arrayA[2097152], explode_generateTensors_arrayA.arrayA_0[131072], explode_generateTensors_arrayA.arrayA_32768[131072], explode_generateTensors_arrayA.arrayA_65536[131072], explode_generateTensors_arrayA.arrayA_98304[131072], explode_generateTensors_arrayA.arrayA_131072[131072], explode_generateTensors_arrayA.arrayA_163840[131072], explode_generateTensors_arrayA.arrayA_196608[131072], explode_generateTensors_arrayA.arrayA_229376[131072], explode_generateTensors_arrayA.arrayA_262144[131072], explode_generateTensors_arrayA.arrayA_294912[131072], explode_generateTensors_arrayA.arrayA_327680[131072], explode_generateTensors_arrayA.arrayA_360448[131072], explode_generateTensors_arrayA.arrayA_393216[131072], explode_generateTensors_arrayA.arrayA_425984[131072], explode_generateTensors_arrayA.arrayA_458752[131072], explode_generateTensors_arrayA.arrayA_491520[131072]]
 
 ### Match application log: 
-- __Step 0 - 128 matches__
->explode_generateTensors_arrayA.arrayA_0[0..131072[=>explode_generateTensors_arrayA.arrayA[0..131072[  explode_generateTensors_arrayA.arrayA_1015808[0..131072[=>explode_generateTensors_arrayA.arrayA[4063232..4194304[  explode_generateTensors_arrayA.arrayA_1048576[0..131072[=>explode_generateTensors_arrayA.arrayA[4194304..4325376[  explode_generateTensors_arrayA.arrayA_1081344[0..131072[=>explode_generateTensors_arrayA.arrayA[4325376..4456448[  explode_generateTensors_arrayA.arrayA_1114112[0..131072[=>explode_generateTensors_arrayA.arrayA[4456448..4587520[  explode_generateTensors_arrayA.arrayA_1146880[0..131072[=>explode_generateTensors_arrayA.arrayA[4587520..4718592[  explode_generateTensors_arrayA.arrayA_1179648[0..131072[=>explode_generateTensors_arrayA.arrayA[4718592..4849664[  explode_generateTensors_arrayA.arrayA_1212416[0..131072[=>explode_generateTensors_arrayA.arrayA[4849664..4980736[  explode_generateTensors_arrayA.arrayA_1245184[0..131072[=>explode_generateTensors_arrayA.arrayA[4980736..5111808[  explode_generateTensors_arrayA.arrayA_1277952[0..131072[=>explode_generateTensors_arrayA.arrayA[5111808..5242880[  explode_generateTensors_arrayA.arrayA_131072[0..131072[=>explode_generateTensors_arrayA.arrayA[524288..655360[  explode_generateTensors_arrayA.arrayA_1310720[0..131072[=>explode_generateTensors_arrayA.arrayA[5242880..5373952[  explode_generateTensors_arrayA.arrayA_1343488[0..131072[=>explode_generateTensors_arrayA.arrayA[5373952..5505024[  explode_generateTensors_arrayA.arrayA_1376256[0..131072[=>explode_generateTensors_arrayA.arrayA[5505024..5636096[  explode_generateTensors_arrayA.arrayA_1409024[0..131072[=>explode_generateTensors_arrayA.arrayA[5636096..5767168[  explode_generateTensors_arrayA.arrayA_1441792[0..131072[=>explode_generateTensors_arrayA.arrayA[5767168..5898240[  explode_generateTensors_arrayA.arrayA_1474560[0..131072[=>explode_generateTensors_arrayA.arrayA[5898240..6029312[  explode_generateTensors_arrayA.arrayA_1507328[0..131072[=>explode_generateTensors_arrayA.arrayA[6029312..6160384[  explode_generateTensors_arrayA.arrayA_1540096[0..131072[=>explode_generateTensors_arrayA.arrayA[6160384..6291456[  explode_generateTensors_arrayA.arrayA_1572864[0..131072[=>explode_generateTensors_arrayA.arrayA[6291456..6422528[  explode_generateTensors_arrayA.arrayA_1605632[0..131072[=>explode_generateTensors_arrayA.arrayA[6422528..6553600[  explode_generateTensors_arrayA.arrayA_163840[0..131072[=>explode_generateTensors_arrayA.arrayA[655360..786432[  explode_generateTensors_arrayA.arrayA_1638400[0..131072[=>explode_generateTensors_arrayA.arrayA[6553600..6684672[  explode_generateTensors_arrayA.arrayA_1671168[0..131072[=>explode_generateTensors_arrayA.arrayA[6684672..6815744[  explode_generateTensors_arrayA.arrayA_1703936[0..131072[=>explode_generateTensors_arrayA.arrayA[6815744..6946816[  explode_generateTensors_arrayA.arrayA_1736704[0..131072[=>explode_generateTensors_arrayA.arrayA[6946816..7077888[  explode_generateTensors_arrayA.arrayA_1769472[0..131072[=>explode_generateTensors_arrayA.arrayA[7077888..7208960[  explode_generateTensors_arrayA.arrayA_1802240[0..131072[=>explode_generateTensors_arrayA.arrayA[7208960..7340032[  explode_generateTensors_arrayA.arrayA_1835008[0..131072[=>explode_generateTensors_arrayA.arrayA[7340032..7471104[  explode_generateTensors_arrayA.arrayA_1867776[0..131072[=>explode_generateTensors_arrayA.arrayA[7471104..7602176[  explode_generateTensors_arrayA.arrayA_1900544[0..131072[=>explode_generateTensors_arrayA.arrayA[7602176..7733248[  explode_generateTensors_arrayA.arrayA_1933312[0..131072[=>explode_generateTensors_arrayA.arrayA[7733248..7864320[  explode_generateTensors_arrayA.arrayA_196608[0..131072[=>explode_generateTensors_arrayA.arrayA[786432..917504[  explode_generateTensors_arrayA.arrayA_1966080[0..131072[=>explode_generateTensors_arrayA.arrayA[7864320..7995392[  explode_generateTensors_arrayA.arrayA_1998848[0..131072[=>explode_generateTensors_arrayA.arrayA[7995392..8126464[  explode_generateTensors_arrayA.arrayA_2031616[0..131072[=>explode_generateTensors_arrayA.arrayA[8126464..8257536[  explode_generateTensors_arrayA.arrayA_2064384[0..131072[=>explode_generateTensors_arrayA.arrayA[8257536..8388608[  explode_generateTensors_arrayA.arrayA_2097152[0..131072[=>explode_generateTensors_arrayA.arrayA[8388608..8519680[  explode_generateTensors_arrayA.arrayA_2129920[0..131072[=>explode_generateTensors_arrayA.arrayA[8519680..8650752[  explode_generateTensors_arrayA.arrayA_2162688[0..131072[=>explode_generateTensors_arrayA.arrayA[8650752..8781824[  explode_generateTensors_arrayA.arrayA_2195456[0..131072[=>explode_generateTensors_arrayA.arrayA[8781824..8912896[  explode_generateTensors_arrayA.arrayA_2228224[0..131072[=>explode_generateTensors_arrayA.arrayA[8912896..9043968[  explode_generateTensors_arrayA.arrayA_2260992[0..131072[=>explode_generateTensors_arrayA.arrayA[9043968..9175040[  explode_generateTensors_arrayA.arrayA_229376[0..131072[=>explode_generateTensors_arrayA.arrayA[917504..1048576[  explode_generateTensors_arrayA.arrayA_2293760[0..131072[=>explode_generateTensors_arrayA.arrayA[9175040..9306112[  explode_generateTensors_arrayA.arrayA_2326528[0..131072[=>explode_generateTensors_arrayA.arrayA[9306112..9437184[  explode_generateTensors_arrayA.arrayA_2359296[0..131072[=>explode_generateTensors_arrayA.arrayA[9437184..9568256[  explode_generateTensors_arrayA.arrayA_2392064[0..131072[=>explode_generateTensors_arrayA.arrayA[9568256..9699328[  explode_generateTensors_arrayA.arrayA_2424832[0..131072[=>explode_generateTensors_arrayA.arrayA[9699328..9830400[  explode_generateTensors_arrayA.arrayA_2457600[0..131072[=>explode_generateTensors_arrayA.arrayA[9830400..9961472[  explode_generateTensors_arrayA.arrayA_2490368[0..131072[=>explode_generateTensors_arrayA.arrayA[9961472..10092544[  explode_generateTensors_arrayA.arrayA_2523136[0..131072[=>explode_generateTensors_arrayA.arrayA[10092544..10223616[  explode_generateTensors_arrayA.arrayA_2555904[0..131072[=>explode_generateTensors_arrayA.arrayA[10223616..10354688[  explode_generateTensors_arrayA.arrayA_2588672[0..131072[=>explode_generateTensors_arrayA.arrayA[10354688..10485760[  explode_generateTensors_arrayA.arrayA_262144[0..131072[=>explode_generateTensors_arrayA.arrayA[1048576..1179648[  explode_generateTensors_arrayA.arrayA_2621440[0..131072[=>explode_generateTensors_arrayA.arrayA[10485760..10616832[  explode_generateTensors_arrayA.arrayA_2654208[0..131072[=>explode_generateTensors_arrayA.arrayA[10616832..10747904[  explode_generateTensors_arrayA.arrayA_2686976[0..131072[=>explode_generateTensors_arrayA.arrayA[10747904..10878976[  explode_generateTensors_arrayA.arrayA_2719744[0..131072[=>explode_generateTensors_arrayA.arrayA[10878976..11010048[  explode_generateTensors_arrayA.arrayA_2752512[0..131072[=>explode_generateTensors_arrayA.arrayA[11010048..11141120[  explode_generateTensors_arrayA.arrayA_2785280[0..131072[=>explode_generateTensors_arrayA.arrayA[11141120..11272192[  explode_generateTensors_arrayA.arrayA_2818048[0..131072[=>explode_generateTensors_arrayA.arrayA[11272192..11403264[  explode_generateTensors_arrayA.arrayA_2850816[0..131072[=>explode_generateTensors_arrayA.arrayA[11403264..11534336[  explode_generateTensors_arrayA.arrayA_2883584[0..131072[=>explode_generateTensors_arrayA.arrayA[11534336..11665408[  explode_generateTensors_arrayA.arrayA_2916352[0..131072[=>explode_generateTensors_arrayA.arrayA[11665408..11796480[  explode_generateTensors_arrayA.arrayA_294912[0..131072[=>explode_generateTensors_arrayA.arrayA[1179648..1310720[  explode_generateTensors_arrayA.arrayA_2949120[0..131072[=>explode_generateTensors_arrayA.arrayA[11796480..11927552[  explode_generateTensors_arrayA.arrayA_2981888[0..131072[=>explode_generateTensors_arrayA.arrayA[11927552..12058624[  explode_generateTensors_arrayA.arrayA_3014656[0..131072[=>explode_generateTensors_arrayA.arrayA[12058624..12189696[  explode_generateTensors_arrayA.arrayA_3047424[0..131072[=>explode_generateTensors_arrayA.arrayA[12189696..12320768[  explode_generateTensors_arrayA.arrayA_3080192[0..131072[=>explode_generateTensors_arrayA.arrayA[12320768..12451840[  explode_generateTensors_arrayA.arrayA_3112960[0..131072[=>explode_generateTensors_arrayA.arrayA[12451840..12582912[  explode_generateTensors_arrayA.arrayA_3145728[0..131072[=>explode_generateTensors_arrayA.arrayA[12582912..12713984[  explode_generateTensors_arrayA.arrayA_3178496[0..131072[=>explode_generateTensors_arrayA.arrayA[12713984..12845056[  explode_generateTensors_arrayA.arrayA_3211264[0..131072[=>explode_generateTensors_arrayA.arrayA[12845056..12976128[  explode_generateTensors_arrayA.arrayA_3244032[0..131072[=>explode_generateTensors_arrayA.arrayA[12976128..13107200[  explode_generateTensors_arrayA.arrayA_32768[0..131072[=>explode_generateTensors_arrayA.arrayA[131072..262144[  explode_generateTensors_arrayA.arrayA_327680[0..131072[=>explode_generateTensors_arrayA.arrayA[1310720..1441792[  explode_generateTensors_arrayA.arrayA_3276800[0..131072[=>explode_generateTensors_arrayA.arrayA[13107200..13238272[  explode_generateTensors_arrayA.arrayA_3309568[0..131072[=>explode_generateTensors_arrayA.arrayA[13238272..13369344[  explode_generateTensors_arrayA.arrayA_3342336[0..131072[=>explode_generateTensors_arrayA.arrayA[13369344..13500416[  explode_generateTensors_arrayA.arrayA_3375104[0..131072[=>explode_generateTensors_arrayA.arrayA[13500416..13631488[  explode_generateTensors_arrayA.arrayA_3407872[0..131072[=>explode_generateTensors_arrayA.arrayA[13631488..13762560[  explode_generateTensors_arrayA.arrayA_3440640[0..131072[=>explode_generateTensors_arrayA.arrayA[13762560..13893632[  explode_generateTensors_arrayA.arrayA_3473408[0..131072[=>explode_generateTensors_arrayA.arrayA[13893632..14024704[  explode_generateTensors_arrayA.arrayA_3506176[0..131072[=>explode_generateTensors_arrayA.arrayA[14024704..14155776[  explode_generateTensors_arrayA.arrayA_3538944[0..131072[=>explode_generateTensors_arrayA.arrayA[14155776..14286848[  explode_generateTensors_arrayA.arrayA_3571712[0..131072[=>explode_generateTensors_arrayA.arrayA[14286848..14417920[  explode_generateTensors_arrayA.arrayA_360448[0..131072[=>explode_generateTensors_arrayA.arrayA[1441792..1572864[  explode_generateTensors_arrayA.arrayA_3604480[0..131072[=>explode_generateTensors_arrayA.arrayA[14417920..14548992[  explode_generateTensors_arrayA.arrayA_3637248[0..131072[=>explode_generateTensors_arrayA.arrayA[14548992..14680064[  explode_generateTensors_arrayA.arrayA_3670016[0..131072[=>explode_generateTensors_arrayA.arrayA[14680064..14811136[  explode_generateTensors_arrayA.arrayA_3702784[0..131072[=>explode_generateTensors_arrayA.arrayA[14811136..14942208[  explode_generateTensors_arrayA.arrayA_3735552[0..131072[=>explode_generateTensors_arrayA.arrayA[14942208..15073280[  explode_generateTensors_arrayA.arrayA_3768320[0..131072[=>explode_generateTensors_arrayA.arrayA[15073280..15204352[  explode_generateTensors_arrayA.arrayA_3801088[0..131072[=>explode_generateTensors_arrayA.arrayA[15204352..15335424[  explode_generateTensors_arrayA.arrayA_3833856[0..131072[=>explode_generateTensors_arrayA.arrayA[15335424..15466496[  explode_generateTensors_arrayA.arrayA_3866624[0..131072[=>explode_generateTensors_arrayA.arrayA[15466496..15597568[  explode_generateTensors_arrayA.arrayA_3899392[0..131072[=>explode_generateTensors_arrayA.arrayA[15597568..15728640[  explode_generateTensors_arrayA.arrayA_393216[0..131072[=>explode_generateTensors_arrayA.arrayA[1572864..1703936[  explode_generateTensors_arrayA.arrayA_3932160[0..131072[=>explode_generateTensors_arrayA.arrayA[15728640..15859712[  explode_generateTensors_arrayA.arrayA_3964928[0..131072[=>explode_generateTensors_arrayA.arrayA[15859712..15990784[  explode_generateTensors_arrayA.arrayA_3997696[0..131072[=>explode_generateTensors_arrayA.arrayA[15990784..16121856[  explode_generateTensors_arrayA.arrayA_4030464[0..131072[=>explode_generateTensors_arrayA.arrayA[16121856..16252928[  explode_generateTensors_arrayA.arrayA_4063232[0..131072[=>explode_generateTensors_arrayA.arrayA[16252928..16384000[  explode_generateTensors_arrayA.arrayA_4096000[0..131072[=>explode_generateTensors_arrayA.arrayA[16384000..16515072[  explode_generateTensors_arrayA.arrayA_4128768[0..131072[=>explode_generateTensors_arrayA.arrayA[16515072..16646144[  explode_generateTensors_arrayA.arrayA_4161536[0..131072[=>explode_generateTensors_arrayA.arrayA[16646144..16777216[  explode_generateTensors_arrayA.arrayA_425984[0..131072[=>explode_generateTensors_arrayA.arrayA[1703936..1835008[  explode_generateTensors_arrayA.arrayA_458752[0..131072[=>explode_generateTensors_arrayA.arrayA[1835008..1966080[  explode_generateTensors_arrayA.arrayA_491520[0..131072[=>explode_generateTensors_arrayA.arrayA[1966080..2097152[  explode_generateTensors_arrayA.arrayA_524288[0..131072[=>explode_generateTensors_arrayA.arrayA[2097152..2228224[  explode_generateTensors_arrayA.arrayA_557056[0..131072[=>explode_generateTensors_arrayA.arrayA[2228224..2359296[  explode_generateTensors_arrayA.arrayA_589824[0..131072[=>explode_generateTensors_arrayA.arrayA[2359296..2490368[  explode_generateTensors_arrayA.arrayA_622592[0..131072[=>explode_generateTensors_arrayA.arrayA[2490368..2621440[  explode_generateTensors_arrayA.arrayA_65536[0..131072[=>explode_generateTensors_arrayA.arrayA[262144..393216[  explode_generateTensors_arrayA.arrayA_655360[0..131072[=>explode_generateTensors_arrayA.arrayA[2621440..2752512[  explode_generateTensors_arrayA.arrayA_688128[0..131072[=>explode_generateTensors_arrayA.arrayA[2752512..2883584[  explode_generateTensors_arrayA.arrayA_720896[0..131072[=>explode_generateTensors_arrayA.arrayA[2883584..3014656[  explode_generateTensors_arrayA.arrayA_753664[0..131072[=>explode_generateTensors_arrayA.arrayA[3014656..3145728[  explode_generateTensors_arrayA.arrayA_786432[0..131072[=>explode_generateTensors_arrayA.arrayA[3145728..3276800[  explode_generateTensors_arrayA.arrayA_819200[0..131072[=>explode_generateTensors_arrayA.arrayA[3276800..3407872[  explode_generateTensors_arrayA.arrayA_851968[0..131072[=>explode_generateTensors_arrayA.arrayA[3407872..3538944[  explode_generateTensors_arrayA.arrayA_884736[0..131072[=>explode_generateTensors_arrayA.arrayA[3538944..3670016[  explode_generateTensors_arrayA.arrayA_917504[0..131072[=>explode_generateTensors_arrayA.arrayA[3670016..3801088[  explode_generateTensors_arrayA.arrayA_950272[0..131072[=>explode_generateTensors_arrayA.arrayA[3801088..3932160[  explode_generateTensors_arrayA.arrayA_98304[0..131072[=>explode_generateTensors_arrayA.arrayA[393216..524288[  explode_generateTensors_arrayA.arrayA_983040[0..131072[=>explode_generateTensors_arrayA.arrayA[3932160..4063232[  
+- __Step 0 - 16 matches__
+>explode_generateTensors_arrayA.arrayA_0[0..131072[=>explode_generateTensors_arrayA.arrayA[0..131072[  explode_generateTensors_arrayA.arrayA_131072[0..131072[=>explode_generateTensors_arrayA.arrayA[524288..655360[  explode_generateTensors_arrayA.arrayA_163840[0..131072[=>explode_generateTensors_arrayA.arrayA[655360..786432[  explode_generateTensors_arrayA.arrayA_196608[0..131072[=>explode_generateTensors_arrayA.arrayA[786432..917504[  explode_generateTensors_arrayA.arrayA_229376[0..131072[=>explode_generateTensors_arrayA.arrayA[917504..1048576[  explode_generateTensors_arrayA.arrayA_262144[0..131072[=>explode_generateTensors_arrayA.arrayA[1048576..1179648[  explode_generateTensors_arrayA.arrayA_294912[0..131072[=>explode_generateTensors_arrayA.arrayA[1179648..1310720[  explode_generateTensors_arrayA.arrayA_32768[0..131072[=>explode_generateTensors_arrayA.arrayA[131072..262144[  explode_generateTensors_arrayA.arrayA_327680[0..131072[=>explode_generateTensors_arrayA.arrayA[1310720..1441792[  explode_generateTensors_arrayA.arrayA_360448[0..131072[=>explode_generateTensors_arrayA.arrayA[1441792..1572864[  explode_generateTensors_arrayA.arrayA_393216[0..131072[=>explode_generateTensors_arrayA.arrayA[1572864..1703936[  explode_generateTensors_arrayA.arrayA_425984[0..131072[=>explode_generateTensors_arrayA.arrayA[1703936..1835008[  explode_generateTensors_arrayA.arrayA_458752[0..131072[=>explode_generateTensors_arrayA.arrayA[1835008..1966080[  explode_generateTensors_arrayA.arrayA_491520[0..131072[=>explode_generateTensors_arrayA.arrayA[1966080..2097152[  explode_generateTensors_arrayA.arrayA_65536[0..131072[=>explode_generateTensors_arrayA.arrayA[262144..393216[  explode_generateTensors_arrayA.arrayA_98304[0..131072[=>explode_generateTensors_arrayA.arrayA[393216..524288[  
 
 ### Tree summary:
-- From 129 buffers to 1 buffers.
-- From 33554560 bytes to 16777344 bytes (49.999809265864315%)
+- From 17 buffers to 1 buffers.
+- From 4194432 bytes to 2097280 bytes (49.99847416765846%)
 
 ### Unapplied matches:
 >
