@@ -145,7 +145,7 @@
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
-    <graphicsAlgorithm xsi:type="al:Polygon" background="//@colors.5" foreground="//@colors.7" lineWidth="2" filled="true" transparency="0.0" width="37" height="40" x="558" y="410">
+    <graphicsAlgorithm xsi:type="al:Polygon" background="//@colors.5" foreground="//@colors.7" lineWidth="2" filled="true" transparency="0.0" width="37" height="40" x="558" y="330">
       <points x="18"/>
       <points x="37" y="26"/>
       <points x="37" y="40"/>
@@ -567,7 +567,7 @@
         <points x="-10" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
-    <bendpoints x="14" y="429"/>
+    <bendpoints x="14" y="350"/>
     <bendpoints x="14" y="221"/>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.2/@anchors.0" end="//@children.0/@anchors.5">
@@ -582,7 +582,7 @@
         <points x="-10" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
-    <bendpoints x="13" y="429"/>
+    <bendpoints x="13" y="350"/>
     <bendpoints x="13" y="260"/>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.1/@anchors.0" end="//@children.3/@anchors.2">
@@ -661,7 +661,7 @@
         <points x="-10" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
-    <bendpoints x="482" y="429"/>
+    <bendpoints x="482" y="350"/>
     <bendpoints x="482" y="267"/>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.2/@anchors.0" end="//@children.3/@anchors.4">
@@ -676,7 +676,7 @@
         <points x="-10" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
-    <bendpoints x="482" y="429"/>
+    <bendpoints x="482" y="350"/>
     <bendpoints x="482" y="228"/>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.1/@anchors.0" end="//@children.4/@anchors.0">
@@ -725,8 +725,8 @@
         <points x="-10" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
-    <bendpoints x="730" y="430"/>
-    <bendpoints x="920" y="430"/>
+    <bendpoints x="737" y="350"/>
+    <bendpoints x="920" y="350"/>
     <bendpoints x="920" y="246"/>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.1/@anchors.0" end="//@children.5/@anchors.0">
@@ -773,7 +773,7 @@
         <points x="-10" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
-    <bendpoints x="240" y="429"/>
+    <bendpoints x="240" y="350"/>
     <bendpoints x="240" y="259"/>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.6" end="//@children.5/@anchors.3">
@@ -913,7 +913,7 @@
         <points x="-10" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
-    <bendpoints x="718" y="429"/>
+    <bendpoints x="718" y="350"/>
     <bendpoints x="718" y="260"/>
   </connections>
   <colors red="227" green="238" blue="249"/>

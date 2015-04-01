@@ -8,7 +8,7 @@
     <graph edgedefault="directed">
         <data key="name">multiply</data>
         <node expr="512" id="squaredSize" kind="param"/>
-        <node expr="32" id="depth" kind="param"/>
+        <node expr="64" id="depth" kind="param"/>
         <node id="generateTensors" kind="actor">
             <data key="graph_desc">Code/src/generateTensors.h</data>
             <loop name="generate">
