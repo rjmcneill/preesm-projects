@@ -8,7 +8,7 @@
     <graph edgedefault="directed">
         <data key="name">multiply</data>
         <node expr="2048" id="squaredSize" kind="param"/>
-        <node id="generateMatricies" kind="actor">
+        <node id="generateMatrices" kind="actor">
             <data key="graph_desc">Code/src/generateMatrices.h</data>
             <loop name="generate">
                 <param direction="IN" isConfig="true" name="rowsA" type="int "/>
@@ -27,7 +27,7 @@
             <port annotation="NONE" expr="rowsB*columnsB" kind="output" name="arrayB"/>
             <port annotation="NONE" expr="1" kind="output" name="startTime"/>
         </node>
-        <node id="multiplyMatricies" kind="actor">
+        <node id="multiplyMatrices" kind="actor">
             <data key="graph_desc">Code/src/multiplyMatrices.h</data>
             <loop name="multiply">
                 <param direction="IN" isConfig="true" name="rowsA" type="int "/>
@@ -68,38 +68,38 @@
             <port annotation="NONE" expr="rowsB*columnsB*8"
                 kind="output" name="arrayBOut"/>
         </node>
-        <edge kind="fifo" source="generateMatricies" sourceport="arrayA"
-            target="multiplyMatricies" targetport="arrayA" type="long"/>
-        <edge kind="fifo" source="generateMatricies" sourceport="arrayB"
+        <edge kind="fifo" source="generateMatrices" sourceport="arrayA"
+            target="multiplyMatrices" targetport="arrayA" type="long"/>
+        <edge kind="fifo" source="generateMatrices" sourceport="arrayB"
             target="broadcastArrayB" targetport="arrayBIn" type="long"/>
         <edge kind="fifo" source="broadcastArrayB"
-            sourceport="arrayBOut" target="multiplyMatricies"
+            sourceport="arrayBOut" target="multiplyMatrices"
             targetport="arrayB" type="long"/>
-        <edge kind="fifo" source="multiplyMatricies" sourceport="output"
+        <edge kind="fifo" source="multiplyMatrices" sourceport="output"
             target="displayMatrix" targetport="arrayC" type="long"/>
-        <edge kind="fifo" source="generateMatricies"
+        <edge kind="fifo" source="generateMatrices"
             sourceport="startTime" target="displayMatrix"
             targetport="startTime" type="double"/>
         <edge kind="dependency" source="squaredSize"
-            target="generateMatricies" targetport="rowsA"/>
+            target="generateMatrices" targetport="rowsA"/>
         <edge kind="dependency" source="squaredSize"
-            target="generateMatricies" targetport="columnsA"/>
+            target="generateMatrices" targetport="columnsA"/>
         <edge kind="dependency" source="squaredSize"
-            target="generateMatricies" targetport="rowsB"/>
+            target="generateMatrices" targetport="rowsB"/>
         <edge kind="dependency" source="squaredSize"
-            target="generateMatricies" targetport="columnsB"/>
+            target="generateMatrices" targetport="columnsB"/>
         <edge kind="dependency" source="squaredSize"
             target="broadcastArrayB" targetport="rowsB"/>
         <edge kind="dependency" source="squaredSize"
             target="broadcastArrayB" targetport="columnsB"/>
         <edge kind="dependency" source="squaredSize"
-            target="multiplyMatricies" targetport="rowsA"/>
+            target="multiplyMatrices" targetport="rowsA"/>
         <edge kind="dependency" source="squaredSize"
-            target="multiplyMatricies" targetport="columnsA"/>
+            target="multiplyMatrices" targetport="columnsA"/>
         <edge kind="dependency" source="squaredSize"
-            target="multiplyMatricies" targetport="rowsB"/>
+            target="multiplyMatrices" targetport="rowsB"/>
         <edge kind="dependency" source="squaredSize"
-            target="multiplyMatricies" targetport="columnsB"/>
+            target="multiplyMatrices" targetport="columnsB"/>
         <edge kind="dependency" source="squaredSize"
             target="displayMatrix" targetport="rowsA"/>
         <edge kind="dependency" source="squaredSize"

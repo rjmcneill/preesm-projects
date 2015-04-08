@@ -105,8 +105,8 @@
             target="accumulateMatrices" targetport="loops"/>
         <edge kind="dependency" source="squaredSize"
             target="broadcastOutput" targetport="rows"/>
-        <edge kind="dependency" source="squaredSize" target="broadcastOutput.output1-accumulateMatrices.runningTotal"/>
         <edge kind="dependency" source="accumulateLoops"
             target="displayMatrices" targetport="loops"/>
+        <edge kind="dependency" source="squaredSize" target="broadcastOutput.output1-accumulateMatrices.runningTotal"/>
     </graph>
 </graphml>
