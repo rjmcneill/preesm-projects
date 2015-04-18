@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="parameters" for="graph" id="parameters"/>
+    <key attr.name="variables" for="graph" id="variables"/>
+    <key attr.name="arguments" for="node" id="arguments"/>
+    <key attr.name="name" attr.type="string" for="graph"/>
+    <key attr.name="graph_desc" attr.type="string" for="node"/>
+    <graph edgedefault="directed">
+        <data key="name">multiply</data>
+        <node expr="16" id="squaredSize" kind="param"/>
+        <node expr="2" id="depth" kind="param"/>
+        <node id="generateTensors" kind="actor">
+            <data key="graph_desc">Code/src/generateTensors.h</data>
+            <loop name="generate">
+                <param direction="IN" isConfig="true" name="rowsA" type="int "/>
+                <param direction="IN" isConfig="true" name="columnsA" type=" int "/>
+                <param direction="IN" isConfig="false" name="depth" type=" int "/>
+                <param direction="OUT" isConfig="false" name="tensorA" type=" int *"/>
+            </loop>
+            <port kind="cfg_input" name="rowsA"/>
+            <port kind="cfg_input" name="columnsA"/>
+            <port kind="cfg_input" name="depthA"/>
+            <port annotation="NONE" expr="(rowsA*columnsA)*depthA"
+                kind="output" name="tensorA"/>
+        </node>
+        <node id="displayTensor" kind="actor">
+            <data key="graph_desc">Code/src/displayTensor.h</data>
+            <loop name="display">
+                <param direction="IN" isConfig="true" name="rowsA" type="int "/>
+                <param direction="IN" isConfig="true" name="columnsA" type=" int "/>
+                <param direction="IN" isConfig="false" name="depth" type=" int "/>
+                <param direction="IN" isConfig="false" name="input0" type=" int *"/>
+                <param direction="IN" isConfig="false" name="input1" type=" int *"/>
+            </loop>
+            <port kind="cfg_input" name="rowsA"/>
+            <port kind="cfg_input" name="columnsA"/>
+            <port kind="cfg_input" name="depthA"/>
+            <port annotation="NONE" expr="(rowsA*columnsA)/2"
+                kind="input" name="input0"/>
+            <port annotation="NONE" expr="(rowsA*columnsA)/2"
+                kind="input" name="input1"/>
+        </node>
+        <node id="splitTensor" kind="actor">
+            <data key="graph_desc">Code/src/splitTensor.h</data>
+            <loop name="split">
+                <param direction="IN" isConfig="true" name="rowsA" type="int "/>
+                <param direction="IN" isConfig="true" name="columnsA" type=" int "/>
+                <param direction="IN" isConfig="false" name="input" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output0" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output1" type=" int *"/>
+            </loop>
+            <port kind="cfg_input" name="rowsA"/>
+            <port kind="cfg_input" name="columnsA"/>
+            <port annotation="NONE" expr="(rowsA*columnsA)" kind="input" name="input"/>
+            <port annotation="NONE" expr="(rowsA*columnsA)/2"
+                kind="output" name="output0"/>
+            <port annotation="NONE" expr="(rowsA*columnsA)/2"
+                kind="output" name="output1"/>
+        </node>
+        <edge kind="fifo" source="generateTensors" sourceport="tensorA"
+            target="splitTensor" targetport="input" type="int"/>
+        <edge kind="fifo" source="splitTensor" sourceport="output0"
+            target="displayTensor" targetport="input0" type="int"/>
+        <edge kind="fifo" source="splitTensor" sourceport="output1"
+            target="displayTensor" targetport="input1" type="int"/>
+        <edge kind="dependency" source="depth" target="displayTensor" targetport="depthA"/>
+        <edge kind="dependency" source="squaredSize"
+            target="displayTensor" targetport="rowsA"/>
+        <edge kind="dependency" source="squaredSize"
+            target="displayTensor" targetport="columnsA"/>
+        <edge kind="dependency" source="squaredSize"
+            target="generateTensors" targetport="rowsA"/>
+        <edge kind="dependency" source="squaredSize"
+            target="generateTensors" targetport="columnsA"/>
+        <edge kind="dependency" source="depth" target="generateTensors" targetport="depthA"/>
+        <edge kind="dependency" source="squaredSize"
+            target="splitTensor" targetport="rowsA"/>
+        <edge kind="dependency" source="squaredSize"
+            target="splitTensor" targetport="columnsA"/>
+    </graph>
+</graphml>

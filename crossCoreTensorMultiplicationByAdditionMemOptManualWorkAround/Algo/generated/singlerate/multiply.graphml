@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="arguments" for="node" id="arguments"/>
+    <key attr.name="parameters" for="graph" id="parameters"/>
+    <key attr.name="variables" for="graph" id="variables"/>
+    <key attr.name="name" attr.type="string" for="graph"/>
+    <key attr.name="kind" attr.type="string" for="graph"/>
+    <key attr.name="graph_desc" attr.type="string" for="node"/>
+    <key attr.name="name" attr.type="string" for="node"/>
+    <key attr.name="kind" attr.type="string" for="node"/>
+    <key attr.name="nbRepeat" attr.type="int" for="node"/>
+    <key attr.name="edge_cons" attr.type="string" for="edge"/>
+    <key attr.name="edge_delay" attr.type="string" for="edge"/>
+    <key attr.name="edge_prod" attr.type="string" for="edge"/>
+    <key attr.name="data_type" attr.type="string" for="edge"/>
+    <key attr.name="source_port_modifier" attr.type="string" for="edge"/>
+    <key attr.name="target_port_modifier" attr.type="string" for="edge"/>
+    <key attr.name="Weight" attr.type="string" for="edge"/>
+    <graph edgedefault="directed" kind="sdf">
+        <data key="name">multiply</data>
+        <data key="kind">sdf</data>
+        <data key="variables">
+            <variable name="squaredSize" value="16"/>
+            <variable name="depth" value="2"/>
+        </data>
+        <node id="generateTensors">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@958c45</data>
+            <data key="name">generateTensors</data>
+            <data key="kind">vertex</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments">
+                <argument name="depthA" value="2"/>
+                <argument name="columnsA" value="16"/>
+                <argument name="rowsA" value="16"/>
+            </data>
+        </node>
+        <node id="displayTensor_0">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@2c2930</data>
+            <data key="name">displayTensor_0</data>
+            <data key="kind">vertex</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments">
+                <argument name="depthA" value="2"/>
+                <argument name="columnsA" value="16"/>
+                <argument name="rowsA" value="16"/>
+            </data>
+        </node>
+        <node id="displayTensor_1">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@2c2930</data>
+            <data key="name">displayTensor_1</data>
+            <data key="kind">vertex</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments">
+                <argument name="depthA" value="2"/>
+                <argument name="columnsA" value="16"/>
+                <argument name="rowsA" value="16"/>
+            </data>
+        </node>
+        <node id="splitTensor_0">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@1442a19</data>
+            <data key="name">splitTensor_0</data>
+            <data key="kind">vertex</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments">
+                <argument name="columnsA" value="16"/>
+                <argument name="rowsA" value="16"/>
+            </data>
+        </node>
+        <node id="splitTensor_1">
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@1442a19</data>
+            <data key="name">splitTensor_1</data>
+            <data key="kind">vertex</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments">
+                <argument name="columnsA" value="16"/>
+                <argument name="rowsA" value="16"/>
+            </data>
+        </node>
+        <node id="explode_generateTensors_tensorA">
+            <data key="name">explode_generateTensors_tensorA</data>
+            <data key="kind">fork</data>
+            <data key="nbRepeat">1</data>
+            <data key="arguments"/>
+        </node>
+        <edge source="generateTensors" sourceport="tensorA"
+            target="explode_generateTensors_tensorA" targetport="input">
+            <data key="edge_cons">512</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">512</data>
+            <data key="data_type">int</data>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier">read_only</data>
+            <data key="Weight"/>
+        </edge>
+        <edge source="explode_generateTensors_tensorA"
+            sourceport="tensorA_0" target="splitTensor_0" targetport="input">
+            <data key="edge_cons">256</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">256</data>
+            <data key="data_type">int</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+        </edge>
+        <edge source="explode_generateTensors_tensorA"
+            sourceport="tensorA_256" target="splitTensor_1" targetport="input">
+            <data key="edge_cons">256</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">256</data>
+            <data key="data_type">int</data>
+            <data key="source_port_modifier">write_only</data>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+        </edge>
+        <edge source="splitTensor_0" sourceport="output0"
+            target="displayTensor_0" targetport="input0">
+            <data key="edge_cons">128</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">128</data>
+            <data key="data_type">int</data>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+        </edge>
+        <edge source="splitTensor_1" sourceport="output0"
+            target="displayTensor_1" targetport="input0">
+            <data key="edge_cons">128</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">128</data>
+            <data key="data_type">int</data>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+        </edge>
+        <edge source="splitTensor_0" sourceport="output1"
+            target="displayTensor_0" targetport="input1">
+            <data key="edge_cons">128</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">128</data>
+            <data key="data_type">int</data>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+        </edge>
+        <edge source="splitTensor_1" sourceport="output1"
+            target="displayTensor_1" targetport="input1">
+            <data key="edge_cons">128</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_prod">128</data>
+            <data key="data_type">int</data>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+        </edge>
+    </graph>
+</graphml>
