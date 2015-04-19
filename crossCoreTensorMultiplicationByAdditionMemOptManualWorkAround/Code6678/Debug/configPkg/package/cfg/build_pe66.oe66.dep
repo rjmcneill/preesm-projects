@@ -1,9 +1,0 @@
-package/cfg/build_pe66.oe66: package/cfg/build_pe66.c C:/ti/xdctools_3_23_04_60/packages/xdc/std.h C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stdarg.h C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stddef.h C:/ti/xdctools_3_23_04_60/packages/ti/targets/elf/std.h C:/ti/xdctools_3_23_04_60/packages/ti/targets/select.h C:/ti/xdctools_3_23_04_60/packages/ti/targets/std.h C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stdint.h 
-package/cfg/build_pe66.c:
-C:/ti/xdctools_3_23_04_60/packages/xdc/std.h:
-C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stdarg.h:
-C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stddef.h:
-C:/ti/xdctools_3_23_04_60/packages/ti/targets/elf/std.h:
-C:/ti/xdctools_3_23_04_60/packages/ti/targets/select.h:
-C:/ti/xdctools_3_23_04_60/packages/ti/targets/std.h:
-C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include/stdint.h:

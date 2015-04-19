@@ -9,15 +9,17 @@
  */
 
 
--l"C:\Users\Robert\Development\Ubuntu Dev\workspace\crossCoreTensorMultiplicationByAdditionMemOptManualWorkAround\Code6678\Debug\configPkg\package\cfg\build_pe66.oe66"
+-l"C:\Users\Robert\Development\Ubuntu Dev\workspace\crossCoreTensorMultiplicationByAdditionMemOptManualWorkAround\Code6678\Debug\configPkg\package\cfg\modelPreesm_pe66.oe66"
+-l"C:\ti\ipc_1_24_03_32\packages\ti\sdo\ipc\lib\instrumented_e66\ipc\ipc.lib"
+-l"C:\ti\bios_6_33_06_50\packages\ti\sysbios\lib\instrumented_e66\sysbios\sysbios.lib"
 -l"C:\ti\xdctools_3_23_04_60\packages\ti\targets\rts6000\lib\ti.targets.rts6000.ae66"
 -l"C:\ti\xdctools_3_23_04_60\packages\ti\targets\rts6000\lib\boot.ae66"
 
 --retain="*(xdc.meta)"
 
 
---args 0x200
--heap  0x1000
+--args 0x0
+-heap  0x0
 -stack 0x1000
 
 MEMORY
@@ -59,6 +61,46 @@ MEMORY
 
 /* Content from ti.targets.rts6000 (null): */
 
+/* Content from ti.sysbios.interfaces (null): */
+
+/* Content from ti.sysbios.family (null): */
+
+/* Content from xdc.runtime.knl (null): */
+
+/* Content from ti.sdo.ipc.family (null): */
+
+/* Content from ti.sdo.ipc.interfaces (null): */
+
+/* Content from ti.sysbios (null): */
+
+/* Content from ti.sysbios.hal (null): */
+
+/* Content from ti.sysbios.knl (null): */
+
+/* Content from ti.sysbios.gates (null): */
+
+/* Content from ti.sdo.utils (null): */
+
+/* Content from ti.sysbios.syncs (null): */
+
+/* Content from xdc.services.getset (null): */
+
+/* Content from ti.sysbios.xdcruntime (null): */
+
+/* Content from ti.sysbios.family.c66 (null): */
+
+/* Content from ti.sysbios.family.c64p (null): */
+
+/* Content from ti.sysbios.family.c62 (null): */
+
+/* Content from ti.sysbios.timers.timer64 (null): */
+
+/* Content from ti.sysbios.family.c64p.tci6488 (null): */
+
+/* Content from ti.sysbios.heaps (null): */
+
+/* Content from ti.sysbios.utils (null): */
+
 /* Content from ti.catalog.c6000 (null): */
 
 /* Content from ti.catalog (null): */
@@ -73,16 +115,35 @@ MEMORY
 
 /* Content from preesm6678 (null): */
 
+/* Content from ti.sdo.ipc.heaps (null): */
+
+/* Content from ti.sdo.ipc (ti/sdo/ipc/linkcmd.xdt): */
+
+SECTIONS
+{
+    ti.sdo.ipc.SharedRegion_0:  { . += 0xffffc;} run > 0xc000000, type = NOLOAD
+}
+
+
+/* Content from ti.sdo.ipc.family.c647x (null): */
+
+/* Content from ti.sdo.ipc.notifyDrivers (null): */
+
+/* Content from ti.sdo.ipc.transports (null): */
+
+/* Content from ti.sdo.ipc.nsremote (null): */
+
+/* Content from ti.sdo.ipc.gates (null): */
+
 /* Content from configPkg (null): */
 
 
 /*
  * symbolic aliases for static instance objects
  */
-xdc_runtime_Startup__RESETFXN__C = 0;
-xdc_runtime_Startup_reset__I = 0;
-xdc_runtime_Startup__EXECFXN__C = 0;
-xdc_runtime_Startup_exec__E = 0;
+xdc_runtime_Startup__EXECFXN__C = 1;
+xdc_runtime_Startup__RESETFXN__C = 1;
+TSK_idle = ti_sysbios_knl_Task_Object__table__V + 68;
 
 SECTIONS
 {
@@ -104,9 +165,14 @@ SECTIONS
     .switch: load >> L2SRAM
     .sysmem: load > L2SRAM
     .far: load >> L2SRAM
-    .args: load > L2SRAM align = 0x4, fill = 0 {_argsize = 0x200; }
+    .args: load > L2SRAM align = 0x4, fill = 0 {_argsize = 0x0; }
     .cio: load >> L2SRAM
     .ti.handler_table: load > L2SRAM
+    .mySharedMem: load >> DDR3
+    .MSMCSRAM: load >> MSMCSRAM
+    .myConstMem: load >> DDR3
+    .myInputVideoMem: load >> DDR3, type = NOINIT
+    .vecs: load >> L2SRAM
     xdc.meta: load >> L2SRAM, type = COPY
 
 }

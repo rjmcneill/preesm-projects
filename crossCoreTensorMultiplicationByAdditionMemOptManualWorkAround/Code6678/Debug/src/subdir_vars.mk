@@ -14,6 +14,8 @@ C_SRCS += \
 ../src/memory.c \
 ../src/multiplyTensors.c \
 ../src/semaphore6678.c \
+../src/splitTensorA.c \
+../src/splitTensorB.c \
 ../src/sumResults.c \
 ../src/transposeTensor.c \
 ../src/utils.c 
@@ -29,6 +31,8 @@ OBJS += \
 ./src/memory.obj \
 ./src/multiplyTensors.obj \
 ./src/semaphore6678.obj \
+./src/splitTensorA.obj \
+./src/splitTensorB.obj \
 ./src/sumResults.obj \
 ./src/transposeTensor.obj \
 ./src/utils.obj 
@@ -44,6 +48,8 @@ C_DEPS += \
 ./src/memory.pp \
 ./src/multiplyTensors.pp \
 ./src/semaphore6678.pp \
+./src/splitTensorA.pp \
+./src/splitTensorB.pp \
 ./src/sumResults.pp \
 ./src/transposeTensor.pp \
 ./src/utils.pp 
@@ -59,6 +65,8 @@ C_DEPS__QUOTED += \
 "src\memory.pp" \
 "src\multiplyTensors.pp" \
 "src\semaphore6678.pp" \
+"src\splitTensorA.pp" \
+"src\splitTensorB.pp" \
 "src\sumResults.pp" \
 "src\transposeTensor.pp" \
 "src\utils.pp" 
@@ -74,6 +82,8 @@ OBJS__QUOTED += \
 "src\memory.obj" \
 "src\multiplyTensors.obj" \
 "src\semaphore6678.obj" \
+"src\splitTensorA.obj" \
+"src\splitTensorB.obj" \
 "src\sumResults.obj" \
 "src\transposeTensor.obj" \
 "src\utils.obj" 
@@ -89,6 +99,8 @@ C_SRCS__QUOTED += \
 "../src/memory.c" \
 "../src/multiplyTensors.c" \
 "../src/semaphore6678.c" \
+"../src/splitTensorA.c" \
+"../src/splitTensorB.c" \
 "../src/sumResults.c" \
 "../src/transposeTensor.c" \
 "../src/utils.c" 

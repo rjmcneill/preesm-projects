@@ -9,25 +9,17 @@ Description :
 #include "sumResults.h"
 #include <stdio.h>
 
-void sum (int rowsA, int columnsB, int depthA, long *input, long *output)
+void sum (int rows, int columns, long *input0, long *input1, long *input2, long *input3, long *input4, long *input5, long *input6, long *input7, long *output)
 {
 	int i, j, k;
 
-	for (i = 0; i < rowsA; i++)
+	for (i = 0; i < rows; i++)
 	{
-		for (j = 0; j < columnsB; j++)
+		for (j = 0; j < columns; j++)
 		{
-			for (k = 0; k < 8; k++)
-			{
-				if (k == 0)
-				{
-					*(output+((i*columnsB) + j)) = *(input+(i*columnsB + j));
-				}
-				else
-				{
-					*(output+((i*columnsB) + j)) = (*(output+((i*columnsB + j))) + *(input+(((i*columnsB) + (k*rowsA*columnsB)) + j)));
-				}
-			}
+			*(output+((i*columns) + j)) = *(input0+((i*columns)+j)) + *(input1+((i*columns)+j)) + *(input2+((i*columns)+j)) +
+										  *(input3+((i*columns)+j)) + *(input4+((i*columns)+j)) + *(input5+((i*columns)+j)) +
+										  *(input6+((i*columns)+j)) + *(input7+((i*columns)+j));
 		}
 	}
 }

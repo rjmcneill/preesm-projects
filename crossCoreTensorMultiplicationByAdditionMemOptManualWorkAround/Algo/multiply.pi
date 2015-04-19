@@ -7,75 +7,421 @@
     <key attr.name="graph_desc" attr.type="string" for="node"/>
     <graph edgedefault="directed">
         <data key="name">multiply</data>
-        <node expr="16" id="squaredSize" kind="param"/>
-        <node expr="2" id="depth" kind="param"/>
+        <node expr="512" id="squaredSize" kind="param"/>
+        <node expr="64" id="depth" kind="param"/>
         <node id="generateTensors" kind="actor">
             <data key="graph_desc">Code/src/generateTensors.h</data>
             <loop name="generate">
                 <param direction="IN" isConfig="true" name="rowsA" type="int "/>
                 <param direction="IN" isConfig="true" name="columnsA" type=" int "/>
-                <param direction="IN" isConfig="false" name="depth" type=" int "/>
-                <param direction="OUT" isConfig="false" name="tensorA" type=" int *"/>
+                <param direction="IN" isConfig="true" name="depthA" type=" int "/>
+                <param direction="IN" isConfig="true" name="rowsB" type=" int "/>
+                <param direction="IN" isConfig="true" name="columnsB" type=" int "/>
+                <param direction="IN" isConfig="true" name="depthB" type=" int "/>
+                <param direction="OUT" isConfig="false" name="arrayA" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="arrayB" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="startTime" type=" double *"/>
             </loop>
             <port kind="cfg_input" name="rowsA"/>
             <port kind="cfg_input" name="columnsA"/>
             <port kind="cfg_input" name="depthA"/>
-            <port annotation="NONE" expr="(rowsA*columnsA)*depthA"
-                kind="output" name="tensorA"/>
+            <port kind="cfg_input" name="rowsB"/>
+            <port kind="cfg_input" name="columnsB"/>
+            <port kind="cfg_input" name="depthB"/>
+            <port annotation="WRITE_ONLY" expr="rowsA*columnsA*depthA"
+                kind="output" name="arrayA"/>
+            <port annotation="WRITE_ONLY" expr="rowsB*columnsB*depthB"
+                kind="output" name="arrayB"/>
+            <port annotation="WRITE_ONLY" expr="1" kind="output" name="startTime"/>
         </node>
-        <node id="displayTensor" kind="actor">
-            <data key="graph_desc">Code/src/displayTensor.h</data>
-            <loop name="display">
-                <param direction="IN" isConfig="true" name="rowsA" type="int "/>
-                <param direction="IN" isConfig="true" name="columnsA" type=" int "/>
-                <param direction="IN" isConfig="false" name="depth" type=" int "/>
-                <param direction="IN" isConfig="false" name="input0" type=" int *"/>
-                <param direction="IN" isConfig="false" name="input1" type=" int *"/>
-            </loop>
-            <port kind="cfg_input" name="rowsA"/>
-            <port kind="cfg_input" name="columnsA"/>
-            <port kind="cfg_input" name="depthA"/>
-            <port annotation="NONE" expr="(rowsA*columnsA)/2"
-                kind="input" name="input0"/>
-            <port annotation="NONE" expr="(rowsA*columnsA)/2"
-                kind="input" name="input1"/>
-        </node>
-        <node id="splitTensor" kind="actor">
-            <data key="graph_desc">Code/src/splitTensor.h</data>
-            <loop name="split">
+        <node id="splitTensorA" kind="actor">
+            <data key="graph_desc">Code/src/splitTensorA.h</data>
+            <loop name="splitA">
                 <param direction="IN" isConfig="true" name="rowsA" type="int "/>
                 <param direction="IN" isConfig="true" name="columnsA" type=" int "/>
                 <param direction="IN" isConfig="false" name="input" type=" int *"/>
                 <param direction="OUT" isConfig="false" name="output0" type=" int *"/>
                 <param direction="OUT" isConfig="false" name="output1" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output2" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output3" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output4" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output5" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output6" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output7" type=" int *"/>
             </loop>
             <port kind="cfg_input" name="rowsA"/>
             <port kind="cfg_input" name="columnsA"/>
-            <port annotation="NONE" expr="(rowsA*columnsA)" kind="input" name="input"/>
-            <port annotation="NONE" expr="(rowsA*columnsA)/2"
+            <port kind="cfg_input" name="depthA"/>
+            <port annotation="READ_ONLY" expr="rowsA*columnsA"
+                kind="input" name="input"/>
+            <port annotation="WRITE_ONLY" expr="(rowsA*columnsA)/8"
                 kind="output" name="output0"/>
-            <port annotation="NONE" expr="(rowsA*columnsA)/2"
+            <port annotation="WRITE_ONLY" expr="(rowsA*columnsA)/8"
                 kind="output" name="output1"/>
+            <port annotation="WRITE_ONLY" expr="(rowsA*columnsA)/8"
+                kind="output" name="output2"/>
+            <port annotation="WRITE_ONLY" expr="(rowsA*columnsA)/8"
+                kind="output" name="output3"/>
+            <port annotation="WRITE_ONLY" expr="(rowsA*columnsA)/8"
+                kind="output" name="output4"/>
+            <port annotation="WRITE_ONLY" expr="(rowsA*columnsA)/8"
+                kind="output" name="output5"/>
+            <port annotation="WRITE_ONLY" expr="(rowsA*columnsA)/8"
+                kind="output" name="output6"/>
+            <port annotation="WRITE_ONLY" expr="(rowsA*columnsA)/8"
+                kind="output" name="output7"/>
         </node>
-        <edge kind="fifo" source="generateTensors" sourceport="tensorA"
-            target="splitTensor" targetport="input" type="int"/>
-        <edge kind="fifo" source="splitTensor" sourceport="output0"
-            target="displayTensor" targetport="input0" type="int"/>
-        <edge kind="fifo" source="splitTensor" sourceport="output1"
-            target="displayTensor" targetport="input1" type="int"/>
-        <edge kind="dependency" source="depth" target="displayTensor" targetport="depthA"/>
-        <edge kind="dependency" source="squaredSize"
-            target="displayTensor" targetport="rowsA"/>
-        <edge kind="dependency" source="squaredSize"
-            target="displayTensor" targetport="columnsA"/>
+        <node id="splitTensorB" kind="actor">
+            <data key="graph_desc">Code/src/splitTensorB.h</data>
+            <loop name="splitB">
+                <param direction="IN" isConfig="true" name="rowsB" type="int "/>
+                <param direction="IN" isConfig="true" name="columnsB" type=" int "/>
+                <param direction="IN" isConfig="false" name="input" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output0" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output1" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output2" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output3" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output4" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output5" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output6" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output7" type=" int *"/>
+            </loop>
+            <port kind="cfg_input" name="rowsB"/>
+            <port kind="cfg_input" name="columnsB"/>
+            <port kind="cfg_input" name="depthB"/>
+            <port annotation="READ_ONLY" expr="rowsB*columnsB"
+                kind="input" name="input"/>
+            <port annotation="WRITE_ONLY" expr="(rowsB*columnsB)/8"
+                kind="output" name="output0"/>
+            <port annotation="WRITE_ONLY" expr="(rowsB*columnsB)/8"
+                kind="output" name="output1"/>
+            <port annotation="WRITE_ONLY" expr="(rowsB*columnsB)/8"
+                kind="output" name="output2"/>
+            <port annotation="WRITE_ONLY" expr="(rowsB*columnsB)/8"
+                kind="output" name="output3"/>
+            <port annotation="WRITE_ONLY" expr="(rowsB*columnsB)/8"
+                kind="output" name="output4"/>
+            <port annotation="WRITE_ONLY" expr="(rowsB*columnsB)/8"
+                kind="output" name="output5"/>
+            <port annotation="WRITE_ONLY" expr="(rowsB*columnsB)/8"
+                kind="output" name="output6"/>
+            <port annotation="WRITE_ONLY" expr="(rowsB*columnsB)/8"
+                kind="output" name="output7"/>
+        </node>
+        <node id="multiply0" kind="actor">
+            <data key="graph_desc">Code/src/multiplyTensors.h</data>
+            <loop name="multiply">
+                <param direction="IN" isConfig="true" name="rows" type="int "/>
+                <param direction="IN" isConfig="true" name="columns" type=" int "/>
+                <param direction="IN" isConfig="false" name="inputA" type=" int *"/>
+                <param direction="IN" isConfig="false" name="inputB" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output" type=" long *"/>
+            </loop>
+            <port kind="cfg_input" name="rows"/>
+            <port kind="cfg_input" name="columns"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)/8"
+                kind="input" name="inputA"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)/8"
+                kind="input" name="inputB"/>
+            <port annotation="WRITE_ONLY" expr="(rows*columns)"
+                kind="output" name="output"/>
+        </node>
+        <node id="multiply1" kind="actor">
+            <data key="graph_desc">Code/src/multiplyTensors.h</data>
+            <loop name="multiply">
+                <param direction="IN" isConfig="true" name="rows" type="int "/>
+                <param direction="IN" isConfig="true" name="columns" type=" int "/>
+                <param direction="IN" isConfig="false" name="inputA" type=" int *"/>
+                <param direction="IN" isConfig="false" name="inputB" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output" type=" long *"/>
+            </loop>
+            <port kind="cfg_input" name="rows"/>
+            <port kind="cfg_input" name="columns"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)/8"
+                kind="input" name="inputA"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)/8"
+                kind="input" name="inputB"/>
+            <port annotation="WRITE_ONLY" expr="(rows*columns)"
+                kind="output" name="output"/>
+        </node>
+        <node id="multiply2" kind="actor">
+            <data key="graph_desc">Code/src/multiplyTensors.h</data>
+            <loop name="multiply">
+                <param direction="IN" isConfig="true" name="rows" type="int "/>
+                <param direction="IN" isConfig="true" name="columns" type=" int "/>
+                <param direction="IN" isConfig="false" name="inputA" type=" int *"/>
+                <param direction="IN" isConfig="false" name="inputB" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output" type=" long *"/>
+            </loop>
+            <port kind="cfg_input" name="rows"/>
+            <port kind="cfg_input" name="columns"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)/8"
+                kind="input" name="inputA"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)/8"
+                kind="input" name="inputB"/>
+            <port annotation="WRITE_ONLY" expr="(rows*columns)"
+                kind="output" name="output"/>
+        </node>
+        <node id="multiply3" kind="actor">
+            <data key="graph_desc">Code/src/multiplyTensors.h</data>
+            <loop name="multiply">
+                <param direction="IN" isConfig="true" name="rows" type="int "/>
+                <param direction="IN" isConfig="true" name="columns" type=" int "/>
+                <param direction="IN" isConfig="false" name="inputA" type=" int *"/>
+                <param direction="IN" isConfig="false" name="inputB" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output" type=" long *"/>
+            </loop>
+            <port kind="cfg_input" name="rows"/>
+            <port kind="cfg_input" name="columns"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)/8"
+                kind="input" name="inputA"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)/8"
+                kind="input" name="inputB"/>
+            <port annotation="WRITE_ONLY" expr="(rows*columns)"
+                kind="output" name="output"/>
+        </node>
+        <node id="multiply4" kind="actor">
+            <data key="graph_desc">Code/src/multiplyTensors.h</data>
+            <loop name="multiply">
+                <param direction="IN" isConfig="true" name="rows" type="int "/>
+                <param direction="IN" isConfig="true" name="columns" type=" int "/>
+                <param direction="IN" isConfig="false" name="inputA" type=" int *"/>
+                <param direction="IN" isConfig="false" name="inputB" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output" type=" long *"/>
+            </loop>
+            <port kind="cfg_input" name="rows"/>
+            <port kind="cfg_input" name="columns"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)/8"
+                kind="input" name="inputA"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)/8"
+                kind="input" name="inputB"/>
+            <port annotation="WRITE_ONLY" expr="(rows*columns)"
+                kind="output" name="output"/>
+        </node>
+        <node id="multiply5" kind="actor">
+            <data key="graph_desc">Code/src/multiplyTensors.h</data>
+            <loop name="multiply">
+                <param direction="IN" isConfig="true" name="rows" type="int "/>
+                <param direction="IN" isConfig="true" name="columns" type=" int "/>
+                <param direction="IN" isConfig="false" name="inputA" type=" int *"/>
+                <param direction="IN" isConfig="false" name="inputB" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output" type=" long *"/>
+            </loop>
+            <port kind="cfg_input" name="rows"/>
+            <port kind="cfg_input" name="columns"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)/8"
+                kind="input" name="inputA"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)/8"
+                kind="input" name="inputB"/>
+            <port annotation="WRITE_ONLY" expr="(rows*columns)"
+                kind="output" name="output"/>
+        </node>
+        <node id="multiply6" kind="actor">
+            <data key="graph_desc">Code/src/multiplyTensors.h</data>
+            <loop name="multiply">
+                <param direction="IN" isConfig="true" name="rows" type="int "/>
+                <param direction="IN" isConfig="true" name="columns" type=" int "/>
+                <param direction="IN" isConfig="false" name="inputA" type=" int *"/>
+                <param direction="IN" isConfig="false" name="inputB" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output" type=" long *"/>
+            </loop>
+            <port kind="cfg_input" name="rows"/>
+            <port kind="cfg_input" name="columns"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)/8"
+                kind="input" name="inputA"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)/8"
+                kind="input" name="inputB"/>
+            <port annotation="WRITE_ONLY" expr="(rows*columns)"
+                kind="output" name="output"/>
+        </node>
+        <node id="multiply7" kind="actor">
+            <data key="graph_desc">Code/src/multiplyTensors.h</data>
+            <loop name="multiply">
+                <param direction="IN" isConfig="true" name="rows" type="int "/>
+                <param direction="IN" isConfig="true" name="columns" type=" int "/>
+                <param direction="IN" isConfig="false" name="inputA" type=" int *"/>
+                <param direction="IN" isConfig="false" name="inputB" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output" type=" long *"/>
+            </loop>
+            <port kind="cfg_input" name="rows"/>
+            <port kind="cfg_input" name="columns"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)/8"
+                kind="input" name="inputA"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)/8"
+                kind="input" name="inputB"/>
+            <port annotation="WRITE_ONLY" expr="(rows*columns)"
+                kind="output" name="output"/>
+        </node>
+        <node id="sum" kind="actor">
+            <data key="graph_desc">Code/src/sumResults.h</data>
+            <loop name="sum">
+                <param direction="IN" isConfig="true" name="rows" type="int "/>
+                <param direction="IN" isConfig="true" name="columns" type=" int "/>
+                <param direction="IN" isConfig="false" name="input0" type=" long *"/>
+                <param direction="IN" isConfig="false" name="input1" type=" long *"/>
+                <param direction="IN" isConfig="false" name="input2" type=" long *"/>
+                <param direction="IN" isConfig="false" name="input3" type=" long *"/>
+                <param direction="IN" isConfig="false" name="input4" type=" long *"/>
+                <param direction="IN" isConfig="false" name="input5" type=" long *"/>
+                <param direction="IN" isConfig="false" name="input6" type=" long *"/>
+                <param direction="IN" isConfig="false" name="input7" type=" long *"/>
+                <param direction="OUT" isConfig="false" name="output" type=" long *"/>
+            </loop>
+            <port kind="cfg_input" name="rows"/>
+            <port kind="cfg_input" name="columns"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)"
+                kind="input" name="input0"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)"
+                kind="input" name="input1"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)"
+                kind="input" name="input2"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)"
+                kind="input" name="input3"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)"
+                kind="input" name="input4"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)"
+                kind="input" name="input5"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)"
+                kind="input" name="input6"/>
+            <port annotation="READ_ONLY" expr="(rows*columns)"
+                kind="input" name="input7"/>
+            <port annotation="WRITE_ONLY" expr="(rows*columns)"
+                kind="output" name="output"/>
+        </node>
+        <node id="displayResult" kind="actor">
+            <data key="graph_desc">Code/src/displayTensor.h</data>
+            <loop name="display">
+                <param direction="IN" isConfig="true" name="rows" type="int "/>
+                <param direction="IN" isConfig="true" name="columns" type=" int "/>
+                <param direction="IN" isConfig="true" name="depth" type=" int "/>
+                <param direction="IN" isConfig="false" name="arrayC" type=" long *"/>
+                <param direction="IN" isConfig="false" name="startTime" type=" double *"/>
+            </loop>
+            <port kind="cfg_input" name="rows"/>
+            <port kind="cfg_input" name="columns"/>
+            <port kind="cfg_input" name="depth"/>
+            <port annotation="READ_ONLY" expr="(rows*columns*depth)"
+                kind="input" name="arrayC"/>
+            <port annotation="READ_ONLY" expr="1" kind="input" name="startTime"/>
+        </node>
+        <node id="transpose" kind="actor">
+            <data key="graph_desc">Code/src/transposeTensor.h</data>
+            <loop name="transpose">
+                <param direction="IN" isConfig="true" name="rowsB" type="int "/>
+                <param direction="IN" isConfig="true" name="columnsB" type=" int "/>
+                <param direction="IN" isConfig="false" name="input" type=" int *"/>
+                <param direction="OUT" isConfig="false" name="output" type=" int *"/>
+            </loop>
+            <port kind="cfg_input" name="rowsB"/>
+            <port kind="cfg_input" name="columnsB"/>
+            <port annotation="READ_ONLY" expr="rowsB*columnsB"
+                kind="input" name="input"/>
+            <port annotation="WRITE_ONLY" expr="rowsB*columnsB"
+                kind="output" name="output"/>
+        </node>
+        <edge kind="fifo" source="generateTensors" sourceport="arrayA"
+            target="splitTensorA" targetport="input" type="int"/>
+        <edge kind="fifo" source="splitTensorA" sourceport="output0"
+            target="multiply0" targetport="inputA" type="int"/>
+        <edge kind="fifo" source="splitTensorA" sourceport="output1"
+            target="multiply1" targetport="inputA" type="int"/>
+        <edge kind="fifo" source="splitTensorA" sourceport="output2"
+            target="multiply2" targetport="inputA" type="int"/>
+        <edge kind="fifo" source="splitTensorA" sourceport="output3"
+            target="multiply3" targetport="inputA" type="int"/>
+        <edge kind="fifo" source="splitTensorA" sourceport="output4"
+            target="multiply4" targetport="inputA" type="int"/>
+        <edge kind="fifo" source="splitTensorA" sourceport="output5"
+            target="multiply5" targetport="inputA" type="int"/>
+        <edge kind="fifo" source="splitTensorA" sourceport="output6"
+            target="multiply6" targetport="inputA" type="int"/>
+        <edge kind="fifo" source="splitTensorA" sourceport="output7"
+            target="multiply7" targetport="inputA" type="int"/>
+        <edge kind="fifo" source="multiply0" sourceport="output"
+            target="sum" targetport="input0" type="long"/>
+        <edge kind="fifo" source="multiply1" sourceport="output"
+            target="sum" targetport="input1" type="long"/>
+        <edge kind="fifo" source="multiply2" sourceport="output"
+            target="sum" targetport="input2" type="long"/>
+        <edge kind="fifo" source="multiply3" sourceport="output"
+            target="sum" targetport="input3" type="long"/>
+        <edge kind="fifo" source="multiply4" sourceport="output"
+            target="sum" targetport="input4" type="long"/>
+        <edge kind="fifo" source="multiply5" sourceport="output"
+            target="sum" targetport="input5" type="long"/>
+        <edge kind="fifo" source="multiply6" sourceport="output"
+            target="sum" targetport="input6" type="long"/>
+        <edge kind="fifo" source="multiply7" sourceport="output"
+            target="sum" targetport="input7" type="long"/>
+        <edge kind="fifo" source="sum" sourceport="output"
+            target="displayResult" targetport="arrayC" type="long"/>
+        <edge kind="fifo" source="generateTensors" sourceport="arrayB"
+            target="transpose" targetport="input" type="int"/>
+        <edge kind="fifo" source="transpose" sourceport="output"
+            target="splitTensorB" targetport="input" type="int"/>
+        <edge kind="fifo" source="splitTensorB" sourceport="output0"
+            target="multiply0" targetport="inputB" type="int"/>
+        <edge kind="fifo" source="splitTensorB" sourceport="output1"
+            target="multiply1" targetport="inputB" type="int"/>
+        <edge kind="fifo" source="splitTensorB" sourceport="output2"
+            target="multiply2" targetport="inputB" type="int"/>
+        <edge kind="fifo" source="splitTensorB" sourceport="output3"
+            target="multiply3" targetport="inputB" type="int"/>
+        <edge kind="fifo" source="splitTensorB" sourceport="output4"
+            target="multiply4" targetport="inputB" type="int"/>
+        <edge kind="fifo" source="splitTensorB" sourceport="output5"
+            target="multiply5" targetport="inputB" type="int"/>
+        <edge kind="fifo" source="splitTensorB" sourceport="output6"
+            target="multiply6" targetport="inputB" type="int"/>
+        <edge kind="fifo" source="splitTensorB" sourceport="output7"
+            target="multiply7" targetport="inputB" type="int"/>
+        <edge kind="fifo" source="generateTensors"
+            sourceport="startTime" target="displayResult"
+            targetport="startTime" type="double"/>
         <edge kind="dependency" source="squaredSize"
             target="generateTensors" targetport="rowsA"/>
         <edge kind="dependency" source="squaredSize"
             target="generateTensors" targetport="columnsA"/>
+        <edge kind="dependency" source="squaredSize"
+            target="generateTensors" targetport="rowsB"/>
+        <edge kind="dependency" source="squaredSize"
+            target="generateTensors" targetport="columnsB"/>
+        <edge kind="dependency" source="squaredSize"
+            target="splitTensorB" targetport="rowsB"/>
+        <edge kind="dependency" source="squaredSize"
+            target="splitTensorB" targetport="columnsB"/>
+        <edge kind="dependency" source="squaredSize"
+            target="splitTensorA" targetport="rowsA"/>
+        <edge kind="dependency" source="squaredSize"
+            target="splitTensorA" targetport="columnsA"/>
+        <edge kind="dependency" source="squaredSize" target="multiply7" targetport="columns"/>
+        <edge kind="dependency" source="squaredSize" target="multiply7" targetport="rows"/>
+        <edge kind="dependency" source="squaredSize" target="multiply6" targetport="columns"/>
+        <edge kind="dependency" source="squaredSize" target="multiply6" targetport="rows"/>
+        <edge kind="dependency" source="squaredSize" target="multiply5" targetport="columns"/>
+        <edge kind="dependency" source="squaredSize" target="multiply5" targetport="rows"/>
+        <edge kind="dependency" source="squaredSize" target="multiply4" targetport="columns"/>
+        <edge kind="dependency" source="squaredSize" target="multiply4" targetport="rows"/>
+        <edge kind="dependency" source="squaredSize" target="multiply3" targetport="columns"/>
+        <edge kind="dependency" source="squaredSize" target="multiply3" targetport="rows"/>
+        <edge kind="dependency" source="squaredSize" target="multiply2" targetport="columns"/>
+        <edge kind="dependency" source="squaredSize" target="multiply2" targetport="rows"/>
+        <edge kind="dependency" source="squaredSize" target="multiply1" targetport="columns"/>
+        <edge kind="dependency" source="squaredSize" target="multiply1" targetport="rows"/>
+        <edge kind="dependency" source="squaredSize" target="multiply0" targetport="columns"/>
+        <edge kind="dependency" source="squaredSize" target="multiply0" targetport="rows"/>
+        <edge kind="dependency" source="squaredSize" target="sum" targetport="columns"/>
+        <edge kind="dependency" source="squaredSize" target="sum" targetport="rows"/>
+        <edge kind="dependency" source="squaredSize"
+            target="displayResult" targetport="rows"/>
+        <edge kind="dependency" source="squaredSize"
+            target="displayResult" targetport="columns"/>
         <edge kind="dependency" source="depth" target="generateTensors" targetport="depthA"/>
-        <edge kind="dependency" source="squaredSize"
-            target="splitTensor" targetport="rowsA"/>
-        <edge kind="dependency" source="squaredSize"
-            target="splitTensor" targetport="columnsA"/>
+        <edge kind="dependency" source="depth" target="generateTensors" targetport="depthB"/>
+        <edge kind="dependency" source="depth" target="splitTensorA" targetport="depthA"/>
+        <edge kind="dependency" source="depth" target="splitTensorB" targetport="depthB"/>
+        <edge kind="dependency" source="depth" target="displayResult" targetport="depth"/>
+        <edge kind="dependency" source="squaredSize" target="transpose" targetport="rowsB"/>
+        <edge kind="dependency" source="squaredSize" target="transpose" targetport="columnsB"/>
     </graph>
 </graphml>

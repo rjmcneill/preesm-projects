@@ -109,6 +109,5 @@ S64_DEPS__QUOTED :=
 SUBDIRS := \
 . \
 src \
-package/preesm6678/package \
 generated \
 

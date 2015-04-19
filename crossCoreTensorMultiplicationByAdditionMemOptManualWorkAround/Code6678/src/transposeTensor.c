@@ -9,15 +9,15 @@ Description :
 #include "transposeTensor.h"
 #include <stdio.h>
 
-void transpose (int rowsA, int columnsA, int depthA, int *input, int *output)
+void transpose (int rowsB, int columnsB, int *input, int *output)
 {
 	int i, j, k;
 
-	for (i = 0; i < rowsA; i++)
+	for (i = 0; i < rowsB; i++)
 	{
-		for (j = 0; j < columnsA; j++)
+		for (j = 0; j < columnsB; j++)
 		{
-			*(output+((j*columnsA) + i)) = *(input+((i*columnsA) + j));
+			*(output+((j*columnsB) + i)) = *(input+((i*columnsB) + j));
 		}
 	}
 }

@@ -7,60 +7,70 @@
     </files>
     <constraints excelUrl="">
         <constraintGroup>
-            <operator name="Core1"/>
-            <task name="multiply/displayTensor"/>
-            <task name="multiply/splitTensor"/>
-            <task name="multiply/generateTensors"/>
-            <task name="multiply"/>
-        </constraintGroup>
-        <constraintGroup>
-            <operator name="Core2"/>
-            <task name="multiply/displayTensor"/>
-            <task name="multiply/splitTensor"/>
-            <task name="multiply/generateTensors"/>
-            <task name="multiply"/>
-        </constraintGroup>
-        <constraintGroup>
-            <operator name="Core3"/>
-            <task name="multiply/displayTensor"/>
-            <task name="multiply/splitTensor"/>
-            <task name="multiply/generateTensors"/>
-            <task name="multiply"/>
-        </constraintGroup>
-        <constraintGroup>
-            <operator name="Core7"/>
-            <task name="multiply/displayTensor"/>
-            <task name="multiply/splitTensor"/>
-            <task name="multiply/generateTensors"/>
-            <task name="multiply"/>
-        </constraintGroup>
-        <constraintGroup>
             <operator name="Core4"/>
-            <task name="multiply/displayTensor"/>
-            <task name="multiply/splitTensor"/>
-            <task name="multiply/generateTensors"/>
-            <task name="multiply"/>
+            <task name="multiply/transpose"/>
+            <task name="multiply/sum"/>
+            <task name="multiply/multiply4"/>
+            <task name="multiply/splitTensorB"/>
+            <task name="multiply/splitTensorA"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core1"/>
+            <task name="multiply/transpose"/>
+            <task name="multiply/sum"/>
+            <task name="multiply/splitTensorB"/>
+            <task name="multiply/splitTensorA"/>
+            <task name="multiply/multiply1"/>
         </constraintGroup>
         <constraintGroup>
             <operator name="Core5"/>
-            <task name="multiply/displayTensor"/>
-            <task name="multiply/splitTensor"/>
-            <task name="multiply/generateTensors"/>
-            <task name="multiply"/>
+            <task name="multiply/transpose"/>
+            <task name="multiply/sum"/>
+            <task name="multiply/splitTensorB"/>
+            <task name="multiply/multiply5"/>
+            <task name="multiply/splitTensorA"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core7"/>
+            <task name="multiply/transpose"/>
+            <task name="multiply/multiply7"/>
+            <task name="multiply/sum"/>
+            <task name="multiply/splitTensorB"/>
+            <task name="multiply/splitTensorA"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core3"/>
+            <task name="multiply/transpose"/>
+            <task name="multiply/sum"/>
+            <task name="multiply/splitTensorB"/>
+            <task name="multiply/multiply3"/>
+            <task name="multiply/splitTensorA"/>
         </constraintGroup>
         <constraintGroup>
             <operator name="Core6"/>
-            <task name="multiply/displayTensor"/>
-            <task name="multiply/splitTensor"/>
-            <task name="multiply/generateTensors"/>
-            <task name="multiply"/>
+            <task name="multiply/transpose"/>
+            <task name="multiply/sum"/>
+            <task name="multiply/splitTensorB"/>
+            <task name="multiply/multiply6"/>
+            <task name="multiply/splitTensorA"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core2"/>
+            <task name="multiply/transpose"/>
+            <task name="multiply/sum"/>
+            <task name="multiply/splitTensorB"/>
+            <task name="multiply/splitTensorA"/>
+            <task name="multiply/multiply2"/>
         </constraintGroup>
         <constraintGroup>
             <operator name="Core0"/>
-            <task name="multiply/displayTensor"/>
-            <task name="multiply/splitTensor"/>
+            <task name="multiply/transpose"/>
+            <task name="multiply/sum"/>
+            <task name="multiply/splitTensorB"/>
             <task name="multiply/generateTensors"/>
-            <task name="multiply"/>
+            <task name="multiply/splitTensorA"/>
+            <task name="multiply/multiply0"/>
+            <task name="multiply/displayResult"/>
         </constraintGroup>
     </constraints>
     <relativeconstraints excelUrl=""/>
@@ -73,6 +83,8 @@
         <averageDataSize>1000</averageDataSize>
         <dataTypes>
             <dataType name="int" size="4"/>
+            <dataType name="long" size="4"/>
+            <dataType name="double" size="8"/>
         </dataTypes>
         <specialVertexOperators>
             <specialVertexOperator path="Core7"/>

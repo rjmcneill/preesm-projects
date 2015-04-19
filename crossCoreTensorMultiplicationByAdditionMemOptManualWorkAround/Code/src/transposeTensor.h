@@ -26,5 +26,5 @@ Description :
 *        Input arrayB
 */
 
-void transpose (int rowsA, int columnsA, int depthA, int *input, int *output);
+void transpose (int rowsB, int columnsB, int *input, int *output);
 #endif /* TRANSPOSEMATRIX_H_ */

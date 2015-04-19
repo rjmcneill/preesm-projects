@@ -16,10 +16,11 @@ $(GEN_CMDS__FLAG) \
 "./generated/Core2.obj" \
 "./generated/Core1.obj" \
 "./generated/Core0.obj" \
-"./package/preesm6678/package/package_preesm6678.obj" \
 "./src/utils.obj" \
 "./src/transposeTensor.obj" \
 "./src/sumResults.obj" \
+"./src/splitTensorB.obj" \
+"./src/splitTensorA.obj" \
 "./src/semaphore6678.obj" \
 "./src/multiplyTensors.obj" \
 "./src/memory.obj" \
@@ -41,11 +42,9 @@ RMDIR := RMDIR /S/Q
 -include sources.mk
 -include subdir_vars.mk
 -include src/subdir_vars.mk
--include package/preesm6678/package/subdir_vars.mk
 -include generated/subdir_vars.mk
 -include subdir_rules.mk
 -include src/subdir_rules.mk
--include package/preesm6678/package/subdir_rules.mk
 -include generated/subdir_rules.mk
 -include objects.mk
 
@@ -149,8 +148,8 @@ crossCoreTensorMultiplicationByAdditionManualWorkAround.out: $(OBJS) $(CMD_SRCS)
 clean:
 	-$(RM) $(GEN_SRCS__QUOTED)$(GEN_MISC_FILES__QUOTED)$(C6000_EXECUTABLE_OUTPUTS__QUOTED)$(GEN_OPTS__QUOTED)$(GEN_CMDS__QUOTED) "crossCoreTensorMultiplicationByAdditionManualWorkAround.out"
 	-$(RMDIR) $(GEN_MISC_DIRS__QUOTED)
-	-$(RM) "src\cache.pp" "src\communication.pp" "src\displayTensor.pp" "src\dump.pp" "src\fifo.pp" "src\generateTensors.pp" "src\main.pp" "src\memory.pp" "src\multiplyTensors.pp" "src\semaphore6678.pp" "src\sumResults.pp" "src\transposeTensor.pp" "src\utils.pp" "package\preesm6678\package\package_preesm6678.pp" "generated\Core0.pp" "generated\Core1.pp" "generated\Core2.pp" "generated\Core3.pp" "generated\Core4.pp" "generated\Core5.pp" "generated\Core6.pp" "generated\Core7.pp" 
-	-$(RM) "src\cache.obj" "src\communication.obj" "src\displayTensor.obj" "src\dump.obj" "src\fifo.obj" "src\generateTensors.obj" "src\main.obj" "src\memory.obj" "src\multiplyTensors.obj" "src\semaphore6678.obj" "src\sumResults.obj" "src\transposeTensor.obj" "src\utils.obj" "package\preesm6678\package\package_preesm6678.obj" "generated\Core0.obj" "generated\Core1.obj" "generated\Core2.obj" "generated\Core3.obj" "generated\Core4.obj" "generated\Core5.obj" "generated\Core6.obj" "generated\Core7.obj" 
+	-$(RM) "src\cache.pp" "src\communication.pp" "src\displayTensor.pp" "src\dump.pp" "src\fifo.pp" "src\generateTensors.pp" "src\main.pp" "src\memory.pp" "src\multiplyTensors.pp" "src\semaphore6678.pp" "src\splitTensorA.pp" "src\splitTensorB.pp" "src\sumResults.pp" "src\transposeTensor.pp" "src\utils.pp" "generated\Core0.pp" "generated\Core1.pp" "generated\Core2.pp" "generated\Core3.pp" "generated\Core4.pp" "generated\Core5.pp" "generated\Core6.pp" "generated\Core7.pp" 
+	-$(RM) "src\cache.obj" "src\communication.obj" "src\displayTensor.obj" "src\dump.obj" "src\fifo.obj" "src\generateTensors.obj" "src\main.obj" "src\memory.obj" "src\multiplyTensors.obj" "src\semaphore6678.obj" "src\splitTensorA.obj" "src\splitTensorB.obj" "src\sumResults.obj" "src\transposeTensor.obj" "src\utils.obj" "generated\Core0.obj" "generated\Core1.obj" "generated\Core2.obj" "generated\Core3.obj" "generated\Core4.obj" "generated\Core5.obj" "generated\Core6.obj" "generated\Core7.obj" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

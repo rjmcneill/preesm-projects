@@ -4,18 +4,18 @@
     <units>
     </units>
     <sources>
-        <srcFile name="package/cfg/build_pe66.c"/>
+        <srcFile name="package/cfg/modelPreesm_pe66.c"/>
     </sources>
     <configscripts>
-        <srcFile name="C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreTensorMultiplicationByAdditionMemOptManualWorkAround/Code6678/package/preesm6678/package/build.cfg"/>
+        <srcFile name="C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreTensorMultiplicationByAdditionMemOptManualWorkAround/Code6678/modelPreesm.cfg"/>
     </configscripts>
     <makefiles>
         <srcFile name="package.mak" src="package.bld"/>
         <srcFile name="package/package.xdc.dep" src="package.xdc"/>
-        <srcFile name="package/cfg/build_pe66.mak" src="package.bld"/>
-        <srcFile name="package/cfg/build_pe66.oe66.dep" src="package/cfg/build_pe66.c"/>
-        <srcFile name="package/cfg/build_pe66.dep" src="package/cfg/build_pe66.cfg"/>
-        <srcFile name="package/cfg/build.xe66.mak" src="package.bld"/>
+        <srcFile name="package/cfg/modelPreesm_pe66.mak" src="package.bld"/>
+        <srcFile name="package/cfg/modelPreesm_pe66.oe66.dep" src="package/cfg/modelPreesm_pe66.c"/>
+        <srcFile name="package/cfg/modelPreesm_pe66.dep" src="package/cfg/modelPreesm_pe66.cfg"/>
+        <srcFile name="package/cfg/modelPreesm.xe66.mak" src="package.bld"/>
         <srcFile name="package/rel/configPkg.tar.dep" src="package/rel/configPkg.xdc.inc"/>
     </makefiles>
     <targets>
@@ -35,34 +35,34 @@
     <libraries>
     </libraries>
     <configurations>
-    <configuration name="build"
-        pname="build.pe66"
+    <configuration name="modelPreesm"
+        pname="modelPreesm.pe66"
         target="ti.targets.elf.C66"
         platform="preesm6678"
         profile="release"
         isPartial="false"
-        xCfgScript="package/cfg/build_pe66.cfg"
-        xCfgPrefix="package/cfg/build_pe66"
-        cfgScript="C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreTensorMultiplicationByAdditionMemOptManualWorkAround/Code6678/package/preesm6678/package/build.cfg"
+        xCfgScript="package/cfg/modelPreesm_pe66.cfg"
+        xCfgPrefix="package/cfg/modelPreesm_pe66"
+        cfgScript="C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreTensorMultiplicationByAdditionMemOptManualWorkAround/Code6678/modelPreesm.cfg"
         cfgArgs="null"
         />
     </configurations>
     <executables>
-    <executable name="build"
-        pname="build.xe66"
+    <executable name="modelPreesm"
+        pname="modelPreesm.xe66"
         target="ti.targets.elf.C66"
         platform="preesm6678"
         profile="release"
-        xCfgScript="package/cfg/build_pe66.cfg"
-        xCfgPrefix="package/cfg/build_pe66"
-        cfgScript="C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreTensorMultiplicationByAdditionMemOptManualWorkAround/Code6678/package/preesm6678/package/build.cfg"
+        xCfgScript="package/cfg/modelPreesm_pe66.cfg"
+        xCfgPrefix="package/cfg/modelPreesm_pe66"
+        cfgScript="C:/Users/Robert/Development/Ubuntu Dev/workspace/crossCoreTensorMultiplicationByAdditionMemOptManualWorkAround/Code6678/modelPreesm.cfg"
         cfgArgs="null"
         />
     </executables>
     <tests>
-    <test exeName="build.xe66"
+    <test exeName="modelPreesm.xe66"
         args=""
-        groupName="build.xe66"
+        groupName="modelPreesm.xe66"
         refOutput="undefined"
         refExitCode="0"
         execArgs=""

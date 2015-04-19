@@ -22,5 +22,5 @@ Description : Generate matrices to be multiplied by the TI device
 *        The number of columns in arrayB
 */
 
-void generate (int rowsA, int columnsA, int depth, int *tensorA);
+void generate (int rowsA, int columnsA, int depthA, int rowsB, int columnsB, int depthB, int *arrayA, int *arrayB, double *startTime);
 #endif /* GENERATEMATRICES_H_ */

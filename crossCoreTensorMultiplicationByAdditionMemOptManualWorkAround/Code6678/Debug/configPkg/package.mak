@@ -124,74 +124,74 @@ package/%.xdc.inc package/%_configPkg.c package/%.defs.h: %.xdc $(PKGCFGS)
 	@$(MSG) generating interfaces for package configPkg" (because $@ is older than $(firstword $?))" ...
 	$(XSRUN) -f xdc/services/intern/cmd/build.xs $(MK_IDLOPTS) -m package/package.xdc.dep -i package/package.xdc.inc package.xdc
 
-.dlls,e66 .dlls: build.pe66
+.dlls,e66 .dlls: modelPreesm.pe66
 
--include package/cfg/build_pe66.mak
--include package/cfg/build_pe66.cfg.mak
+-include package/cfg/modelPreesm_pe66.mak
+-include package/cfg/modelPreesm_pe66.cfg.mak
 ifeq (,$(MK_NOGENDEPS))
--include package/cfg/build_pe66.dep
+-include package/cfg/modelPreesm_pe66.dep
 endif
-build.pe66: package/cfg/build_pe66.xdl
+modelPreesm.pe66: package/cfg/modelPreesm_pe66.xdl
 	@
 
 
 ifeq (,$(wildcard .libraries,e66))
-build.pe66 package/cfg/build_pe66.c: .libraries,e66
+modelPreesm.pe66 package/cfg/modelPreesm_pe66.c: .libraries,e66
 endif
 
-package/cfg/build_pe66.c package/cfg/build_pe66.h package/cfg/build_pe66.xdl: override _PROG_NAME := build.xe66
-package/cfg/build_pe66.c: package/cfg/build_pe66.cfg
+package/cfg/modelPreesm_pe66.c package/cfg/modelPreesm_pe66.h package/cfg/modelPreesm_pe66.xdl: override _PROG_NAME := modelPreesm.xe66
+package/cfg/modelPreesm_pe66.c: package/cfg/modelPreesm_pe66.cfg
 
 clean:: clean,e66
-	-$(RM) package/cfg/build_pe66.cfg
-	-$(RM) package/cfg/build_pe66.dep
-	-$(RM) package/cfg/build_pe66.c
-	-$(RM) package/cfg/build_pe66.xdc.inc
+	-$(RM) package/cfg/modelPreesm_pe66.cfg
+	-$(RM) package/cfg/modelPreesm_pe66.dep
+	-$(RM) package/cfg/modelPreesm_pe66.c
+	-$(RM) package/cfg/modelPreesm_pe66.xdc.inc
 
 clean,e66::
-	-$(RM) build.pe66
-.executables,e66 .executables: build.xe66
+	-$(RM) modelPreesm.pe66
+.executables,e66 .executables: modelPreesm.xe66
 
-build.xe66: |build.pe66
+modelPreesm.xe66: |modelPreesm.pe66
 
--include package/cfg/build.xe66.mak
-build.xe66: package/cfg/build_pe66.oe66 
+-include package/cfg/modelPreesm.xe66.mak
+modelPreesm.xe66: package/cfg/modelPreesm_pe66.oe66 
 	$(RM) $@
 	@$(MSG) lnke66 $@ ...
 	$(RM) $(XDCCFGDIR)/$@.map
-	$(ti.targets.elf.C66.rootDir)/bin/lnk6x -q -u _c_int00 -fs $(XDCCFGDIR)$(dir $@).  -q -o $@ package/cfg/build_pe66.oe66   package/cfg/build_pe66.xdl --abi=eabi -c -m $(XDCCFGDIR)/$@.map -l $(ti.targets.elf.C66.rootDir)/lib/rts6600_elf.lib
+	$(ti.targets.elf.C66.rootDir)/bin/lnk6x -q -u _c_int00 -fs $(XDCCFGDIR)$(dir $@).  -q -o $@ package/cfg/modelPreesm_pe66.oe66   package/cfg/modelPreesm_pe66.xdl --abi=eabi -c -m $(XDCCFGDIR)/$@.map -l $(ti.targets.elf.C66.rootDir)/lib/rts6600_elf.lib
 	
-build.xe66: export C_DIR=
-build.xe66: PATH:=$(ti.targets.elf.C66.rootDir)/bin/;$(PATH)
-build.xe66: Path:=$(ti.targets.elf.C66.rootDir)/bin/;$(PATH)
+modelPreesm.xe66: export C_DIR=
+modelPreesm.xe66: PATH:=$(ti.targets.elf.C66.rootDir)/bin/;$(PATH)
+modelPreesm.xe66: Path:=$(ti.targets.elf.C66.rootDir)/bin/;$(PATH)
 
-build.test test,e66 test: build.xe66.test
+modelPreesm.test test,e66 test: modelPreesm.xe66.test
 
-build.xe66.test:: build.xe66
+modelPreesm.xe66.test:: modelPreesm.xe66
 ifeq (,$(_TESTLEVEL))
-	@$(MAKE) -R -r --no-print-directory -f $(XDCROOT)/packages/xdc/bld/xdc.mak _TESTLEVEL=1 build.xe66.test
+	@$(MAKE) -R -r --no-print-directory -f $(XDCROOT)/packages/xdc/bld/xdc.mak _TESTLEVEL=1 modelPreesm.xe66.test
 else
 	@$(MSG) running $<  ...
-	$(call EXEC.build.xe66, ) 
+	$(call EXEC.modelPreesm.xe66, ) 
 endif
 
 clean,e66::
-	-$(RM) .tmp,build.xe66,0,*
+	-$(RM) .tmp,modelPreesm.xe66,0,*
 
 
 clean:: clean,e66
 
 clean,e66::
-	-$(RM) build.xe66
+	-$(RM) modelPreesm.xe66
 clean:: 
-	-$(RM) package/cfg/build_pe66.pjt
+	-$(RM) package/cfg/modelPreesm_pe66.pjt
 %,copy:
 	@$(if $<,,$(MSG) don\'t know how to build $*; exit 1)
 	@$(MSG) cp $< $@
 	$(RM) $@
 	$(CP) $< $@
-build_pe66.oe66,copy : package/cfg/build_pe66.oe66
-build_pe66.se66,copy : package/cfg/build_pe66.se66
+modelPreesm_pe66.oe66,copy : package/cfg/modelPreesm_pe66.oe66
+modelPreesm_pe66.se66,copy : package/cfg/modelPreesm_pe66.se66
 
 $(XDCCFGDIR)%.c $(XDCCFGDIR)%.h $(XDCCFGDIR)%.xdl: $(XDCCFGDIR)%.cfg .interfaces $(XDCROOT)/packages/xdc/cfg/Main.xs
 	@$(MSG) "configuring $(_PROG_NAME) from $< ..."
