@@ -135,7 +135,7 @@ endif
 all: crossCoreTensorMultiplicationByAdditionMemOpt.out
 
 # Tool invocations
-crossCoreTensorMultiplicationByAdditionMemOpt.out: $(OBJS) $(GEN_CMDS)
+crossCoreTensorMultiplicationByAdditionMemOpt.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: C6000 Linker'
 	"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/bin/cl6x" -mv6600 -g --display_error_number --diag_warning=225 --abi=eabi -z -m"crossCoreTensorMultiplicationByAdditionMemOpt.map" --warn_sections --display_error_number -i"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/lib" -i"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include" --reread_libs --rom_model -o "crossCoreTensorMultiplicationByAdditionMemOpt.out" $(ORDERED_OBJS)
